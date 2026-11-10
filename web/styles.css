@@ -1,115 +1,217 @@
-/* Klubové barvy – stačí změnit tyto proměnné */
+/* Barvy TJ Sokol Huštěnovice – modrá ze znaku klubu, žlutá z barev obce */
 :root {
-  --brand: #14532d;
-  --brand-2: #166534;
-  --accent: #facc15;
-  --bg: #f4f6f4;
-  --card: #ffffff;
-  --text: #1c2420;
-  --muted: #66706a;
-  --line: #e3e8e4;
-  --win: #15803d;
-  --draw: #a16207;
-  --loss: #b91c1c;
+  --blue: #1a5fa8;
+  --blue-bright: #2f7fd6;
+  --navy: #0a1a33;
+  --navy-2: #0f2547;
+  --yellow: #f7d117;
+  --white: #ffffff;
+  --text: #e8eef7;
+  --muted: #93a3bb;
+  --line: rgba(255, 255, 255, .09);
+  --card: rgba(255, 255, 255, .04);
+  --win: #22a55a;
+  --draw: #c99a12;
+  --loss: #d23b3b;
   --radius: 14px;
+  --display: "Barlow Condensed", "Arial Narrow", sans-serif;
 }
 
 * { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
 body {
   margin: 0;
-  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
-  background: var(--bg);
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", sans-serif;
+  background: var(--navy);
   color: var(--text);
-  line-height: 1.45;
+  line-height: 1.5;
 }
-a { color: var(--brand-2); }
-.wrap { max-width: 1080px; margin: 0 auto; padding: 0 20px; }
-.muted { color: var(--muted); font-weight: 400; font-size: .85em; }
+a { color: var(--yellow); text-decoration: none; }
+a:hover { text-decoration: underline; }
+.wrap { max-width: 1140px; margin: 0 auto; padding: 0 20px; }
+.muted { color: var(--muted); }
 
-/* Hlavička */
+/* Znak (JPG s bílým pozadím je kulatý, proto ořez do kruhu) */
+.logo-sm, .logo-lg {
+  border-radius: 50%; background: #fff; object-fit: cover; flex: none;
+  box-shadow: 0 0 0 2px rgba(255,255,255,.15);
+}
+.logo-sm { width: 42px; height: 42px; }
+.logo-lg { width: 76px; height: 76px; box-shadow: 0 0 0 3px var(--yellow); }
+
+/* Horní lišta */
+.topbar {
+  position: sticky; top: 0; z-index: 10;
+  background: rgba(8, 20, 40, .92); backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--line);
+}
+.topbar-inner { display: flex; align-items: center; justify-content: space-between; height: 64px; }
+.brand { display: flex; align-items: center; gap: 12px; color: var(--white); }
+.brand:hover { text-decoration: none; }
+.brand b { display: block; font-family: var(--display); font-size: 21px; text-transform: uppercase; letter-spacing: .02em; line-height: 1; }
+.brand small { display: block; color: var(--yellow); font-size: 11px; text-transform: uppercase; letter-spacing: .18em; font-weight: 600; margin-top: 3px; }
+.menu { display: flex; gap: 22px; }
+.menu a { color: var(--text); font-weight: 600; font-size: 14px; text-transform: uppercase; letter-spacing: .05em; }
+.menu a:hover { color: var(--yellow); text-decoration: none; }
+@media (max-width: 640px) { .menu { display: none; } }
+
+/* Úvodní část */
 .hero {
-  background: linear-gradient(135deg, var(--brand), var(--brand-2));
-  color: #fff;
-  padding-top: 36px;
+  position: relative; overflow: hidden;
+  padding: 64px 0 40px;
+  background:
+    linear-gradient(180deg, rgba(10,26,51,.2) 0%, var(--navy) 92%),
+    repeating-linear-gradient(90deg, rgba(26,95,168,.22) 0 80px, rgba(26,95,168,.12) 80px 160px),
+    radial-gradient(ellipse at 70% 0%, var(--blue) 0%, var(--navy-2) 60%);
 }
-.hero-inner { display: flex; align-items: center; gap: 18px; }
-.crest {
-  width: 64px; height: 64px; border-radius: 50%;
-  background: var(--accent); color: var(--brand);
-  display: grid; place-items: center;
-  font-weight: 800; font-size: 22px; flex: none;
+.hero-meta { display: flex; align-items: center; gap: 16px; }
+.kicker { margin: 0; color: var(--yellow); font-weight: 700; font-size: 13px; text-transform: uppercase; letter-spacing: .2em; }
+.competition-line { margin: 2px 0 0; color: var(--muted); font-size: 14px; }
+.hero h1 {
+  margin: 30px 0 14px;
+  font-family: var(--display); font-weight: 800; text-transform: uppercase;
+  font-size: clamp(54px, 10vw, 104px); line-height: .9; color: var(--white);
 }
-.eyebrow { margin: 0; text-transform: uppercase; letter-spacing: .12em; font-size: 12px; opacity: .8; }
-.hero h1 { margin: 2px 0 0; font-size: clamp(26px, 4vw, 38px); }
-
-.tabs { display: flex; gap: 6px; margin-top: 26px; overflow-x: auto; }
-.tabs button {
-  border: 0; background: rgba(255,255,255,.12); color: #fff;
-  padding: 10px 18px; border-radius: 10px 10px 0 0;
-  font: inherit; font-weight: 600; cursor: pointer; white-space: nowrap;
+.hero h1 span { color: var(--yellow); }
+.tagline { max-width: 560px; color: #c5d1e3; font-size: 17px; margin: 0 0 24px; }
+.cta { display: flex; flex-wrap: wrap; gap: 12px; }
+.btn {
+  display: inline-block; padding: 12px 22px; border-radius: 8px;
+  font-family: var(--display); font-weight: 700; font-size: 18px; text-transform: uppercase; letter-spacing: .03em;
 }
-.tabs button[aria-selected="true"] { background: var(--bg); color: var(--brand); }
+.btn:hover { text-decoration: none; filter: brightness(1.08); }
+.btn-primary { background: var(--yellow); color: var(--navy); }
+.btn-ghost { border: 1px solid rgba(255,255,255,.3); color: var(--white); }
 
 .notice {
-  margin-top: 18px;
-  background: #fef9c3; border: 1px solid #fde68a; color: #713f12;
-  padding: 10px 14px; border-radius: 10px; font-size: 14px;
+  margin-top: 26px; padding: 10px 14px; border-radius: 10px; font-size: 14px;
+  background: rgba(247, 209, 23, .12); border: 1px solid rgba(247, 209, 23, .35); color: #fde68a;
 }
 
-/* Mřížka karet */
-.grid {
-  display: grid; gap: 18px;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  padding-top: 18px; padding-bottom: 30px;
+/* Přepínač týmů */
+.team-switch { display: flex; gap: 8px; margin: 34px 0 16px; overflow-x: auto; }
+.team-switch button {
+  border: 1px solid var(--line); background: var(--card); color: var(--text);
+  padding: 8px 16px; border-radius: 999px; cursor: pointer; white-space: nowrap;
+  font: 600 14px Inter, sans-serif;
 }
-.card {
-  background: var(--card); border-radius: var(--radius);
-  border: 1px solid var(--line); padding: 18px 20px;
-}
-.card.wide { grid-column: 1 / -1; }
-.card h2 { margin: 0 0 12px; font-size: 17px; }
-@media (max-width: 760px) { .grid { grid-template-columns: 1fr; } }
+.team-switch button[aria-selected="true"] { background: var(--yellow); border-color: var(--yellow); color: var(--navy); }
 
-/* Příští zápas */
-.next { background: var(--brand); color: #fff; border: 0; }
-.next h2 { color: var(--accent); }
-.next .teams { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 10px; text-align: center; }
-.next .team { font-weight: 700; font-size: 18px; }
-.next .vs { font-size: 14px; opacity: .7; }
-.next .meta { margin-top: 14px; text-align: center; font-size: 14px; opacity: .9; }
-.next .countdown { margin-top: 6px; text-align: center; color: var(--accent); font-weight: 700; }
+/* Karty příští / poslední zápas */
+.match-cards { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+@media (max-width: 760px) { .match-cards { grid-template-columns: 1fr; } }
+.mcard {
+  background: rgba(10, 26, 51, .75); border: 1px solid var(--line);
+  border-radius: var(--radius); padding: 18px 20px; backdrop-filter: blur(4px);
+}
+.mcard-last { border-color: rgba(47, 127, 214, .45); }
+.mcard-head { display: flex; justify-content: space-between; align-items: center; }
+.badge {
+  font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .08em;
+  padding: 3px 8px; border-radius: 6px; background: rgba(247,209,23,.15); color: var(--yellow);
+}
+.mcard-head .side { color: var(--muted); font-size: 13px; }
+.versus { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 10px; margin: 18px 0 14px; text-align: center; }
+.versus .t { display: flex; flex-direction: column; align-items: center; gap: 8px; font-weight: 600; font-size: 15px; }
+.versus .t.us { color: var(--white); font-weight: 800; }
+.versus .crest-ph {
+  width: 50px; height: 50px; border-radius: 50%; display: grid; place-items: center;
+  background: rgba(255,255,255,.08); color: var(--muted); font-family: var(--display); font-weight: 700; font-size: 20px;
+}
+.versus .t img { width: 50px; height: 50px; }
+.versus .mid { font-family: var(--display); font-weight: 800; color: var(--muted); font-size: 22px; }
+.versus .mid.bigscore { color: var(--white); font-size: 46px; line-height: 1; }
+.when { border-top: 1px solid var(--line); padding-top: 14px; text-align: center; }
+.when .d { color: #c5d1e3; font-size: 14px; }
+.when .h { font-family: var(--display); font-weight: 800; font-size: 34px; color: var(--white); line-height: 1.1; }
+.when .v { color: var(--muted); font-size: 13px; }
+.countdown { display: flex; justify-content: center; gap: 10px; margin-top: 12px; }
+.countdown div { min-width: 58px; padding: 6px 4px; border-radius: 8px; background: rgba(255,255,255,.05); text-align: center; }
+.countdown b { display: block; font-family: var(--display); font-size: 26px; color: var(--yellow); line-height: 1; }
+.countdown small { font-size: 10px; color: var(--muted); text-transform: uppercase; letter-spacing: .1em; }
+.goals { list-style: none; margin: 0; padding: 0; font-size: 13.5px; color: #c5d1e3; }
+.goals li::before { content: "⚽ "; font-size: 11px; }
+.mcard .date-line { margin-top: 12px; color: var(--muted); font-size: 13px; text-align: center; }
+.empty { color: var(--muted); font-size: 14px; }
+
+/* Statistiky */
+.stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-top: 18px; }
+@media (max-width: 760px) { .stats { grid-template-columns: repeat(2, 1fr); } }
+.stat { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; }
+.stat small { color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: .14em; font-weight: 600; }
+.stat b { display: block; font-family: var(--display); font-size: 38px; line-height: 1.05; color: var(--white); }
+.stat span { color: var(--muted); font-size: 12.5px; }
+.form { display: flex; gap: 5px; margin-top: 8px; }
+.form i {
+  width: 26px; height: 26px; border-radius: 6px; display: grid; place-items: center;
+  font-style: normal; font-weight: 800; font-size: 12px; color: #fff;
+}
+.form .w { background: var(--win); } .form .d { background: var(--draw); } .form .l { background: var(--loss); }
+
+/* Sekce */
+.section { padding-top: 34px; }
+.panel { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 20px 22px; }
+.two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+@media (max-width: 760px) { .two-col { grid-template-columns: 1fr; } }
+.h-section {
+  margin: 0 0 12px; font-family: var(--display); font-weight: 800; font-size: 26px;
+  text-transform: uppercase; color: var(--white);
+}
+.h-section small { font-family: Inter, sans-serif; font-size: 13px; color: var(--muted); text-transform: none; font-weight: 500; margin-left: 6px; }
+.h-big { margin: 4px 0 20px; font-family: var(--display); font-weight: 800; font-size: clamp(36px, 6vw, 56px); text-transform: uppercase; color: var(--white); line-height: 1; }
 
 /* Seznamy zápasů */
 .matches { list-style: none; margin: 0; padding: 0; }
 .matches li {
-  display: grid; grid-template-columns: 74px 1fr auto; gap: 10px; align-items: center;
-  padding: 9px 0; border-bottom: 1px solid var(--line); font-size: 14px;
+  display: grid; grid-template-columns: 64px 1fr auto; gap: 12px; align-items: center;
+  padding: 11px 0; border-bottom: 1px solid var(--line); font-size: 14.5px;
 }
 .matches li:last-child { border-bottom: 0; }
-.matches .date { color: var(--muted); font-size: 12.5px; }
-.matches .us { font-weight: 700; }
+.matches .date { color: var(--muted); font-size: 12.5px; line-height: 1.3; }
+.matches .date b { color: var(--text); font-weight: 600; display: block; }
+.matches .us { color: var(--white); font-weight: 700; }
 .score {
-  font-weight: 800; min-width: 46px; text-align: center;
-  padding: 3px 8px; border-radius: 8px; color: #fff; background: var(--muted);
+  font-family: var(--display); font-weight: 800; font-size: 19px; min-width: 52px; text-align: center;
+  padding: 2px 8px; border-radius: 7px; color: #fff; background: rgba(255,255,255,.08);
 }
-.score.w { background: var(--win); }
-.score.d { background: var(--draw); }
-.score.l { background: var(--loss); }
-.score.time { background: transparent; color: var(--text); font-weight: 600; }
-.empty { color: var(--muted); font-size: 14px; }
+.score.w { background: var(--win); } .score.d { background: var(--draw); } .score.l { background: var(--loss); }
+.score.tbd { color: var(--muted); }
 
 /* Tabulka */
 .table-scroll { overflow-x: auto; }
-.standings { width: 100%; border-collapse: collapse; font-size: 14px; }
-.standings th, .standings td { padding: 8px 6px; text-align: center; border-bottom: 1px solid var(--line); }
-.standings th { color: var(--muted); font-weight: 600; font-size: 12.5px; }
+.standings { width: 100%; border-collapse: collapse; font-size: 14.5px; }
+.standings th, .standings td { padding: 10px 8px; text-align: center; border-bottom: 1px solid var(--line); }
+.standings th { color: var(--muted); font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: .08em; }
 .standings .l { text-align: left; }
-.standings td:last-child { font-weight: 800; }
-.standings tr.us td { background: #ecfdf3; font-weight: 700; }
+.standings td:last-child { font-family: var(--display); font-weight: 800; font-size: 19px; color: var(--white); }
+.standings tr.us td { background: rgba(247, 209, 23, .1); color: var(--white); font-weight: 700; }
+.standings tr.us td:first-child { box-shadow: inset 3px 0 0 var(--yellow); }
 
 /* Střelci */
-.scorers { margin: 0; padding-left: 22px; font-size: 14px; }
-.scorers li { padding: 5px 0; }
-.scorers b { float: right; }
+.scorers { margin: 0; padding-left: 22px; font-size: 15px; }
+.scorers li { padding: 7px 0; border-bottom: 1px solid var(--line); display: list-item; }
+.scorers li > span { display: flex; justify-content: space-between; align-items: center; }
+.scorers li:last-child { border-bottom: 0; }
+.scorers b { font-family: var(--display); font-size: 20px; color: var(--yellow); }
 
-.footer { padding: 10px 20px 40px; font-size: 14px; }
+/* Týmy */
+.teams-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 16px; }
+.team-card {
+  position: relative; overflow: hidden; cursor: pointer; text-align: left; color: var(--text); font: inherit;
+  background: linear-gradient(160deg, var(--navy-2), var(--navy)); border: 1px solid var(--line);
+  border-radius: var(--radius); padding: 20px;
+}
+.team-card:hover { border-color: var(--yellow); }
+.team-card .cat {
+  position: absolute; right: 12px; top: 2px; font-family: var(--display); font-weight: 800;
+  font-size: 64px; color: rgba(255,255,255,.05); text-transform: uppercase;
+}
+.team-card .tag { color: var(--yellow); font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .16em; }
+.team-card h3 { margin: 4px 0 8px; font-family: var(--display); font-weight: 800; font-size: 28px; text-transform: uppercase; color: var(--white); }
+.team-card p { margin: 0 0 12px; color: #c5d1e3; font-size: 14px; }
+.team-card .comp { color: var(--yellow); font-size: 13px; font-weight: 600; }
+
+/* Patička */
+.footer { margin-top: 50px; border-top: 1px solid var(--line); background: #071328; }
+.footer-inner { display: flex; flex-wrap: wrap; gap: 16px; justify-content: space-between; align-items: center; padding: 26px 20px; font-size: 14px; }
+.footer .brand small { color: var(--muted); text-transform: none; letter-spacing: 0; font-size: 13px; font-weight: 400; }

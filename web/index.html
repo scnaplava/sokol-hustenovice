@@ -3,63 +3,111 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>TJ Sokol Huštěnovice – fotbal</title>
-  <meta name="description" content="Oficiální web fotbalového oddílu TJ Sokol Huštěnovice – zápasy, výsledky, tabulky.">
+  <title>TJ Sokol Huštěnovice | Fotbal v Huštěnovicích</title>
+  <meta name="description" content="Oficiální web fotbalového klubu TJ Sokol Huštěnovice: zápasy, výsledky, tabulky a týmy.">
+  <link rel="icon" href="img/logo.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="hero">
-    <div class="wrap hero-inner">
-      <div class="crest" aria-hidden="true">TJ</div>
-      <div>
-        <p class="eyebrow">Fotbalový oddíl</p>
-        <h1 id="club-name">TJ Sokol Huštěnovice</h1>
-      </div>
+  <header class="topbar">
+    <div class="wrap topbar-inner">
+      <a class="brand" href="#">
+        <img src="img/logo.jpg" alt="Znak TJ Sokol Huštěnovice" class="logo-sm">
+        <span><b>Sokol Huštěnovice</b><small>Fotbalový klub</small></span>
+      </a>
+      <nav class="menu" aria-label="Hlavní menu">
+        <a href="#zapasy">Zápasy</a>
+        <a href="#tabulka">Tabulka</a>
+        <a href="#tymy">Týmy</a>
+        <a href="#kontakt">Kontakt</a>
+      </nav>
     </div>
-    <nav class="wrap tabs" id="team-tabs" aria-label="Týmy"></nav>
   </header>
 
-  <div class="wrap notice" id="sample-notice" hidden>
-    Zobrazují se <strong>ukázková data</strong>. Po napojení na data FAČR se tu objeví skutečné zápasy a tabulky.
-  </div>
+  <section class="hero">
+    <div class="wrap">
+      <div class="hero-meta">
+        <img src="img/logo.jpg" alt="" class="logo-lg">
+        <div>
+          <p class="kicker">Založeno <span id="founded">1932</span></p>
+          <p class="competition-line" id="hero-competition"></p>
+        </div>
+      </div>
+      <h1>T.J. Sokol<br><span>Huštěnovice</span></h1>
+      <p class="tagline" id="tagline"></p>
+      <div class="cta">
+        <a class="btn btn-primary" href="#zapasy">Program zápasů</a>
+        <a class="btn btn-ghost" href="#tabulka">Tabulka</a>
+      </div>
 
-  <main class="wrap grid">
-    <section class="card next" id="next-match" aria-labelledby="next-h">
-      <h2 id="next-h">Příští zápas</h2>
-      <div class="body"></div>
-    </section>
+      <div class="notice" id="sample-notice" hidden>
+        Zobrazují se <strong>ukázková data</strong>. Po napojení na data FAČR se tu objeví skutečné zápasy a tabulky.
+      </div>
 
-    <section class="card" aria-labelledby="results-h">
-      <h2 id="results-h">Poslední výsledky</h2>
-      <ul class="matches" id="results"></ul>
-    </section>
+      <div class="team-switch" id="team-tabs" role="tablist" aria-label="Výběr týmu"></div>
 
-    <section class="card wide" aria-labelledby="table-h">
-      <h2 id="table-h">Tabulka <span class="muted" id="competition"></span></h2>
-      <div class="table-scroll">
-        <table class="standings" id="table">
-          <thead>
-            <tr><th>#</th><th class="l">Tým</th><th>Z</th><th>V</th><th>R</th><th>P</th><th>Skóre</th><th>B</th></tr>
-          </thead>
-          <tbody></tbody>
-        </table>
+      <div class="match-cards">
+        <article class="mcard" id="next-match"></article>
+        <article class="mcard mcard-last" id="last-match"></article>
+      </div>
+
+      <div class="stats" id="stats"></div>
+    </div>
+  </section>
+
+  <main>
+    <section class="section wrap" id="zapasy">
+      <div class="two-col">
+        <div class="panel">
+          <h2 class="h-section">Zápasy</h2>
+          <ul class="matches" id="results"></ul>
+        </div>
+        <div class="panel">
+          <h2 class="h-section">Nejbližší program</h2>
+          <ul class="matches" id="fixtures"></ul>
+        </div>
       </div>
     </section>
 
-    <section class="card" aria-labelledby="fixtures-h">
-      <h2 id="fixtures-h">Rozpis zápasů</h2>
-      <ul class="matches" id="fixtures"></ul>
+    <section class="section wrap" id="tabulka">
+      <div class="panel">
+        <h2 class="h-section">Tabulka <small id="competition"></small></h2>
+        <div class="table-scroll">
+          <table class="standings" id="table">
+            <thead>
+              <tr><th>#</th><th class="l">Tým</th><th>Z</th><th>V</th><th>R</th><th>P</th><th>Skóre</th><th>B</th></tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
     </section>
 
-    <section class="card" id="scorers-card" aria-labelledby="scorers-h">
-      <h2 id="scorers-h">Střelci</h2>
-      <ol class="scorers" id="scorers"></ol>
+    <section class="section wrap" id="strelci-wrap">
+      <div class="panel">
+        <h2 class="h-section">Střelci</h2>
+        <ol class="scorers" id="scorers"></ol>
+      </div>
+    </section>
+
+    <section class="section wrap" id="tymy">
+      <p class="kicker">Jeden klub, jedny barvy</p>
+      <h2 class="h-big">Naše týmy</h2>
+      <div class="teams-grid" id="teams-grid"></div>
     </section>
   </main>
 
-  <footer class="wrap footer">
-    <p id="club-contact"></p>
-    <p class="muted">Zdroj dat: <a href="https://www.fotbal.cz" rel="noopener">FAČR / fotbal.cz</a> · Aktualizováno: <span id="updated">–</span></p>
+  <footer class="footer" id="kontakt">
+    <div class="wrap footer-inner">
+      <div class="brand">
+        <img src="img/logo.jpg" alt="" class="logo-sm">
+        <span><b>TJ Sokol Huštěnovice</b><small id="club-contact"></small></span>
+      </div>
+      <p class="muted">Zdroj dat: <a href="https://www.fotbal.cz" rel="noopener">FAČR / fotbal.cz</a> · Aktualizováno: <span id="updated">–</span></p>
+    </div>
   </footer>
 
   <script src="app.js"></script>

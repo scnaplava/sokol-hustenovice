@@ -4,11 +4,12 @@
   "club": {
     "name": "TJ Sokol Huštěnovice",
     "shortName": "Huštěnovice",
-    "founded": null,
+    "founded": 1932,
     "stadium": "Fotbalové hřiště Huštěnovice",
     "address": "Huštěnovice",
     "email": "",
-    "facebook": ""
+    "facebook": "",
+    "tagline": "Fotbal v Huštěnovicích od roku 1932. Od nejmenších až po muže, jedno hřiště, jedny barvy."
   },
   "teams": [
     {
@@ -17,28 +18,190 @@
       "competition": "Ukázková soutěž mužů",
       "season": "2026/2027",
       "matches": [
-        { "round": 10, "date": "2026-10-18T14:30:00+02:00", "home": "TJ Sokol Huštěnovice", "away": "Soupeř A", "score": [3, 1], "halftime": [1, 0], "venue": "Huštěnovice", "scorers": ["Hráč 1 (2)", "Hráč 2"] },
-        { "round": 11, "date": "2026-10-25T14:30:00+02:00", "home": "Soupeř B", "away": "TJ Sokol Huštěnovice", "score": [2, 2], "halftime": [0, 1], "venue": "Soupeř B", "scorers": ["Hráč 3", "Hráč 1"] },
-        { "round": 12, "date": "2026-11-01T14:00:00+01:00", "home": "TJ Sokol Huštěnovice", "away": "Soupeř C", "score": [1, 0], "halftime": [0, 0], "venue": "Huštěnovice", "scorers": ["Hráč 2"] },
-        { "round": 13, "date": "2026-11-08T14:00:00+01:00", "home": "Soupeř D", "away": "TJ Sokol Huštěnovice", "score": [0, 2], "halftime": [0, 1], "venue": "Soupeř D", "scorers": ["Hráč 4", "Hráč 1"] },
-        { "round": 14, "date": "2026-11-15T14:00:00+01:00", "home": "TJ Sokol Huštěnovice", "away": "Soupeř E", "score": null, "venue": "Huštěnovice" },
-        { "round": 15, "date": "2027-03-21T15:00:00+01:00", "home": "Soupeř F", "away": "TJ Sokol Huštěnovice", "score": null, "venue": "Soupeř F" }
+        {
+          "round": 10,
+          "date": "2026-10-18T14:30:00+02:00",
+          "home": "TJ Sokol Huštěnovice",
+          "away": "Soupeř A",
+          "score": [
+            3,
+            1
+          ],
+          "halftime": [
+            1,
+            0
+          ],
+          "venue": "Huštěnovice",
+          "scorers": [
+            "Hráč 1 (2)",
+            "Hráč 2"
+          ]
+        },
+        {
+          "round": 11,
+          "date": "2026-10-25T14:30:00+02:00",
+          "home": "Soupeř B",
+          "away": "TJ Sokol Huštěnovice",
+          "score": [
+            2,
+            2
+          ],
+          "halftime": [
+            0,
+            1
+          ],
+          "venue": "Soupeř B",
+          "scorers": [
+            "Hráč 3",
+            "Hráč 1"
+          ]
+        },
+        {
+          "round": 12,
+          "date": "2026-11-01T14:00:00+01:00",
+          "home": "TJ Sokol Huštěnovice",
+          "away": "Soupeř C",
+          "score": [
+            1,
+            0
+          ],
+          "halftime": [
+            0,
+            0
+          ],
+          "venue": "Huštěnovice",
+          "scorers": [
+            "Hráč 2"
+          ]
+        },
+        {
+          "round": 13,
+          "date": "2026-11-08T14:00:00+01:00",
+          "home": "Soupeř D",
+          "away": "TJ Sokol Huštěnovice",
+          "score": [
+            0,
+            2
+          ],
+          "halftime": [
+            0,
+            1
+          ],
+          "venue": "Soupeř D",
+          "scorers": [
+            "Hráč 4",
+            "Hráč 1"
+          ]
+        },
+        {
+          "round": 14,
+          "date": "2026-11-15T14:00:00+01:00",
+          "home": "TJ Sokol Huštěnovice",
+          "away": "Soupeř E",
+          "score": null,
+          "venue": "Huštěnovice"
+        },
+        {
+          "round": 15,
+          "date": "2027-03-21T15:00:00+01:00",
+          "home": "Soupeř F",
+          "away": "TJ Sokol Huštěnovice",
+          "score": null,
+          "venue": "Soupeř F"
+        }
       ],
       "table": [
-        { "team": "TJ Sokol Huštěnovice", "played": 13, "won": 9, "drawn": 2, "lost": 2, "gf": 31, "ga": 14, "points": 29 },
-        { "team": "Soupeř B", "played": 13, "won": 8, "drawn": 3, "lost": 2, "gf": 27, "ga": 15, "points": 27 },
-        { "team": "Soupeř E", "played": 13, "won": 7, "drawn": 3, "lost": 3, "gf": 25, "ga": 18, "points": 24 },
-        { "team": "Soupeř A", "played": 13, "won": 6, "drawn": 2, "lost": 5, "gf": 22, "ga": 21, "points": 20 },
-        { "team": "Soupeř F", "played": 13, "won": 5, "drawn": 3, "lost": 5, "gf": 19, "ga": 20, "points": 18 },
-        { "team": "Soupeř C", "played": 13, "won": 3, "drawn": 4, "lost": 6, "gf": 15, "ga": 22, "points": 13 },
-        { "team": "Soupeř D", "played": 13, "won": 2, "drawn": 2, "lost": 9, "gf": 11, "ga": 30, "points": 8 }
+        {
+          "team": "TJ Sokol Huštěnovice",
+          "played": 13,
+          "won": 9,
+          "drawn": 2,
+          "lost": 2,
+          "gf": 31,
+          "ga": 14,
+          "points": 29
+        },
+        {
+          "team": "Soupeř B",
+          "played": 13,
+          "won": 8,
+          "drawn": 3,
+          "lost": 2,
+          "gf": 27,
+          "ga": 15,
+          "points": 27
+        },
+        {
+          "team": "Soupeř E",
+          "played": 13,
+          "won": 7,
+          "drawn": 3,
+          "lost": 3,
+          "gf": 25,
+          "ga": 18,
+          "points": 24
+        },
+        {
+          "team": "Soupeř A",
+          "played": 13,
+          "won": 6,
+          "drawn": 2,
+          "lost": 5,
+          "gf": 22,
+          "ga": 21,
+          "points": 20
+        },
+        {
+          "team": "Soupeř F",
+          "played": 13,
+          "won": 5,
+          "drawn": 3,
+          "lost": 5,
+          "gf": 19,
+          "ga": 20,
+          "points": 18
+        },
+        {
+          "team": "Soupeř C",
+          "played": 13,
+          "won": 3,
+          "drawn": 4,
+          "lost": 6,
+          "gf": 15,
+          "ga": 22,
+          "points": 13
+        },
+        {
+          "team": "Soupeř D",
+          "played": 13,
+          "won": 2,
+          "drawn": 2,
+          "lost": 9,
+          "gf": 11,
+          "ga": 30,
+          "points": 8
+        }
       ],
       "scorers": [
-        { "player": "Hráč 1", "goals": 11 },
-        { "player": "Hráč 2", "goals": 7 },
-        { "player": "Hráč 4", "goals": 5 },
-        { "player": "Hráč 3", "goals": 3 }
-      ]
+        {
+          "player": "Hráč 1",
+          "goals": 11
+        },
+        {
+          "player": "Hráč 2",
+          "goals": 7
+        },
+        {
+          "player": "Hráč 4",
+          "goals": 5
+        },
+        {
+          "player": "Hráč 3",
+          "goals": 3
+        }
+      ],
+      "description": "Áčko je výkladní skříň klubu a staví hlavně na vlastních odchovancích z Huštěnovic a okolí.",
+      "category": "Dospělí"
     },
     {
       "id": "dorost",
@@ -46,15 +209,65 @@
       "competition": "Ukázková soutěž dorostu",
       "season": "2026/2027",
       "matches": [
-        { "round": 9, "date": "2026-11-07T10:00:00+01:00", "home": "TJ Sokol Huštěnovice", "away": "Soupeř G", "score": [2, 3], "halftime": [1, 1], "venue": "Huštěnovice" },
-        { "round": 10, "date": "2026-11-14T10:00:00+01:00", "home": "Soupeř H", "away": "TJ Sokol Huštěnovice", "score": null, "venue": "Soupeř H" }
+        {
+          "round": 9,
+          "date": "2026-11-07T10:00:00+01:00",
+          "home": "TJ Sokol Huštěnovice",
+          "away": "Soupeř G",
+          "score": [
+            2,
+            3
+          ],
+          "halftime": [
+            1,
+            1
+          ],
+          "venue": "Huštěnovice"
+        },
+        {
+          "round": 10,
+          "date": "2026-11-14T10:00:00+01:00",
+          "home": "Soupeř H",
+          "away": "TJ Sokol Huštěnovice",
+          "score": null,
+          "venue": "Soupeř H"
+        }
       ],
       "table": [
-        { "team": "Soupeř G", "played": 9, "won": 7, "drawn": 1, "lost": 1, "gf": 28, "ga": 9, "points": 22 },
-        { "team": "TJ Sokol Huštěnovice", "played": 9, "won": 5, "drawn": 1, "lost": 3, "gf": 19, "ga": 15, "points": 16 },
-        { "team": "Soupeř H", "played": 9, "won": 2, "drawn": 2, "lost": 5, "gf": 12, "ga": 20, "points": 8 }
+        {
+          "team": "Soupeř G",
+          "played": 9,
+          "won": 7,
+          "drawn": 1,
+          "lost": 1,
+          "gf": 28,
+          "ga": 9,
+          "points": 22
+        },
+        {
+          "team": "TJ Sokol Huštěnovice",
+          "played": 9,
+          "won": 5,
+          "drawn": 1,
+          "lost": 3,
+          "gf": 19,
+          "ga": 15,
+          "points": 16
+        },
+        {
+          "team": "Soupeř H",
+          "played": 9,
+          "won": 2,
+          "drawn": 2,
+          "lost": 5,
+          "gf": 12,
+          "ga": 20,
+          "points": 8
+        }
       ],
-      "scorers": []
+      "scorers": [],
+      "description": "Poslední krok před mužským fotbalem. Nejlepší dorostenci už naskakují i za áčko.",
+      "category": "U19"
     }
   ]
 }
