@@ -52,7 +52,7 @@ function matchRow(m) {
   const name = (n) => `<span class="${isUs(n) ? "us" : ""}">${esc(short(n))}</span>`;
   return `<li>
     <span class="date"><b>${fmtShort(m.date)}</b>${fmtTime(m.date)}</span>
-    <span>${name(m.home)} – ${name(m.away)}</span>
+    <span class="pair">${name(m.home)}<span class="sep"> – </span>${name(m.away)}</span>
     ${right}
   </li>`;
 }
@@ -147,7 +147,7 @@ function renderTeam(team) {
     .map(
       (r, i) => `<tr class="${isUs(r.team) ? "us" : ""}">
         <td>${r.position ?? i + 1}</td><td class="l">${esc(r.team)}</td>
-        <td>${r.played}</td><td>${r.won}</td><td>${r.drawn}</td><td>${r.lost}</td>
+        <td>${r.played}</td><td class="wdl">${r.won}</td><td class="wdl">${r.drawn}</td><td class="wdl">${r.lost}</td>
         <td>${r.gf}:${r.ga}</td><td>${r.points}</td>
       </tr>`
     )
@@ -198,8 +198,11 @@ async function load() {
   try {
     const res = await fetch(`${DATA_URL}?t=${Date.now()}`, { cache: "no-store" });
     if (!res.ok) throw new Error(res.status);
+    const first = !data;
     data = await res.json();
     render();
+    // Po prvním vykreslení se obsah posune – dorovnat skok na kotvu (#tabulka apod.)
+    if (first && location.hash) document.querySelector(location.hash)?.scrollIntoView();
   } catch (err) {
     console.error("Nepodařilo se načíst data:", err);
     if (!data) $("main").innerHTML = `<p class="wrap empty">Data se nepodařilo načíst. Zkuste stránku obnovit.</p>`;

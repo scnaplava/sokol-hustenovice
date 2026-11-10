@@ -53,7 +53,6 @@ a:hover { text-decoration: underline; }
 .menu { display: flex; gap: 22px; }
 .menu a { color: var(--text); font-weight: 600; font-size: 14px; text-transform: uppercase; letter-spacing: .05em; }
 .menu a:hover { color: var(--yellow); text-decoration: none; }
-@media (max-width: 640px) { .menu { display: none; } }
 
 /* Úvodní část */
 .hero {
@@ -216,3 +215,45 @@ a:hover { text-decoration: underline; }
 .footer-inner { display: flex; flex-wrap: wrap; gap: 16px; justify-content: space-between; align-items: center; padding: 26px 20px; font-size: 14px; }
 .footer .brand small { color: var(--muted); text-transform: none; letter-spacing: 0; font-size: 13px; font-weight: 400; }
 .matches li.empty { display: block; }
+
+/* ---- Mobil ---- */
+@media (max-width: 640px) {
+  .wrap { padding: 0 14px; }
+  .topbar-inner { height: auto; flex-wrap: wrap; padding-top: 10px; padding-bottom: 8px; row-gap: 8px; }
+  .menu { width: 100%; justify-content: space-between; gap: 6px; }
+  .menu a { font-size: 13px; padding: 4px 0; }
+
+  .hero { padding: 26px 0 28px; }
+  .logo-lg { width: 56px; height: 56px; }
+  .hero h1 { margin: 18px 0 10px; font-size: 50px; }
+  .tagline { font-size: 15px; margin-bottom: 18px; }
+  .btn { padding: 10px 16px; font-size: 16px; }
+  .notice { margin-top: 18px; }
+  .team-switch { margin: 22px -14px 14px; padding: 0 14px; scrollbar-width: none; }
+  .team-switch::-webkit-scrollbar { display: none; }
+
+  .mcard { padding: 16px; }
+  .versus .t { font-size: 14px; }
+  .versus .mid.bigscore { font-size: 40px; }
+  .countdown div { min-width: 52px; }
+  .stat { padding: 12px 14px; }
+  .stat b { font-size: 32px; }
+
+  .section { padding-top: 22px; }
+  .panel { padding: 16px; }
+  .h-section { font-size: 23px; }
+  .h-section small { display: block; margin: 2px 0 0; }
+
+  .matches li { grid-template-columns: 52px 1fr auto; gap: 10px; }
+  .matches .pair > span:not(.sep) { display: block; }
+  .matches .pair .sep { display: none; }
+
+  .standings { font-size: 14px; }
+  .standings th, .standings td { padding: 9px 4px; }
+  .standings .wdl { display: none; }
+
+  .footer-inner { padding: 22px 14px; }
+}
+
+/* Kotvy z menu se nesmí schovat pod lepící lištu */
+section[id], footer[id], #team-tabs { scroll-margin-top: 110px; }
