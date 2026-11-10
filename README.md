@@ -1,23 +1,38 @@
 # Web TJ Sokol Huštěnovice
 
-Statický web, který zobrazuje zápasy, výsledky, tabulky a střelce všech týmů klubu.
+Statický web, který zobrazuje zápasy, výsledky, tabulky a týmy klubu.
+Data se každých 15 minut stahují z **veřejné části IS FAČR** (is.fotbal.cz/public),
+která je přístupná bez přihlášení.
 
 ## Struktura
 
 - `web/index.html`, `web/styles.css`, `web/app.js` – samotný web
-- `web/data/club.json` – všechna data (týmy, zápasy, tabulky, střelci)
-- `scripts/update_data.py` – kontrola a aktualizace dat
-- `.github/workflows/update-data.yml` – spouští aktualizaci každých 15 minut
+- `web/img/logo.jpg` – znak klubu
+- `web/data/club.json` – všechna data (stahují se automaticky)
+- `scripts/update_data.py` – stahovač dat z IS FAČR
+- `.github/workflows/update-data.yml` – každých 15 minut stáhne data a při změně znovu nasadí web
 
-## Úprava dat (dokud není napojení na FAČR)
+## Odkud se berou data
 
-Upravte `web/data/club.json`:
+Stahovač podle čísla klubu (7220181) sám najde všechny soutěže klubu v aktuálním ročníku,
+takže se v nové sezóně nemusí nic přepisovat. Pro každou soutěž stáhne:
 
-- odehraný zápas: `"score": [domácí, hosté]`, neodehraný `"score": null`
-- datum ve formátu `2026-11-15T14:00:00+01:00`
-- až budou data skutečná, změňte `"source": "sample"` na `"manual"` – zmizí žlutý pruh „ukázková data“
+- rozpis a výsledky zápasů (jen zápasy Huštěnovic),
+- celkovou tabulku.
 
-Kontrola, že je soubor v pořádku:
+Omezení:
+
+- **Přípravky:** FAČR nezveřejňuje jejich tabulky a výsledky (zapisuje 0:0). Web proto
+  u přípravek ukazuje jen rozpis a „odehráno“.
+- **Poháry** se zatím nezobrazují.
+- **Střelci** se zatím nestahují (jsou jen v zápisech o utkání).
+
+## Co se dá upravit ručně
+
+V `web/data/club.json` můžete změnit údaje o klubu (`club` – stadion, e-mail, Facebook,
+úvodní věta) a popisy týmů (`description`). Stahovač je při další aktualizaci zachová.
+
+Ruční spuštění stahovače:
 
 ```bash
 python3 scripts/update_data.py
@@ -25,7 +40,7 @@ python3 scripts/update_data.py
 
 ## Barvy klubu
 
-Změníte je v horní části `web/styles.css` (proměnné `--brand`, `--brand-2`, `--accent`).
+Jsou v horní části `web/styles.css` (proměnné `--blue`, `--navy`, `--yellow`).
 
 ## Spuštění na počítači
 
@@ -34,8 +49,3 @@ python3 -m http.server 8765 --directory web
 ```
 
 Pak otevřete http://localhost:8765.
-
-## Napojení na FAČR
-
-Až FAČR přidělí oficiální přístup, doplní se funkce `fetch_facr()` ve `scripts/update_data.py`
-a ve workflow se nastaví `DATA_SOURCE: facr`. Přístupové údaje patří do GitHub Secrets.

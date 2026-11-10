@@ -4,27 +4,60 @@
 Spouští se každých 15 minut (viz .github/workflows/update-data.yml).
 
 Zdroj dat určuje proměnná prostředí DATA_SOURCE:
-  manual  – (výchozí) data se upravují ručně v web/data/club.json,
-            skript je jen zkontroluje a nic nemění
-  facr    – stáhne data z oficiálního přístupu FAČR
-            (doplní se, až FAČR přidělí přístup a pošle dokumentaci)
+  facr    – (výchozí) stáhne zápasy a tabulky z veřejné části IS FAČR
+            (is.fotbal.cz/public), která je přístupná bez přihlášení
+  manual  – data se upravují ručně ve web/data/club.json,
+            skript je jen zkontroluje
 """
 from __future__ import annotations
 
+import html
+import http.cookiejar
 import json
 import os
+import re
 import sys
+import time
+import urllib.parse
+import urllib.error
+import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA_FILE = ROOT / "web" / "data" / "club.json"
+
+# --- Nastavení klubu -------------------------------------------------------
+CLUB_NUMBER = "7220181"   # číslo klubu ve FAČR
+CLUB_IS_ID = "2173"       # vnitřní ID klubu ve veřejné části IS FAČR
+CLUB_MATCH = "Huštěnovice"  # podle tohoto textu se poznají naše družstva
+
+BASE = "https://is.fotbal.cz/public/souteze/"
+USER_AGENT = "TJSokolHustenoviceWeb/1.0 (klubovy web, aktualizace 1x za 15 min)"
+TZ = ZoneInfo("Europe/Prague")
+
+# Soutěže podle prvního písmene kódu soutěže (A3C, C1A, ...).
+# Poháry (O, Z, ...) se zatím nezobrazují.
+# U přípravek se výsledky nevedou (FAČR je zapisuje jako 0:0), proto se skóre nezobrazuje.
+NO_SCORE_CATEGORIES = {"G", "H"}
+CATEGORIES = {
+    "A": ("muzi", "Muži A", "Dospělí"),
+    "B": ("muzi-b", "Muži B", "Dospělí"),
+    "C": ("dorost", "Starší dorost", "U19"),
+    "D": ("mladsi-dorost", "Mladší dorost", "U17"),
+    "E": ("starsi-zaci", "Starší žáci", "U15"),
+    "F": ("mladsi-zaci", "Mladší žáci", "U13"),
+    "G": ("starsi-pripravka", "Starší přípravka", "U11"),
+    "H": ("mladsi-pripravka", "Mladší přípravka", "U9"),
+}
 
 REQUIRED_TEAM_KEYS = {"id", "name", "matches", "table"}
 REQUIRED_MATCH_KEYS = {"date", "home", "away"}
 REQUIRED_ROW_KEYS = {"team", "played", "won", "drawn", "lost", "gf", "ga", "points"}
 
 
+# --- Kontrola dat ----------------------------------------------------------
 def validate(data: dict) -> list[str]:
     """Vrátí seznam chyb; prázdný seznam znamená, že data jsou v pořádku."""
     errors: list[str] = []
@@ -54,27 +87,197 @@ def validate(data: dict) -> list[str]:
     return errors
 
 
-def fetch_facr(current: dict) -> dict:
-    """Stáhne aktuální data z oficiálního přístupu FAČR.
+# --- Stahování z IS FAČR ---------------------------------------------------
+class IsClient:
+    def __init__(self) -> None:
+        self.opener = urllib.request.build_opener(
+            urllib.request.HTTPCookieProcessor(http.cookiejar.CookieJar())
+        )
+        self.opener.addheaders = [("User-Agent", USER_AGENT)]
 
-    Až FAČR přidělí přístup (API klíč, adresu a dokumentaci), doplní se sem
-    volání jejich rozhraní a převod odpovědi do formátu web/data/club.json.
-    Přístupové údaje patří do proměnných prostředí (GitHub Secrets),
-    nikdy přímo do kódu.
-    """
-    raise NotImplementedError(
-        "Napojení na FAČR zatím není k dispozici – čeká se na oficiální přístup."
-    )
+    def get(self, url: str, data: dict | None = None) -> str:
+        body = urllib.parse.urlencode(data).encode() if data else None
+        for attempt in range(3):
+            try:
+                with self.opener.open(url, body, timeout=30) as r:
+                    text = r.read().decode("utf-8", errors="replace")
+                time.sleep(1)  # šetrně k serveru FAČR
+                return text
+            except OSError:
+                if attempt == 2:
+                    raise
+                time.sleep(5)
+        raise RuntimeError("nedosažitelné")
+
+
+def clean(fragment: str) -> str:
+    text = re.sub(r"<[^>]+>", " ", fragment)
+    return re.sub(r"\s+", " ", html.unescape(text)).strip()
+
+
+def strip_team_no(name: str) -> str:
+    """'Huštěnovice (9)' -> 'Huštěnovice'"""
+    return re.sub(r"\s*\(\d+\)\s*$", "", name).strip()
+
+
+def find_competitions(client: IsClient) -> list[dict]:
+    """Vyhledá všechny soutěže klubu v aktuálním ročníku."""
+    url = BASE + "prehled-soutezi.aspx?sport=fotbal"
+    page = client.get(url)
+    form = {
+        name: html.unescape(value)
+        for name, value in re.findall(r'<input[^>]*name="([^"]+)"[^>]*value="([^"]*)"', page)
+        if not name.startswith("ctl00$MainContent$btn")
+    }
+    for name, body in re.findall(r'<select[^>]*name="([^"]+)"[^>]*>(.*?)</select>', page, re.S):
+        m = re.search(r'<option[^>]*selected[^>]*value="([^"]*)"', body) or re.search(r'value="([^"]*)"', body)
+        form[name] = m.group(1) if m else ""
+    form.update({
+        "ctl00$MainContent$OddilBoxClenem$txtCisloKlubu": CLUB_NUMBER,
+        "ctl00$MainContent$OddilBoxClenem$hidIdKlubu": CLUB_IS_ID,
+        "ctl00$MainContent$OddilBoxClenem$hidTypSportu": CLUB_IS_ID,
+        "__EVENTTARGET": "ctl00$MainContent$btnSearch",
+        "__EVENTARGUMENT": "",
+    })
+    result = client.get(url, form)
+
+    comps = []
+    for row in re.findall(r"<tr[^>]*>(.*?)</tr>", result, re.S):
+        link = re.search(r'detail-souteze\.aspx\?req=([0-9a-f-]+)[^>]*>(.*?)</a>', row, re.S)
+        if not link:
+            continue
+        cells = [clean(c) for c in re.findall(r"<td[^>]*>(.*?)</td>", row, re.S)]
+        # sloupce: Číslo, Název, Kód, Kategorie, Úroveň, Skupina, Druh, Org. jednotka, Ročník
+        code = cells[2] if len(cells) > 2 else ""
+        comps.append({
+            "req": link.group(1),
+            "name": clean(link.group(2)),
+            "code": code,
+            "category": cells[3] if len(cells) > 3 else "",
+            "season": cells[8] if len(cells) > 8 else "",
+            "org": cells[7] if len(cells) > 7 else "",
+        })
+    if not comps:
+        raise RuntimeError("V IS FAČR se nenašla žádná soutěž klubu – změnila se stránka?")
+    return comps
+
+
+def parse_matches(page: str) -> list[dict]:
+    matches = []
+    # Každé kolo začíná nadpisem "N. kolo", za ním následuje tabulka zápasů.
+    parts = re.split(r'<h2 class="nadpis">', page)[1:]
+    for part in parts:
+        rnd = re.match(r"\s*(\d+)\.\s*kolo", part)
+        for row in re.findall(r'<tr class="type_[^"]*">(.*?)</tr>', part, re.S):
+            cells = [clean(c) for c in re.findall(r"<td[^>]*>(.*?)</td>", row, re.S)]
+            if len(cells) < 5:
+                continue
+            try:
+                dt = datetime.strptime(cells[0], "%d.%m.%Y %H:%M").replace(tzinfo=TZ)
+            except ValueError:
+                continue
+            score = re.match(r"(\d+)\s*:\s*(\d+)", cells[3])
+            report = re.search(r'zapas-delegace-report\.aspx\?zapas=([0-9a-f-]+)', row)
+            matches.append({
+                "round": int(rnd.group(1)) if rnd else None,
+                "date": dt.isoformat(),
+                "home": strip_team_no(cells[1]),
+                "away": strip_team_no(cells[2]),
+                "score": [int(score.group(1)), int(score.group(2))] if score else None,
+                "venue": cells[4] or None,
+                "report": (
+                    "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas="
+                    + report.group(1) + "&zapis=1&hidemenu=1"
+                ) if report and score else None,
+            })
+    return matches
+
+
+def parse_table(page: str) -> list[dict]:
+    """Vezme první (celkovou) tabulku soutěže."""
+    first = re.search(r"<table class='vysledky-tabulky'>(.*?)</table>", page, re.S)
+    if not first:
+        return []
+    rows = []
+    for row in re.findall(r"<tr[^>]*>(.*?)(?=<tr|$)", first.group(1), re.S):
+        cells = [clean(c) for c in re.findall(r"<td[^>]*>(.*?)</td>", row, re.S)]
+        if len(cells) < 8 or not cells[0].isdigit():
+            continue
+        gf, ga = (int(x) for x in re.findall(r"\d+", cells[6])[:2])
+        rows.append({
+            "position": int(cells[0]),
+            "team": cells[1],
+            "played": int(cells[2]),
+            "won": int(cells[3]),
+            "drawn": int(cells[4]),
+            "lost": int(cells[5]),
+            "gf": gf,
+            "ga": ga,
+            "points": int(cells[7]),
+        })
+    return rows
+
+
+def fetch_facr(current: dict) -> dict:
+    client = IsClient()
+    previous = {t["id"]: t for t in current.get("teams", [])}
+    teams = []
+    for comp in find_competitions(client):
+        letter = comp["code"][:1].upper()
+        if letter not in CATEGORIES:
+            continue  # poháry apod.
+        team_id, team_name, category = CATEGORIES[letter]
+        detail = client.get(BASE + f"detail-souteze.aspx?req={comp['req']}&sport=fotbal")
+        try:
+            tables = client.get(BASE + f"tabulky-souteze.aspx?req={comp['req']}&sport=fotbal")
+        except urllib.error.HTTPError as e:
+            if e.code != 403:
+                raise
+            tables = ""  # FAČR tabulky některých soutěží (přípravky) nezveřejňuje
+        ours = [m for m in parse_matches(detail) if CLUB_MATCH in m["home"] or CLUB_MATCH in m["away"]]
+        if letter in NO_SCORE_CATEGORIES:
+            for m in ours:
+                m["played"] = m["score"] is not None
+                m["score"] = None
+        season = comp["season"]
+        prev = previous.get(team_id, {})
+        teams.append({
+            "id": team_id,
+            "name": team_name,
+            "category": category,
+            "competition": comp["name"],
+            "competitionUrl": BASE + f"detail-souteze.aspx?req={comp['req']}&sport=fotbal",
+            "season": f"{season}/{int(season) + 1}" if season.isdigit() else season,
+            "description": prev.get("description", ""),
+            "matches": sorted(ours, key=lambda m: m["date"]),
+            "table": parse_table(tables),
+            "scorers": prev.get("scorers", []) if current.get("source") != "sample" else [],
+        })
+        print(f"  {team_name}: {comp['name']} – {len(ours)} zápasů")
+
+    teams.sort(key=lambda t: next(i for i, v in enumerate(CATEGORIES.values()) if v[0] == t["id"]))
+    return {
+        "source": "facr",
+        "updatedAt": current.get("updatedAt"),
+        "club": current["club"],
+        "teams": teams,
+    }
+
+
+def strip_timestamp(d: dict) -> dict:
+    return {k: v for k, v in d.items() if k != "updatedAt"}
 
 
 def main() -> int:
-    source = os.environ.get("DATA_SOURCE", "manual")
+    source = os.environ.get("DATA_SOURCE", "facr")
     current = json.loads(DATA_FILE.read_text(encoding="utf-8"))
 
     if source == "facr":
-        new = fetch_facr(current)
-        new["source"] = "facr"
-        new["updatedAt"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
+        try:
+            new = fetch_facr(current)
+        except Exception as e:  # síť, změna stránky…  – stará data zůstanou
+            print(f"Stažení z IS FAČR selhalo: {e}", file=sys.stderr)
+            return 1
     else:
         new = current
 
@@ -84,11 +287,12 @@ def main() -> int:
             print("  -", e, file=sys.stderr)
         return 1
 
-    if new is not current:
+    if strip_timestamp(new) != strip_timestamp(current):
+        new["updatedAt"] = datetime.now(TZ).isoformat(timespec="seconds")
         DATA_FILE.write_text(json.dumps(new, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         print(f"Data aktualizována ({source}).")
     else:
-        print(f"Data zkontrolována, beze změny ({source}).")
+        print(f"Beze změny ({source}).")
     return 0
 
 

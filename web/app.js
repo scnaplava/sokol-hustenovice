@@ -19,8 +19,9 @@ const fmtLong = (iso) => {
   return s.charAt(0).toUpperCase() + s.slice(1);
 };
 
-const isUs = (name) => name === data.club.name || name === data.club.shortName;
-const short = (name) => (isUs(name) ? data.club.shortName : name);
+// Naše družstvo poznáme podle názvu obce (i ve společných družstvech, např. "Huštěnovice/Traplice").
+const isUs = (name) => String(name).includes(data.club.shortName);
+const short = (name) => (name === data.club.name ? data.club.shortName : name);
 
 function outcome(m) {
   const [h, a] = m.score;
@@ -47,7 +48,7 @@ function versus(m, middle, midClass = "") {
 function matchRow(m) {
   const right = m.score
     ? `<span class="score ${outcome(m)}">${m.score[0]}:${m.score[1]}</span>`
-    : `<span class="score tbd">–:–</span>`;
+    : m.played ? `<span class="score tbd" title="Odehráno – výsledky přípravek se nevedou">✓</span>` : `<span class="score tbd">–:–</span>`;
   const name = (n) => `<span class="${isUs(n) ? "us" : ""}">${esc(short(n))}</span>`;
   return `<li>
     <span class="date"><b>${fmtShort(m.date)}</b>${fmtTime(m.date)}</span>
@@ -86,9 +87,9 @@ function selectTeam(id, scroll = false) {
 
 function renderTeam(team) {
   const now = Date.now();
-  const played = team.matches.filter((m) => m.score).sort((a, b) => new Date(b.date) - new Date(a.date));
+  const played = team.matches.filter((m) => m.score || m.played).sort((a, b) => new Date(b.date) - new Date(a.date));
   const upcoming = team.matches
-    .filter((m) => !m.score && new Date(m.date) > now - 3 * 36e5)
+    .filter((m) => !m.score && !m.played && new Date(m.date) > now - 3 * 36e5)
     .sort((a, b) => new Date(a.date) - new Date(b.date));
 
   $("#hero-competition").textContent = [team.competition, team.season].filter(Boolean).join(" · ");
@@ -114,8 +115,8 @@ function renderTeam(team) {
   // Poslední zápas
   const last = played[0];
   $("#last-match").innerHTML = last
-    ? `<div class="mcard-head"><span class="badge">Poslední zápas</span><span class="side">${OUTCOME_LABEL[outcome(last)]}</span></div>
-       ${versus(last, `${last.score[0]}:${last.score[1]}`, "bigscore")}
+    ? `<div class="mcard-head"><span class="badge">Poslední zápas</span><span class="side">${last.score ? OUTCOME_LABEL[outcome(last)] : "Odehráno"}</span></div>
+       ${last.score ? versus(last, `${last.score[0]}:${last.score[1]}`, "bigscore") : versus(last, "vs")}
        ${last.scorers?.length ? `<ul class="goals">${last.scorers.map((s) => `<li>${esc(s)}</li>`).join("")}</ul>` : ""}
        <div class="date-line">${esc(fmtLong(last.date))}${last.halftime ? ` · poločas ${last.halftime[0]}:${last.halftime[1]}` : ""}</div>`
     : `<div class="mcard-head"><span class="badge">Poslední zápas</span></div><p class="empty">Zatím žádný odehraný zápas.</p>`;
@@ -124,7 +125,7 @@ function renderTeam(team) {
   const table = team.table || [];
   const idx = table.findIndex((r) => isUs(r.team));
   const row = table[idx];
-  const form = played.slice(0, 5).reverse().map(outcome);
+  const form = played.filter((m) => m.score).slice(0, 5).reverse().map(outcome);
   $("#stats").innerHTML = row
     ? `<div class="stat"><small>Pozice</small><b>${row.position ?? idx + 1}.</b><span>z ${table.length} týmů</span></div>
        <div class="stat"><small>Body</small><b>${row.points}</b><span>${row.played} zápasů</span></div>
@@ -137,7 +138,11 @@ function renderTeam(team) {
   $("#fixtures").innerHTML = upcoming.slice(0, 6).map(matchRow).join("") || `<li class="empty">Rozpis zatím není k dispozici.</li>`;
 
   // Tabulka
-  $("#competition").textContent = [team.name, team.competition].filter(Boolean).join(" · ");
+  $("#competition").innerHTML = [esc(team.name), team.competitionUrl
+    ? `<a href="${esc(team.competitionUrl)}" rel="noopener">${esc(team.competition)}</a>`
+    : esc(team.competition || "")].filter(Boolean).join(" · ");
+  $("#table").hidden = table.length === 0;
+  $("#no-table").hidden = table.length > 0;
   $("#table tbody").innerHTML = table
     .map(
       (r, i) => `<tr class="${isUs(r.team) ? "us" : ""}">

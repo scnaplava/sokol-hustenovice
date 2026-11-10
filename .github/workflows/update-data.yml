@@ -30,8 +30,8 @@ jobs:
           python-version: "3.12"
       - name: Aktualizovat data
         env:
-          # Po napojení na FAČR změnit na "facr" a doplnit přístupové údaje do Secrets.
-          DATA_SOURCE: manual
+          # facr = stahovat z veřejné části IS FAČR, manual = jen kontrola ručně upravených dat
+          DATA_SOURCE: facr
         run: python scripts/update_data.py
       - name: Uložit změny
         id: commit

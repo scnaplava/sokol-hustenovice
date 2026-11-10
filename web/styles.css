@@ -215,3 +215,4 @@ a:hover { text-decoration: underline; }
 .footer { margin-top: 50px; border-top: 1px solid var(--line); background: #071328; }
 .footer-inner { display: flex; flex-wrap: wrap; gap: 16px; justify-content: space-between; align-items: center; padding: 26px 20px; font-size: 14px; }
 .footer .brand small { color: var(--muted); text-transform: none; letter-spacing: 0; font-size: 13px; font-weight: 400; }
+.matches li.empty { display: block; }
