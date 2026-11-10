@@ -10,7 +10,17 @@ která je přístupná bez přihlášení.
 - `web/img/logo.jpg` – znak klubu
 - `web/data/club.json` – všechna data (stahují se automaticky)
 - `scripts/update_data.py` – stahovač dat z IS FAČR
-- `.github/workflows/update-data.yml` – každých 15 minut stáhne data a při změně znovu nasadí web
+- `.github/workflows/update-data.yml` – při každé změně nasadí web na GitHub Pages
+- `server/setup.sh` – instalace aktualizace dat na server v Česku (každých 15 minut)
+
+## Aktualizace dat
+
+IS FAČR neodpovídá serverům GitHubu v zahraničí, proto data stahuje malý server v Česku.
+Server každých 15 minut spustí `scripts/update_data.py` a při změně nahraje
+`web/data/club.json` na GitHub. GitHub pak web sám znovu nasadí.
+
+Instalace na server (Ubuntu/Debian, jako root): `bash setup.sh`, přidat vypsaný klíč
+jako Deploy key s právem zápisu v nastavení repozitáře, pak `bash setup.sh --dokoncit`.
 
 ## Odkud se berou data
 
