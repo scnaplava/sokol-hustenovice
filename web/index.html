@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TJ Sokol Huštěnovice – fotbal</title>
+  <meta name="description" content="Oficiální web fotbalového oddílu TJ Sokol Huštěnovice – zápasy, výsledky, tabulky.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="wrap hero-inner">
+      <div class="crest" aria-hidden="true">TJ</div>
+      <div>
+        <p class="eyebrow">Fotbalový oddíl</p>
+        <h1 id="club-name">TJ Sokol Huštěnovice</h1>
+      </div>
+    </div>
+    <nav class="wrap tabs" id="team-tabs" aria-label="Týmy"></nav>
+  </header>
+
+  <div class="wrap notice" id="sample-notice" hidden>
+    Zobrazují se <strong>ukázková data</strong>. Po napojení na data FAČR se tu objeví skutečné zápasy a tabulky.
+  </div>
+
+  <main class="wrap grid">
+    <section class="card next" id="next-match" aria-labelledby="next-h">
+      <h2 id="next-h">Příští zápas</h2>
+      <div class="body"></div>
+    </section>
+
+    <section class="card" aria-labelledby="results-h">
+      <h2 id="results-h">Poslední výsledky</h2>
+      <ul class="matches" id="results"></ul>
+    </section>
+
+    <section class="card wide" aria-labelledby="table-h">
+      <h2 id="table-h">Tabulka <span class="muted" id="competition"></span></h2>
+      <div class="table-scroll">
+        <table class="standings" id="table">
+          <thead>
+            <tr><th>#</th><th class="l">Tým</th><th>Z</th><th>V</th><th>R</th><th>P</th><th>Skóre</th><th>B</th></tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="card" aria-labelledby="fixtures-h">
+      <h2 id="fixtures-h">Rozpis zápasů</h2>
+      <ul class="matches" id="fixtures"></ul>
+    </section>
+
+    <section class="card" id="scorers-card" aria-labelledby="scorers-h">
+      <h2 id="scorers-h">Střelci</h2>
+      <ol class="scorers" id="scorers"></ol>
+    </section>
+  </main>
+
+  <footer class="wrap footer">
+    <p id="club-contact"></p>
+    <p class="muted">Zdroj dat: <a href="https://www.fotbal.cz" rel="noopener">FAČR / fotbal.cz</a> · Aktualizováno: <span id="updated">–</span></p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

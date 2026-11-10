@@ -1,0 +1,66 @@
+# Každých 15 minut aktualizuje data a při změně znovu nasadí web na GitHub Pages.
+# Nasazuje se také při každé změně v repozitáři (push) a při ručním spuštění.
+name: Aktualizace dat a nasazení webu
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: update-and-deploy
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.commit.outputs.changed }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Aktualizovat data
+        env:
+          # Po napojení na FAČR změnit na "facr" a doplnit přístupové údaje do Secrets.
+          DATA_SOURCE: manual
+        run: python scripts/update_data.py
+      - name: Uložit změny
+        id: commit
+        run: |
+          if git diff --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            git config user.name "data-bot"
+            git config user.email "data-bot@users.noreply.github.com"
+            git commit -am "Aktualizace dat"
+            git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+  deploy:
+    needs: update
+    # Plánovaný běh nasazuje jen tehdy, když se data změnila.
+    if: github.event_name != 'schedule' || needs.update.outputs.changed == 'true'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: web
+      - id: deployment
+        uses: actions/deploy-pages@v4
