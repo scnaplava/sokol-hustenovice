@@ -9,7 +9,20 @@
     "address": "Huštěnovice",
     "email": "",
     "facebook": "",
-    "tagline": "Fotbal v Huštěnovicích od roku 1932. Od nejmenších až po muže, jedno hřiště, jedny barvy."
+    "tagline": "Fotbal v Huštěnovicích od roku 1932. Od nejmenších až po muže, jedno hřiště, jedny barvy.",
+    "recruit": {
+      "title": "Přiveď dítě na fotbal",
+      "text": "Hledáme nové kluky i holky do přípravek a žáků. Nemusí umět nic, stačí chuť běhat za míčem. Přijďte se podívat na trénink, první krok je úplně nezávazný.",
+      "points": [
+        "Přípravka už od 5 let",
+        "Stačí sportovní oblečení a obuv",
+        "Hrajeme na hřišti v Huštěnovicích"
+      ],
+      "trainings": "",
+      "contactName": "",
+      "phone": "",
+      "email": ""
+    }
   },
   "teams": [
     {

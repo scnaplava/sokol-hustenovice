@@ -32,9 +32,21 @@ function outcome(m) {
 const OUTCOME_LABEL = { w: "Výhra", d: "Remíza", l: "Prohra" };
 const FORM_LETTER = { w: "V", d: "R", l: "P" };
 
-function crest(name) {
-  if (isUs(name)) return `<img src="${LOGO}" alt="" class="logo-sm">`;
-  return `<span class="crest-ph">${esc(name.trim().charAt(0).toUpperCase())}</span>`;
+// Znaky soupeřů: nejdřív skutečné klubové logo (overrides), jinak znak obce podle začátku názvu.
+let crests = { overrides: {}, municipal: {} };
+function crestSrc(name) {
+  if (isUs(name)) return LOGO;
+  if (crests.overrides[name]) return crests.overrides[name];
+  const key = Object.keys(crests.municipal)
+    .filter((k) => name.startsWith(k))
+    .sort((a, b) => b.length - a.length)[0];
+  return key ? crests.municipal[key] : null;
+}
+
+function crest(name, cls = "crest") {
+  const src = crestSrc(name);
+  if (src) return `<img src="${esc(src)}" alt="" class="${cls}${isUs(name) ? " ours" : ""}" loading="lazy">`;
+  return `<span class="crest-ph ${cls}">${esc(name.trim().charAt(0).toUpperCase())}</span>`;
 }
 
 function versus(m, middle, midClass = "") {
@@ -146,7 +158,7 @@ function renderTeam(team) {
   $("#table tbody").innerHTML = table
     .map(
       (r, i) => `<tr class="${isUs(r.team) ? "us" : ""}">
-        <td>${r.position ?? i + 1}</td><td class="l">${esc(r.team)}</td>
+        <td>${r.position ?? i + 1}</td><td class="l"><span class="tteam">${crest(r.team, "crest-xs")}${esc(r.team)}</span></td>
         <td>${r.played}</td><td class="wdl">${r.won}</td><td class="wdl">${r.drawn}</td><td class="wdl">${r.lost}</td>
         <td>${r.gf}:${r.ga}</td><td>${r.points}</td>
       </tr>`
@@ -175,6 +187,28 @@ function renderTeamsGrid() {
   grid.querySelectorAll(".team-card").forEach((c) => c.addEventListener("click", () => selectTeam(c.dataset.id, true)));
 }
 
+function renderRecruit(r) {
+  $("#nabor").hidden = !r;
+  if (!r) return;
+  $("#recruit-title").textContent = r.title || "Přiveď dítě na fotbal";
+  $("#recruit-text").textContent = r.text || "";
+  $("#recruit-points").innerHTML = (r.points || []).map((p) => `<li>${esc(p)}</li>`).join("");
+  const lines = [
+    r.trainings && `<p><small>Tréninky</small>${esc(r.trainings)}</p>`,
+    r.contactName && `<p><small>Kontakt</small>${esc(r.contactName)}</p>`,
+    r.phone && `<p><small>Telefon</small><a href="tel:${esc(r.phone.replace(/\s/g, ""))}">${esc(r.phone)}</a></p>`,
+    r.email && `<p><small>E-mail</small><a href="mailto:${esc(r.email)}">${esc(r.email)}</a></p>`,
+  ].filter(Boolean);
+  const cta = r.phone
+    ? `<a class="btn btn-primary" href="tel:${esc(r.phone.replace(/\s/g, ""))}">Zavolat trenérovi</a>`
+    : r.email
+      ? `<a class="btn btn-primary" href="mailto:${esc(r.email)}?subject=${encodeURIComponent("Nábor – fotbal Huštěnovice")}">Napsat trenérovi</a>`
+      : "";
+  $("#recruit-contact").innerHTML = `<h3>Ozvěte se nám</h3>${
+    lines.join("") || `<p class="muted">Kontakt na trenéra a časy tréninků brzy doplníme.</p>`
+  }${cta}`;
+}
+
 function render() {
   if (!data.teams.some((t) => t.id === currentTeamId)) currentTeamId = data.teams[0]?.id;
   const c = data.club;
@@ -188,10 +222,25 @@ function render() {
     c.facebook && `<a href="${esc(c.facebook)}" rel="noopener">Facebook</a>`,
   ].filter(Boolean).join(" · ");
 
+  renderRecruit(c.recruit);
   renderTabs();
   renderTeamsGrid();
   const team = data.teams.find((t) => t.id === currentTeamId);
   if (team) renderTeam(team);
+}
+
+async function loadCrests() {
+  try {
+    const res = await fetch("data/crests.json", { cache: "no-cache" });
+    if (res.ok) crests = { overrides: {}, municipal: {}, ...(await res.json()) };
+    const free = Object.values(crests.sources || {}).filter((x) => !/public domain/i.test(x.licence));
+    $("#crest-credits").innerHTML = Object.keys(crests.municipal).length
+      ? `U soupeřů jsou znaky obcí z <a href="https://commons.wikimedia.org" rel="noopener">Wikimedia Commons</a>` +
+        free.map((x) => ` · znak ${esc(x.obec.split(" (")[0])}: <a href="${esc(x.soubor)}" rel="noopener">${esc(x.licence)}</a>`).join("")
+      : "";
+  } catch {
+    /* bez znaků se zobrazí písmena */
+  }
 }
 
 async function load() {
@@ -209,5 +258,5 @@ async function load() {
   }
 }
 
-load();
+loadCrests().then(load);
 setInterval(load, REFRESH_MS);

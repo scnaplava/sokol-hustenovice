@@ -1,0 +1,178 @@
+{
+  "_info": "Znaky obcí soupeřů z Wikimedia Commons. Skutečná klubová loga patří do 'overrides'.",
+  "overrides": {},
+  "municipal": {
+    "Babice": "img/obce/babice.png",
+    "Bánov": "img/obce/banov.png",
+    "Bílovice": "img/obce/bilovice.jpg",
+    "Boršice": "img/obce/borsice.jpg",
+    "Buchlovice": "img/obce/buchlovice.png",
+    "Chropyně": "img/obce/chropyne.png",
+    "FC Slovácko": "img/obce/uherske-hradiste.png",
+    "Jalubí": "img/obce/jalubi.jpg",
+    "Javořina": "img/obce/slavkov.jpg",
+    "Kněžpole": "img/obce/knezpole.jpg",
+    "Koryčany": "img/obce/korycany.jpg",
+    "Kostelany": "img/obce/kostelany-nad-moravou.jpg",
+    "Kudlovice": "img/obce/kudlovice.jpg",
+    "Kunovice": "img/obce/kunovice.png",
+    "Mařatice": "img/obce/uherske-hradiste.png",
+    "Morkovice": "img/obce/morkovice-slizany.png",
+    "O. N. Ves": "img/obce/ostrozska-nova-ves.jpg",
+    "Ostr. N. Ves": "img/obce/ostrozska-nova-ves.jpg",
+    "OREL UB": "img/obce/uhersky-brod.png",
+    "Polešovice": "img/obce/polesovice.png",
+    "Prakšice": "img/obce/praksice.png",
+    "St. Město": "img/obce/stare-mesto.png",
+    "Strání": "img/obce/strani.jpg",
+    "Stříbrnice": "img/obce/stribrnice.jpg",
+    "Traplice": "img/obce/traplice.jpg",
+    "Uh. Ostroh": "img/obce/uhersky-ostroh.png",
+    "Velehrad": "img/obce/velehrad.jpg",
+    "Vlčnov": "img/obce/vlcnov.png",
+    "Zlechov": "img/obce/zlechov.png",
+    "Šumice": "img/obce/sumice.png"
+  },
+  "sources": {
+    "img/obce/babice.png": {
+      "obec": "Babice (okres Uherské Hradiště)",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Babice,_znak.png",
+      "licence": "Public domain"
+    },
+    "img/obce/banov.png": {
+      "obec": "Bánov",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_B%C3%A1nov.svg",
+      "licence": "Public domain"
+    },
+    "img/obce/bilovice.jpg": {
+      "obec": "Bílovice (okres Uherské Hradiště)",
+      "soubor": "https://commons.wikimedia.org/wiki/File:B%C3%ADlovick%C3%BD_znak.jpg",
+      "licence": "Public domain"
+    },
+    "img/obce/borsice.jpg": {
+      "obec": "Boršice",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Bor%C5%A1ice,_znak.jpg",
+      "licence": "Public domain"
+    },
+    "img/obce/buchlovice.png": {
+      "obec": "Buchlovice",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Znak_m%C4%9Bstyse_Buchlovice.svg",
+      "licence": "Public domain"
+    },
+    "img/obce/chropyne.png": {
+      "obec": "Chropyně",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Chropyn%C4%9B_znak.png",
+      "licence": "Public domain"
+    },
+    "img/obce/uherske-hradiste.png": {
+      "obec": "Uherské Hradiště",
+      "soubor": "https://commons.wikimedia.org/wiki/File:UH_znak.png",
+      "licence": "CC BY-SA 4.0"
+    },
+    "img/obce/jalubi.jpg": {
+      "obec": "Jalubí",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Jalub%C3%AD,_znak.jpg",
+      "licence": "Public domain"
+    },
+    "img/obce/slavkov.jpg": {
+      "obec": "Slavkov (okres Uherské Hradiště)",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Slavkov_UH.jpg",
+      "licence": "Public domain"
+    },
+    "img/obce/knezpole.jpg": {
+      "obec": "Kněžpole (okres Uherské Hradiště)",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Znak_Kn%C4%9B%C5%BEpole.jpg",
+      "licence": "Public domain"
+    },
+    "img/obce/korycany.jpg": {
+      "obec": "Koryčany",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Znak_obce_Kory%C4%8Dany.jpg",
+      "licence": "Public domain"
+    },
+    "img/obce/kostelany-nad-moravou.jpg": {
+      "obec": "Kostelany nad Moravou",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Kostelany_nad_Moravou,_znak.jpg",
+      "licence": "Public domain"
+    },
+    "img/obce/kudlovice.jpg": {
+      "obec": "Kudlovice",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Kudlovice_znak.jpg",
+      "licence": "Public domain"
+    },
+    "img/obce/kunovice.png": {
+      "obec": "Kunovice (okres Uherské Hradiště)",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Coa_Czech_Town_Kunovice.svg",
+      "licence": "Public domain"
+    },
+    "img/obce/morkovice-slizany.png": {
+      "obec": "Morkovice-Slížany",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Morkovice-Slizany_CZ_znak.svg",
+      "licence": "Public domain"
+    },
+    "img/obce/ostrozska-nova-ves.jpg": {
+      "obec": "Ostrožská Nová Ves",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Ostro%C5%BEsk%C3%A1_Nov%C3%A1_Ves,_znak.jpg",
+      "licence": "Public domain"
+    },
+    "img/obce/uhersky-brod.png": {
+      "obec": "Uherský Brod",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Znak_m%C4%9Bsta_Uhersk%C3%BD_Brod.svg",
+      "licence": "Public domain"
+    },
+    "img/obce/polesovice.png": {
+      "obec": "Polešovice",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Pole%C5%A1ovice,_znak.gif",
+      "licence": "Public domain"
+    },
+    "img/obce/praksice.png": {
+      "obec": "Prakšice",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Emblem_Praksice_(CZ).png",
+      "licence": "Public domain"
+    },
+    "img/obce/stare-mesto.png": {
+      "obec": "Staré Město (okres Uherské Hradiště)",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Star%C3%A9_M%C4%9Bsto_(Uhersk%C3%A9_Hradi%C5%A1t%C4%9B_District)_CoA_2021.png",
+      "licence": "Public domain"
+    },
+    "img/obce/strani.jpg": {
+      "obec": "Strání",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Strani_CoA_CZ.jpg",
+      "licence": "Public domain"
+    },
+    "img/obce/stribrnice.jpg": {
+      "obec": "Stříbrnice (okres Uherské Hradiště)",
+      "soubor": "https://commons.wikimedia.org/wiki/File:St%C5%99%C3%ADbrnice_(UH),_znak.jpg",
+      "licence": "Public domain"
+    },
+    "img/obce/traplice.jpg": {
+      "obec": "Traplice",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Traplice,_znak.jpg",
+      "licence": "Public domain"
+    },
+    "img/obce/uhersky-ostroh.png": {
+      "obec": "Uherský Ostroh",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Uhersk%C3%BD_Ostroh,_znak.gif",
+      "licence": "Public domain"
+    },
+    "img/obce/velehrad.jpg": {
+      "obec": "Velehrad",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Velehrad_CZ_CoA.jpg",
+      "licence": "Public domain"
+    },
+    "img/obce/vlcnov.png": {
+      "obec": "Vlčnov",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Znak_Vl%C4%8Dnova.png",
+      "licence": "Public domain"
+    },
+    "img/obce/zlechov.png": {
+      "obec": "Zlechov",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Znak_zlechov.png",
+      "licence": "Public domain"
+    },
+    "img/obce/sumice.png": {
+      "obec": "Šumice (okres Uherské Hradiště)",
+      "soubor": "https://commons.wikimedia.org/wiki/File:%C5%A0umiceUH_znak.gif",
+      "licence": "Public domain"
+    }
+  }
+}
