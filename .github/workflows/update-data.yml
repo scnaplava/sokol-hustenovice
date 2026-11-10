@@ -29,6 +29,8 @@ jobs:
         with:
           python-version: "3.12"
       - name: Aktualizovat data
+        # Když IS FAČR neodpoví, web se nasadí se staršími daty.
+        continue-on-error: true
         env:
           # facr = stahovat z veřejné části IS FAČR, manual = jen kontrola ručně upravených dat
           DATA_SOURCE: facr
@@ -49,7 +51,7 @@ jobs:
   deploy:
     needs: update
     # Plánovaný běh nasazuje jen tehdy, když se data změnila.
-    if: github.event_name != 'schedule' || needs.update.outputs.changed == 'true'
+    if: always() && (github.event_name != 'schedule' || needs.update.outputs.changed == 'true')
     runs-on: ubuntu-latest
     environment:
       name: github-pages
