@@ -1,0 +1,1644 @@
+{
+  "source": "facr",
+  "updatedAt": "2026-11-10T21:01:44+01:00",
+  "club": {
+    "name": "1. FC Polešovice",
+    "official": "1. FC POLEŠOVICE, z.s.",
+    "shortName": "Polešovice",
+    "brand": "1. FC Polešovice",
+    "hero": [
+      "1. FC",
+      "Polešovice"
+    ],
+    "founded": null,
+    "logo": "",
+    "logoShape": "shield",
+    "colors": {},
+    "stadium": "",
+    "email": "",
+    "facebook": "",
+    "tagline": "Zápasy, výsledky a tabulky všech našich týmů na jednom místě.",
+    "facr": {
+      "number": "7220441",
+      "isId": "2196",
+      "match": [
+        "Polešovice"
+      ]
+    }
+  },
+  "teams": [
+    {
+      "id": "muzi",
+      "name": "Muži A",
+      "category": "Dospělí",
+      "competition": "7. liga, sk. C",
+      "competitionUrl": "https://is.fotbal.cz/public/souteze/detail-souteze.aspx?req=d1e0f817-6286-4337-9d2c-b3f0a103a16d&sport=fotbal",
+      "season": "2026/2027",
+      "description": "",
+      "matches": [
+        {
+          "round": 2,
+          "date": "2026-08-09T17:00:00+02:00",
+          "home": "Šumice",
+          "away": "Polešovice",
+          "score": [
+            3,
+            0
+          ],
+          "venue": "Šumice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=abc7d399-3b78-4c69-82dd-7d8b8815e012&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 3,
+          "date": "2026-08-16T16:30:00+02:00",
+          "home": "Polešovice",
+          "away": "Huštěnovice",
+          "score": [
+            1,
+            0
+          ],
+          "venue": "Ořechov",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=4b3217e2-0aed-4d36-ae95-c1c4265c519f&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 4,
+          "date": "2026-08-22T16:30:00+02:00",
+          "home": "Chropyně",
+          "away": "Polešovice",
+          "score": [
+            2,
+            0
+          ],
+          "venue": "Chropyně,tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=865e25c9-6069-4a41-885e-7ef347c1ae20&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 6,
+          "date": "2026-09-06T16:00:00+02:00",
+          "home": "Strání B",
+          "away": "Polešovice",
+          "score": [
+            1,
+            2
+          ],
+          "venue": "Strání-tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=5e8adc99-d4f0-46e8-b11f-f3ba7ad28cde&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 7,
+          "date": "2026-09-13T16:00:00+02:00",
+          "home": "Polešovice",
+          "away": "FC Slovácko C",
+          "score": [
+            2,
+            2
+          ],
+          "venue": "Polešovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=4003f7f0-8adb-464c-bce6-29c2bc61c592&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 8,
+          "date": "2026-09-20T15:30:00+02:00",
+          "home": "Prakšice",
+          "away": "Polešovice",
+          "score": [
+            3,
+            1
+          ],
+          "venue": "Prakšice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=a92a2f4c-193c-49b0-8283-9d0898bd18a2&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 9,
+          "date": "2026-09-27T15:30:00+02:00",
+          "home": "Polešovice",
+          "away": "Koryčany",
+          "score": [
+            0,
+            5
+          ],
+          "venue": "Polešovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=e7934da8-a1c8-4d33-b786-3c07746ac2e8&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 10,
+          "date": "2026-10-03T15:00:00+02:00",
+          "home": "Javořina",
+          "away": "Polešovice",
+          "score": [
+            2,
+            1
+          ],
+          "venue": "Slavkov",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=73a3f299-8199-4117-8760-fe6fc03910d0&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 11,
+          "date": "2026-10-10T10:00:00+02:00",
+          "home": "Polešovice",
+          "away": "Vlčnov",
+          "score": [
+            3,
+            1
+          ],
+          "venue": "Polešovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=2a3bab9e-6e5d-46fd-8aba-b7ad2058bbd1&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 12,
+          "date": "2026-10-18T14:30:00+02:00",
+          "home": "Hluk B",
+          "away": "Polešovice",
+          "score": [
+            2,
+            6
+          ],
+          "venue": "Hluk-tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=a6c99d18-5a21-47f9-9be3-2b5988f26015&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 13,
+          "date": "2026-10-25T14:30:00+01:00",
+          "home": "Polešovice",
+          "away": "O. N. Ves",
+          "score": [
+            1,
+            1
+          ],
+          "venue": "Polešovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=12ed37a7-4708-40f9-8bf5-393d33f2bb2c&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 5,
+          "date": "2026-10-28T14:30:00+01:00",
+          "home": "Polešovice",
+          "away": "Uh. Ostroh",
+          "score": [
+            5,
+            0
+          ],
+          "venue": "Polešovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=57f55f5b-2bd2-4ffe-806a-713332c50a53&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 1,
+          "date": "2026-11-01T14:00:00+01:00",
+          "home": "Morkovice B",
+          "away": "Polešovice",
+          "score": [
+            2,
+            4
+          ],
+          "venue": "Morkovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=368dcc98-24a0-416a-84f3-a37a3a1523ef&zapis=1&hidemenu=1"
+        }
+      ],
+      "table": [
+        {
+          "position": 1,
+          "team": "Koryčany",
+          "played": 13,
+          "won": 12,
+          "drawn": 0,
+          "lost": 1,
+          "gf": 44,
+          "ga": 18,
+          "points": 36
+        },
+        {
+          "position": 2,
+          "team": "Strání B",
+          "played": 13,
+          "won": 8,
+          "drawn": 2,
+          "lost": 3,
+          "gf": 35,
+          "ga": 12,
+          "points": 26
+        },
+        {
+          "position": 3,
+          "team": "Uh. Ostroh",
+          "played": 13,
+          "won": 8,
+          "drawn": 1,
+          "lost": 4,
+          "gf": 31,
+          "ga": 20,
+          "points": 25
+        },
+        {
+          "position": 4,
+          "team": "Prakšice",
+          "played": 13,
+          "won": 7,
+          "drawn": 2,
+          "lost": 4,
+          "gf": 24,
+          "ga": 22,
+          "points": 23
+        },
+        {
+          "position": 5,
+          "team": "FC Slovácko C",
+          "played": 13,
+          "won": 6,
+          "drawn": 3,
+          "lost": 4,
+          "gf": 28,
+          "ga": 25,
+          "points": 21
+        },
+        {
+          "position": 6,
+          "team": "Vlčnov",
+          "played": 13,
+          "won": 6,
+          "drawn": 2,
+          "lost": 5,
+          "gf": 30,
+          "ga": 22,
+          "points": 20
+        },
+        {
+          "position": 7,
+          "team": "Polešovice",
+          "played": 13,
+          "won": 6,
+          "drawn": 2,
+          "lost": 5,
+          "gf": 26,
+          "ga": 24,
+          "points": 20
+        },
+        {
+          "position": 8,
+          "team": "Javořina",
+          "played": 13,
+          "won": 5,
+          "drawn": 4,
+          "lost": 4,
+          "gf": 23,
+          "ga": 21,
+          "points": 19
+        },
+        {
+          "position": 9,
+          "team": "Huštěnovice",
+          "played": 13,
+          "won": 5,
+          "drawn": 2,
+          "lost": 6,
+          "gf": 25,
+          "ga": 27,
+          "points": 17
+        },
+        {
+          "position": 10,
+          "team": "Chropyně",
+          "played": 13,
+          "won": 5,
+          "drawn": 0,
+          "lost": 8,
+          "gf": 30,
+          "ga": 36,
+          "points": 15
+        },
+        {
+          "position": 11,
+          "team": "O. N. Ves",
+          "played": 13,
+          "won": 3,
+          "drawn": 2,
+          "lost": 8,
+          "gf": 18,
+          "ga": 28,
+          "points": 11
+        },
+        {
+          "position": 12,
+          "team": "Hluk B",
+          "played": 13,
+          "won": 2,
+          "drawn": 4,
+          "lost": 7,
+          "gf": 23,
+          "ga": 35,
+          "points": 10
+        },
+        {
+          "position": 13,
+          "team": "Morkovice B",
+          "played": 13,
+          "won": 2,
+          "drawn": 3,
+          "lost": 8,
+          "gf": 28,
+          "ga": 50,
+          "points": 9
+        },
+        {
+          "position": 14,
+          "team": "Šumice",
+          "played": 13,
+          "won": 2,
+          "drawn": 1,
+          "lost": 10,
+          "gf": 21,
+          "ga": 46,
+          "points": 7
+        }
+      ],
+      "scorers": []
+    },
+    {
+      "id": "muzi-b",
+      "name": "Muži B",
+      "category": "Dospělí",
+      "competition": "9.liga sk. A",
+      "competitionUrl": "https://is.fotbal.cz/public/souteze/detail-souteze.aspx?req=9d2efe5e-461c-4040-970b-c225142b3210&sport=fotbal",
+      "season": "2026/2027",
+      "description": "",
+      "matches": [
+        {
+          "round": 1,
+          "date": "2026-08-16T16:30:00+02:00",
+          "home": "Nedakonice",
+          "away": "Polešovice B",
+          "score": [
+            1,
+            1
+          ],
+          "venue": "Nedakonice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=61a02414-0817-443c-a448-2524860d52c1&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 2,
+          "date": "2026-08-21T17:00:00+02:00",
+          "home": "Polešovice B",
+          "away": "Tupesy",
+          "score": [
+            2,
+            0
+          ],
+          "venue": "Mor. Písek",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=ef4bfd0d-adaa-4594-8156-5babadd284f7&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 3,
+          "date": "2026-08-28T17:00:00+02:00",
+          "home": "Sušice",
+          "away": "Polešovice B",
+          "score": [
+            1,
+            1
+          ],
+          "venue": "Sušice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=b788a773-c201-436c-8c58-7438953319fc&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 4,
+          "date": "2026-09-06T16:00:00+02:00",
+          "home": "Polešovice B",
+          "away": "Jankovice",
+          "score": [
+            5,
+            2
+          ],
+          "venue": "Mor. Písek",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=d2f4ee38-c94a-4c55-bd60-274c832fae6e&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 5,
+          "date": "2026-09-12T10:00:00+02:00",
+          "home": "Zlechov B",
+          "away": "Polešovice B",
+          "score": [
+            2,
+            1
+          ],
+          "venue": "Zlechov",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=927f6899-b494-420a-a9ac-51f5236dd31b&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 8,
+          "date": "2026-10-04T15:00:00+02:00",
+          "home": "Polešovice B",
+          "away": "Velehrad",
+          "score": [
+            6,
+            0
+          ],
+          "venue": "Polešovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=9c83d043-b6d9-4498-ba6e-e9e84b05f040&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 10,
+          "date": "2026-10-18T14:30:00+02:00",
+          "home": "Traplice",
+          "away": "Polešovice B",
+          "score": [
+            6,
+            2
+          ],
+          "venue": "Traplice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=2f6ea70d-123c-46b3-aa55-807eaae4a612&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 6,
+          "date": "2026-10-28T14:30:00+01:00",
+          "home": "Polešovice B",
+          "away": "Stříbrnice/Ořechov B",
+          "score": [
+            2,
+            3
+          ],
+          "venue": "Ořechov",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=68f681f1-0539-4ae1-96a5-ef069f16f759&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 9,
+          "date": "2026-10-31T14:30:00+01:00",
+          "home": "Vážany/Boršice B",
+          "away": "Polešovice B",
+          "score": [
+            1,
+            1
+          ],
+          "venue": "Vážany",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=18f47e40-ba09-45b9-8b61-7afa72d7748f&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 11,
+          "date": "2027-03-27T15:00:00+01:00",
+          "home": "Polešovice B",
+          "away": "Kostelany nM",
+          "score": null,
+          "venue": "Polešovice",
+          "report": null
+        },
+        {
+          "round": 14,
+          "date": "2027-04-03T15:30:00+02:00",
+          "home": "Polešovice B",
+          "away": "Sušice",
+          "score": null,
+          "venue": "Polešovice",
+          "report": null
+        },
+        {
+          "round": 15,
+          "date": "2027-04-10T15:30:00+02:00",
+          "home": "Jankovice",
+          "away": "Polešovice B",
+          "score": null,
+          "venue": "Jankovice",
+          "report": null
+        },
+        {
+          "round": 16,
+          "date": "2027-04-17T16:00:00+02:00",
+          "home": "Polešovice B",
+          "away": "Zlechov B",
+          "score": null,
+          "venue": "Polešovice",
+          "report": null
+        },
+        {
+          "round": 17,
+          "date": "2027-04-25T16:00:00+02:00",
+          "home": "Stříbrnice/Ořechov B",
+          "away": "Polešovice B",
+          "score": null,
+          "venue": "Stříbrnice",
+          "report": null
+        },
+        {
+          "round": 19,
+          "date": "2027-05-09T16:30:00+02:00",
+          "home": "Velehrad",
+          "away": "Polešovice B",
+          "score": null,
+          "venue": "Velehrad",
+          "report": null
+        },
+        {
+          "round": 20,
+          "date": "2027-05-15T17:00:00+02:00",
+          "home": "Polešovice B",
+          "away": "Vážany/Boršice B",
+          "score": null,
+          "venue": "Polešovice",
+          "report": null
+        },
+        {
+          "round": 21,
+          "date": "2027-05-22T17:00:00+02:00",
+          "home": "Polešovice B",
+          "away": "Traplice",
+          "score": null,
+          "venue": "Polešovice",
+          "report": null
+        },
+        {
+          "round": 22,
+          "date": "2027-05-30T17:00:00+02:00",
+          "home": "Kostelany nM",
+          "away": "Polešovice B",
+          "score": null,
+          "venue": "Kostelany nM",
+          "report": null
+        },
+        {
+          "round": 12,
+          "date": "2027-06-05T17:00:00+02:00",
+          "home": "Polešovice B",
+          "away": "Nedakonice",
+          "score": null,
+          "venue": "Polešovice",
+          "report": null
+        },
+        {
+          "round": 13,
+          "date": "2027-06-13T17:00:00+02:00",
+          "home": "Tupesy",
+          "away": "Polešovice B",
+          "score": null,
+          "venue": "Tupesy",
+          "report": null
+        }
+      ],
+      "table": [
+        {
+          "position": 1,
+          "team": "Traplice",
+          "played": 10,
+          "won": 9,
+          "drawn": 1,
+          "lost": 0,
+          "gf": 46,
+          "ga": 17,
+          "points": 28
+        },
+        {
+          "position": 2,
+          "team": "Nedakonice",
+          "played": 10,
+          "won": 7,
+          "drawn": 2,
+          "lost": 1,
+          "gf": 33,
+          "ga": 19,
+          "points": 23
+        },
+        {
+          "position": 3,
+          "team": "Zlechov B",
+          "played": 9,
+          "won": 6,
+          "drawn": 1,
+          "lost": 2,
+          "gf": 22,
+          "ga": 9,
+          "points": 19
+        },
+        {
+          "position": 4,
+          "team": "Tupesy",
+          "played": 10,
+          "won": 5,
+          "drawn": 1,
+          "lost": 4,
+          "gf": 20,
+          "ga": 15,
+          "points": 16
+        },
+        {
+          "position": 5,
+          "team": "Vážany/Boršice B",
+          "played": 10,
+          "won": 4,
+          "drawn": 3,
+          "lost": 3,
+          "gf": 19,
+          "ga": 17,
+          "points": 15
+        },
+        {
+          "position": 6,
+          "team": "Polešovice B",
+          "played": 9,
+          "won": 3,
+          "drawn": 3,
+          "lost": 3,
+          "gf": 21,
+          "ga": 16,
+          "points": 12
+        },
+        {
+          "position": 7,
+          "team": "Stříbrnice/Ořechov B",
+          "played": 10,
+          "won": 4,
+          "drawn": 0,
+          "lost": 6,
+          "gf": 20,
+          "ga": 31,
+          "points": 12
+        },
+        {
+          "position": 8,
+          "team": "Jankovice",
+          "played": 10,
+          "won": 3,
+          "drawn": 0,
+          "lost": 7,
+          "gf": 24,
+          "ga": 34,
+          "points": 9
+        },
+        {
+          "position": 9,
+          "team": "Kostelany nM",
+          "played": 8,
+          "won": 3,
+          "drawn": 0,
+          "lost": 5,
+          "gf": 19,
+          "ga": 30,
+          "points": 9
+        },
+        {
+          "position": 10,
+          "team": "Velehrad",
+          "played": 10,
+          "won": 1,
+          "drawn": 2,
+          "lost": 7,
+          "gf": 12,
+          "ga": 29,
+          "points": 5
+        },
+        {
+          "position": 11,
+          "team": "Sušice",
+          "played": 10,
+          "won": 1,
+          "drawn": 1,
+          "lost": 8,
+          "gf": 10,
+          "ga": 29,
+          "points": 4
+        }
+      ],
+      "scorers": []
+    },
+    {
+      "id": "dorost",
+      "name": "Starší dorost",
+      "category": "U19",
+      "competition": "OP dorostu sk. A",
+      "competitionUrl": "https://is.fotbal.cz/public/souteze/detail-souteze.aspx?req=3b0e291e-af04-48f1-a9e3-aaedca4797a9&sport=fotbal",
+      "season": "2026/2027",
+      "description": "",
+      "matches": [
+        {
+          "round": 1,
+          "date": "2026-08-18T16:30:00+02:00",
+          "home": "Polešovice",
+          "away": "Huštěnovice/Traplice",
+          "score": [
+            5,
+            0
+          ],
+          "venue": "Mor. Písek",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=3aec3edb-a704-4ac3-a281-bec37b8b8768&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 2,
+          "date": "2026-08-22T14:00:00+02:00",
+          "home": "Zlechov/Osvětimany",
+          "away": "Polešovice",
+          "score": [
+            7,
+            0
+          ],
+          "venue": "Zlechov",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=56e6f313-e520-4dc2-8051-bd8d1ca61d8c&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 4,
+          "date": "2026-09-06T13:00:00+02:00",
+          "home": "Kostelany/Babice",
+          "away": "Polešovice",
+          "score": [
+            2,
+            0
+          ],
+          "venue": "Kostelany nM",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=3aa9f311-3f39-4f7c-bbad-72fc679380ba&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 5,
+          "date": "2026-09-13T12:30:00+02:00",
+          "home": "Polešovice",
+          "away": "Boršice B/Nedakonice",
+          "score": [
+            4,
+            0
+          ],
+          "venue": "Mor. Písek",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=a9a51af0-f5b9-496a-b598-09a8aa1993c6&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 7,
+          "date": "2026-09-27T12:00:00+02:00",
+          "home": "Polešovice",
+          "away": "Jalubí/Velehrad",
+          "score": [
+            4,
+            1
+          ],
+          "venue": "Moravský Písek",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=a18d2d81-8a10-4d0e-ae96-57c0513d2145&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 8,
+          "date": "2026-10-03T15:00:00+02:00",
+          "home": "Huštěnovice/Traplice",
+          "away": "Polešovice",
+          "score": [
+            1,
+            1
+          ],
+          "venue": "Huštěnovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=ed05e065-9701-4fc4-9620-a528a6f168e3&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 10,
+          "date": "2026-10-17T14:30:00+02:00",
+          "home": "Uh. Ostroh",
+          "away": "Polešovice",
+          "score": [
+            2,
+            4
+          ],
+          "venue": "Uh. Ostroh",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=8ad1c98d-c048-4a66-a9ba-f82137f39f6e&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 6,
+          "date": "2026-10-25T12:00:00+01:00",
+          "home": "Buchlovice/Tupesy",
+          "away": "Polešovice",
+          "score": [
+            1,
+            2
+          ],
+          "venue": "Mor. Písek",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=beee7139-5f48-41bb-9519-3e3c4641f714&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 9,
+          "date": "2026-11-07T10:00:00+01:00",
+          "home": "Polešovice",
+          "away": "Zlechov/Osvětimany",
+          "score": [
+            0,
+            2
+          ],
+          "venue": "Polešovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=96b8e9f5-38ca-41d6-9cbd-30ce5f136eea&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 3,
+          "date": "2026-11-14T11:00:00+01:00",
+          "home": "Polešovice",
+          "away": "Uh. Ostroh",
+          "score": null,
+          "venue": "Polešovice",
+          "report": null
+        },
+        {
+          "round": 11,
+          "date": "2027-03-21T11:30:00+01:00",
+          "home": "Polešovice",
+          "away": "Kostelany/Babice",
+          "score": null,
+          "venue": "Polešovice",
+          "report": null
+        },
+        {
+          "round": 12,
+          "date": "2027-03-28T12:00:00+02:00",
+          "home": "Boršice B/Nedakonice",
+          "away": "Polešovice",
+          "score": null,
+          "venue": "Nedakonice",
+          "report": null
+        },
+        {
+          "round": 13,
+          "date": "2027-04-04T12:00:00+02:00",
+          "home": "Polešovice",
+          "away": "Buchlovice/Tupesy",
+          "score": null,
+          "venue": "Polešovice",
+          "report": null
+        },
+        {
+          "round": 14,
+          "date": "2027-04-10T15:30:00+02:00",
+          "home": "Jalubí/Velehrad",
+          "away": "Polešovice",
+          "score": null,
+          "venue": "Jalubí",
+          "report": null
+        },
+        {
+          "round": 15,
+          "date": "2027-04-17T12:30:00+02:00",
+          "home": "Polešovice",
+          "away": "Huštěnovice/Traplice",
+          "score": null,
+          "venue": "Polešovice",
+          "report": null
+        },
+        {
+          "round": 16,
+          "date": "2027-04-24T13:30:00+02:00",
+          "home": "Zlechov/Osvětimany",
+          "away": "Polešovice",
+          "score": null,
+          "venue": "Zlechov",
+          "report": null
+        },
+        {
+          "round": 17,
+          "date": "2027-05-02T12:00:00+02:00",
+          "home": "Polešovice",
+          "away": "Uh. Ostroh",
+          "score": null,
+          "venue": "Polešovice",
+          "report": null
+        },
+        {
+          "round": 18,
+          "date": "2027-05-09T13:30:00+02:00",
+          "home": "Kostelany/Babice",
+          "away": "Polešovice",
+          "score": null,
+          "venue": "Kostelany nM",
+          "report": null
+        },
+        {
+          "round": 19,
+          "date": "2027-05-16T13:30:00+02:00",
+          "home": "Polešovice",
+          "away": "Boršice B/Nedakonice",
+          "score": null,
+          "venue": "Polešovice",
+          "report": null
+        },
+        {
+          "round": 20,
+          "date": "2027-05-22T17:00:00+02:00",
+          "home": "Buchlovice/Tupesy",
+          "away": "Polešovice",
+          "score": null,
+          "venue": "Buchlovice",
+          "report": null
+        },
+        {
+          "round": 21,
+          "date": "2027-05-30T13:30:00+02:00",
+          "home": "Polešovice",
+          "away": "Jalubí/Velehrad",
+          "score": null,
+          "venue": "Polešovice",
+          "report": null
+        }
+      ],
+      "table": [
+        {
+          "position": 1,
+          "team": "Buchlovice/Tupesy",
+          "played": 10,
+          "won": 7,
+          "drawn": 1,
+          "lost": 2,
+          "gf": 32,
+          "ga": 15,
+          "points": 22
+        },
+        {
+          "position": 2,
+          "team": "Jalubí/Velehrad",
+          "played": 10,
+          "won": 7,
+          "drawn": 0,
+          "lost": 3,
+          "gf": 52,
+          "ga": 14,
+          "points": 21
+        },
+        {
+          "position": 3,
+          "team": "Zlechov/Osvětimany",
+          "played": 10,
+          "won": 6,
+          "drawn": 1,
+          "lost": 3,
+          "gf": 28,
+          "ga": 22,
+          "points": 19
+        },
+        {
+          "position": 4,
+          "team": "Polešovice",
+          "played": 9,
+          "won": 5,
+          "drawn": 1,
+          "lost": 3,
+          "gf": 20,
+          "ga": 16,
+          "points": 16
+        },
+        {
+          "position": 5,
+          "team": "Uh. Ostroh",
+          "played": 9,
+          "won": 4,
+          "drawn": 2,
+          "lost": 3,
+          "gf": 29,
+          "ga": 34,
+          "points": 14
+        },
+        {
+          "position": 6,
+          "team": "Huštěnovice/Traplice",
+          "played": 10,
+          "won": 3,
+          "drawn": 1,
+          "lost": 6,
+          "gf": 16,
+          "ga": 34,
+          "points": 10
+        },
+        {
+          "position": 7,
+          "team": "Kostelany/Babice",
+          "played": 10,
+          "won": 2,
+          "drawn": 1,
+          "lost": 7,
+          "gf": 23,
+          "ga": 36,
+          "points": 7
+        },
+        {
+          "position": 8,
+          "team": "Boršice B/Nedakonice",
+          "played": 10,
+          "won": 1,
+          "drawn": 1,
+          "lost": 8,
+          "gf": 16,
+          "ga": 45,
+          "points": 4
+        }
+      ],
+      "scorers": []
+    },
+    {
+      "id": "starsi-zaci",
+      "name": "Starší žáci",
+      "category": "U15",
+      "competition": "OSŽ - MA",
+      "competitionUrl": "https://is.fotbal.cz/public/souteze/detail-souteze.aspx?req=ba79b56c-cf2d-46ba-956b-3591d2b9279b&sport=fotbal",
+      "season": "2026/2027",
+      "description": "",
+      "matches": [
+        {
+          "round": 1,
+          "date": "2026-08-30T16:30:00+02:00",
+          "home": "Polešovice A",
+          "away": "Velehrad",
+          "score": [
+            6,
+            4
+          ],
+          "venue": "Velehrad",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=fe0eeb8c-175b-408f-9ea7-d9be51da4d2b&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 2,
+          "date": "2026-09-06T10:00:00+02:00",
+          "home": "Traplice",
+          "away": "Polešovice A",
+          "score": [
+            5,
+            1
+          ],
+          "venue": "Traplice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=14907f40-18f9-4b02-a9f8-b6a492b5e153&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 3,
+          "date": "2026-09-12T10:00:00+02:00",
+          "home": "Polešovice A",
+          "away": "Babice/Kostelany n.M.",
+          "score": [
+            4,
+            4
+          ],
+          "venue": "Polešovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=eba2be97-45e0-4f3a-a845-d482e05b97e1&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 4,
+          "date": "2026-09-20T15:00:00+02:00",
+          "home": "Kudlovice",
+          "away": "Polešovice A",
+          "score": [
+            1,
+            20
+          ],
+          "venue": "Kudlovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=1e2561a7-7f98-40c9-8592-aebe6c42ff66&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 5,
+          "date": "2026-09-26T10:00:00+02:00",
+          "home": "Polešovice A",
+          "away": "Jalubí",
+          "score": [
+            3,
+            8
+          ],
+          "venue": "Polešovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=5c28c0c0-98dc-46b8-ba4c-6e51ec762bbc&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 6,
+          "date": "2026-10-03T10:00:00+02:00",
+          "home": "Polešovice A",
+          "away": "Huštěnovice",
+          "score": [
+            3,
+            3
+          ],
+          "venue": "Polešovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=0df07680-b00d-439c-be45-74e1d9e797c4&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 7,
+          "date": "2026-10-11T12:30:00+02:00",
+          "home": "Stříbrnice/Ořechov",
+          "away": "Polešovice A",
+          "score": [
+            3,
+            6
+          ],
+          "venue": "Ořechov",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=6e10c6e7-d0a9-4cd3-b996-6434f20ec1b8&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 11,
+          "date": "2027-04-24T13:30:00+02:00",
+          "home": "Polešovice A",
+          "away": "Kudlovice",
+          "score": null,
+          "venue": "Polešovice",
+          "report": null
+        },
+        {
+          "round": 12,
+          "date": "2027-05-02T10:00:00+02:00",
+          "home": "Jalubí",
+          "away": "Polešovice A",
+          "score": null,
+          "venue": "Jalubí",
+          "report": null
+        },
+        {
+          "round": 13,
+          "date": "2027-05-09T14:00:00+02:00",
+          "home": "Huštěnovice",
+          "away": "Polešovice A",
+          "score": null,
+          "venue": "Huštěnovice",
+          "report": null
+        },
+        {
+          "round": 14,
+          "date": "2027-05-15T14:30:00+02:00",
+          "home": "Polešovice A",
+          "away": "Stříbrnice/Ořechov",
+          "score": null,
+          "venue": "Polešovice",
+          "report": null
+        },
+        {
+          "round": 8,
+          "date": "2027-05-23T10:00:00+02:00",
+          "home": "Polešovice A",
+          "away": "Velehrad",
+          "score": null,
+          "venue": "Polešovice",
+          "report": null
+        },
+        {
+          "round": 9,
+          "date": "2027-05-29T14:30:00+02:00",
+          "home": "Polešovice A",
+          "away": "Traplice",
+          "score": null,
+          "venue": "Polešovice",
+          "report": null
+        },
+        {
+          "round": 10,
+          "date": "2027-06-06T14:00:00+02:00",
+          "home": "Babice/Kostelany n.M.",
+          "away": "Polešovice A",
+          "score": null,
+          "venue": "Babice",
+          "report": null
+        }
+      ],
+      "table": [
+        {
+          "position": 1,
+          "team": "Huštěnovice",
+          "played": 7,
+          "won": 6,
+          "drawn": 1,
+          "lost": 0,
+          "gf": 45,
+          "ga": 7,
+          "points": 19
+        },
+        {
+          "position": 2,
+          "team": "Traplice",
+          "played": 7,
+          "won": 5,
+          "drawn": 0,
+          "lost": 2,
+          "gf": 25,
+          "ga": 14,
+          "points": 15
+        },
+        {
+          "position": 3,
+          "team": "Jalubí",
+          "played": 7,
+          "won": 4,
+          "drawn": 1,
+          "lost": 2,
+          "gf": 38,
+          "ga": 13,
+          "points": 13
+        },
+        {
+          "position": 4,
+          "team": "Babice/Kostelany n.M.",
+          "played": 7,
+          "won": 4,
+          "drawn": 1,
+          "lost": 2,
+          "gf": 32,
+          "ga": 11,
+          "points": 13
+        },
+        {
+          "position": 5,
+          "team": "Polešovice A",
+          "played": 7,
+          "won": 3,
+          "drawn": 2,
+          "lost": 2,
+          "gf": 43,
+          "ga": 28,
+          "points": 11
+        },
+        {
+          "position": 6,
+          "team": "Stříbrnice/Ořechov",
+          "played": 7,
+          "won": 2,
+          "drawn": 1,
+          "lost": 4,
+          "gf": 26,
+          "ga": 21,
+          "points": 7
+        },
+        {
+          "position": 7,
+          "team": "Velehrad",
+          "played": 7,
+          "won": 1,
+          "drawn": 0,
+          "lost": 6,
+          "gf": 19,
+          "ga": 44,
+          "points": 3
+        },
+        {
+          "position": 8,
+          "team": "Kudlovice",
+          "played": 7,
+          "won": 0,
+          "drawn": 0,
+          "lost": 7,
+          "gf": 3,
+          "ga": 93,
+          "points": 0
+        }
+      ],
+      "scorers": []
+    },
+    {
+      "id": "starsi-zaci-b",
+      "name": "Starší žáci B",
+      "category": "U15",
+      "competition": "OSŽ - MB",
+      "competitionUrl": "https://is.fotbal.cz/public/souteze/detail-souteze.aspx?req=ec747c71-ef5d-4cc3-9056-89f9612fba3c&sport=fotbal",
+      "season": "2026/2027",
+      "description": "",
+      "matches": [
+        {
+          "round": 1,
+          "date": "2026-08-29T14:00:00+02:00",
+          "home": "Polešovice B",
+          "away": "Nedachlebice/Březol.",
+          "score": [
+            0,
+            0
+          ],
+          "venue": "Polešovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=4a92c5fd-af44-497b-aa92-68e2cb304072&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 2,
+          "date": "2026-09-06T10:30:00+02:00",
+          "home": "Zlámanec",
+          "away": "Polešovice B",
+          "score": [
+            0,
+            0
+          ],
+          "venue": "Zlámanec",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=a0ccb1c9-ddcf-4880-827b-8ab3961ce3ea&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 4,
+          "date": "2026-09-20T13:00:00+02:00",
+          "home": "Hradčovice A",
+          "away": "Polešovice B",
+          "score": [
+            0,
+            0
+          ],
+          "venue": "Hradčovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=108911db-0f2c-46ab-8665-914417652520&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 5,
+          "date": "2026-09-26T13:00:00+02:00",
+          "home": "Polešovice B",
+          "away": "Lhota u Mal.",
+          "score": [
+            0,
+            0
+          ],
+          "venue": "Polešovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=9431c7af-8b9c-440b-ac72-6d2fc3c9a3ee&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 6,
+          "date": "2026-10-04T11:30:00+02:00",
+          "home": "Prakšice",
+          "away": "Polešovice B",
+          "score": [
+            0,
+            0
+          ],
+          "venue": "Prakšice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=54bace7c-3619-4da6-8496-60399632958f&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 7,
+          "date": "2026-10-10T12:30:00+02:00",
+          "home": "Polešovice B",
+          "away": "Bílovice",
+          "score": [
+            0,
+            0
+          ],
+          "venue": "Polešovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=2e057959-cc56-4475-aeaa-be55e4181d26&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 8,
+          "date": "2026-10-17T12:00:00+02:00",
+          "home": "Polešovice B",
+          "away": "Mistřice",
+          "score": [
+            0,
+            0
+          ],
+          "venue": "Polešovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=a2f4fc98-9412-44b5-a47f-ec7b6314ba38&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 9,
+          "date": "2026-10-25T12:00:00+01:00",
+          "home": "Popovice",
+          "away": "Polešovice B",
+          "score": [
+            0,
+            0
+          ],
+          "venue": "Popovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=c3c02382-24f4-4164-8e70-5d5406434fa5&zapis=1&hidemenu=1"
+        }
+      ],
+      "table": [
+        {
+          "position": 1,
+          "team": "Hradčovice A",
+          "played": 6,
+          "won": 6,
+          "drawn": 0,
+          "lost": 0,
+          "gf": 56,
+          "ga": 4,
+          "points": 18
+        },
+        {
+          "position": 2,
+          "team": "Prakšice",
+          "played": 6,
+          "won": 4,
+          "drawn": 0,
+          "lost": 2,
+          "gf": 28,
+          "ga": 25,
+          "points": 12
+        },
+        {
+          "position": 3,
+          "team": "Nedachlebice/Březol.",
+          "played": 6,
+          "won": 3,
+          "drawn": 1,
+          "lost": 2,
+          "gf": 28,
+          "ga": 16,
+          "points": 10
+        },
+        {
+          "position": 4,
+          "team": "Bílovice",
+          "played": 6,
+          "won": 3,
+          "drawn": 0,
+          "lost": 3,
+          "gf": 29,
+          "ga": 22,
+          "points": 9
+        },
+        {
+          "position": 5,
+          "team": "Lhota u Mal.",
+          "played": 6,
+          "won": 2,
+          "drawn": 1,
+          "lost": 3,
+          "gf": 19,
+          "ga": 30,
+          "points": 7
+        },
+        {
+          "position": 6,
+          "team": "Popovice",
+          "played": 6,
+          "won": 1,
+          "drawn": 0,
+          "lost": 5,
+          "gf": 15,
+          "ga": 41,
+          "points": 3
+        },
+        {
+          "position": 7,
+          "team": "Zlámanec",
+          "played": 6,
+          "won": 1,
+          "drawn": 0,
+          "lost": 5,
+          "gf": 10,
+          "ga": 47,
+          "points": 3
+        }
+      ],
+      "scorers": []
+    },
+    {
+      "id": "starsi-pripravka",
+      "name": "Starší přípravka",
+      "category": "U11",
+      "competition": "OSP - A",
+      "competitionUrl": "https://is.fotbal.cz/public/souteze/detail-souteze.aspx?req=221dd1d3-f1af-46d9-ac77-6997ed8840b4&sport=fotbal",
+      "season": "2026/2027",
+      "description": "",
+      "matches": [
+        {
+          "round": 2,
+          "date": "2026-09-07T16:30:00+02:00",
+          "home": "Boršice",
+          "away": "Polešovice",
+          "score": null,
+          "venue": "Boršice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=584d6350-076f-4ee4-b093-659f439e6de2&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 3,
+          "date": "2026-09-14T17:00:00+02:00",
+          "home": "Polešovice",
+          "away": "Jalubí",
+          "score": null,
+          "venue": "Polešovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=1b6e0323-794d-42f4-988f-16efe9646acc&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 5,
+          "date": "2026-09-27T10:00:00+02:00",
+          "home": "Polešovice",
+          "away": "Tupesy",
+          "score": null,
+          "venue": "Polešovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=19a136fc-ef0b-43f3-943c-2fc826b13e39&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 1,
+          "date": "2026-09-28T16:30:00+02:00",
+          "home": "Polešovice",
+          "away": "Kudlovice",
+          "score": null,
+          "venue": "Kudlovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=3111c8ae-addf-4955-a562-c292c76a9788&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 4,
+          "date": "2026-09-30T16:30:00+02:00",
+          "home": "Buchlovice",
+          "away": "Polešovice",
+          "score": null,
+          "venue": "Buchlovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=227df4fc-e9ef-4935-b0b0-73a1f7c3bb2e&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 6,
+          "date": "2026-10-04T10:00:00+02:00",
+          "home": "Babice",
+          "away": "Polešovice",
+          "score": null,
+          "venue": "Babice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=9587dc9a-7501-4efb-a4dc-f368602bb768&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 7,
+          "date": "2026-10-16T16:00:00+02:00",
+          "home": "Polešovice",
+          "away": "Traplice",
+          "score": null,
+          "venue": "Polešovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=6e4c8b9d-875e-458c-9b79-bfc589e5d606&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 8,
+          "date": "2026-10-18T10:00:00+02:00",
+          "home": "Polešovice",
+          "away": "Stříbrnice/Osvětimany",
+          "score": null,
+          "venue": "Polešovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=2a94ee97-e8d9-40a7-97bc-528bfe8f0d9a&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 9,
+          "date": "2026-10-24T10:00:00+02:00",
+          "home": "Kostelany nM",
+          "away": "Polešovice",
+          "score": null,
+          "venue": "Kostelany nM",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=d921eeb5-1cb4-422b-af4b-dc98debf4535&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 12,
+          "date": "2027-04-18T14:00:00+02:00",
+          "home": "Jalubí",
+          "away": "Polešovice",
+          "score": null,
+          "venue": "Jalubí",
+          "report": null,
+          "played": false
+        },
+        {
+          "round": 13,
+          "date": "2027-04-25T10:00:00+02:00",
+          "home": "Polešovice",
+          "away": "Buchlovice",
+          "score": null,
+          "venue": "Polešovice",
+          "report": null,
+          "played": false
+        },
+        {
+          "round": 14,
+          "date": "2027-05-02T14:30:00+02:00",
+          "home": "Tupesy",
+          "away": "Polešovice",
+          "score": null,
+          "venue": "Tupesy",
+          "report": null,
+          "played": false
+        },
+        {
+          "round": 15,
+          "date": "2027-05-09T10:00:00+02:00",
+          "home": "Polešovice",
+          "away": "Babice",
+          "score": null,
+          "venue": "Polešovice",
+          "report": null,
+          "played": false
+        },
+        {
+          "round": 16,
+          "date": "2027-05-16T15:00:00+02:00",
+          "home": "Traplice",
+          "away": "Polešovice",
+          "score": null,
+          "venue": "Traplice",
+          "report": null,
+          "played": false
+        },
+        {
+          "round": 17,
+          "date": "2027-05-22T10:00:00+02:00",
+          "home": "Stříbrnice/Osvětimany",
+          "away": "Polešovice",
+          "score": null,
+          "venue": "Stříbrnice",
+          "report": null,
+          "played": false
+        },
+        {
+          "round": 18,
+          "date": "2027-05-30T10:00:00+02:00",
+          "home": "Polešovice",
+          "away": "Kostelany nM",
+          "score": null,
+          "venue": "Polešovice",
+          "report": null,
+          "played": false
+        },
+        {
+          "round": 10,
+          "date": "2027-06-06T10:00:00+02:00",
+          "home": "Kudlovice",
+          "away": "Polešovice",
+          "score": null,
+          "venue": "Kudlovice",
+          "report": null,
+          "played": false
+        },
+        {
+          "round": 11,
+          "date": "2027-06-13T10:00:00+02:00",
+          "home": "Polešovice",
+          "away": "Boršice",
+          "score": null,
+          "venue": "Polešovice",
+          "report": null,
+          "played": false
+        }
+      ],
+      "table": [],
+      "scorers": []
+    }
+  ]
+}

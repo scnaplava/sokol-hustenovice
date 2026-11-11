@@ -7,7 +7,7 @@
     "founded": 1932,
     "stadium": "Fotbalové hřiště Huštěnovice",
     "address": "Huštěnovice",
-    "email": "",
+    "email": "tjsokolhustenovice@gmail.com",
     "facebook": "",
     "tagline": "Fotbal v Huštěnovicích od roku 1932. Od nejmenších až po muže, jedno hřiště, jedny barvy.",
     "recruit": {
@@ -22,6 +22,102 @@
       "contactName": "",
       "phone": "",
       "email": ""
+    },
+    "history": {
+      "intro": "Fotbal se v Huštěnovicích hraje už přes devadesát let. Klub přežil válku, povodeň i nedostatek dětí a pořád hraje díky obětavosti hráčů, funkcionářů a fanoušků.",
+      "events": [
+        {
+          "year": "1931",
+          "title": "Sportovní klub Huštěnovice",
+          "text": "V lednu podávají místní nadšenci žádost o založení spolku, v březnu se v hostinci koná ustavující valná hromada. Od května je S. K. Huštěnovice členem fotbalové asociace."
+        },
+        {
+          "year": "1932",
+          "title": "První mistrovská sezona",
+          "text": "Klub vstupuje do mistrovských soutěží. Úvodní zápasy proti uherskohradišťské Slavii končí remízou, Želechovice padají doma 8:0."
+        },
+        {
+          "year": "1936",
+          "title": "Čtvrtí v soutěži",
+          "text": "Z dochované statistiky: 29 zápasů, 15 výher a 4. místo v tabulce. Klub se přitom celou dobu potýká s nedostatkem peněz a živí se pořádáním zábav."
+        },
+        {
+          "year": "1939–1945",
+          "title": "Válečná léta",
+          "text": "Na rozdíl od jiných spolků fotbalový oddíl okupaci přežívá. Odvodňuje se mokré hřiště a v roce 1943 klub pořádá turnaj s Babicemi, Kudlovicemi a Traplicemi."
+        },
+        {
+          "year": "1947",
+          "title": "Vlastní šatny",
+          "text": "Hráči se dosud převlékali po stodolách. Ze zbytků starého obecního domu se začínají stavět první šatny."
+        },
+        {
+          "year": "1948",
+          "title": "Pod hlavičkou Sokola",
+          "text": "Po únoru 1948 původní klub zaniká a fotbal pokračuje v rámci sjednocené tělovýchovy. Název T. J. Sokol se poprvé objevuje v roce 1959."
+        },
+        {
+          "year": "1972",
+          "title": "40 let a nové šatny",
+          "text": "K výročí klub svépomocí dostavěl nové šatny, z velké části za peníze ze sběru šrotu. Slouží dodnes."
+        },
+        {
+          "year": "1982",
+          "title": "Přijela Sparta",
+          "text": "Oslavy 50 let zpestřil zápas s internacionály Sparty Praha včetně Andreje Kvašňáka. Patrně nejslavnější den huštěnovského fotbalu."
+        },
+        {
+          "year": "1997",
+          "title": "Povodeň",
+          "text": "Velká voda zaplavila hřiště i šatny. Všechna mužstva odehrála celou sezonu na cizích hřištích, klub se ale znovu postavil na nohy."
+        },
+        {
+          "year": "2000",
+          "title": "Návrat do okresu",
+          "text": "Muži postupují zpět do okresní soutěže a dlouhodobě se drží v horní polovině tabulky, převážně s vlastními odchovanci."
+        },
+        {
+          "year": "2011",
+          "title": "Nové vedení a přípravka",
+          "text": "Po nejdéle sloužícím předsedovi Rostislavu Zlámalíkovi přebírá klub Zdeněk Hruboš. Do soutěží se hlásí starší přípravka."
+        },
+        {
+          "year": "Dnes",
+          "title": "Areál V Olší",
+          "text": "Hlavním hřištěm je upravená horní plocha. Klub hraje s muži i mládeží a areál dál zvelebuje vlastními silami s pomocí obce."
+        }
+      ],
+      "chairmen": [
+        "František Gangelberger",
+        "Hynek Ulman",
+        "Josef Vavruška",
+        "Kliment Kašpárek",
+        "Ferdinand Adamík",
+        "Florián Martinek",
+        "Josef Motyčka",
+        "František Gablas",
+        "František Kryška",
+        "Bohumil Borovička",
+        "Čeněk Adamík",
+        "Josef Hamrlík",
+        "Jan Říha",
+        "Josef Sládek",
+        "František Grebeň",
+        "Metoděj Trňák",
+        "Václav Hampala",
+        "Antonín Macháček",
+        "Josef Čaník",
+        "Karel Blaha",
+        "Milan Tomeček",
+        "Miroslav Malíček",
+        "Jaromír Býček",
+        "Rostislav Zlámalík",
+        "Zdeněk Hruboš"
+      ],
+      "source": {
+        "text": "Zpracováno podle článku Historie kopané v Huštěnovicích (Mgr. Jakub Veselý) na webu obce.",
+        "url": "https://www.hustenovice.cz/sdruzeni-a-spolky/tj-sokol/"
+      }
     }
   },
   "teams": [

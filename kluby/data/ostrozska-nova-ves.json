@@ -1,0 +1,703 @@
+{
+  "source": "facr",
+  "updatedAt": "2026-11-10T21:03:49+01:00",
+  "club": {
+    "name": "FK Ostrožská Nová Ves",
+    "official": "FK Ostrožská Nová Ves, z.s.",
+    "shortName": "O. N. Ves",
+    "brand": "FK Ostrožská Nová Ves",
+    "hero": [
+      "FK Ostrožská",
+      "Nová Ves"
+    ],
+    "founded": null,
+    "logo": "",
+    "logoShape": "shield",
+    "colors": {},
+    "stadium": "",
+    "email": "",
+    "facebook": "",
+    "tagline": "Zápasy, výsledky a tabulky všech našich týmů na jednom místě.",
+    "facr": {
+      "number": "7220391",
+      "isId": "2651",
+      "match": [
+        "O. N. Ves",
+        "Ostr. N. Ves",
+        "Ostrožská N"
+      ]
+    }
+  },
+  "teams": [
+    {
+      "id": "muzi",
+      "name": "Muži A",
+      "category": "Dospělí",
+      "competition": "7. liga, sk. C",
+      "competitionUrl": "https://is.fotbal.cz/public/souteze/detail-souteze.aspx?req=d1e0f817-6286-4337-9d2c-b3f0a103a16d&sport=fotbal",
+      "season": "2026/2027",
+      "description": "",
+      "matches": [
+        {
+          "round": 2,
+          "date": "2026-08-08T17:00:00+02:00",
+          "home": "Chropyně",
+          "away": "O. N. Ves",
+          "score": [
+            2,
+            4
+          ],
+          "venue": "Chropyně,tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=11e540c0-c50b-4180-9a62-73abe25d06d4&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 3,
+          "date": "2026-08-15T16:30:00+02:00",
+          "home": "O. N. Ves",
+          "away": "Uh. Ostroh",
+          "score": [
+            1,
+            4
+          ],
+          "venue": "O. N. Ves",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=2817ffe5-aa97-4b7a-875e-e9ccd917f04e&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 4,
+          "date": "2026-08-22T16:30:00+02:00",
+          "home": "Strání B",
+          "away": "O. N. Ves",
+          "score": [
+            1,
+            1
+          ],
+          "venue": "Strání-tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=e72b577c-dfd1-4732-ad87-4a85a253d60a&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 5,
+          "date": "2026-08-29T16:30:00+02:00",
+          "home": "O. N. Ves",
+          "away": "FC Slovácko C",
+          "score": [
+            0,
+            2
+          ],
+          "venue": "O. N. Ves",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=779ccd1a-0fdc-4f08-b23b-13ef52c74687&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 6,
+          "date": "2026-09-06T16:00:00+02:00",
+          "home": "Prakšice",
+          "away": "O. N. Ves",
+          "score": [
+            1,
+            0
+          ],
+          "venue": "Prakšice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=4ed7937c-2c4c-4954-8b5a-71697c12c841&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 7,
+          "date": "2026-09-13T16:00:00+02:00",
+          "home": "O. N. Ves",
+          "away": "Koryčany",
+          "score": [
+            1,
+            2
+          ],
+          "venue": "O. N. Ves",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=59e466ab-0b3d-4fdc-b81e-17efea8f8a3d&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 8,
+          "date": "2026-09-19T15:30:00+02:00",
+          "home": "Javořina",
+          "away": "O. N. Ves",
+          "score": [
+            3,
+            1
+          ],
+          "venue": "Slavkov",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=33c0dcc5-b1a2-44c6-95a9-58172f31015c&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 9,
+          "date": "2026-09-25T16:30:00+02:00",
+          "home": "O. N. Ves",
+          "away": "Vlčnov",
+          "score": [
+            2,
+            3
+          ],
+          "venue": "O. N. Ves",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=e878e644-5e4d-4c9f-ad3f-352177e5faf9&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 10,
+          "date": "2026-10-04T15:00:00+02:00",
+          "home": "Hluk B",
+          "away": "O. N. Ves",
+          "score": [
+            5,
+            0
+          ],
+          "venue": "Hluk-tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=0ef71133-d33a-407a-a0d3-2eec98f3ea19&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 11,
+          "date": "2026-10-10T15:00:00+02:00",
+          "home": "O. N. Ves",
+          "away": "Šumice",
+          "score": [
+            1,
+            0
+          ],
+          "venue": "O. N. Ves",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=6aa11909-1b98-4160-83c0-3dfb138103ee&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 12,
+          "date": "2026-10-17T14:30:00+02:00",
+          "home": "O. N. Ves",
+          "away": "Morkovice B",
+          "score": [
+            5,
+            0
+          ],
+          "venue": "O. N. Ves",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=3fe1b745-1258-47c2-bcfe-6efd0f25f5ec&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 13,
+          "date": "2026-10-25T14:30:00+01:00",
+          "home": "Polešovice",
+          "away": "O. N. Ves",
+          "score": [
+            1,
+            1
+          ],
+          "venue": "Polešovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=12ed37a7-4708-40f9-8bf5-393d33f2bb2c&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 1,
+          "date": "2026-10-31T14:00:00+01:00",
+          "home": "O. N. Ves",
+          "away": "Huštěnovice",
+          "score": [
+            1,
+            4
+          ],
+          "venue": "O. N. Ves",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=1df489fb-b734-47e8-a25d-ad1b382fdb7e&zapis=1&hidemenu=1"
+        }
+      ],
+      "table": [
+        {
+          "position": 1,
+          "team": "Koryčany",
+          "played": 13,
+          "won": 12,
+          "drawn": 0,
+          "lost": 1,
+          "gf": 44,
+          "ga": 18,
+          "points": 36
+        },
+        {
+          "position": 2,
+          "team": "Strání B",
+          "played": 13,
+          "won": 8,
+          "drawn": 2,
+          "lost": 3,
+          "gf": 35,
+          "ga": 12,
+          "points": 26
+        },
+        {
+          "position": 3,
+          "team": "Uh. Ostroh",
+          "played": 13,
+          "won": 8,
+          "drawn": 1,
+          "lost": 4,
+          "gf": 31,
+          "ga": 20,
+          "points": 25
+        },
+        {
+          "position": 4,
+          "team": "Prakšice",
+          "played": 13,
+          "won": 7,
+          "drawn": 2,
+          "lost": 4,
+          "gf": 24,
+          "ga": 22,
+          "points": 23
+        },
+        {
+          "position": 5,
+          "team": "FC Slovácko C",
+          "played": 13,
+          "won": 6,
+          "drawn": 3,
+          "lost": 4,
+          "gf": 28,
+          "ga": 25,
+          "points": 21
+        },
+        {
+          "position": 6,
+          "team": "Vlčnov",
+          "played": 13,
+          "won": 6,
+          "drawn": 2,
+          "lost": 5,
+          "gf": 30,
+          "ga": 22,
+          "points": 20
+        },
+        {
+          "position": 7,
+          "team": "Polešovice",
+          "played": 13,
+          "won": 6,
+          "drawn": 2,
+          "lost": 5,
+          "gf": 26,
+          "ga": 24,
+          "points": 20
+        },
+        {
+          "position": 8,
+          "team": "Javořina",
+          "played": 13,
+          "won": 5,
+          "drawn": 4,
+          "lost": 4,
+          "gf": 23,
+          "ga": 21,
+          "points": 19
+        },
+        {
+          "position": 9,
+          "team": "Huštěnovice",
+          "played": 13,
+          "won": 5,
+          "drawn": 2,
+          "lost": 6,
+          "gf": 25,
+          "ga": 27,
+          "points": 17
+        },
+        {
+          "position": 10,
+          "team": "Chropyně",
+          "played": 13,
+          "won": 5,
+          "drawn": 0,
+          "lost": 8,
+          "gf": 30,
+          "ga": 36,
+          "points": 15
+        },
+        {
+          "position": 11,
+          "team": "O. N. Ves",
+          "played": 13,
+          "won": 3,
+          "drawn": 2,
+          "lost": 8,
+          "gf": 18,
+          "ga": 28,
+          "points": 11
+        },
+        {
+          "position": 12,
+          "team": "Hluk B",
+          "played": 13,
+          "won": 2,
+          "drawn": 4,
+          "lost": 7,
+          "gf": 23,
+          "ga": 35,
+          "points": 10
+        },
+        {
+          "position": 13,
+          "team": "Morkovice B",
+          "played": 13,
+          "won": 2,
+          "drawn": 3,
+          "lost": 8,
+          "gf": 28,
+          "ga": 50,
+          "points": 9
+        },
+        {
+          "position": 14,
+          "team": "Šumice",
+          "played": 13,
+          "won": 2,
+          "drawn": 1,
+          "lost": 10,
+          "gf": 21,
+          "ga": 46,
+          "points": 7
+        }
+      ],
+      "scorers": []
+    },
+    {
+      "id": "starsi-pripravka",
+      "name": "Starší přípravka",
+      "category": "U11",
+      "competition": "OP - PSA",
+      "competitionUrl": "https://is.fotbal.cz/public/souteze/detail-souteze.aspx?req=c5be7855-c025-4a2b-910d-7d51eeacfcee&sport=fotbal",
+      "season": "2026/2027",
+      "description": "",
+      "matches": [
+        {
+          "round": 2,
+          "date": "2026-09-07T16:30:00+02:00",
+          "home": "Kunovice",
+          "away": "Ostr. N. Ves",
+          "score": null,
+          "venue": "Kunovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=086f68fd-0086-4d7d-91a9-7fa38cffaaf7&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 3,
+          "date": "2026-09-13T10:00:00+02:00",
+          "home": "Ostr. N. Ves",
+          "away": "Bílovice",
+          "score": null,
+          "venue": "O. N. Ves",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=e0c09520-6569-4c04-ab1b-b16dad374375&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 4,
+          "date": "2026-09-20T10:00:00+02:00",
+          "home": "Ostr. N. Ves",
+          "away": "St. Město",
+          "score": null,
+          "venue": "O. N. Ves",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=81befedb-b628-4338-9c9e-deb9f4f0ede9&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 5,
+          "date": "2026-09-27T10:00:00+02:00",
+          "home": "FC Slovácko-dívky",
+          "away": "Ostr. N. Ves",
+          "score": null,
+          "venue": "Sady",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=5e33f940-e210-4c68-b34d-2e9ed317e40f&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 6,
+          "date": "2026-10-04T10:00:00+02:00",
+          "home": "Ostr. N. Ves",
+          "away": "Huštěnovice",
+          "score": null,
+          "venue": "O. N. Ves",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=354fe053-0b53-4d72-83dc-5f181d6175b3&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 7,
+          "date": "2026-10-10T10:00:00+02:00",
+          "home": "Uh. Ostroh",
+          "away": "Ostr. N. Ves",
+          "score": null,
+          "venue": "Uh. Ostroh",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=cabef1f1-e019-4053-aaef-b87dfa817190&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 8,
+          "date": "2026-10-18T10:00:00+02:00",
+          "home": "Ostr. N. Ves",
+          "away": "Mařatice",
+          "score": null,
+          "venue": "O. N. Ves",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=7bb2581e-62cd-4a18-b21f-4cb4dd46a944&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 9,
+          "date": "2026-10-25T10:00:00+01:00",
+          "home": "Kněžpole",
+          "away": "Ostr. N. Ves",
+          "score": null,
+          "venue": "Kněžpole",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=0e11c106-f16e-4d6f-843d-8822e8d8d9da&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 12,
+          "date": "2027-04-18T10:30:00+02:00",
+          "home": "Bílovice",
+          "away": "Ostr. N. Ves",
+          "score": null,
+          "venue": "Bílovice",
+          "report": null,
+          "played": false
+        },
+        {
+          "round": 13,
+          "date": "2027-04-25T10:00:00+02:00",
+          "home": "St. Město",
+          "away": "Ostr. N. Ves",
+          "score": null,
+          "venue": "Rybníček-tráva",
+          "report": null,
+          "played": false
+        },
+        {
+          "round": 14,
+          "date": "2027-05-02T10:00:00+02:00",
+          "home": "Ostr. N. Ves",
+          "away": "FC Slovácko-dívky",
+          "score": null,
+          "venue": "O. N. Ves",
+          "report": null,
+          "played": false
+        },
+        {
+          "round": 15,
+          "date": "2027-05-08T14:30:00+02:00",
+          "home": "Huštěnovice",
+          "away": "Ostr. N. Ves",
+          "score": null,
+          "venue": "Huštěnovice",
+          "report": null,
+          "played": false
+        },
+        {
+          "round": 16,
+          "date": "2027-05-16T14:00:00+02:00",
+          "home": "Ostr. N. Ves",
+          "away": "Uh. Ostroh",
+          "score": null,
+          "venue": "O. N. Ves",
+          "report": null,
+          "played": false
+        },
+        {
+          "round": 17,
+          "date": "2027-05-24T17:00:00+02:00",
+          "home": "Mařatice",
+          "away": "Ostr. N. Ves",
+          "score": null,
+          "venue": "Mařatice",
+          "report": null,
+          "played": false
+        },
+        {
+          "round": 18,
+          "date": "2027-05-30T10:00:00+02:00",
+          "home": "Ostr. N. Ves",
+          "away": "Kněžpole",
+          "score": null,
+          "venue": "O. N. Ves",
+          "report": null,
+          "played": false
+        },
+        {
+          "round": 11,
+          "date": "2027-06-13T10:00:00+02:00",
+          "home": "Ostr. N. Ves",
+          "away": "Kunovice",
+          "score": null,
+          "venue": "O. N. Ves",
+          "report": null,
+          "played": false
+        }
+      ],
+      "table": [],
+      "scorers": []
+    },
+    {
+      "id": "mladsi-pripravka",
+      "name": "Mladší přípravka",
+      "category": "U9",
+      "competition": "OP - PMA",
+      "competitionUrl": "https://is.fotbal.cz/public/souteze/detail-souteze.aspx?req=9cc05110-edb0-41a1-b2f6-7255054cd9d5&sport=fotbal",
+      "season": "2026/2027",
+      "description": "",
+      "matches": [
+        {
+          "round": 2,
+          "date": "2026-09-07T16:30:00+02:00",
+          "home": "Kunovice",
+          "away": "Ostr. N. Ves",
+          "score": null,
+          "venue": "Kunovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=c814e4b0-c559-4a14-b966-3fb683f2e669&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 3,
+          "date": "2026-09-13T10:00:00+02:00",
+          "home": "Ostr. N. Ves",
+          "away": "Bílovice",
+          "score": null,
+          "venue": "O. N. Ves",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=fed950bd-dc4c-4184-9032-5a790ebd35fe&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 4,
+          "date": "2026-09-20T10:00:00+02:00",
+          "home": "Ostr. N. Ves",
+          "away": "St. Město",
+          "score": null,
+          "venue": "O. N. Ves",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=b46eb26f-ee00-4806-89d2-fbca70d90f29&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 5,
+          "date": "2026-09-27T10:00:00+02:00",
+          "home": "FC Slovácko-dívky",
+          "away": "Ostr. N. Ves",
+          "score": null,
+          "venue": "Sady",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=a67a79ec-adb8-423d-918a-a5e225b440f2&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 6,
+          "date": "2026-10-04T10:00:00+02:00",
+          "home": "Ostr. N. Ves",
+          "away": "Huštěnovice",
+          "score": null,
+          "venue": "O. N. Ves",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=6de4ccbc-924b-4e3f-8648-96235da3ff61&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 7,
+          "date": "2026-10-10T10:00:00+02:00",
+          "home": "Uh. Ostroh",
+          "away": "Ostr. N. Ves",
+          "score": null,
+          "venue": "Uh. Ostroh",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=adab9a9d-1941-4314-ae86-e07d16819264&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 8,
+          "date": "2026-10-18T10:00:00+02:00",
+          "home": "Ostr. N. Ves",
+          "away": "Mařatice",
+          "score": null,
+          "venue": "O. N. Ves",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=45b7b5d6-68f8-4599-a4d5-fe0caebce634&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 9,
+          "date": "2026-10-25T10:00:00+01:00",
+          "home": "Kněžpole",
+          "away": "Ostr. N. Ves",
+          "score": null,
+          "venue": "Kněžpole",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=bb00ef36-fa32-4c27-b2c0-6ebc41dc6de3&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 12,
+          "date": "2027-04-18T10:30:00+02:00",
+          "home": "Bílovice",
+          "away": "Ostr. N. Ves",
+          "score": null,
+          "venue": "Bílovice",
+          "report": null,
+          "played": false
+        },
+        {
+          "round": 13,
+          "date": "2027-04-25T10:00:00+02:00",
+          "home": "St. Město",
+          "away": "Ostr. N. Ves",
+          "score": null,
+          "venue": "Rybníček-tráva",
+          "report": null,
+          "played": false
+        },
+        {
+          "round": 14,
+          "date": "2027-05-02T10:00:00+02:00",
+          "home": "Ostr. N. Ves",
+          "away": "FC Slovácko-dívky",
+          "score": null,
+          "venue": "O. N. Ves",
+          "report": null,
+          "played": false
+        },
+        {
+          "round": 15,
+          "date": "2027-05-08T14:30:00+02:00",
+          "home": "Huštěnovice",
+          "away": "Ostr. N. Ves",
+          "score": null,
+          "venue": "Huštěnovice",
+          "report": null,
+          "played": false
+        },
+        {
+          "round": 16,
+          "date": "2027-05-16T10:00:00+02:00",
+          "home": "Ostr. N. Ves",
+          "away": "Uh. Ostroh",
+          "score": null,
+          "venue": "O. N. Ves",
+          "report": null,
+          "played": false
+        },
+        {
+          "round": 17,
+          "date": "2027-05-24T17:00:00+02:00",
+          "home": "Mařatice",
+          "away": "Ostr. N. Ves",
+          "score": null,
+          "venue": "Mařatice",
+          "report": null,
+          "played": false
+        },
+        {
+          "round": 18,
+          "date": "2027-05-29T14:00:00+02:00",
+          "home": "Ostr. N. Ves",
+          "away": "Kněžpole",
+          "score": null,
+          "venue": "O. N. Ves",
+          "report": null,
+          "played": false
+        },
+        {
+          "round": 11,
+          "date": "2027-06-13T10:00:00+02:00",
+          "home": "Ostr. N. Ves",
+          "away": "Kunovice",
+          "score": null,
+          "venue": "O. N. Ves",
+          "report": null,
+          "played": false
+        }
+      ],
+      "table": [],
+      "scorers": []
+    }
+  ]
+}

@@ -1,0 +1,1889 @@
+{
+  "source": "facr",
+  "updatedAt": "2026-11-10T21:00:11+01:00",
+  "club": {
+    "name": "FK Uherský Ostroh",
+    "official": "FK Uherský Ostroh, z.s.",
+    "shortName": "Uh. Ostroh",
+    "brand": "FK Uherský Ostroh",
+    "hero": [
+      "FK Uherský",
+      "Ostroh"
+    ],
+    "founded": null,
+    "logo": "",
+    "logoShape": "shield",
+    "colors": {},
+    "stadium": "",
+    "email": "",
+    "facebook": "",
+    "tagline": "Zápasy, výsledky a tabulky všech našich týmů na jednom místě.",
+    "facr": {
+      "number": "7220611",
+      "isId": "2213",
+      "match": [
+        "Uh. Ostroh",
+        "Uherský Ostroh"
+      ]
+    }
+  },
+  "teams": [
+    {
+      "id": "muzi",
+      "name": "Muži A",
+      "category": "Dospělí",
+      "competition": "7. liga, sk. C",
+      "competitionUrl": "https://is.fotbal.cz/public/souteze/detail-souteze.aspx?req=d1e0f817-6286-4337-9d2c-b3f0a103a16d&sport=fotbal",
+      "season": "2026/2027",
+      "description": "",
+      "matches": [
+        {
+          "round": 2,
+          "date": "2026-08-07T17:00:00+02:00",
+          "home": "Uh. Ostroh",
+          "away": "Hluk B",
+          "score": [
+            1,
+            1
+          ],
+          "venue": "Uh. Ostroh",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=a52347a9-2c28-4941-82b9-43ead3adf51d&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 3,
+          "date": "2026-08-15T16:30:00+02:00",
+          "home": "O. N. Ves",
+          "away": "Uh. Ostroh",
+          "score": [
+            1,
+            4
+          ],
+          "venue": "O. N. Ves",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=2817ffe5-aa97-4b7a-875e-e9ccd917f04e&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 4,
+          "date": "2026-08-23T16:30:00+02:00",
+          "home": "Uh. Ostroh",
+          "away": "Morkovice B",
+          "score": [
+            4,
+            1
+          ],
+          "venue": "Uh. Ostroh",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=db114087-e669-4a2f-90a7-b34aaaf02ae5&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 6,
+          "date": "2026-09-06T16:00:00+02:00",
+          "home": "Uh. Ostroh",
+          "away": "Huštěnovice",
+          "score": [
+            2,
+            1
+          ],
+          "venue": "Uh. Ostroh",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=705f5888-8956-42e2-9c35-dc3d3c4ac927&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 7,
+          "date": "2026-09-12T16:00:00+02:00",
+          "home": "Chropyně",
+          "away": "Uh. Ostroh",
+          "score": [
+            3,
+            5
+          ],
+          "venue": "Chropyně,tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=1d46a346-2c02-490a-bc97-0ec52e7b51d9&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 8,
+          "date": "2026-09-20T15:30:00+02:00",
+          "home": "Šumice",
+          "away": "Uh. Ostroh",
+          "score": [
+            0,
+            7
+          ],
+          "venue": "Šumice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=038de5a7-c1ed-418a-a629-d57950bea598&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 9,
+          "date": "2026-09-27T15:30:00+02:00",
+          "home": "Uh. Ostroh",
+          "away": "Strání B",
+          "score": [
+            1,
+            0
+          ],
+          "venue": "Uh. Ostroh",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=7c57b642-3af8-4d20-8375-e5521ba56d9c&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 10,
+          "date": "2026-10-04T15:00:00+02:00",
+          "home": "Uh. Ostroh",
+          "away": "FC Slovácko C",
+          "score": [
+            2,
+            1
+          ],
+          "venue": "Uh. Ostroh",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=1bc09cba-a923-42f2-9265-71c0afcd0fa9&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 11,
+          "date": "2026-10-11T15:00:00+02:00",
+          "home": "Uh. Ostroh",
+          "away": "Prakšice",
+          "score": [
+            3,
+            0
+          ],
+          "venue": "Uh. Ostroh",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=a9958695-045d-4749-800d-c9ff0a651323&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 12,
+          "date": "2026-10-18T14:30:00+02:00",
+          "home": "Koryčany",
+          "away": "Uh. Ostroh",
+          "score": [
+            4,
+            1
+          ],
+          "venue": "Koryčany",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=ae00c833-d7ad-4a1b-9a74-ad0b2dd014af&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 13,
+          "date": "2026-10-25T14:30:00+01:00",
+          "home": "Uh. Ostroh",
+          "away": "Javořina",
+          "score": [
+            1,
+            2
+          ],
+          "venue": "Uh. Ostroh",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=c86908e7-af29-4058-8629-d90d263b745d&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 5,
+          "date": "2026-10-28T14:30:00+01:00",
+          "home": "Polešovice",
+          "away": "Uh. Ostroh",
+          "score": [
+            5,
+            0
+          ],
+          "venue": "Polešovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=57f55f5b-2bd2-4ffe-806a-713332c50a53&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 1,
+          "date": "2026-10-31T14:00:00+01:00",
+          "home": "Vlčnov",
+          "away": "Uh. Ostroh",
+          "score": [
+            1,
+            0
+          ],
+          "venue": "Vlčnov",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=a70ba968-c519-4b15-9153-d302e5c6daec&zapis=1&hidemenu=1"
+        }
+      ],
+      "table": [
+        {
+          "position": 1,
+          "team": "Koryčany",
+          "played": 13,
+          "won": 12,
+          "drawn": 0,
+          "lost": 1,
+          "gf": 44,
+          "ga": 18,
+          "points": 36
+        },
+        {
+          "position": 2,
+          "team": "Strání B",
+          "played": 13,
+          "won": 8,
+          "drawn": 2,
+          "lost": 3,
+          "gf": 35,
+          "ga": 12,
+          "points": 26
+        },
+        {
+          "position": 3,
+          "team": "Uh. Ostroh",
+          "played": 13,
+          "won": 8,
+          "drawn": 1,
+          "lost": 4,
+          "gf": 31,
+          "ga": 20,
+          "points": 25
+        },
+        {
+          "position": 4,
+          "team": "Prakšice",
+          "played": 13,
+          "won": 7,
+          "drawn": 2,
+          "lost": 4,
+          "gf": 24,
+          "ga": 22,
+          "points": 23
+        },
+        {
+          "position": 5,
+          "team": "FC Slovácko C",
+          "played": 13,
+          "won": 6,
+          "drawn": 3,
+          "lost": 4,
+          "gf": 28,
+          "ga": 25,
+          "points": 21
+        },
+        {
+          "position": 6,
+          "team": "Vlčnov",
+          "played": 13,
+          "won": 6,
+          "drawn": 2,
+          "lost": 5,
+          "gf": 30,
+          "ga": 22,
+          "points": 20
+        },
+        {
+          "position": 7,
+          "team": "Polešovice",
+          "played": 13,
+          "won": 6,
+          "drawn": 2,
+          "lost": 5,
+          "gf": 26,
+          "ga": 24,
+          "points": 20
+        },
+        {
+          "position": 8,
+          "team": "Javořina",
+          "played": 13,
+          "won": 5,
+          "drawn": 4,
+          "lost": 4,
+          "gf": 23,
+          "ga": 21,
+          "points": 19
+        },
+        {
+          "position": 9,
+          "team": "Huštěnovice",
+          "played": 13,
+          "won": 5,
+          "drawn": 2,
+          "lost": 6,
+          "gf": 25,
+          "ga": 27,
+          "points": 17
+        },
+        {
+          "position": 10,
+          "team": "Chropyně",
+          "played": 13,
+          "won": 5,
+          "drawn": 0,
+          "lost": 8,
+          "gf": 30,
+          "ga": 36,
+          "points": 15
+        },
+        {
+          "position": 11,
+          "team": "O. N. Ves",
+          "played": 13,
+          "won": 3,
+          "drawn": 2,
+          "lost": 8,
+          "gf": 18,
+          "ga": 28,
+          "points": 11
+        },
+        {
+          "position": 12,
+          "team": "Hluk B",
+          "played": 13,
+          "won": 2,
+          "drawn": 4,
+          "lost": 7,
+          "gf": 23,
+          "ga": 35,
+          "points": 10
+        },
+        {
+          "position": 13,
+          "team": "Morkovice B",
+          "played": 13,
+          "won": 2,
+          "drawn": 3,
+          "lost": 8,
+          "gf": 28,
+          "ga": 50,
+          "points": 9
+        },
+        {
+          "position": 14,
+          "team": "Šumice",
+          "played": 13,
+          "won": 2,
+          "drawn": 1,
+          "lost": 10,
+          "gf": 21,
+          "ga": 46,
+          "points": 7
+        }
+      ],
+      "scorers": []
+    },
+    {
+      "id": "muzi-b",
+      "name": "Muži B",
+      "category": "Dospělí",
+      "competition": "9.liga sk. B",
+      "competitionUrl": "https://is.fotbal.cz/public/souteze/detail-souteze.aspx?req=02dc31d3-cef8-486b-8775-9180cdc3a3c8&sport=fotbal",
+      "season": "2026/2027",
+      "description": "",
+      "matches": [
+        {
+          "round": 1,
+          "date": "2026-08-16T16:30:00+02:00",
+          "home": "Javořina B",
+          "away": "Uh. Ostroh B",
+          "score": [
+            2,
+            8
+          ],
+          "venue": "Slavkov",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=0806d749-94aa-4304-a6ee-6b51c22f4669&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 2,
+          "date": "2026-08-23T14:00:00+02:00",
+          "home": "Uh. Ostroh B",
+          "away": "Boršice u Bl./Dolní Němčí B",
+          "score": [
+            2,
+            5
+          ],
+          "venue": "Uh. Ostroh",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=3e457383-4c42-4e3b-be40-545625ee1765&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 3,
+          "date": "2026-08-30T10:15:00+02:00",
+          "home": "Částkov",
+          "away": "Uh. Ostroh B",
+          "score": [
+            2,
+            1
+          ],
+          "venue": "Částkov",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=ef166398-ab07-4ed3-bf96-915e7476870f&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 4,
+          "date": "2026-09-06T13:30:00+02:00",
+          "home": "Uh. Ostroh B",
+          "away": "Ostrožská Lhota",
+          "score": [
+            1,
+            3
+          ],
+          "venue": "Uh. Ostroh",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=e9510025-272b-4873-a9a2-5ff769df2fc5&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 5,
+          "date": "2026-09-13T16:00:00+02:00",
+          "home": "Popovice",
+          "away": "Uh. Ostroh B",
+          "score": [
+            1,
+            1
+          ],
+          "venue": "Popovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=1927897c-9a68-46b1-9e8f-e0269b1d4852&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 6,
+          "date": "2026-09-20T15:30:00+02:00",
+          "home": "Havřice",
+          "away": "Uh. Ostroh B",
+          "score": [
+            3,
+            1
+          ],
+          "venue": "Havřice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=f899a660-348a-453b-9a7e-73d23a1dcdfc&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 7,
+          "date": "2026-09-27T10:00:00+02:00",
+          "home": "Velký Ořechov",
+          "away": "Uh. Ostroh B",
+          "score": [
+            4,
+            2
+          ],
+          "venue": "Velký Ořechov",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=b24c8fdf-9346-4356-845b-2fce3d7111f1&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 8,
+          "date": "2026-10-04T15:00:00+02:00",
+          "home": "Březolupy",
+          "away": "Uh. Ostroh B",
+          "score": [
+            3,
+            0
+          ],
+          "venue": "Březolupy",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=39b56b22-e8e2-478f-8140-c8989afbfeb8&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 9,
+          "date": "2026-10-11T12:30:00+02:00",
+          "home": "Uh. Ostroh B",
+          "away": "Hradčovice",
+          "score": [
+            3,
+            5
+          ],
+          "venue": "Uh. Ostroh",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=bb05a3c7-5b3b-4a5b-8d18-3317d38a8145&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 10,
+          "date": "2027-04-18T13:30:00+02:00",
+          "home": "Uh. Ostroh B",
+          "away": "Javořina B",
+          "score": null,
+          "venue": "Uh. Ostroh",
+          "report": null
+        },
+        {
+          "round": 11,
+          "date": "2027-04-25T16:00:00+02:00",
+          "home": "Boršice u Bl./Dolní Němčí B",
+          "away": "Uh. Ostroh B",
+          "score": null,
+          "venue": "Boršice uBl",
+          "report": null
+        },
+        {
+          "round": 12,
+          "date": "2027-05-02T14:00:00+02:00",
+          "home": "Uh. Ostroh B",
+          "away": "Částkov",
+          "score": null,
+          "venue": "Uh. Ostroh",
+          "report": null
+        },
+        {
+          "round": 13,
+          "date": "2027-05-09T16:30:00+02:00",
+          "home": "Ostrožská Lhota",
+          "away": "Uh. Ostroh B",
+          "score": null,
+          "venue": "Ostrožská Lhota",
+          "report": null
+        },
+        {
+          "round": 14,
+          "date": "2027-05-16T14:30:00+02:00",
+          "home": "Uh. Ostroh B",
+          "away": "Popovice",
+          "score": null,
+          "venue": "Uh. Ostroh",
+          "report": null
+        },
+        {
+          "round": 15,
+          "date": "2027-05-23T14:30:00+02:00",
+          "home": "Uh. Ostroh B",
+          "away": "Havřice",
+          "score": null,
+          "venue": "Uh. Ostroh",
+          "report": null
+        },
+        {
+          "round": 16,
+          "date": "2027-05-30T14:30:00+02:00",
+          "home": "Uh. Ostroh B",
+          "away": "Velký Ořechov",
+          "score": null,
+          "venue": "Uh. Ostroh",
+          "report": null
+        },
+        {
+          "round": 17,
+          "date": "2027-06-06T14:30:00+02:00",
+          "home": "Uh. Ostroh B",
+          "away": "Březolupy",
+          "score": null,
+          "venue": "Uh. Ostroh",
+          "report": null
+        },
+        {
+          "round": 18,
+          "date": "2027-06-13T17:00:00+02:00",
+          "home": "Hradčovice",
+          "away": "Uh. Ostroh B",
+          "score": null,
+          "venue": "Hradčovice",
+          "report": null
+        }
+      ],
+      "table": [
+        {
+          "position": 1,
+          "team": "Hradčovice",
+          "played": 9,
+          "won": 7,
+          "drawn": 0,
+          "lost": 2,
+          "gf": 42,
+          "ga": 17,
+          "points": 21
+        },
+        {
+          "position": 2,
+          "team": "Popovice",
+          "played": 9,
+          "won": 6,
+          "drawn": 2,
+          "lost": 1,
+          "gf": 27,
+          "ga": 15,
+          "points": 20
+        },
+        {
+          "position": 3,
+          "team": "Havřice",
+          "played": 9,
+          "won": 5,
+          "drawn": 1,
+          "lost": 3,
+          "gf": 26,
+          "ga": 17,
+          "points": 16
+        },
+        {
+          "position": 4,
+          "team": "Velký Ořechov",
+          "played": 9,
+          "won": 5,
+          "drawn": 1,
+          "lost": 3,
+          "gf": 20,
+          "ga": 28,
+          "points": 16
+        },
+        {
+          "position": 5,
+          "team": "Březolupy",
+          "played": 9,
+          "won": 4,
+          "drawn": 1,
+          "lost": 4,
+          "gf": 18,
+          "ga": 20,
+          "points": 13
+        },
+        {
+          "position": 6,
+          "team": "Boršice u Bl./Dolní Němčí B",
+          "played": 9,
+          "won": 4,
+          "drawn": 0,
+          "lost": 5,
+          "gf": 27,
+          "ga": 29,
+          "points": 12
+        },
+        {
+          "position": 7,
+          "team": "Javořina B",
+          "played": 9,
+          "won": 4,
+          "drawn": 0,
+          "lost": 5,
+          "gf": 18,
+          "ga": 26,
+          "points": 12
+        },
+        {
+          "position": 8,
+          "team": "Ostrožská Lhota",
+          "played": 9,
+          "won": 3,
+          "drawn": 1,
+          "lost": 5,
+          "gf": 22,
+          "ga": 25,
+          "points": 10
+        },
+        {
+          "position": 9,
+          "team": "Částkov",
+          "played": 9,
+          "won": 2,
+          "drawn": 1,
+          "lost": 6,
+          "gf": 14,
+          "ga": 28,
+          "points": 7
+        },
+        {
+          "position": 10,
+          "team": "Uh. Ostroh B",
+          "played": 9,
+          "won": 1,
+          "drawn": 1,
+          "lost": 7,
+          "gf": 19,
+          "ga": 28,
+          "points": 4
+        }
+      ],
+      "scorers": []
+    },
+    {
+      "id": "dorost",
+      "name": "Starší dorost",
+      "category": "U19",
+      "competition": "OP dorostu sk. A",
+      "competitionUrl": "https://is.fotbal.cz/public/souteze/detail-souteze.aspx?req=3b0e291e-af04-48f1-a9e3-aaedca4797a9&sport=fotbal",
+      "season": "2026/2027",
+      "description": "",
+      "matches": [
+        {
+          "round": 1,
+          "date": "2026-08-16T13:30:00+02:00",
+          "home": "Boršice B/Nedakonice",
+          "away": "Uh. Ostroh",
+          "score": [
+            2,
+            2
+          ],
+          "venue": "Nedakonice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=22ff4c7e-46e8-4005-bc3c-4a1c7b973537&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 2,
+          "date": "2026-08-22T16:30:00+02:00",
+          "home": "Uh. Ostroh",
+          "away": "Buchlovice/Tupesy",
+          "score": [
+            3,
+            2
+          ],
+          "venue": "Uh. Ostroh",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=61c7e84a-0106-42c3-b99a-637537872d8e&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 4,
+          "date": "2026-09-05T16:00:00+02:00",
+          "home": "Uh. Ostroh",
+          "away": "Huštěnovice/Traplice",
+          "score": [
+            7,
+            2
+          ],
+          "venue": "Uh. Ostroh",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=4c906029-fa19-4528-934c-42ba5ea65084&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 5,
+          "date": "2026-09-16T17:00:00+02:00",
+          "home": "Zlechov/Osvětimany",
+          "away": "Uh. Ostroh",
+          "score": [
+            4,
+            1
+          ],
+          "venue": "Zlechov",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=77a26d7e-b8b6-4647-97af-0edc8e81a114&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 7,
+          "date": "2026-09-28T14:00:00+02:00",
+          "home": "Uh. Ostroh",
+          "away": "Kostelany/Babice",
+          "score": [
+            6,
+            4
+          ],
+          "venue": "Uh. Ostroh",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=6ac4ce97-5d49-43a2-914b-a698ea4022e6&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 8,
+          "date": "2026-10-03T15:00:00+02:00",
+          "home": "Uh. Ostroh",
+          "away": "Boršice B/Nedakonice",
+          "score": [
+            4,
+            1
+          ],
+          "venue": "Uh. Ostroh",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=cc818837-96a1-43e6-8838-e040ccd1fad9&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 9,
+          "date": "2026-10-10T15:00:00+02:00",
+          "home": "Buchlovice/Tupesy",
+          "away": "Uh. Ostroh",
+          "score": [
+            3,
+            3
+          ],
+          "venue": "Buchlovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=bfa1095e-80ef-4c42-9e81-2d13fd912c4e&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 10,
+          "date": "2026-10-17T14:30:00+02:00",
+          "home": "Uh. Ostroh",
+          "away": "Polešovice",
+          "score": [
+            2,
+            4
+          ],
+          "venue": "Uh. Ostroh",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=8ad1c98d-c048-4a66-a9ba-f82137f39f6e&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 6,
+          "date": "2026-10-24T14:30:00+02:00",
+          "home": "Jalubí/Velehrad",
+          "away": "Uh. Ostroh",
+          "score": [
+            12,
+            1
+          ],
+          "venue": "Jalubí",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=d553cbf3-74c8-4ef7-bf58-4e625a8ce982&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 3,
+          "date": "2026-11-14T11:00:00+01:00",
+          "home": "Polešovice",
+          "away": "Uh. Ostroh",
+          "score": null,
+          "venue": "Polešovice",
+          "report": null
+        },
+        {
+          "round": 11,
+          "date": "2027-03-20T15:00:00+01:00",
+          "home": "Huštěnovice/Traplice",
+          "away": "Uh. Ostroh",
+          "score": null,
+          "venue": "Huštěnovice",
+          "report": null
+        },
+        {
+          "round": 12,
+          "date": "2027-03-27T15:00:00+01:00",
+          "home": "Uh. Ostroh",
+          "away": "Zlechov/Osvětimany",
+          "score": null,
+          "venue": "Uh. Ostroh",
+          "report": null
+        },
+        {
+          "round": 13,
+          "date": "2027-04-03T15:30:00+02:00",
+          "home": "Uh. Ostroh",
+          "away": "Jalubí/Velehrad",
+          "score": null,
+          "venue": "Uh. Ostroh",
+          "report": null
+        },
+        {
+          "round": 14,
+          "date": "2027-04-11T12:30:00+02:00",
+          "home": "Kostelany/Babice",
+          "away": "Uh. Ostroh",
+          "score": null,
+          "venue": "Kostelany nM",
+          "report": null
+        },
+        {
+          "round": 15,
+          "date": "2027-04-18T13:00:00+02:00",
+          "home": "Boršice B/Nedakonice",
+          "away": "Uh. Ostroh",
+          "score": null,
+          "venue": "Nedakonice",
+          "report": null
+        },
+        {
+          "round": 16,
+          "date": "2027-04-24T16:00:00+02:00",
+          "home": "Uh. Ostroh",
+          "away": "Buchlovice/Tupesy",
+          "score": null,
+          "venue": "Uh. Ostroh",
+          "report": null
+        },
+        {
+          "round": 17,
+          "date": "2027-05-02T12:00:00+02:00",
+          "home": "Polešovice",
+          "away": "Uh. Ostroh",
+          "score": null,
+          "venue": "Polešovice",
+          "report": null
+        },
+        {
+          "round": 18,
+          "date": "2027-05-08T16:30:00+02:00",
+          "home": "Uh. Ostroh",
+          "away": "Huštěnovice/Traplice",
+          "score": null,
+          "venue": "Uh. Ostroh",
+          "report": null
+        },
+        {
+          "round": 19,
+          "date": "2027-05-15T14:30:00+02:00",
+          "home": "Zlechov/Osvětimany",
+          "away": "Uh. Ostroh",
+          "score": null,
+          "venue": "Zlechov",
+          "report": null
+        },
+        {
+          "round": 20,
+          "date": "2027-05-22T17:00:00+02:00",
+          "home": "Jalubí/Velehrad",
+          "away": "Uh. Ostroh",
+          "score": null,
+          "venue": "Jalubí",
+          "report": null
+        },
+        {
+          "round": 21,
+          "date": "2027-05-29T17:00:00+02:00",
+          "home": "Uh. Ostroh",
+          "away": "Kostelany/Babice",
+          "score": null,
+          "venue": "Uh. Ostroh",
+          "report": null
+        }
+      ],
+      "table": [
+        {
+          "position": 1,
+          "team": "Buchlovice/Tupesy",
+          "played": 10,
+          "won": 7,
+          "drawn": 1,
+          "lost": 2,
+          "gf": 32,
+          "ga": 15,
+          "points": 22
+        },
+        {
+          "position": 2,
+          "team": "Jalubí/Velehrad",
+          "played": 10,
+          "won": 7,
+          "drawn": 0,
+          "lost": 3,
+          "gf": 52,
+          "ga": 14,
+          "points": 21
+        },
+        {
+          "position": 3,
+          "team": "Zlechov/Osvětimany",
+          "played": 10,
+          "won": 6,
+          "drawn": 1,
+          "lost": 3,
+          "gf": 28,
+          "ga": 22,
+          "points": 19
+        },
+        {
+          "position": 4,
+          "team": "Polešovice",
+          "played": 9,
+          "won": 5,
+          "drawn": 1,
+          "lost": 3,
+          "gf": 20,
+          "ga": 16,
+          "points": 16
+        },
+        {
+          "position": 5,
+          "team": "Uh. Ostroh",
+          "played": 9,
+          "won": 4,
+          "drawn": 2,
+          "lost": 3,
+          "gf": 29,
+          "ga": 34,
+          "points": 14
+        },
+        {
+          "position": 6,
+          "team": "Huštěnovice/Traplice",
+          "played": 10,
+          "won": 3,
+          "drawn": 1,
+          "lost": 6,
+          "gf": 16,
+          "ga": 34,
+          "points": 10
+        },
+        {
+          "position": 7,
+          "team": "Kostelany/Babice",
+          "played": 10,
+          "won": 2,
+          "drawn": 1,
+          "lost": 7,
+          "gf": 23,
+          "ga": 36,
+          "points": 7
+        },
+        {
+          "position": 8,
+          "team": "Boršice B/Nedakonice",
+          "played": 10,
+          "won": 1,
+          "drawn": 1,
+          "lost": 8,
+          "gf": 16,
+          "ga": 45,
+          "points": 4
+        }
+      ],
+      "scorers": []
+    },
+    {
+      "id": "starsi-zaci",
+      "name": "Starší žáci",
+      "category": "U15",
+      "competition": "4. liga starší žáci sk.C",
+      "competitionUrl": "https://is.fotbal.cz/public/souteze/detail-souteze.aspx?req=1f239034-302a-4702-a38f-27da46de8271&sport=fotbal",
+      "season": "2026/2027",
+      "description": "",
+      "matches": [
+        {
+          "round": 3,
+          "date": "2026-08-30T09:30:00+02:00",
+          "home": "Uh. Ostroh",
+          "away": "Boršice-Nedakonice",
+          "score": [
+            7,
+            2
+          ],
+          "venue": "Uh. Ostroh",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=585f19a3-e75c-4273-a0c5-2abdc7ffa45c&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 4,
+          "date": "2026-09-05T09:30:00+02:00",
+          "home": "Bojkovice",
+          "away": "Uh. Ostroh",
+          "score": [
+            0,
+            6
+          ],
+          "venue": "Bojkovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=fa1e0b2c-d26c-4a45-b292-f8c250094e86&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 5,
+          "date": "2026-09-13T09:30:00+02:00",
+          "home": "Uh. Ostroh",
+          "away": "Šumice",
+          "score": [
+            2,
+            1
+          ],
+          "venue": "Uh. Ostroh",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=cc2c0af1-594e-4769-ae1c-d319904d40f0&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 6,
+          "date": "2026-09-20T09:30:00+02:00",
+          "home": "Uh. Ostroh",
+          "away": "Strání",
+          "score": [
+            3,
+            1
+          ],
+          "venue": "Uh. Ostroh",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=3bc73b63-fb23-4145-ad1e-726cb3e67db1&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 2,
+          "date": "2026-09-24T16:30:00+02:00",
+          "home": "Mařatice",
+          "away": "Uh. Ostroh",
+          "score": [
+            2,
+            4
+          ],
+          "venue": "Mařatice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=5ca50d79-e596-48b3-940d-2923e6caf8bd&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 7,
+          "date": "2026-09-26T09:30:00+02:00",
+          "home": "O.N.Ves",
+          "away": "Uh. Ostroh",
+          "score": [
+            5,
+            5
+          ],
+          "venue": "O. N. Ves",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=ae41a8ed-609d-4b75-a38a-28f2ac5f86d8&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 8,
+          "date": "2026-10-04T09:30:00+02:00",
+          "home": "Uh. Ostroh",
+          "away": "Újezdec-Uh. Brod B",
+          "score": [
+            8,
+            3
+          ],
+          "venue": "Uh. Ostroh",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=aaecf9bb-b92c-4014-9d2b-4a55c0038e38&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 9,
+          "date": "2026-10-11T09:30:00+02:00",
+          "home": "Buchlovice-Tupesy",
+          "away": "Uh. Ostroh",
+          "score": [
+            1,
+            1
+          ],
+          "venue": "Tupesy",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=457fa063-0620-403d-993f-67cb7012b5f2&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 10,
+          "date": "2026-10-18T09:30:00+02:00",
+          "home": "Uh. Ostroh",
+          "away": "Kněžpole-Jarošov",
+          "score": [
+            9,
+            1
+          ],
+          "venue": "Uh. Ostroh",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=7c1d2d27-6cb2-4eae-8506-89b0ad72035a&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 11,
+          "date": "2026-10-24T09:30:00+02:00",
+          "home": "Nivnice-Dolní Němčí",
+          "away": "Uh. Ostroh",
+          "score": [
+            1,
+            4
+          ],
+          "venue": "Nivnice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=f075dc7c-25eb-4562-9995-f23f8ce063f7&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 1,
+          "date": "2026-11-01T09:30:00+01:00",
+          "home": "Uh. Ostroh",
+          "away": "FA Zlechov-Osvětimany",
+          "score": [
+            3,
+            3
+          ],
+          "venue": "Uh. Ostroh",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=defb59cc-6e66-4c27-8bfb-752cb61e75ef&zapis=1&hidemenu=1"
+        }
+      ],
+      "table": [
+        {
+          "position": 1,
+          "team": "Uh. Ostroh",
+          "played": 11,
+          "won": 8,
+          "drawn": 3,
+          "lost": 0,
+          "gf": 52,
+          "ga": 20,
+          "points": 27
+        },
+        {
+          "position": 2,
+          "team": "Strání",
+          "played": 11,
+          "won": 8,
+          "drawn": 2,
+          "lost": 1,
+          "gf": 54,
+          "ga": 18,
+          "points": 26
+        },
+        {
+          "position": 3,
+          "team": "Nivnice-Dolní Němčí",
+          "played": 11,
+          "won": 8,
+          "drawn": 0,
+          "lost": 3,
+          "gf": 55,
+          "ga": 22,
+          "points": 24
+        },
+        {
+          "position": 4,
+          "team": "Buchlovice-Tupesy",
+          "played": 11,
+          "won": 6,
+          "drawn": 2,
+          "lost": 3,
+          "gf": 38,
+          "ga": 30,
+          "points": 20
+        },
+        {
+          "position": 5,
+          "team": "Újezdec-Uh. Brod B",
+          "played": 11,
+          "won": 6,
+          "drawn": 1,
+          "lost": 4,
+          "gf": 48,
+          "ga": 34,
+          "points": 19
+        },
+        {
+          "position": 6,
+          "team": "FA Zlechov-Osvětimany",
+          "played": 11,
+          "won": 6,
+          "drawn": 1,
+          "lost": 4,
+          "gf": 47,
+          "ga": 46,
+          "points": 19
+        },
+        {
+          "position": 7,
+          "team": "Šumice",
+          "played": 11,
+          "won": 6,
+          "drawn": 0,
+          "lost": 5,
+          "gf": 49,
+          "ga": 26,
+          "points": 18
+        },
+        {
+          "position": 8,
+          "team": "Mařatice",
+          "played": 11,
+          "won": 4,
+          "drawn": 0,
+          "lost": 7,
+          "gf": 33,
+          "ga": 41,
+          "points": 12
+        },
+        {
+          "position": 9,
+          "team": "O.N.Ves",
+          "played": 11,
+          "won": 3,
+          "drawn": 2,
+          "lost": 6,
+          "gf": 28,
+          "ga": 47,
+          "points": 11
+        },
+        {
+          "position": 10,
+          "team": "Boršice-Nedakonice",
+          "played": 11,
+          "won": 2,
+          "drawn": 2,
+          "lost": 7,
+          "gf": 42,
+          "ga": 48,
+          "points": 8
+        },
+        {
+          "position": 11,
+          "team": "Bojkovice",
+          "played": 11,
+          "won": 2,
+          "drawn": 1,
+          "lost": 8,
+          "gf": 26,
+          "ga": 77,
+          "points": 7
+        },
+        {
+          "position": 12,
+          "team": "Kněžpole-Jarošov",
+          "played": 11,
+          "won": 0,
+          "drawn": 0,
+          "lost": 11,
+          "gf": 19,
+          "ga": 82,
+          "points": 0
+        }
+      ],
+      "scorers": []
+    },
+    {
+      "id": "mladsi-zaci",
+      "name": "Mladší žáci",
+      "category": "U13",
+      "competition": "4. liga mladší žáci sk.C",
+      "competitionUrl": "https://is.fotbal.cz/public/souteze/detail-souteze.aspx?req=30f62989-c046-40e3-95b8-6ce7255e921a&sport=fotbal",
+      "season": "2026/2027",
+      "description": "",
+      "matches": [
+        {
+          "round": 2,
+          "date": "2026-08-22T09:00:00+02:00",
+          "home": "Mařatice",
+          "away": "Uh. Ostroh",
+          "score": [
+            5,
+            0
+          ],
+          "venue": "Mařatice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=2e710c74-30fc-412a-a788-cadcc1fc32f8&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 3,
+          "date": "2026-08-30T11:15:00+02:00",
+          "home": "Uh. Ostroh",
+          "away": "Boršice-Nedakonice",
+          "score": [
+            6,
+            2
+          ],
+          "venue": "Uh. Ostroh",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=685a1d4f-eed8-4e87-8d64-468a10e90a07&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 4,
+          "date": "2026-09-05T11:15:00+02:00",
+          "home": "Bojkovice",
+          "away": "Uh. Ostroh",
+          "score": [
+            6,
+            2
+          ],
+          "venue": "Bojkovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=c94d009d-1d94-454d-a0a1-6b7c16fdd114&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 5,
+          "date": "2026-09-13T11:15:00+02:00",
+          "home": "Uh. Ostroh",
+          "away": "Šumice",
+          "score": [
+            4,
+            2
+          ],
+          "venue": "Uh. Ostroh",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=f56e4ba5-9be1-4772-94b1-7e215974deb1&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 6,
+          "date": "2026-09-20T11:15:00+02:00",
+          "home": "Uh. Ostroh",
+          "away": "Strání",
+          "score": [
+            1,
+            5
+          ],
+          "venue": "Uh. Ostroh",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=4acebfd2-04fb-421b-afde-e1ab7cb08b79&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 7,
+          "date": "2026-09-26T11:15:00+02:00",
+          "home": "O.N.Ves",
+          "away": "Uh. Ostroh",
+          "score": [
+            5,
+            0
+          ],
+          "venue": "O. N. Ves",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=79eb443c-ed8a-4734-9f78-036d86fd169c&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 8,
+          "date": "2026-10-04T11:15:00+02:00",
+          "home": "Uh. Ostroh",
+          "away": "Újezdec-Uh. Brod B",
+          "score": [
+            4,
+            2
+          ],
+          "venue": "Uh. Ostroh",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=fc92949d-b705-4040-8d6d-4a21c92d4924&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 9,
+          "date": "2026-10-11T11:15:00+02:00",
+          "home": "Buchlovice-Tupesy",
+          "away": "Uh. Ostroh",
+          "score": [
+            3,
+            2
+          ],
+          "venue": "Tupesy",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=d54c532d-d712-474c-83da-af49646b0752&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 10,
+          "date": "2026-10-18T11:15:00+02:00",
+          "home": "Uh. Ostroh",
+          "away": "Kněžpole-Jarošov",
+          "score": [
+            0,
+            8
+          ],
+          "venue": "Uh. Ostroh",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=9750c91d-2197-41dc-9ca1-dba8602a0a80&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 11,
+          "date": "2026-10-24T11:15:00+02:00",
+          "home": "Nivnice-Dolní Němčí",
+          "away": "Uh. Ostroh",
+          "score": [
+            5,
+            0
+          ],
+          "venue": "Nivnice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=e748bfd3-02d1-4c29-8ba8-78192f234bcb&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 1,
+          "date": "2026-11-01T11:15:00+01:00",
+          "home": "Uh. Ostroh",
+          "away": "FA Zlechov-Osvětimany",
+          "score": [
+            0,
+            1
+          ],
+          "venue": "Uh. Ostroh",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=0a27cb56-0e35-45a3-b987-e972ef559d67&zapis=1&hidemenu=1"
+        }
+      ],
+      "table": [
+        {
+          "position": 1,
+          "team": "Strání",
+          "played": 11,
+          "won": 9,
+          "drawn": 2,
+          "lost": 0,
+          "gf": 65,
+          "ga": 14,
+          "points": 29
+        },
+        {
+          "position": 2,
+          "team": "Bojkovice",
+          "played": 11,
+          "won": 9,
+          "drawn": 0,
+          "lost": 2,
+          "gf": 67,
+          "ga": 9,
+          "points": 27
+        },
+        {
+          "position": 3,
+          "team": "Kněžpole-Jarošov",
+          "played": 11,
+          "won": 8,
+          "drawn": 3,
+          "lost": 0,
+          "gf": 64,
+          "ga": 17,
+          "points": 27
+        },
+        {
+          "position": 4,
+          "team": "O.N.Ves",
+          "played": 11,
+          "won": 8,
+          "drawn": 1,
+          "lost": 2,
+          "gf": 49,
+          "ga": 13,
+          "points": 25
+        },
+        {
+          "position": 5,
+          "team": "Nivnice-Dolní Němčí",
+          "played": 11,
+          "won": 6,
+          "drawn": 0,
+          "lost": 5,
+          "gf": 46,
+          "ga": 44,
+          "points": 18
+        },
+        {
+          "position": 6,
+          "team": "Mařatice",
+          "played": 11,
+          "won": 5,
+          "drawn": 1,
+          "lost": 5,
+          "gf": 49,
+          "ga": 32,
+          "points": 16
+        },
+        {
+          "position": 7,
+          "team": "Újezdec-Uh. Brod B",
+          "played": 11,
+          "won": 3,
+          "drawn": 3,
+          "lost": 5,
+          "gf": 35,
+          "ga": 46,
+          "points": 12
+        },
+        {
+          "position": 8,
+          "team": "Šumice",
+          "played": 11,
+          "won": 3,
+          "drawn": 3,
+          "lost": 5,
+          "gf": 29,
+          "ga": 47,
+          "points": 12
+        },
+        {
+          "position": 9,
+          "team": "Uh. Ostroh",
+          "played": 11,
+          "won": 3,
+          "drawn": 0,
+          "lost": 8,
+          "gf": 19,
+          "ga": 44,
+          "points": 9
+        },
+        {
+          "position": 10,
+          "team": "FA Zlechov-Osvětimany",
+          "played": 11,
+          "won": 2,
+          "drawn": 1,
+          "lost": 8,
+          "gf": 13,
+          "ga": 45,
+          "points": 7
+        },
+        {
+          "position": 11,
+          "team": "Buchlovice-Tupesy",
+          "played": 11,
+          "won": 2,
+          "drawn": 0,
+          "lost": 9,
+          "gf": 16,
+          "ga": 58,
+          "points": 6
+        },
+        {
+          "position": 12,
+          "team": "Boršice-Nedakonice",
+          "played": 11,
+          "won": 1,
+          "drawn": 0,
+          "lost": 10,
+          "gf": 17,
+          "ga": 100,
+          "points": 3
+        }
+      ],
+      "scorers": []
+    },
+    {
+      "id": "starsi-pripravka",
+      "name": "Starší přípravka",
+      "category": "U11",
+      "competition": "OP - PSA",
+      "competitionUrl": "https://is.fotbal.cz/public/souteze/detail-souteze.aspx?req=c5be7855-c025-4a2b-910d-7d51eeacfcee&sport=fotbal",
+      "season": "2026/2027",
+      "description": "",
+      "matches": [
+        {
+          "round": 1,
+          "date": "2026-08-29T14:30:00+02:00",
+          "home": "Huštěnovice",
+          "away": "Uh. Ostroh",
+          "score": null,
+          "venue": "Huštěnovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=798205ca-e3eb-4676-a8be-64be5aa4e86d&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 2,
+          "date": "2026-09-05T10:00:00+02:00",
+          "home": "Bílovice",
+          "away": "Uh. Ostroh",
+          "score": null,
+          "venue": "Bílovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=5f42c76b-03e2-47b0-a948-103b8b27b47e&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 3,
+          "date": "2026-09-12T10:00:00+02:00",
+          "home": "Uh. Ostroh",
+          "away": "Mařatice",
+          "score": null,
+          "venue": "Uh. Ostroh",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=fb450991-6b68-4870-b384-dae1b6b5c5da&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 4,
+          "date": "2026-09-20T10:00:00+02:00",
+          "home": "Kněžpole",
+          "away": "Uh. Ostroh",
+          "score": null,
+          "venue": "Kněžpole",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=84b749b9-fe24-4cb4-aa18-1c10b48c0ac7&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 6,
+          "date": "2026-10-05T16:30:00+02:00",
+          "home": "Kunovice",
+          "away": "Uh. Ostroh",
+          "score": null,
+          "venue": "Kunovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=301edd92-5479-420d-a126-1ba750f69cd2&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 7,
+          "date": "2026-10-10T10:00:00+02:00",
+          "home": "Uh. Ostroh",
+          "away": "Ostr. N. Ves",
+          "score": null,
+          "venue": "Uh. Ostroh",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=cabef1f1-e019-4053-aaef-b87dfa817190&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 9,
+          "date": "2026-10-12T16:30:00+02:00",
+          "home": "Uh. Ostroh",
+          "away": "FC Slovácko-dívky",
+          "score": null,
+          "venue": "Uh. Ostroh",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=bc61e7ab-fccc-4b51-803f-ff47ec9f9192&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 8,
+          "date": "2026-10-18T10:00:00+02:00",
+          "home": "St. Město",
+          "away": "Uh. Ostroh",
+          "score": null,
+          "venue": "Rybníček-tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=c10d8b32-4011-4aa8-b48e-ea14dd810a67&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 12,
+          "date": "2027-04-19T16:00:00+02:00",
+          "home": "Mařatice",
+          "away": "Uh. Ostroh",
+          "score": null,
+          "venue": "Mařatice",
+          "report": null,
+          "played": false
+        },
+        {
+          "round": 13,
+          "date": "2027-04-24T10:00:00+02:00",
+          "home": "Uh. Ostroh",
+          "away": "Kněžpole",
+          "score": null,
+          "venue": "Uh. Ostroh",
+          "report": null,
+          "played": false
+        },
+        {
+          "round": 15,
+          "date": "2027-05-08T10:00:00+02:00",
+          "home": "Uh. Ostroh",
+          "away": "Kunovice",
+          "score": null,
+          "venue": "Uh. Ostroh",
+          "report": null,
+          "played": false
+        },
+        {
+          "round": 16,
+          "date": "2027-05-16T14:00:00+02:00",
+          "home": "Ostr. N. Ves",
+          "away": "Uh. Ostroh",
+          "score": null,
+          "venue": "O. N. Ves",
+          "report": null,
+          "played": false
+        },
+        {
+          "round": 17,
+          "date": "2027-05-22T10:00:00+02:00",
+          "home": "Uh. Ostroh",
+          "away": "St. Město",
+          "score": null,
+          "venue": "Uh. Ostroh",
+          "report": null,
+          "played": false
+        },
+        {
+          "round": 18,
+          "date": "2027-05-30T10:00:00+02:00",
+          "home": "FC Slovácko-dívky",
+          "away": "Uh. Ostroh",
+          "score": null,
+          "venue": "Sady",
+          "report": null,
+          "played": false
+        },
+        {
+          "round": 10,
+          "date": "2027-06-05T10:00:00+02:00",
+          "home": "Uh. Ostroh",
+          "away": "Huštěnovice",
+          "score": null,
+          "venue": "Uh. Ostroh",
+          "report": null,
+          "played": false
+        },
+        {
+          "round": 11,
+          "date": "2027-06-12T10:00:00+02:00",
+          "home": "Uh. Ostroh",
+          "away": "Bílovice",
+          "score": null,
+          "venue": "Uh. Ostroh",
+          "report": null,
+          "played": false
+        }
+      ],
+      "table": [],
+      "scorers": []
+    },
+    {
+      "id": "mladsi-pripravka",
+      "name": "Mladší přípravka",
+      "category": "U9",
+      "competition": "OP - PMA",
+      "competitionUrl": "https://is.fotbal.cz/public/souteze/detail-souteze.aspx?req=9cc05110-edb0-41a1-b2f6-7255054cd9d5&sport=fotbal",
+      "season": "2026/2027",
+      "description": "",
+      "matches": [
+        {
+          "round": 1,
+          "date": "2026-08-29T14:30:00+02:00",
+          "home": "Huštěnovice",
+          "away": "Uh. Ostroh",
+          "score": null,
+          "venue": "Huštěnovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=5b1b0ea2-3096-40f2-a27f-19373d1f7780&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 2,
+          "date": "2026-09-05T10:00:00+02:00",
+          "home": "Bílovice",
+          "away": "Uh. Ostroh",
+          "score": null,
+          "venue": "Bílovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=5e408c2c-f182-4050-9b38-76bfba7c4d98&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 3,
+          "date": "2026-09-12T10:00:00+02:00",
+          "home": "Uh. Ostroh",
+          "away": "Mařatice",
+          "score": null,
+          "venue": "Uh. Ostroh",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=a6a1c270-f650-45d7-904c-c222fdf55f93&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 4,
+          "date": "2026-09-20T10:00:00+02:00",
+          "home": "Kněžpole",
+          "away": "Uh. Ostroh",
+          "score": null,
+          "venue": "Kněžpole",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=0cfa864f-cc80-4b7e-b408-444dc9e3c643&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 6,
+          "date": "2026-10-05T16:30:00+02:00",
+          "home": "Kunovice",
+          "away": "Uh. Ostroh",
+          "score": null,
+          "venue": "Kunovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=e0e36570-5aa3-435f-8782-a2c9b2c9dc07&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 7,
+          "date": "2026-10-10T10:00:00+02:00",
+          "home": "Uh. Ostroh",
+          "away": "Ostr. N. Ves",
+          "score": null,
+          "venue": "Uh. Ostroh",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=adab9a9d-1941-4314-ae86-e07d16819264&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 9,
+          "date": "2026-10-12T16:30:00+02:00",
+          "home": "Uh. Ostroh",
+          "away": "FC Slovácko-dívky",
+          "score": null,
+          "venue": "Uh. Ostroh",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=60bb01b2-6581-4267-832f-1cac05057cc1&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 8,
+          "date": "2026-10-18T10:00:00+02:00",
+          "home": "St. Město",
+          "away": "Uh. Ostroh",
+          "score": null,
+          "venue": "Rybníček-tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=10699001-653c-4742-8c5f-b028e23dd2cf&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 12,
+          "date": "2027-04-19T16:00:00+02:00",
+          "home": "Mařatice",
+          "away": "Uh. Ostroh",
+          "score": null,
+          "venue": "Mařatice",
+          "report": null,
+          "played": false
+        },
+        {
+          "round": 13,
+          "date": "2027-04-24T10:00:00+02:00",
+          "home": "Uh. Ostroh",
+          "away": "Kněžpole",
+          "score": null,
+          "venue": "Uh. Ostroh",
+          "report": null,
+          "played": false
+        },
+        {
+          "round": 15,
+          "date": "2027-05-08T10:00:00+02:00",
+          "home": "Uh. Ostroh",
+          "away": "Kunovice",
+          "score": null,
+          "venue": "Uh. Ostroh",
+          "report": null,
+          "played": false
+        },
+        {
+          "round": 16,
+          "date": "2027-05-16T10:00:00+02:00",
+          "home": "Ostr. N. Ves",
+          "away": "Uh. Ostroh",
+          "score": null,
+          "venue": "O. N. Ves",
+          "report": null,
+          "played": false
+        },
+        {
+          "round": 17,
+          "date": "2027-05-22T10:00:00+02:00",
+          "home": "Uh. Ostroh",
+          "away": "St. Město",
+          "score": null,
+          "venue": "Uh. Ostroh",
+          "report": null,
+          "played": false
+        },
+        {
+          "round": 18,
+          "date": "2027-05-29T14:00:00+02:00",
+          "home": "FC Slovácko-dívky",
+          "away": "Uh. Ostroh",
+          "score": null,
+          "venue": "Sady",
+          "report": null,
+          "played": false
+        },
+        {
+          "round": 10,
+          "date": "2027-06-05T10:00:00+02:00",
+          "home": "Uh. Ostroh",
+          "away": "Huštěnovice",
+          "score": null,
+          "venue": "Uh. Ostroh",
+          "report": null,
+          "played": false
+        },
+        {
+          "round": 11,
+          "date": "2027-06-12T10:00:00+02:00",
+          "home": "Uh. Ostroh",
+          "away": "Bílovice",
+          "score": null,
+          "venue": "Uh. Ostroh",
+          "report": null,
+          "played": false
+        }
+      ],
+      "table": [],
+      "scorers": []
+    }
+  ]
+}

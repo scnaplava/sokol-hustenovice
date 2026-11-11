@@ -1,0 +1,929 @@
+{
+  "source": "facr",
+  "updatedAt": "2026-11-10T21:01:17+01:00",
+  "club": {
+    "name": "TJ Vlčnov",
+    "official": "Tělovýchovná jednota Vlčnov z.s.",
+    "shortName": "Vlčnov",
+    "brand": "TJ Vlčnov",
+    "hero": [
+      "TJ",
+      "Vlčnov"
+    ],
+    "founded": null,
+    "logo": "",
+    "logoShape": "shield",
+    "colors": {},
+    "stadium": "",
+    "email": "",
+    "facebook": "",
+    "tagline": "Zápasy, výsledky a tabulky všech našich týmů na jednom místě.",
+    "facr": {
+      "number": "7220641",
+      "isId": "2216",
+      "match": [
+        "Vlčnov"
+      ]
+    }
+  },
+  "teams": [
+    {
+      "id": "muzi",
+      "name": "Muži A",
+      "category": "Dospělí",
+      "competition": "7. liga, sk. C",
+      "competitionUrl": "https://is.fotbal.cz/public/souteze/detail-souteze.aspx?req=d1e0f817-6286-4337-9d2c-b3f0a103a16d&sport=fotbal",
+      "season": "2026/2027",
+      "description": "",
+      "matches": [
+        {
+          "round": 2,
+          "date": "2026-08-09T17:00:00+02:00",
+          "home": "Strání B",
+          "away": "Vlčnov",
+          "score": [
+            1,
+            1
+          ],
+          "venue": "Strání-tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=926a60f2-a5a3-4e5b-a3bc-cc5408628174&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 3,
+          "date": "2026-08-16T16:30:00+02:00",
+          "home": "Vlčnov",
+          "away": "FC Slovácko C",
+          "score": [
+            2,
+            3
+          ],
+          "venue": "Vlčnov",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=b7fcb9b9-c8a9-4f2c-8042-3c88b08b56ed&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 4,
+          "date": "2026-08-23T16:30:00+02:00",
+          "home": "Prakšice",
+          "away": "Vlčnov",
+          "score": [
+            2,
+            1
+          ],
+          "venue": "Prakšice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=a03a5e94-d9d7-49e0-bac1-e7ed1abe23fb&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 5,
+          "date": "2026-08-30T16:30:00+02:00",
+          "home": "Vlčnov",
+          "away": "Koryčany",
+          "score": [
+            1,
+            2
+          ],
+          "venue": "Vlčnov",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=9a9dc557-2e43-4a1a-9e21-272e6d9127f2&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 6,
+          "date": "2026-09-05T16:00:00+02:00",
+          "home": "Javořina",
+          "away": "Vlčnov",
+          "score": [
+            2,
+            2
+          ],
+          "venue": "Slavkov",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=1544595d-90b7-4cdd-90bb-e1202514637a&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 7,
+          "date": "2026-09-13T16:00:00+02:00",
+          "home": "Vlčnov",
+          "away": "Šumice",
+          "score": [
+            4,
+            1
+          ],
+          "venue": "Vlčnov",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=5a4c751b-2e38-4610-8176-c150b552d76a&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 8,
+          "date": "2026-09-20T15:30:00+02:00",
+          "home": "Vlčnov",
+          "away": "Hluk B",
+          "score": [
+            3,
+            1
+          ],
+          "venue": "Vlčnov",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=88451d01-c4d6-4e9d-961a-848178de3812&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 9,
+          "date": "2026-09-25T16:30:00+02:00",
+          "home": "O. N. Ves",
+          "away": "Vlčnov",
+          "score": [
+            2,
+            3
+          ],
+          "venue": "O. N. Ves",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=e878e644-5e4d-4c9f-ad3f-352177e5faf9&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 10,
+          "date": "2026-10-03T15:00:00+02:00",
+          "home": "Vlčnov",
+          "away": "Morkovice B",
+          "score": [
+            7,
+            1
+          ],
+          "venue": "Vlčnov",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=4f9194f7-e283-44a4-9fc8-60fd6139be2f&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 11,
+          "date": "2026-10-10T10:00:00+02:00",
+          "home": "Polešovice",
+          "away": "Vlčnov",
+          "score": [
+            3,
+            1
+          ],
+          "venue": "Polešovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=2a3bab9e-6e5d-46fd-8aba-b7ad2058bbd1&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 12,
+          "date": "2026-10-18T14:30:00+02:00",
+          "home": "Vlčnov",
+          "away": "Huštěnovice",
+          "score": [
+            3,
+            0
+          ],
+          "venue": "Vlčnov",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=bf17e058-312e-4930-8249-4ac8799dd56b&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 13,
+          "date": "2026-10-24T14:30:00+02:00",
+          "home": "Chropyně",
+          "away": "Vlčnov",
+          "score": [
+            4,
+            1
+          ],
+          "venue": "Chropyně,tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=871ddd6f-ec1d-4185-b35e-bc06f9ceeb01&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 1,
+          "date": "2026-10-31T14:00:00+01:00",
+          "home": "Vlčnov",
+          "away": "Uh. Ostroh",
+          "score": [
+            1,
+            0
+          ],
+          "venue": "Vlčnov",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=a70ba968-c519-4b15-9153-d302e5c6daec&zapis=1&hidemenu=1"
+        }
+      ],
+      "table": [
+        {
+          "position": 1,
+          "team": "Koryčany",
+          "played": 13,
+          "won": 12,
+          "drawn": 0,
+          "lost": 1,
+          "gf": 44,
+          "ga": 18,
+          "points": 36
+        },
+        {
+          "position": 2,
+          "team": "Strání B",
+          "played": 13,
+          "won": 8,
+          "drawn": 2,
+          "lost": 3,
+          "gf": 35,
+          "ga": 12,
+          "points": 26
+        },
+        {
+          "position": 3,
+          "team": "Uh. Ostroh",
+          "played": 13,
+          "won": 8,
+          "drawn": 1,
+          "lost": 4,
+          "gf": 31,
+          "ga": 20,
+          "points": 25
+        },
+        {
+          "position": 4,
+          "team": "Prakšice",
+          "played": 13,
+          "won": 7,
+          "drawn": 2,
+          "lost": 4,
+          "gf": 24,
+          "ga": 22,
+          "points": 23
+        },
+        {
+          "position": 5,
+          "team": "FC Slovácko C",
+          "played": 13,
+          "won": 6,
+          "drawn": 3,
+          "lost": 4,
+          "gf": 28,
+          "ga": 25,
+          "points": 21
+        },
+        {
+          "position": 6,
+          "team": "Vlčnov",
+          "played": 13,
+          "won": 6,
+          "drawn": 2,
+          "lost": 5,
+          "gf": 30,
+          "ga": 22,
+          "points": 20
+        },
+        {
+          "position": 7,
+          "team": "Polešovice",
+          "played": 13,
+          "won": 6,
+          "drawn": 2,
+          "lost": 5,
+          "gf": 26,
+          "ga": 24,
+          "points": 20
+        },
+        {
+          "position": 8,
+          "team": "Javořina",
+          "played": 13,
+          "won": 5,
+          "drawn": 4,
+          "lost": 4,
+          "gf": 23,
+          "ga": 21,
+          "points": 19
+        },
+        {
+          "position": 9,
+          "team": "Huštěnovice",
+          "played": 13,
+          "won": 5,
+          "drawn": 2,
+          "lost": 6,
+          "gf": 25,
+          "ga": 27,
+          "points": 17
+        },
+        {
+          "position": 10,
+          "team": "Chropyně",
+          "played": 13,
+          "won": 5,
+          "drawn": 0,
+          "lost": 8,
+          "gf": 30,
+          "ga": 36,
+          "points": 15
+        },
+        {
+          "position": 11,
+          "team": "O. N. Ves",
+          "played": 13,
+          "won": 3,
+          "drawn": 2,
+          "lost": 8,
+          "gf": 18,
+          "ga": 28,
+          "points": 11
+        },
+        {
+          "position": 12,
+          "team": "Hluk B",
+          "played": 13,
+          "won": 2,
+          "drawn": 4,
+          "lost": 7,
+          "gf": 23,
+          "ga": 35,
+          "points": 10
+        },
+        {
+          "position": 13,
+          "team": "Morkovice B",
+          "played": 13,
+          "won": 2,
+          "drawn": 3,
+          "lost": 8,
+          "gf": 28,
+          "ga": 50,
+          "points": 9
+        },
+        {
+          "position": 14,
+          "team": "Šumice",
+          "played": 13,
+          "won": 2,
+          "drawn": 1,
+          "lost": 10,
+          "gf": 21,
+          "ga": 46,
+          "points": 7
+        }
+      ],
+      "scorers": []
+    },
+    {
+      "id": "dorost",
+      "name": "Starší dorost",
+      "category": "U19",
+      "competition": "5. liga starší dorost, sk. B",
+      "competitionUrl": "https://is.fotbal.cz/public/souteze/detail-souteze.aspx?req=e271506a-f133-4962-ae33-12570c150aa5&sport=fotbal",
+      "season": "2026/2027",
+      "description": "",
+      "matches": [
+        {
+          "round": 3,
+          "date": "2026-08-29T13:30:00+02:00",
+          "home": "Vlčnov-Popovice",
+          "away": "Boršice",
+          "score": [
+            3,
+            3
+          ],
+          "venue": "Vlčnov",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=b7f6a8e4-96b4-44c1-9a00-fb272420caf1&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 2,
+          "date": "2026-09-01T17:30:00+02:00",
+          "home": "Jaroslavice",
+          "away": "Vlčnov-Popovice",
+          "score": [
+            4,
+            3
+          ],
+          "venue": "Jaroslavice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=4efb0597-4664-470b-af0f-1378f7440193&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 4,
+          "date": "2026-09-05T10:00:00+02:00",
+          "home": "Zdounky-Zborovice",
+          "away": "Vlčnov-Popovice",
+          "score": [
+            6,
+            2
+          ],
+          "venue": "Zdounky",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=a08b7aab-76ee-4f69-96ad-89c8936fc7ae&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 5,
+          "date": "2026-09-12T11:00:00+02:00",
+          "home": "Vlčnov-Popovice",
+          "away": "Zlínsko",
+          "score": [
+            3,
+            2
+          ],
+          "venue": "Vlčnov",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=215e3e29-856e-43fa-8b2c-c4d00637780d&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 6,
+          "date": "2026-09-19T12:30:00+02:00",
+          "home": "Vlčnov-Popovice",
+          "away": "Hulín",
+          "score": [
+            2,
+            2
+          ],
+          "venue": "Vlčnov",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=27306db0-1bea-4425-87bb-b3e79cab20e2&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 7,
+          "date": "2026-09-26T10:00:00+02:00",
+          "home": "Mařatice",
+          "away": "Vlčnov-Popovice",
+          "score": [
+            0,
+            2
+          ],
+          "venue": "Mařatice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=208df8f6-5e02-43c3-979d-a235b98e6706&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 8,
+          "date": "2026-10-04T12:00:00+02:00",
+          "home": "Vlčnov-Popovice",
+          "away": "Napajedla",
+          "score": [
+            1,
+            2
+          ],
+          "venue": "Vlčnov",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=756a917f-82de-4efc-8fbb-6b969cf84cc5&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 9,
+          "date": "2026-10-10T14:00:00+02:00",
+          "home": "Bezměrov",
+          "away": "Vlčnov-Popovice",
+          "score": [
+            2,
+            5
+          ],
+          "venue": "Bezměrov",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=0b5ea0ff-81b4-4fc2-aa3e-bcf3eb47e5c2&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 10,
+          "date": "2026-10-17T11:30:00+02:00",
+          "home": "Vlčnov-Popovice",
+          "away": "Luhačovice",
+          "score": [
+            3,
+            4
+          ],
+          "venue": "Vlčnov",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=6d930c90-b5c2-401f-8582-8aae260840a1&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 11,
+          "date": "2026-10-24T11:30:00+02:00",
+          "home": "Nivnice-Bánov",
+          "away": "Vlčnov-Popovice",
+          "score": [
+            9,
+            0
+          ],
+          "venue": "Bánov",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=b933f139-aad3-46e4-b1fa-dfc6ca4ecdd1&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 1,
+          "date": "2026-11-01T11:00:00+01:00",
+          "home": "Vlčnov-Popovice",
+          "away": "Dolní Němčí",
+          "score": [
+            1,
+            4
+          ],
+          "venue": "Vlčnov",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=7e45a699-f223-4313-9a23-2c434abb99eb&zapis=1&hidemenu=1"
+        }
+      ],
+      "table": [
+        {
+          "position": 1,
+          "team": "Dolní Němčí",
+          "played": 11,
+          "won": 8,
+          "drawn": 1,
+          "lost": 2,
+          "gf": 29,
+          "ga": 14,
+          "points": 25
+        },
+        {
+          "position": 2,
+          "team": "Mařatice",
+          "played": 11,
+          "won": 8,
+          "drawn": 0,
+          "lost": 3,
+          "gf": 38,
+          "ga": 17,
+          "points": 24
+        },
+        {
+          "position": 3,
+          "team": "Luhačovice",
+          "played": 11,
+          "won": 7,
+          "drawn": 1,
+          "lost": 3,
+          "gf": 42,
+          "ga": 28,
+          "points": 22
+        },
+        {
+          "position": 4,
+          "team": "Napajedla",
+          "played": 11,
+          "won": 7,
+          "drawn": 0,
+          "lost": 4,
+          "gf": 28,
+          "ga": 10,
+          "points": 21
+        },
+        {
+          "position": 5,
+          "team": "Nivnice-Bánov",
+          "played": 11,
+          "won": 6,
+          "drawn": 1,
+          "lost": 4,
+          "gf": 43,
+          "ga": 21,
+          "points": 19
+        },
+        {
+          "position": 6,
+          "team": "Jaroslavice",
+          "played": 11,
+          "won": 6,
+          "drawn": 1,
+          "lost": 4,
+          "gf": 33,
+          "ga": 23,
+          "points": 19
+        },
+        {
+          "position": 7,
+          "team": "Zdounky-Zborovice",
+          "played": 11,
+          "won": 5,
+          "drawn": 3,
+          "lost": 3,
+          "gf": 40,
+          "ga": 38,
+          "points": 18
+        },
+        {
+          "position": 8,
+          "team": "Boršice",
+          "played": 11,
+          "won": 4,
+          "drawn": 2,
+          "lost": 5,
+          "gf": 28,
+          "ga": 38,
+          "points": 14
+        },
+        {
+          "position": 9,
+          "team": "Vlčnov-Popovice",
+          "played": 11,
+          "won": 3,
+          "drawn": 2,
+          "lost": 6,
+          "gf": 25,
+          "ga": 38,
+          "points": 11
+        },
+        {
+          "position": 10,
+          "team": "Zlínsko",
+          "played": 11,
+          "won": 3,
+          "drawn": 1,
+          "lost": 7,
+          "gf": 28,
+          "ga": 37,
+          "points": 10
+        },
+        {
+          "position": 11,
+          "team": "Hulín",
+          "played": 11,
+          "won": 1,
+          "drawn": 2,
+          "lost": 8,
+          "gf": 20,
+          "ga": 48,
+          "points": 5
+        },
+        {
+          "position": 12,
+          "team": "Bezměrov",
+          "played": 11,
+          "won": 1,
+          "drawn": 0,
+          "lost": 10,
+          "gf": 12,
+          "ga": 54,
+          "points": 3
+        }
+      ],
+      "scorers": []
+    },
+    {
+      "id": "starsi-pripravka",
+      "name": "Starší přípravka",
+      "category": "U11",
+      "competition": "OP - PSB",
+      "competitionUrl": "https://is.fotbal.cz/public/souteze/detail-souteze.aspx?req=7a0f6eb1-b75c-427a-80ee-1164f3e0a539&sport=fotbal",
+      "season": "2026/2027",
+      "description": "",
+      "matches": [
+        {
+          "round": 1,
+          "date": "2026-08-31T17:00:00+02:00",
+          "home": "Vlčnov",
+          "away": "OREL UB",
+          "score": null,
+          "venue": "Vlčnov",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=0411b25b-b1e7-4c05-b18f-4e4259837da5&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 2,
+          "date": "2026-09-05T10:00:00+02:00",
+          "home": "Dolní Němčí",
+          "away": "Vlčnov",
+          "score": null,
+          "venue": "Dolní Němčí",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=b011ba71-f79c-4283-9025-562555611f69&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 3,
+          "date": "2026-09-14T17:00:00+02:00",
+          "home": "Vlčnov",
+          "away": "Hradčovice",
+          "score": null,
+          "venue": "Vlčnov",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=631d3dfd-fe5b-4c34-81f9-7444807c7367&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 4,
+          "date": "2026-09-19T10:00:00+02:00",
+          "home": "Nivnice",
+          "away": "Vlčnov",
+          "score": null,
+          "venue": "Nivnice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=44479c7d-aa47-4237-a078-83f787372c45&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 5,
+          "date": "2026-09-28T17:00:00+02:00",
+          "home": "Vlčnov",
+          "away": "Bánov",
+          "score": null,
+          "venue": "Vlčnov",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=f4b7598f-dd91-4fbf-9ccf-55a88fe94a2c&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 6,
+          "date": "2026-10-03T10:00:00+02:00",
+          "home": "Javořina",
+          "away": "Vlčnov",
+          "score": null,
+          "venue": "Slavkov",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=5a33eb6f-1b09-4a75-be36-056835fb46c1&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 7,
+          "date": "2026-10-12T17:00:00+02:00",
+          "home": "Vlčnov",
+          "away": "Šumice",
+          "score": null,
+          "venue": "Vlčnov",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=ac7203d0-10f1-4bd5-a849-9d8648177536&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 8,
+          "date": "2026-10-19T17:00:00+02:00",
+          "home": "Vlčnov",
+          "away": "Újezdec",
+          "score": null,
+          "venue": "Vlčnov",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=e3faf785-d494-4f8b-b135-db2920676526&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 9,
+          "date": "2026-10-24T14:00:00+02:00",
+          "home": "Prakšice",
+          "away": "Vlčnov",
+          "score": null,
+          "venue": "Prakšice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=3a9507ea-f6ec-41eb-9bd4-f86d2053c19e&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 12,
+          "date": "2027-04-19T16:00:00+02:00",
+          "home": "Hradčovice",
+          "away": "Vlčnov",
+          "score": null,
+          "venue": "Hradčovice",
+          "report": null,
+          "played": false
+        },
+        {
+          "round": 13,
+          "date": "2027-04-26T16:00:00+02:00",
+          "home": "Vlčnov",
+          "away": "Nivnice",
+          "score": null,
+          "venue": "Vlčnov",
+          "report": null,
+          "played": false
+        },
+        {
+          "round": 14,
+          "date": "2027-05-01T14:00:00+02:00",
+          "home": "Bánov",
+          "away": "Vlčnov",
+          "score": null,
+          "venue": "Bánov",
+          "report": null,
+          "played": false
+        },
+        {
+          "round": 15,
+          "date": "2027-05-10T16:30:00+02:00",
+          "home": "Vlčnov",
+          "away": "Javořina",
+          "score": null,
+          "venue": "Vlčnov",
+          "report": null,
+          "played": false
+        },
+        {
+          "round": 16,
+          "date": "2027-05-15T14:00:00+02:00",
+          "home": "Šumice",
+          "away": "Vlčnov",
+          "score": null,
+          "venue": "Šumice",
+          "report": null,
+          "played": false
+        },
+        {
+          "round": 17,
+          "date": "2027-05-23T10:00:00+02:00",
+          "home": "Újezdec",
+          "away": "Vlčnov",
+          "score": null,
+          "venue": "Újezdec",
+          "report": null,
+          "played": false
+        },
+        {
+          "round": 18,
+          "date": "2027-05-31T17:00:00+02:00",
+          "home": "Vlčnov",
+          "away": "Prakšice",
+          "score": null,
+          "venue": "Vlčnov",
+          "report": null,
+          "played": false
+        },
+        {
+          "round": 10,
+          "date": "2027-06-06T13:30:00+02:00",
+          "home": "OREL UB",
+          "away": "Vlčnov",
+          "score": null,
+          "venue": "Uherský Brod",
+          "report": null,
+          "played": false
+        },
+        {
+          "round": 11,
+          "date": "2027-06-14T17:00:00+02:00",
+          "home": "Vlčnov",
+          "away": "Dolní Němčí",
+          "score": null,
+          "venue": "Vlčnov",
+          "report": null,
+          "played": false
+        }
+      ],
+      "table": [],
+      "scorers": []
+    },
+    {
+      "id": "mladsi-pripravka",
+      "name": "Mladší přípravka",
+      "category": "U9",
+      "competition": "OP - PMB",
+      "competitionUrl": "https://is.fotbal.cz/public/souteze/detail-souteze.aspx?req=ef19b991-b3ac-46f5-8159-00d0d7b6dcad&sport=fotbal",
+      "season": "2026/2027",
+      "description": "",
+      "matches": [
+        {
+          "round": 1,
+          "date": "2026-08-31T17:00:00+02:00",
+          "home": "Vlčnov",
+          "away": "OREL UB",
+          "score": null,
+          "venue": "Vlčnov",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=79cc3c2f-50c0-44d1-b46f-44301c3e3d3a&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 2,
+          "date": "2026-09-05T10:00:00+02:00",
+          "home": "Dolní Němčí",
+          "away": "Vlčnov",
+          "score": null,
+          "venue": "Dolní Němčí",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=78f46e1f-1a36-4118-8123-cab067cedeb2&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 3,
+          "date": "2026-09-14T17:00:00+02:00",
+          "home": "Vlčnov",
+          "away": "Hradčovice",
+          "score": null,
+          "venue": "Vlčnov",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=507c4236-aee9-44d6-b94a-8c81f43a176b&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 4,
+          "date": "2026-09-19T10:00:00+02:00",
+          "home": "Nivnice",
+          "away": "Vlčnov",
+          "score": null,
+          "venue": "Nivnice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=cff30639-5974-4c8d-bf78-901f217454c0&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 5,
+          "date": "2026-09-28T17:00:00+02:00",
+          "home": "Vlčnov",
+          "away": "Bánov",
+          "score": null,
+          "venue": "Vlčnov",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=e5f5a451-7324-475b-b8e5-6e62d8c6f85d&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 6,
+          "date": "2026-10-03T10:00:00+02:00",
+          "home": "Javořina",
+          "away": "Vlčnov",
+          "score": null,
+          "venue": "Slavkov",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=9510295d-0a59-4ab9-8843-f2f34c8f37d6&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 7,
+          "date": "2026-10-12T17:00:00+02:00",
+          "home": "Vlčnov",
+          "away": "Šumice",
+          "score": null,
+          "venue": "Vlčnov",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=719ff041-2aa6-4c10-b9f8-5dd94414c0df&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 8,
+          "date": "2026-10-19T17:00:00+02:00",
+          "home": "Vlčnov",
+          "away": "Újezdec",
+          "score": null,
+          "venue": "Vlčnov",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=7fff4bc1-e451-4c7e-8c7c-7138b93e7cfe&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 9,
+          "date": "2026-10-24T15:00:00+02:00",
+          "home": "Prakšice",
+          "away": "Vlčnov",
+          "score": null,
+          "venue": "Prakšice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=0b5ffb14-1f2a-4e77-822c-d451bb0af653&zapis=1&hidemenu=1",
+          "played": true
+        }
+      ],
+      "table": [],
+      "scorers": []
+    }
+  ]
+}

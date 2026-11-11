@@ -3,7 +3,7 @@
 const DATA_URL = "data/club.json";
 const REFRESH_MS = 15 * 60 * 1000;
 const TZ = "Europe/Prague"; // časy vždy v českém čase
-const LOGO = "img/logo.jpg";
+let LOGO = "img/logo.jpg";
 
 let data = null;
 let currentTeamId = new URLSearchParams(location.search).get("tym");
@@ -20,7 +20,8 @@ const fmtLong = (iso) => {
 };
 
 // Naše družstvo poznáme podle názvu obce (i ve společných družstvech, např. "Huštěnovice/Traplice").
-const isUs = (name) => String(name).includes(data.club.shortName);
+const aliases = () => data.club.facr?.match || [data.club.shortName];
+const isUs = (name) => aliases().some((a) => String(name).includes(a));
 const short = (name) => (name === data.club.name ? data.club.shortName : name);
 
 function outcome(m) {
@@ -36,16 +37,21 @@ const FORM_LETTER = { w: "V", d: "R", l: "P" };
 let crests = { overrides: {}, municipal: {} };
 function crestSrc(name) {
   if (isUs(name)) return LOGO;
-  if (crests.overrides[name]) return crests.overrides[name];
+  const own = Object.keys(crests.overrides || {}).find((k) => name.startsWith(k));
+  if (own) return crests.overrides[own];
+  const clean = name
+    .replace(/"/g, "")
+    .replace(/^((FK|FC|SK|TJ|FA|HS|MILO|Milo|Sokol|SOKOL|TATRAN|Tatran|Slovan|SLOVAN|Spartak|1\.|AFC|MFK|SFK|WAREX)\s+)+/, "");
   const key = Object.keys(crests.municipal)
-    .filter((k) => name.startsWith(k))
+    .filter((k) => name.startsWith(k) || clean.startsWith(k))
     .sort((a, b) => b.length - a.length)[0];
   return key ? crests.municipal[key] : null;
 }
 
 function crest(name, cls = "crest") {
   const src = crestSrc(name);
-  if (src) return `<img src="${esc(src)}" alt="" class="${cls}${isUs(name) ? " ours" : ""}" loading="lazy">`;
+  const ours = isUs(name) ? ` ours${data.club.logoShape === "shield" ? " shield" : ""}` : "";
+  if (src) return `<img src="${esc(src)}" alt="" class="${cls}${ours}" loading="lazy">`;
   return `<span class="crest-ph ${cls}">${esc(name.trim().charAt(0).toUpperCase())}</span>`;
 }
 
@@ -202,16 +208,52 @@ function renderRecruit(r) {
   const cta = r.phone
     ? `<a class="btn btn-primary" href="tel:${esc(r.phone.replace(/\s/g, ""))}">Zavolat trenérovi</a>`
     : r.email
-      ? `<a class="btn btn-primary" href="mailto:${esc(r.email)}?subject=${encodeURIComponent("Nábor – fotbal Huštěnovice")}">Napsat trenérovi</a>`
+      ? `<a class="btn btn-primary" href="mailto:${esc(r.email)}?subject=${encodeURIComponent("Nábor – fotbal " + data.club.shortName)}">Napsat trenérovi</a>`
       : "";
   $("#recruit-contact").innerHTML = `<h3>Ozvěte se nám</h3>${
     lines.join("") || `<p class="muted">Kontakt na trenéra a časy tréninků brzy doplníme.</p>`
   }${cta}`;
 }
 
+function renderHistory(h) {
+  $("#historie").hidden = !h;
+  $("#menu-historie").hidden = !h;
+  if (!h) return;
+  $("#history-since").textContent = data.club.founded || (h.events?.[0]?.year ?? "");
+  $("#history-intro").textContent = h.intro || "";
+  $("#timeline").innerHTML = (h.events || [])
+    .map((e) => `<li><span class="tl-year">${esc(e.year)}</span><div><h3>${esc(e.title || "")}</h3><p>${esc(e.text)}</p></div></li>`)
+    .join("");
+  $("#chairmen-wrap").hidden = !h.chairmen?.length;
+  $("#chairmen").textContent = (h.chairmen || []).join(" · ");
+  const s = h.source;
+  $("#history-source").innerHTML = s
+    ? `${esc(s.text)}${s.url ? ` <a href="${esc(s.url)}" rel="noopener">Celý článek</a>` : ""}`
+    : "";
+}
+
+// Jméno, znak a barvy klubu z club.json (stejný web pak může sloužit libovolnému klubu).
+function applyBranding(c) {
+  if (c.logo) LOGO = c.logo;
+  document.querySelectorAll(".club-logo").forEach((img) => {
+    img.src = LOGO;
+    img.classList.toggle("shield", c.logoShape === "shield");
+  });
+  if (c.brand) $("#brand-name").textContent = c.brand;
+  if (c.hero) {
+    $("#hero-l1").textContent = c.hero[0] || "";
+    $("#hero-l2").textContent = c.hero[1] || "";
+  }
+  $("#footer-name").textContent = c.name;
+  $("#founded-line").hidden = !c.founded;
+  const root = document.documentElement.style;
+  Object.entries(c.colors || {}).forEach(([k, v]) => root.setProperty(`--${k}`, v));
+}
+
 function render() {
   if (!data.teams.some((t) => t.id === currentTeamId)) currentTeamId = data.teams[0]?.id;
   const c = data.club;
+  applyBranding(c);
   if (c.founded) $("#founded").textContent = c.founded;
   $("#tagline").textContent = c.tagline || "";
   $("#sample-notice").hidden = data.source !== "sample";
@@ -223,6 +265,7 @@ function render() {
   ].filter(Boolean).join(" · ");
 
   renderRecruit(c.recruit);
+  renderHistory(c.history);
   renderTabs();
   renderTeamsGrid();
   const team = data.teams.find((t) => t.id === currentTeamId);

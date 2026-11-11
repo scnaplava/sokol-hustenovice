@@ -9,20 +9,21 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=4">
+  <link rel="stylesheet" href="styles.css?v=7">
 </head>
 <body>
   <header class="topbar">
     <div class="wrap topbar-inner">
       <a class="brand" href="#">
-        <img src="img/logo.jpg" alt="Znak TJ Sokol Huštěnovice" class="logo-sm">
-        <span><b>Sokol Huštěnovice</b><small>Fotbalový klub</small></span>
+        <img src="img/logo.jpg" alt="Znak TJ Sokol Huštěnovice" class="logo-sm club-logo">
+        <span><b id="brand-name">Sokol Huštěnovice</b><small>Fotbalový klub</small></span>
       </a>
       <nav class="menu" aria-label="Hlavní menu">
         <a href="#zapasy">Zápasy</a>
         <a href="#tabulka">Tabulka</a>
         <a href="#tymy">Týmy</a>
         <a href="#nabor">Nábor</a>
+        <a href="#historie" id="menu-historie">Historie</a>
         <a href="#kontakt">Kontakt</a>
       </nav>
     </div>
@@ -31,13 +32,13 @@
   <section class="hero">
     <div class="wrap">
       <div class="hero-meta">
-        <img src="img/logo.jpg" alt="" class="logo-lg">
+        <img src="img/logo.jpg" alt="" class="logo-lg club-logo">
         <div>
-          <p class="kicker">Založeno <span id="founded">1932</span></p>
+          <p class="kicker" id="founded-line">Založeno <span id="founded">1932</span></p>
           <p class="competition-line" id="hero-competition"></p>
         </div>
       </div>
-      <h1>T.J. Sokol<br><span>Huštěnovice</span></h1>
+      <h1><span id="hero-l1">T.J. Sokol</span><br><span id="hero-l2" class="hl">Huštěnovice</span></h1>
       <p class="tagline" id="tagline"></p>
       <div class="cta">
         <a class="btn btn-primary" href="#nabor">Přiveď dítě na fotbal</a>
@@ -111,19 +112,30 @@
         <div class="recruit-contact" id="recruit-contact"></div>
       </div>
     </section>
+    <section class="section wrap" id="historie" hidden>
+      <p class="kicker">Od roku <span id="history-since"></span></p>
+      <h2 class="h-big">Historie klubu</h2>
+      <p class="history-intro" id="history-intro"></p>
+      <ol class="timeline" id="timeline"></ol>
+      <details class="chairmen" id="chairmen-wrap">
+        <summary>Předsedové klubu</summary>
+        <p id="chairmen"></p>
+      </details>
+      <p class="muted history-source" id="history-source"></p>
+    </section>
   </main>
 
   <footer class="footer" id="kontakt">
     <div class="wrap footer-inner">
       <div class="brand">
-        <img src="img/logo.jpg" alt="" class="logo-sm">
-        <span><b>TJ Sokol Huštěnovice</b><small id="club-contact"></small></span>
+        <img src="img/logo.jpg" alt="" class="logo-sm club-logo">
+        <span><b id="footer-name">TJ Sokol Huštěnovice</b><small id="club-contact"></small></span>
       </div>
       <p class="muted">Zdroj dat: <a href="https://is.fotbal.cz/public/souteze/prehled-soutezi.aspx?sport=fotbal" rel="noopener">IS FAČR</a> · Aktualizováno: <span id="updated">–</span></p>
       <p class="muted credits" id="crest-credits"></p>
     </div>
   </footer>
 
-  <script src="app.js?v=4"></script>
+  <script src="app.js?v=6"></script>
 </body>
 </html>

@@ -1,0 +1,17 @@
+{
+  "_info": "Kluby ze soutěže 7. liga, sk. C (muži, ročník 2026). number = číslo klubu FAČR, isId = ID ve veřejné části IS FAČR, match = jak se klub jmenuje v rozpisech, obec = článek obce na cs.wikipedii (znak).",
+  "kluby": [
+    {"slug": "korycany", "name": "FC Koryčany", "official": "FC Koryčany z.s.", "shortName": "Koryčany", "hero": ["FC", "Koryčany"], "number": "7210121", "isId": "2011", "match": ["Koryčany"], "obec": "Koryčany"},
+    {"slug": "strani", "name": "FC Strání", "official": "FC Strání z.s.", "shortName": "Strání", "hero": ["FC", "Strání"], "number": "7220311", "isId": "2186", "match": ["Strání"], "obec": "Strání"},
+    {"slug": "uhersky-ostroh", "name": "FK Uherský Ostroh", "official": "FK Uherský Ostroh, z.s.", "shortName": "Uh. Ostroh", "hero": ["FK Uherský", "Ostroh"], "number": "7220611", "isId": "2213", "match": ["Uh. Ostroh", "Uherský Ostroh"], "obec": "Uherský Ostroh"},
+    {"slug": "praksice", "name": "TJ Sokol Prakšice-Pašovice", "official": "TJ SOKOL PRAKŠICE - PAŠOVICE, z.s.", "shortName": "Prakšice", "hero": ["TJ Sokol", "Prakšice"], "number": "7220451", "isId": "2197", "match": ["Prakšice"], "obec": "Prakšice"},
+    {"slug": "vlcnov", "name": "TJ Vlčnov", "official": "Tělovýchovná jednota Vlčnov z.s.", "shortName": "Vlčnov", "hero": ["TJ", "Vlčnov"], "number": "7220641", "isId": "2216", "match": ["Vlčnov"], "obec": "Vlčnov"},
+    {"slug": "polesovice", "name": "1. FC Polešovice", "official": "1. FC POLEŠOVICE, z.s.", "shortName": "Polešovice", "hero": ["1. FC", "Polešovice"], "number": "7220441", "isId": "2196", "match": ["Polešovice"], "obec": "Polešovice"},
+    {"slug": "javorina", "name": "FK Javořina", "official": "FK Javořina, z.s.", "shortName": "Javořina", "hero": ["FK", "Javořina"], "number": "7220851", "isId": "30754", "match": ["Javořina"], "obec": "Slavkov (okres Uherské Hradiště)"},
+    {"slug": "chropyne", "name": "FK Chropyně", "official": "Fotbalový klub Chropyně, z.s.", "shortName": "Chropyně", "hero": ["FK", "Chropyně"], "number": "7210561", "isId": "3383", "match": ["Chropyně"], "obec": "Chropyně"},
+    {"slug": "ostrozska-nova-ves", "name": "FK Ostrožská Nová Ves", "official": "FK Ostrožská Nová Ves, z.s.", "shortName": "O. N. Ves", "hero": ["FK Ostrožská", "Nová Ves"], "number": "7220391", "isId": "2651", "match": ["O. N. Ves", "Ostr. N. Ves", "Ostrožská N"], "obec": "Ostrožská Nová Ves"},
+    {"slug": "hluk", "name": "TJ Spartak Hluk", "official": "TJ Spartak Hluk, z. s.", "shortName": "Hluk", "hero": ["TJ Spartak", "Hluk"], "number": "7220191", "isId": "2174", "match": ["Hluk"], "obec": "Hluk"},
+    {"slug": "morkovice", "name": "FC Morkovice", "official": "FC Morkovice, z.s.", "shortName": "Morkovice", "hero": ["FC", "Morkovice"], "number": "7210251", "isId": "2023", "match": ["Morkovice"], "obec": "Morkovice-Slížany"},
+    {"slug": "sumice", "name": "TJ Šumice", "official": "TJ Šumice z.s.", "shortName": "Šumice", "hero": ["TJ", "Šumice"], "number": "7220551", "isId": "2207", "match": ["Šumice"], "obec": "Šumice (okres Uherské Hradiště)"}
+  ]
+}

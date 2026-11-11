@@ -1,0 +1,2023 @@
+{
+  "source": "facr",
+  "updatedAt": "2026-11-10T22:56:25+01:00",
+  "club": {
+    "name": "FC Strání",
+    "official": "FC Strání z.s.",
+    "shortName": "Strání",
+    "brand": "FC Strání",
+    "hero": [
+      "FC",
+      "Strání"
+    ],
+    "founded": null,
+    "logo": "",
+    "logoShape": "shield",
+    "colors": {},
+    "stadium": "",
+    "email": "",
+    "facebook": "",
+    "tagline": "Zápasy, výsledky a tabulky všech našich týmů na jednom místě.",
+    "facr": {
+      "number": "7220311",
+      "isId": "2186",
+      "match": [
+        "Strání"
+      ]
+    }
+  },
+  "teams": [
+    {
+      "id": "muzi",
+      "name": "Muži A",
+      "category": "Dospělí",
+      "competition": "4. Moravskoslezská liga sk. E",
+      "competitionUrl": "https://is.fotbal.cz/public/souteze/detail-souteze.aspx?req=e2276743-6fa1-4366-9350-46d86cea0d04&sport=fotbal",
+      "season": "2026/2027",
+      "description": "",
+      "matches": [
+        {
+          "round": 2,
+          "date": "2026-08-08T16:30:00+02:00",
+          "home": "Hluk",
+          "away": "Strání",
+          "score": [
+            1,
+            3
+          ],
+          "venue": "Hluk-tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=2b4e6bd2-97c3-4c08-8f38-a8cf031a5033&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 3,
+          "date": "2026-08-14T18:00:00+02:00",
+          "home": "Strání",
+          "away": "KOZLOVICE",
+          "score": [
+            2,
+            2
+          ],
+          "venue": "Strání-tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=192ed0ce-a608-40fa-b570-de00ed62cc72&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 4,
+          "date": "2026-08-23T16:30:00+02:00",
+          "home": "Lanžhot",
+          "away": "Strání",
+          "score": [
+            1,
+            3
+          ],
+          "venue": "Lanžhot, Na Šlajsi-tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=93bbcc6a-3ad9-4bf4-89ad-4f99b862cc5a&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 5,
+          "date": "2026-08-28T17:30:00+02:00",
+          "home": "Strání",
+          "away": "MILO Olomouc-Nové Sady",
+          "score": [
+            9,
+            0
+          ],
+          "venue": "Strání-tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=8a8ba7ee-3182-47af-a12b-3215e04e0935&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 6,
+          "date": "2026-09-05T16:00:00+02:00",
+          "home": "Slavičín",
+          "away": "Strání",
+          "score": [
+            1,
+            2
+          ],
+          "venue": "Slavičín",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=fe5d6ff3-c550-496e-840a-7f8275e87f22&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 7,
+          "date": "2026-09-12T15:30:00+02:00",
+          "home": "Strání",
+          "away": "Všechovice",
+          "score": [
+            4,
+            3
+          ],
+          "venue": "Strání-tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=9cfd104c-28f6-4791-9526-0b3e2af9b85d&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 8,
+          "date": "2026-09-19T16:00:00+02:00",
+          "home": "FK Bzenec-Vracov",
+          "away": "Strání",
+          "score": [
+            3,
+            6
+          ],
+          "venue": "Bzenec-tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=b232fd8c-cef6-43b0-8daf-d4317b2285a8&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 9,
+          "date": "2026-09-27T15:00:00+02:00",
+          "home": "Strání",
+          "away": "Krumvíř",
+          "score": [
+            5,
+            0
+          ],
+          "venue": "Strání-tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=6192e7c6-dad5-40a6-9013-e1f116e9690e&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 10,
+          "date": "2026-10-04T15:00:00+02:00",
+          "home": "Strání",
+          "away": "ŠTERNBERK",
+          "score": [
+            1,
+            3
+          ],
+          "venue": "Strání-tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=e2747163-c503-4b3b-a44e-a7a4df3a5804&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 11,
+          "date": "2026-10-11T14:30:00+02:00",
+          "home": "Kroměříž B",
+          "away": "Strání",
+          "score": [
+            1,
+            3
+          ],
+          "venue": "Kroměříž-tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=c3357c82-eb27-49b2-8e9d-f768a67f4fa2&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 12,
+          "date": "2026-10-17T14:30:00+02:00",
+          "home": "Strání",
+          "away": "Prostějov B",
+          "score": [
+            0,
+            2
+          ],
+          "venue": "Strání-tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=58405c63-8e7b-4568-9179-2e01856d3259&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 13,
+          "date": "2026-10-23T18:30:00+02:00",
+          "home": "Baťov",
+          "away": "Strání",
+          "score": [
+            0,
+            6
+          ],
+          "venue": "UT Baťov",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=5485af10-7231-4581-b139-8d97039bdb4d&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 14,
+          "date": "2026-11-01T14:00:00+01:00",
+          "home": "Strání",
+          "away": "Brumov",
+          "score": [
+            9,
+            1
+          ],
+          "venue": "Strání-tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=3d839620-311d-4189-9d17-5c7882f1371b&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 15,
+          "date": "2026-11-07T14:00:00+01:00",
+          "home": "Holešov",
+          "away": "Strání",
+          "score": [
+            1,
+            3
+          ],
+          "venue": "Střelnice-tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=303aa271-73bf-430a-988f-8606cf4eda2c&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 1,
+          "date": "2026-11-14T14:00:00+01:00",
+          "home": "Strání",
+          "away": "Břeclav",
+          "score": null,
+          "venue": "Strání-tráva",
+          "report": null
+        },
+        {
+          "round": 16,
+          "date": "2027-03-07T14:30:00+01:00",
+          "home": "Břeclav",
+          "away": "Strání",
+          "score": null,
+          "venue": "Břeclav-tráva",
+          "report": null
+        },
+        {
+          "round": 17,
+          "date": "2027-03-14T14:30:00+01:00",
+          "home": "Strání",
+          "away": "Hluk",
+          "score": null,
+          "venue": "Strání-tráva",
+          "report": null
+        },
+        {
+          "round": 18,
+          "date": "2027-03-21T15:00:00+01:00",
+          "home": "KOZLOVICE",
+          "away": "Strání",
+          "score": null,
+          "venue": "Kozlovice-tráva",
+          "report": null
+        },
+        {
+          "round": 19,
+          "date": "2027-03-28T15:00:00+02:00",
+          "home": "Strání",
+          "away": "Lanžhot",
+          "score": null,
+          "venue": "Strání-tráva",
+          "report": null
+        },
+        {
+          "round": 20,
+          "date": "2027-04-04T15:30:00+02:00",
+          "home": "MILO Olomouc-Nové Sady",
+          "away": "Strání",
+          "score": null,
+          "venue": "Nové Sady-tráva",
+          "report": null
+        },
+        {
+          "round": 21,
+          "date": "2027-04-11T15:30:00+02:00",
+          "home": "Strání",
+          "away": "Slavičín",
+          "score": null,
+          "venue": "Strání-tráva",
+          "report": null
+        },
+        {
+          "round": 22,
+          "date": "2027-04-18T16:00:00+02:00",
+          "home": "Všechovice",
+          "away": "Strání",
+          "score": null,
+          "venue": "Všechovice-tráva",
+          "report": null
+        },
+        {
+          "round": 23,
+          "date": "2027-04-25T16:00:00+02:00",
+          "home": "Strání",
+          "away": "FK Bzenec-Vracov",
+          "score": null,
+          "venue": "Strání-tráva",
+          "report": null
+        },
+        {
+          "round": 24,
+          "date": "2027-05-02T16:30:00+02:00",
+          "home": "Krumvíř",
+          "away": "Strání",
+          "score": null,
+          "venue": "Krumvíř-tráva",
+          "report": null
+        },
+        {
+          "round": 25,
+          "date": "2027-05-09T16:30:00+02:00",
+          "home": "ŠTERNBERK",
+          "away": "Strání",
+          "score": null,
+          "venue": "Šternberk-tráva",
+          "report": null
+        },
+        {
+          "round": 26,
+          "date": "2027-05-16T17:00:00+02:00",
+          "home": "Strání",
+          "away": "Kroměříž B",
+          "score": null,
+          "venue": "Strání-tráva",
+          "report": null
+        },
+        {
+          "round": 27,
+          "date": "2027-05-23T17:00:00+02:00",
+          "home": "Prostějov B",
+          "away": "Strání",
+          "score": null,
+          "venue": "Olympijská ul.-tráva",
+          "report": null
+        },
+        {
+          "round": 28,
+          "date": "2027-05-30T17:00:00+02:00",
+          "home": "Strání",
+          "away": "Baťov",
+          "score": null,
+          "venue": "Strání-tráva",
+          "report": null
+        },
+        {
+          "round": 29,
+          "date": "2027-06-06T17:00:00+02:00",
+          "home": "Brumov",
+          "away": "Strání",
+          "score": null,
+          "venue": "Brumov-tráva",
+          "report": null
+        },
+        {
+          "round": 30,
+          "date": "2027-06-13T17:00:00+02:00",
+          "home": "Strání",
+          "away": "Holešov",
+          "score": null,
+          "venue": "Strání-tráva",
+          "report": null
+        }
+      ],
+      "table": [
+        {
+          "position": 1,
+          "team": "Všechovice",
+          "played": 14,
+          "won": 12,
+          "drawn": 0,
+          "lost": 2,
+          "gf": 51,
+          "ga": 11,
+          "points": 36
+        },
+        {
+          "position": 2,
+          "team": "Strání",
+          "played": 14,
+          "won": 11,
+          "drawn": 1,
+          "lost": 2,
+          "gf": 56,
+          "ga": 19,
+          "points": 34
+        },
+        {
+          "position": 3,
+          "team": "KOZLOVICE",
+          "played": 14,
+          "won": 9,
+          "drawn": 4,
+          "lost": 1,
+          "gf": 32,
+          "ga": 15,
+          "points": 31
+        },
+        {
+          "position": 4,
+          "team": "Lanžhot",
+          "played": 14,
+          "won": 9,
+          "drawn": 2,
+          "lost": 3,
+          "gf": 28,
+          "ga": 18,
+          "points": 29
+        },
+        {
+          "position": 5,
+          "team": "Slavičín",
+          "played": 14,
+          "won": 8,
+          "drawn": 1,
+          "lost": 5,
+          "gf": 30,
+          "ga": 22,
+          "points": 25
+        },
+        {
+          "position": 6,
+          "team": "Prostějov B",
+          "played": 14,
+          "won": 7,
+          "drawn": 4,
+          "lost": 3,
+          "gf": 30,
+          "ga": 24,
+          "points": 25
+        },
+        {
+          "position": 7,
+          "team": "Krumvíř",
+          "played": 14,
+          "won": 7,
+          "drawn": 2,
+          "lost": 5,
+          "gf": 26,
+          "ga": 26,
+          "points": 23
+        },
+        {
+          "position": 8,
+          "team": "ŠTERNBERK",
+          "played": 14,
+          "won": 6,
+          "drawn": 3,
+          "lost": 5,
+          "gf": 28,
+          "ga": 24,
+          "points": 21
+        },
+        {
+          "position": 9,
+          "team": "Holešov",
+          "played": 14,
+          "won": 4,
+          "drawn": 5,
+          "lost": 5,
+          "gf": 24,
+          "ga": 25,
+          "points": 17
+        },
+        {
+          "position": 10,
+          "team": "FK Bzenec-Vracov",
+          "played": 14,
+          "won": 5,
+          "drawn": 1,
+          "lost": 8,
+          "gf": 29,
+          "ga": 36,
+          "points": 16
+        },
+        {
+          "position": 11,
+          "team": "Hluk",
+          "played": 14,
+          "won": 3,
+          "drawn": 6,
+          "lost": 5,
+          "gf": 23,
+          "ga": 24,
+          "points": 15
+        },
+        {
+          "position": 12,
+          "team": "Břeclav",
+          "played": 14,
+          "won": 4,
+          "drawn": 3,
+          "lost": 7,
+          "gf": 18,
+          "ga": 24,
+          "points": 15
+        },
+        {
+          "position": 13,
+          "team": "Kroměříž B",
+          "played": 14,
+          "won": 3,
+          "drawn": 3,
+          "lost": 8,
+          "gf": 15,
+          "ga": 26,
+          "points": 12
+        },
+        {
+          "position": 14,
+          "team": "MILO Olomouc-Nové Sady",
+          "played": 14,
+          "won": 3,
+          "drawn": 1,
+          "lost": 10,
+          "gf": 21,
+          "ga": 46,
+          "points": 10
+        },
+        {
+          "position": 15,
+          "team": "Brumov",
+          "played": 14,
+          "won": 2,
+          "drawn": 2,
+          "lost": 10,
+          "gf": 17,
+          "ga": 46,
+          "points": 8
+        },
+        {
+          "position": 16,
+          "team": "Baťov",
+          "played": 14,
+          "won": 0,
+          "drawn": 0,
+          "lost": 14,
+          "gf": 9,
+          "ga": 51,
+          "points": 0
+        }
+      ],
+      "scorers": []
+    },
+    {
+      "id": "muzi-b",
+      "name": "Muži B",
+      "category": "Dospělí",
+      "competition": "7. liga, sk. C",
+      "competitionUrl": "https://is.fotbal.cz/public/souteze/detail-souteze.aspx?req=d1e0f817-6286-4337-9d2c-b3f0a103a16d&sport=fotbal",
+      "season": "2026/2027",
+      "description": "",
+      "matches": [
+        {
+          "round": 2,
+          "date": "2026-08-09T17:00:00+02:00",
+          "home": "Strání B",
+          "away": "Vlčnov",
+          "score": [
+            1,
+            1
+          ],
+          "venue": "Strání-tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=926a60f2-a5a3-4e5b-a3bc-cc5408628174&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 3,
+          "date": "2026-08-16T16:30:00+02:00",
+          "home": "Hluk B",
+          "away": "Strání B",
+          "score": [
+            0,
+            6
+          ],
+          "venue": "Hluk-tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=43635862-fe29-4e1a-8ad4-b5fd410aea13&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 4,
+          "date": "2026-08-22T16:30:00+02:00",
+          "home": "Strání B",
+          "away": "O. N. Ves",
+          "score": [
+            1,
+            1
+          ],
+          "venue": "Strání-tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=e72b577c-dfd1-4732-ad87-4a85a253d60a&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 5,
+          "date": "2026-08-30T16:30:00+02:00",
+          "home": "Morkovice B",
+          "away": "Strání B",
+          "score": [
+            3,
+            7
+          ],
+          "venue": "Morkovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=349e97dc-d7a4-4158-af25-bee2660911b6&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 6,
+          "date": "2026-09-06T16:00:00+02:00",
+          "home": "Strání B",
+          "away": "Polešovice",
+          "score": [
+            1,
+            2
+          ],
+          "venue": "Strání-tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=5e8adc99-d4f0-46e8-b11f-f3ba7ad28cde&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 7,
+          "date": "2026-09-13T16:00:00+02:00",
+          "home": "Huštěnovice",
+          "away": "Strání B",
+          "score": [
+            0,
+            4
+          ],
+          "venue": "Huštěnovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=63d03b35-68ea-44a7-a31d-ab29d43ddcb3&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 8,
+          "date": "2026-09-20T15:30:00+02:00",
+          "home": "Strání B",
+          "away": "Chropyně",
+          "score": [
+            3,
+            1
+          ],
+          "venue": "Strání-tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=be03477e-67d2-48dd-9385-155424164596&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 9,
+          "date": "2026-09-27T15:30:00+02:00",
+          "home": "Uh. Ostroh",
+          "away": "Strání B",
+          "score": [
+            1,
+            0
+          ],
+          "venue": "Uh. Ostroh",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=7c57b642-3af8-4d20-8375-e5521ba56d9c&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 10,
+          "date": "2026-10-04T15:00:00+02:00",
+          "home": "Šumice",
+          "away": "Strání B",
+          "score": [
+            0,
+            2
+          ],
+          "venue": "Šumice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=c8f3f488-2ee9-48f5-9796-8591aba5326e&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 11,
+          "date": "2026-10-10T15:00:00+02:00",
+          "home": "Strání B",
+          "away": "FC Slovácko C",
+          "score": [
+            4,
+            0
+          ],
+          "venue": "Strání-tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=e339ad5e-dd21-40f2-bced-38f32886fd44&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 12,
+          "date": "2026-10-17T14:30:00+02:00",
+          "home": "Prakšice",
+          "away": "Strání B",
+          "score": [
+            1,
+            0
+          ],
+          "venue": "Prakšice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=12bc74fe-1804-46c5-b192-ae16a28a83db&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 13,
+          "date": "2026-10-24T14:30:00+02:00",
+          "home": "Strání B",
+          "away": "Koryčany",
+          "score": [
+            3,
+            1
+          ],
+          "venue": "Strání-tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=04703caf-bf17-4674-ae7f-f5424be821b9&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 1,
+          "date": "2026-10-31T14:00:00+01:00",
+          "home": "Javořina",
+          "away": "Strání B",
+          "score": [
+            1,
+            3
+          ],
+          "venue": "Slavkov",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=c4454a60-3488-4a45-bd99-3de35da9ea2f&zapis=1&hidemenu=1"
+        }
+      ],
+      "table": [
+        {
+          "position": 1,
+          "team": "Koryčany",
+          "played": 13,
+          "won": 12,
+          "drawn": 0,
+          "lost": 1,
+          "gf": 44,
+          "ga": 18,
+          "points": 36
+        },
+        {
+          "position": 2,
+          "team": "Strání B",
+          "played": 13,
+          "won": 8,
+          "drawn": 2,
+          "lost": 3,
+          "gf": 35,
+          "ga": 12,
+          "points": 26
+        },
+        {
+          "position": 3,
+          "team": "Uh. Ostroh",
+          "played": 13,
+          "won": 8,
+          "drawn": 1,
+          "lost": 4,
+          "gf": 31,
+          "ga": 20,
+          "points": 25
+        },
+        {
+          "position": 4,
+          "team": "Prakšice",
+          "played": 13,
+          "won": 7,
+          "drawn": 2,
+          "lost": 4,
+          "gf": 24,
+          "ga": 22,
+          "points": 23
+        },
+        {
+          "position": 5,
+          "team": "FC Slovácko C",
+          "played": 13,
+          "won": 6,
+          "drawn": 3,
+          "lost": 4,
+          "gf": 28,
+          "ga": 25,
+          "points": 21
+        },
+        {
+          "position": 6,
+          "team": "Vlčnov",
+          "played": 13,
+          "won": 6,
+          "drawn": 2,
+          "lost": 5,
+          "gf": 30,
+          "ga": 22,
+          "points": 20
+        },
+        {
+          "position": 7,
+          "team": "Polešovice",
+          "played": 13,
+          "won": 6,
+          "drawn": 2,
+          "lost": 5,
+          "gf": 26,
+          "ga": 24,
+          "points": 20
+        },
+        {
+          "position": 8,
+          "team": "Javořina",
+          "played": 13,
+          "won": 5,
+          "drawn": 4,
+          "lost": 4,
+          "gf": 23,
+          "ga": 21,
+          "points": 19
+        },
+        {
+          "position": 9,
+          "team": "Huštěnovice",
+          "played": 13,
+          "won": 5,
+          "drawn": 2,
+          "lost": 6,
+          "gf": 25,
+          "ga": 27,
+          "points": 17
+        },
+        {
+          "position": 10,
+          "team": "Chropyně",
+          "played": 13,
+          "won": 5,
+          "drawn": 0,
+          "lost": 8,
+          "gf": 30,
+          "ga": 36,
+          "points": 15
+        },
+        {
+          "position": 11,
+          "team": "O. N. Ves",
+          "played": 13,
+          "won": 3,
+          "drawn": 2,
+          "lost": 8,
+          "gf": 18,
+          "ga": 28,
+          "points": 11
+        },
+        {
+          "position": 12,
+          "team": "Hluk B",
+          "played": 13,
+          "won": 2,
+          "drawn": 4,
+          "lost": 7,
+          "gf": 23,
+          "ga": 35,
+          "points": 10
+        },
+        {
+          "position": 13,
+          "team": "Morkovice B",
+          "played": 13,
+          "won": 2,
+          "drawn": 3,
+          "lost": 8,
+          "gf": 28,
+          "ga": 50,
+          "points": 9
+        },
+        {
+          "position": 14,
+          "team": "Šumice",
+          "played": 13,
+          "won": 2,
+          "drawn": 1,
+          "lost": 10,
+          "gf": 21,
+          "ga": 46,
+          "points": 7
+        }
+      ],
+      "scorers": []
+    },
+    {
+      "id": "dorost",
+      "name": "Starší dorost",
+      "category": "U19",
+      "competition": "4. liga starší dorost",
+      "competitionUrl": "https://is.fotbal.cz/public/souteze/detail-souteze.aspx?req=2c190368-ad5c-4372-a127-63e8fea2d2e5&sport=fotbal",
+      "season": "2026/2027",
+      "description": "",
+      "matches": [
+        {
+          "round": 2,
+          "date": "2026-08-23T10:00:00+02:00",
+          "home": "Strání",
+          "away": "Val. Polanka",
+          "score": [
+            6,
+            2
+          ],
+          "venue": "Strání 2",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=4c8605d2-c0b9-4f98-8405-268da600476b&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 3,
+          "date": "2026-08-29T10:00:00+02:00",
+          "home": "Slavičín",
+          "away": "Strání",
+          "score": [
+            3,
+            4
+          ],
+          "venue": "UT Hrádek",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=46f3cf7c-0aa6-415a-ae54-90c065d4fe23&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 4,
+          "date": "2026-09-05T10:00:00+02:00",
+          "home": "Strání",
+          "away": "Slušovice-Veselá",
+          "score": [
+            2,
+            1
+          ],
+          "venue": "Strání 2",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=78096aef-37b1-49cb-9e64-509a6bdd3798&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 5,
+          "date": "2026-09-13T10:00:00+02:00",
+          "home": "Baťov",
+          "away": "Strání",
+          "score": [
+            0,
+            4
+          ],
+          "venue": "UT Baťov",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=2ffa86a0-c762-4612-acd4-02236522590d&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 6,
+          "date": "2026-09-19T10:00:00+02:00",
+          "home": "Strání",
+          "away": "Tečovice",
+          "score": [
+            3,
+            1
+          ],
+          "venue": "Strání 2",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=407e767c-7d4b-4ea9-97e6-667d6484883d&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 7,
+          "date": "2026-09-26T13:00:00+02:00",
+          "home": "Bojkovice",
+          "away": "Strání",
+          "score": [
+            1,
+            8
+          ],
+          "venue": "Bojkovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=7efc2461-40b1-4a02-8ed1-f925928ff332&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 8,
+          "date": "2026-10-03T10:00:00+02:00",
+          "home": "Morkovice",
+          "away": "Strání",
+          "score": [
+            4,
+            2
+          ],
+          "venue": "UT Morkovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=fcc00773-cfbd-43fd-adec-8f89e438ac69&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 9,
+          "date": "2026-10-11T10:00:00+02:00",
+          "home": "Strání",
+          "away": "Hluk",
+          "score": [
+            2,
+            2
+          ],
+          "venue": "Strání 2",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=780a25df-928b-4a03-8c73-d428941d1430&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 10,
+          "date": "2026-10-17T10:00:00+02:00",
+          "home": "Holešov",
+          "away": "Strání",
+          "score": [
+            8,
+            5
+          ],
+          "venue": "Střelnice-tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=a2b55cf8-6858-41f3-8f47-d819b8e6b179&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 11,
+          "date": "2026-10-25T10:00:00+01:00",
+          "home": "Strání",
+          "away": "Kroměříž B",
+          "score": [
+            1,
+            0
+          ],
+          "venue": "Strání 2",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=f7b43120-8296-48a0-b236-408b187420f5&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 1,
+          "date": "2026-10-28T10:00:00+01:00",
+          "home": "Fryšták-Březnice",
+          "away": "Strání",
+          "score": [
+            2,
+            7
+          ],
+          "venue": "Březnice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=289519f8-ea34-4dcc-a602-8b12f0b2ba4c&zapis=1&hidemenu=1"
+        }
+      ],
+      "table": [
+        {
+          "position": 1,
+          "team": "Slušovice-Veselá",
+          "played": 11,
+          "won": 8,
+          "drawn": 2,
+          "lost": 1,
+          "gf": 39,
+          "ga": 18,
+          "points": 26
+        },
+        {
+          "position": 2,
+          "team": "Kroměříž B",
+          "played": 11,
+          "won": 8,
+          "drawn": 1,
+          "lost": 2,
+          "gf": 37,
+          "ga": 9,
+          "points": 25
+        },
+        {
+          "position": 3,
+          "team": "Strání",
+          "played": 11,
+          "won": 8,
+          "drawn": 1,
+          "lost": 2,
+          "gf": 44,
+          "ga": 24,
+          "points": 25
+        },
+        {
+          "position": 4,
+          "team": "Hluk",
+          "played": 11,
+          "won": 6,
+          "drawn": 3,
+          "lost": 2,
+          "gf": 33,
+          "ga": 21,
+          "points": 21
+        },
+        {
+          "position": 5,
+          "team": "Baťov",
+          "played": 11,
+          "won": 6,
+          "drawn": 1,
+          "lost": 4,
+          "gf": 29,
+          "ga": 26,
+          "points": 19
+        },
+        {
+          "position": 6,
+          "team": "Morkovice",
+          "played": 11,
+          "won": 6,
+          "drawn": 0,
+          "lost": 5,
+          "gf": 28,
+          "ga": 28,
+          "points": 18
+        },
+        {
+          "position": 7,
+          "team": "Tečovice",
+          "played": 11,
+          "won": 4,
+          "drawn": 3,
+          "lost": 4,
+          "gf": 36,
+          "ga": 29,
+          "points": 15
+        },
+        {
+          "position": 8,
+          "team": "Slavičín",
+          "played": 11,
+          "won": 3,
+          "drawn": 2,
+          "lost": 6,
+          "gf": 22,
+          "ga": 30,
+          "points": 11
+        },
+        {
+          "position": 9,
+          "team": "Holešov",
+          "played": 11,
+          "won": 3,
+          "drawn": 0,
+          "lost": 8,
+          "gf": 27,
+          "ga": 32,
+          "points": 9
+        },
+        {
+          "position": 10,
+          "team": "Fryšták-Březnice",
+          "played": 11,
+          "won": 2,
+          "drawn": 3,
+          "lost": 6,
+          "gf": 16,
+          "ga": 29,
+          "points": 9
+        },
+        {
+          "position": 11,
+          "team": "Val. Polanka",
+          "played": 11,
+          "won": 3,
+          "drawn": 0,
+          "lost": 8,
+          "gf": 13,
+          "ga": 31,
+          "points": 9
+        },
+        {
+          "position": 12,
+          "team": "Bojkovice",
+          "played": 11,
+          "won": 1,
+          "drawn": 0,
+          "lost": 10,
+          "gf": 8,
+          "ga": 55,
+          "points": 3
+        }
+      ],
+      "scorers": []
+    },
+    {
+      "id": "starsi-zaci",
+      "name": "Starší žáci",
+      "category": "U15",
+      "competition": "4. liga starší žáci sk.C",
+      "competitionUrl": "https://is.fotbal.cz/public/souteze/detail-souteze.aspx?req=1f239034-302a-4702-a38f-27da46de8271&sport=fotbal",
+      "season": "2026/2027",
+      "description": "",
+      "matches": [
+        {
+          "round": 2,
+          "date": "2026-08-22T09:30:00+02:00",
+          "home": "FA Zlechov-Osvětimany",
+          "away": "Strání",
+          "score": [
+            1,
+            7
+          ],
+          "venue": "Zlechov",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=67ec02f6-5734-405e-91ad-7bfc1f70e22f&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 3,
+          "date": "2026-08-31T16:00:00+02:00",
+          "home": "Strání",
+          "away": "Mařatice",
+          "score": [
+            6,
+            1
+          ],
+          "venue": "Strání 2",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=a47bba52-1f1c-4624-a4d4-f61e58f75e0a&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 4,
+          "date": "2026-09-06T09:30:00+02:00",
+          "home": "Boršice-Nedakonice",
+          "away": "Strání",
+          "score": [
+            3,
+            3
+          ],
+          "venue": "Nedakonice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=b78961af-a770-442f-a59f-7fdf8a9ddd10&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 5,
+          "date": "2026-09-13T09:30:00+02:00",
+          "home": "Strání",
+          "away": "Bojkovice",
+          "score": [
+            12,
+            1
+          ],
+          "venue": "Strání 2",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=dfb85b0b-222c-4d3c-ad3f-1969c78c9cb4&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 6,
+          "date": "2026-09-20T09:30:00+02:00",
+          "home": "Uh. Ostroh",
+          "away": "Strání",
+          "score": [
+            3,
+            1
+          ],
+          "venue": "Uh. Ostroh",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=3bc73b63-fb23-4145-ad1e-726cb3e67db1&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 7,
+          "date": "2026-09-26T09:30:00+02:00",
+          "home": "Strání",
+          "away": "Šumice",
+          "score": [
+            6,
+            2
+          ],
+          "venue": "Strání 2",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=2ceaefe6-402b-4917-9910-9a695888fe81&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 8,
+          "date": "2026-10-04T09:30:00+02:00",
+          "home": "Strání",
+          "away": "O.N.Ves",
+          "score": [
+            1,
+            1
+          ],
+          "venue": "Slavkov",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=731376cc-0b10-4f67-8591-db56bea46ae1&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 9,
+          "date": "2026-10-10T09:30:00+02:00",
+          "home": "Újezdec-Uh. Brod B",
+          "away": "Strání",
+          "score": [
+            2,
+            3
+          ],
+          "venue": "Újezdec",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=db777e21-58bc-42e0-a9b4-e32c00469d07&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 10,
+          "date": "2026-10-18T09:30:00+02:00",
+          "home": "Strání",
+          "away": "Buchlovice-Tupesy",
+          "score": [
+            4,
+            0
+          ],
+          "venue": "Slavkov",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=61c1a599-af4d-4ad6-b50e-e424db639f76&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 11,
+          "date": "2026-10-25T09:30:00+01:00",
+          "home": "Kněžpole-Jarošov",
+          "away": "Strání",
+          "score": [
+            1,
+            7
+          ],
+          "venue": "Jarošov",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=d133e5f2-8772-4786-93d6-baea7688935e&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 1,
+          "date": "2026-10-31T09:30:00+01:00",
+          "home": "Strání",
+          "away": "Nivnice-Dolní Němčí",
+          "score": [
+            4,
+            3
+          ],
+          "venue": "Strání 2",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=fa92ba9a-fc28-4517-8f0a-0d73300bee94&zapis=1&hidemenu=1"
+        }
+      ],
+      "table": [
+        {
+          "position": 1,
+          "team": "Uh. Ostroh",
+          "played": 11,
+          "won": 8,
+          "drawn": 3,
+          "lost": 0,
+          "gf": 52,
+          "ga": 20,
+          "points": 27
+        },
+        {
+          "position": 2,
+          "team": "Strání",
+          "played": 11,
+          "won": 8,
+          "drawn": 2,
+          "lost": 1,
+          "gf": 54,
+          "ga": 18,
+          "points": 26
+        },
+        {
+          "position": 3,
+          "team": "Nivnice-Dolní Němčí",
+          "played": 11,
+          "won": 8,
+          "drawn": 0,
+          "lost": 3,
+          "gf": 55,
+          "ga": 22,
+          "points": 24
+        },
+        {
+          "position": 4,
+          "team": "Buchlovice-Tupesy",
+          "played": 11,
+          "won": 6,
+          "drawn": 2,
+          "lost": 3,
+          "gf": 38,
+          "ga": 30,
+          "points": 20
+        },
+        {
+          "position": 5,
+          "team": "Újezdec-Uh. Brod B",
+          "played": 11,
+          "won": 6,
+          "drawn": 1,
+          "lost": 4,
+          "gf": 48,
+          "ga": 34,
+          "points": 19
+        },
+        {
+          "position": 6,
+          "team": "FA Zlechov-Osvětimany",
+          "played": 11,
+          "won": 6,
+          "drawn": 1,
+          "lost": 4,
+          "gf": 47,
+          "ga": 46,
+          "points": 19
+        },
+        {
+          "position": 7,
+          "team": "Šumice",
+          "played": 11,
+          "won": 6,
+          "drawn": 0,
+          "lost": 5,
+          "gf": 49,
+          "ga": 26,
+          "points": 18
+        },
+        {
+          "position": 8,
+          "team": "Mařatice",
+          "played": 11,
+          "won": 4,
+          "drawn": 0,
+          "lost": 7,
+          "gf": 33,
+          "ga": 41,
+          "points": 12
+        },
+        {
+          "position": 9,
+          "team": "O.N.Ves",
+          "played": 11,
+          "won": 3,
+          "drawn": 2,
+          "lost": 6,
+          "gf": 28,
+          "ga": 47,
+          "points": 11
+        },
+        {
+          "position": 10,
+          "team": "Boršice-Nedakonice",
+          "played": 11,
+          "won": 2,
+          "drawn": 2,
+          "lost": 7,
+          "gf": 42,
+          "ga": 48,
+          "points": 8
+        },
+        {
+          "position": 11,
+          "team": "Bojkovice",
+          "played": 11,
+          "won": 2,
+          "drawn": 1,
+          "lost": 8,
+          "gf": 26,
+          "ga": 77,
+          "points": 7
+        },
+        {
+          "position": 12,
+          "team": "Kněžpole-Jarošov",
+          "played": 11,
+          "won": 0,
+          "drawn": 0,
+          "lost": 11,
+          "gf": 19,
+          "ga": 82,
+          "points": 0
+        }
+      ],
+      "scorers": []
+    },
+    {
+      "id": "mladsi-zaci",
+      "name": "Mladší žáci",
+      "category": "U13",
+      "competition": "4. liga mladší žáci sk.C",
+      "competitionUrl": "https://is.fotbal.cz/public/souteze/detail-souteze.aspx?req=30f62989-c046-40e3-95b8-6ce7255e921a&sport=fotbal",
+      "season": "2026/2027",
+      "description": "",
+      "matches": [
+        {
+          "round": 2,
+          "date": "2026-08-22T11:15:00+02:00",
+          "home": "FA Zlechov-Osvětimany",
+          "away": "Strání",
+          "score": [
+            2,
+            6
+          ],
+          "venue": "Zlechov",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=8a288c6b-22e5-434e-859f-19fb9d6c57bf&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 3,
+          "date": "2026-08-31T17:45:00+02:00",
+          "home": "Strání",
+          "away": "Mařatice",
+          "score": [
+            6,
+            1
+          ],
+          "venue": "Strání 2",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=329e1276-59be-4954-aaab-a97e070f02a1&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 4,
+          "date": "2026-09-06T11:15:00+02:00",
+          "home": "Boršice-Nedakonice",
+          "away": "Strání",
+          "score": [
+            2,
+            12
+          ],
+          "venue": "Nedakonice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=bf6bdae5-f7b7-4ef2-a8f0-7882dadc4225&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 5,
+          "date": "2026-09-13T11:15:00+02:00",
+          "home": "Strání",
+          "away": "Bojkovice",
+          "score": [
+            3,
+            1
+          ],
+          "venue": "Strání 2",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=210fd320-629b-4ab3-98cc-95f4639a8809&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 6,
+          "date": "2026-09-20T11:15:00+02:00",
+          "home": "Uh. Ostroh",
+          "away": "Strání",
+          "score": [
+            1,
+            5
+          ],
+          "venue": "Uh. Ostroh",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=4acebfd2-04fb-421b-afde-e1ab7cb08b79&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 7,
+          "date": "2026-09-26T11:15:00+02:00",
+          "home": "Strání",
+          "away": "Šumice",
+          "score": [
+            11,
+            1
+          ],
+          "venue": "Strání 2",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=31b9a8a4-4b5a-4a16-800e-eeace0c1b890&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 8,
+          "date": "2026-10-04T11:15:00+02:00",
+          "home": "Strání",
+          "away": "O.N.Ves",
+          "score": [
+            4,
+            1
+          ],
+          "venue": "Slavkov",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=dd5924b2-8fc7-4306-8ceb-a76fe293450a&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 9,
+          "date": "2026-10-10T11:15:00+02:00",
+          "home": "Újezdec-Uh. Brod B",
+          "away": "Strání",
+          "score": [
+            1,
+            1
+          ],
+          "venue": "Újezdec",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=104c1741-b7d9-4600-9c61-608e617b4712&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 10,
+          "date": "2026-10-18T11:15:00+02:00",
+          "home": "Strání",
+          "away": "Buchlovice-Tupesy",
+          "score": [
+            10,
+            0
+          ],
+          "venue": "Slavkov",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=e0566bb2-1d65-4c48-9120-abf9b56eca19&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 11,
+          "date": "2026-10-25T11:15:00+01:00",
+          "home": "Kněžpole-Jarošov",
+          "away": "Strání",
+          "score": [
+            3,
+            3
+          ],
+          "venue": "Jarošov",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=0a4028d9-d3f5-4fd3-bffb-7b2ac3ee28f2&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 1,
+          "date": "2026-11-05T16:00:00+01:00",
+          "home": "Strání",
+          "away": "Nivnice-Dolní Němčí",
+          "score": [
+            4,
+            1
+          ],
+          "venue": "Dolní Němčí",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=94a4ffcf-e34e-4d31-af3e-3c3fec37824e&zapis=1&hidemenu=1"
+        }
+      ],
+      "table": [
+        {
+          "position": 1,
+          "team": "Strání",
+          "played": 11,
+          "won": 9,
+          "drawn": 2,
+          "lost": 0,
+          "gf": 65,
+          "ga": 14,
+          "points": 29
+        },
+        {
+          "position": 2,
+          "team": "Bojkovice",
+          "played": 11,
+          "won": 9,
+          "drawn": 0,
+          "lost": 2,
+          "gf": 67,
+          "ga": 9,
+          "points": 27
+        },
+        {
+          "position": 3,
+          "team": "Kněžpole-Jarošov",
+          "played": 11,
+          "won": 8,
+          "drawn": 3,
+          "lost": 0,
+          "gf": 64,
+          "ga": 17,
+          "points": 27
+        },
+        {
+          "position": 4,
+          "team": "O.N.Ves",
+          "played": 11,
+          "won": 8,
+          "drawn": 1,
+          "lost": 2,
+          "gf": 49,
+          "ga": 13,
+          "points": 25
+        },
+        {
+          "position": 5,
+          "team": "Nivnice-Dolní Němčí",
+          "played": 11,
+          "won": 6,
+          "drawn": 0,
+          "lost": 5,
+          "gf": 46,
+          "ga": 44,
+          "points": 18
+        },
+        {
+          "position": 6,
+          "team": "Mařatice",
+          "played": 11,
+          "won": 5,
+          "drawn": 1,
+          "lost": 5,
+          "gf": 49,
+          "ga": 32,
+          "points": 16
+        },
+        {
+          "position": 7,
+          "team": "Újezdec-Uh. Brod B",
+          "played": 11,
+          "won": 3,
+          "drawn": 3,
+          "lost": 5,
+          "gf": 35,
+          "ga": 46,
+          "points": 12
+        },
+        {
+          "position": 8,
+          "team": "Šumice",
+          "played": 11,
+          "won": 3,
+          "drawn": 3,
+          "lost": 5,
+          "gf": 29,
+          "ga": 47,
+          "points": 12
+        },
+        {
+          "position": 9,
+          "team": "Uh. Ostroh",
+          "played": 11,
+          "won": 3,
+          "drawn": 0,
+          "lost": 8,
+          "gf": 19,
+          "ga": 44,
+          "points": 9
+        },
+        {
+          "position": 10,
+          "team": "FA Zlechov-Osvětimany",
+          "played": 11,
+          "won": 2,
+          "drawn": 1,
+          "lost": 8,
+          "gf": 13,
+          "ga": 45,
+          "points": 7
+        },
+        {
+          "position": 11,
+          "team": "Buchlovice-Tupesy",
+          "played": 11,
+          "won": 2,
+          "drawn": 0,
+          "lost": 9,
+          "gf": 16,
+          "ga": 58,
+          "points": 6
+        },
+        {
+          "position": 12,
+          "team": "Boršice-Nedakonice",
+          "played": 11,
+          "won": 1,
+          "drawn": 0,
+          "lost": 10,
+          "gf": 17,
+          "ga": 100,
+          "points": 3
+        }
+      ],
+      "scorers": []
+    },
+    {
+      "id": "starsi-pripravka",
+      "name": "Starší přípravka",
+      "category": "U11",
+      "competition": "1. liga starší přípravky sk. B-1",
+      "competitionUrl": "https://is.fotbal.cz/public/souteze/detail-souteze.aspx?req=e1d1a9bf-5d04-4a06-ae12-4782708c7eb6&sport=fotbal",
+      "season": "2026/2027",
+      "description": "",
+      "matches": [
+        {
+          "round": 2,
+          "date": "2026-09-07T16:30:00+02:00",
+          "home": "Uh. Brod",
+          "away": "Strání",
+          "score": null,
+          "venue": "Orelský st.-tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=ba869e7d-6866-4d02-8529-4be414a4896e&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 3,
+          "date": "2026-09-14T16:30:00+02:00",
+          "home": "Strání",
+          "away": "Bojkovice",
+          "score": null,
+          "venue": "Strání-tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=f4a6a474-e898-470c-b53e-3b67144fc6e4&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 4,
+          "date": "2026-09-21T16:30:00+02:00",
+          "home": "FC Slovácko",
+          "away": "Strání",
+          "score": null,
+          "venue": "Mařatice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=5871c33d-4f09-4188-99e7-6329d7befcb5&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 5,
+          "date": "2026-09-28T16:30:00+02:00",
+          "home": "Strání",
+          "away": "Volno",
+          "score": null,
+          "venue": "Strání-tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=2c651178-6f80-4a1b-aeca-2cda21c98973&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 6,
+          "date": "2026-10-05T16:30:00+02:00",
+          "home": "Strání",
+          "away": "Hluk",
+          "score": null,
+          "venue": "Strání-tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=a059152d-5da7-4bc7-bed0-c559146d752f&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 7,
+          "date": "2026-10-12T17:00:00+02:00",
+          "home": "FA Zlechov",
+          "away": "Strání",
+          "score": null,
+          "venue": "Zlechov",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=1796a260-93e6-42c7-8883-26484e243fde&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 1,
+          "date": "2026-10-19T16:30:00+02:00",
+          "home": "Strání",
+          "away": "Baťov",
+          "score": null,
+          "venue": "Strání-tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=008b724b-b493-4f27-b982-64684f68218d&zapis=1&hidemenu=1",
+          "played": true
+        }
+      ],
+      "table": [],
+      "scorers": []
+    },
+    {
+      "id": "starsi-pripravka-2",
+      "name": "Starší přípravka (B-2)",
+      "category": "U11",
+      "competition": "1. liga starší přípravky sk. B-2",
+      "competitionUrl": "https://is.fotbal.cz/public/souteze/detail-souteze.aspx?req=ec73b95b-83bb-429d-8ff1-0718be3c8525&sport=fotbal",
+      "season": "2026/2027",
+      "description": "",
+      "matches": [
+        {
+          "round": 2,
+          "date": "2026-09-07T16:30:00+02:00",
+          "home": "Uh. Brod",
+          "away": "Strání",
+          "score": null,
+          "venue": "Orelský st.-tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=cba70322-77a1-4114-a40f-f9bcabafb3d3&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 3,
+          "date": "2026-09-14T16:30:00+02:00",
+          "home": "Strání",
+          "away": "Bojkovice",
+          "score": null,
+          "venue": "Strání-tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=ed7814b1-f28e-40ba-a06b-f15914d12e56&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 4,
+          "date": "2026-09-21T16:30:00+02:00",
+          "home": "FC Slovácko",
+          "away": "Strání",
+          "score": null,
+          "venue": "Mařatice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=e03bd0f6-8fbe-4c86-a1b8-28328543e235&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 5,
+          "date": "2026-09-28T16:30:00+02:00",
+          "home": "Strání",
+          "away": "Volno",
+          "score": null,
+          "venue": "Strání-tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=445b2eb7-ea4f-489a-9961-28c916ba208a&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 6,
+          "date": "2026-10-05T16:30:00+02:00",
+          "home": "Strání",
+          "away": "Hluk",
+          "score": null,
+          "venue": "Strání-tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=884b651b-bd06-4672-8c2f-eca3234a5e69&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 7,
+          "date": "2026-10-12T17:00:00+02:00",
+          "home": "FA Zlechov",
+          "away": "Strání",
+          "score": null,
+          "venue": "Zlechov",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=f734f977-da30-491a-845a-17b7073d5b5d&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 1,
+          "date": "2026-10-19T16:30:00+02:00",
+          "home": "Strání",
+          "away": "Baťov",
+          "score": null,
+          "venue": "Strání-tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=475ae624-c120-43c4-8028-9f05618c6509&zapis=1&hidemenu=1",
+          "played": true
+        }
+      ],
+      "table": [],
+      "scorers": []
+    },
+    {
+      "id": "mladsi-pripravka",
+      "name": "Mladší přípravka",
+      "category": "U9",
+      "competition": "1. liga mladší přípravky sk. B-1",
+      "competitionUrl": "https://is.fotbal.cz/public/souteze/detail-souteze.aspx?req=cc868225-a4d1-4877-a587-a3cb95c48bd9&sport=fotbal",
+      "season": "2026/2027",
+      "description": "",
+      "matches": [
+        {
+          "round": 2,
+          "date": "2026-09-07T16:30:00+02:00",
+          "home": "Uh. Brod",
+          "away": "Strání",
+          "score": null,
+          "venue": "Orelský st.-tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=74566bf0-f774-4ac1-b054-d708dcabb28b&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 3,
+          "date": "2026-09-14T16:30:00+02:00",
+          "home": "Strání",
+          "away": "Bojkovice",
+          "score": null,
+          "venue": "Strání-tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=c8c9d139-75a1-4ac3-aa57-8b927cd86bb9&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 4,
+          "date": "2026-09-21T16:30:00+02:00",
+          "home": "FC Slovácko",
+          "away": "Strání",
+          "score": null,
+          "venue": "Mařatice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=79ec4505-e334-4a47-9e67-169679084e29&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 5,
+          "date": "2026-09-28T16:30:00+02:00",
+          "home": "Strání",
+          "away": "Volno",
+          "score": null,
+          "venue": "Strání-tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=3459dbf3-ba0b-47c8-86bf-6511bf635772&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 6,
+          "date": "2026-10-05T16:30:00+02:00",
+          "home": "Strání",
+          "away": "Hluk",
+          "score": null,
+          "venue": "Strání-tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=aa4a9d0c-41f9-4df4-8151-6dd396c977e6&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 7,
+          "date": "2026-10-12T17:00:00+02:00",
+          "home": "FA Zlechov",
+          "away": "Strání",
+          "score": null,
+          "venue": "Zlechov",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=60fa92b2-ba44-46c4-9429-52babd429922&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 1,
+          "date": "2026-10-19T16:30:00+02:00",
+          "home": "Strání",
+          "away": "Baťov",
+          "score": null,
+          "venue": "Strání-tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=45340e81-69fe-4c8f-a954-53d1b169e2ce&zapis=1&hidemenu=1",
+          "played": true
+        }
+      ],
+      "table": [],
+      "scorers": []
+    },
+    {
+      "id": "mladsi-pripravka-2",
+      "name": "Mladší přípravka (B-2)",
+      "category": "U9",
+      "competition": "1. liga mladší přípravky sk. B-2",
+      "competitionUrl": "https://is.fotbal.cz/public/souteze/detail-souteze.aspx?req=b9250dd8-ef52-4c19-9f58-55a94359de35&sport=fotbal",
+      "season": "2026/2027",
+      "description": "",
+      "matches": [
+        {
+          "round": 2,
+          "date": "2026-09-07T16:30:00+02:00",
+          "home": "Uh. Brod",
+          "away": "Strání",
+          "score": null,
+          "venue": "Orelský st.-tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=426439ef-8f8d-45d5-8f6d-3795b5d1cc42&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 3,
+          "date": "2026-09-14T16:30:00+02:00",
+          "home": "Strání",
+          "away": "Bojkovice",
+          "score": null,
+          "venue": "Strání-tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=8a590612-1867-4910-b64f-0ac9ff68a3c7&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 4,
+          "date": "2026-09-21T16:30:00+02:00",
+          "home": "FC Slovácko",
+          "away": "Strání",
+          "score": null,
+          "venue": "Mařatice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=b75b876d-cea1-4fad-b218-c59088b116b3&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 5,
+          "date": "2026-09-28T16:30:00+02:00",
+          "home": "Strání",
+          "away": "Volno",
+          "score": null,
+          "venue": "Strání-tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=6d39b0bd-32d7-4a01-a444-ab2394375a2b&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 6,
+          "date": "2026-10-05T16:30:00+02:00",
+          "home": "Strání",
+          "away": "Hluk",
+          "score": null,
+          "venue": "Strání-tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=b03189a2-c6e4-451d-b2b5-6f12cae20b8b&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 7,
+          "date": "2026-10-12T17:00:00+02:00",
+          "home": "FA Zlechov",
+          "away": "Strání",
+          "score": null,
+          "venue": "Zlechov",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=5bcfbd29-c117-4da1-8ba2-d7edb35321b7&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 1,
+          "date": "2026-10-19T16:30:00+02:00",
+          "home": "Strání",
+          "away": "Baťov",
+          "score": null,
+          "venue": "Strání-tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=52e1f7e0-8282-4502-8278-094ffc28b7ca&zapis=1&hidemenu=1",
+          "played": true
+        }
+      ],
+      "table": [],
+      "scorers": []
+    }
+  ]
+}

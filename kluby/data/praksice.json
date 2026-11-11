@@ -1,0 +1,1430 @@
+{
+  "source": "facr",
+  "updatedAt": "2026-11-10T21:00:47+01:00",
+  "club": {
+    "name": "TJ Sokol Prakšice-Pašovice",
+    "official": "TJ SOKOL PRAKŠICE - PAŠOVICE, z.s.",
+    "shortName": "Prakšice",
+    "brand": "TJ Sokol Prakšice-Pašovice",
+    "hero": [
+      "TJ Sokol",
+      "Prakšice"
+    ],
+    "founded": null,
+    "logo": "",
+    "logoShape": "shield",
+    "colors": {},
+    "stadium": "",
+    "email": "",
+    "facebook": "",
+    "tagline": "Zápasy, výsledky a tabulky všech našich týmů na jednom místě.",
+    "facr": {
+      "number": "7220451",
+      "isId": "2197",
+      "match": [
+        "Prakšice"
+      ]
+    }
+  },
+  "teams": [
+    {
+      "id": "muzi",
+      "name": "Muži A",
+      "category": "Dospělí",
+      "competition": "7. liga, sk. C",
+      "competitionUrl": "https://is.fotbal.cz/public/souteze/detail-souteze.aspx?req=d1e0f817-6286-4337-9d2c-b3f0a103a16d&sport=fotbal",
+      "season": "2026/2027",
+      "description": "",
+      "matches": [
+        {
+          "round": 2,
+          "date": "2026-08-09T17:00:00+02:00",
+          "home": "Prakšice",
+          "away": "Koryčany",
+          "score": [
+            2,
+            3
+          ],
+          "venue": "Prakšice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=39a5cc75-4ded-464f-9161-1d8a61c6962e&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 3,
+          "date": "2026-08-15T16:30:00+02:00",
+          "home": "Javořina",
+          "away": "Prakšice",
+          "score": [
+            2,
+            2
+          ],
+          "venue": "Slavkov",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=e947c7d6-6fee-4fc8-a2c5-65d5ca92b8f2&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 4,
+          "date": "2026-08-23T16:30:00+02:00",
+          "home": "Prakšice",
+          "away": "Vlčnov",
+          "score": [
+            2,
+            1
+          ],
+          "venue": "Prakšice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=a03a5e94-d9d7-49e0-bac1-e7ed1abe23fb&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 5,
+          "date": "2026-08-30T16:30:00+02:00",
+          "home": "Hluk B",
+          "away": "Prakšice",
+          "score": [
+            2,
+            2
+          ],
+          "venue": "Hluk-tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=513c830b-2567-48f7-8248-45a818e00dc0&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 6,
+          "date": "2026-09-06T16:00:00+02:00",
+          "home": "Prakšice",
+          "away": "O. N. Ves",
+          "score": [
+            1,
+            0
+          ],
+          "venue": "Prakšice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=4ed7937c-2c4c-4954-8b5a-71697c12c841&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 7,
+          "date": "2026-09-13T16:00:00+02:00",
+          "home": "Morkovice B",
+          "away": "Prakšice",
+          "score": [
+            3,
+            0
+          ],
+          "venue": "Morkovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=172be8b5-32fb-4cd4-bcd1-a4ffd3d819f3&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 8,
+          "date": "2026-09-20T15:30:00+02:00",
+          "home": "Prakšice",
+          "away": "Polešovice",
+          "score": [
+            3,
+            1
+          ],
+          "venue": "Prakšice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=a92a2f4c-193c-49b0-8283-9d0898bd18a2&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 9,
+          "date": "2026-09-27T15:30:00+02:00",
+          "home": "Huštěnovice",
+          "away": "Prakšice",
+          "score": [
+            1,
+            2
+          ],
+          "venue": "Huštěnovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=7db9532c-1d9d-4f94-8069-2a5938237eef&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 10,
+          "date": "2026-10-04T15:00:00+02:00",
+          "home": "Prakšice",
+          "away": "Chropyně",
+          "score": [
+            2,
+            1
+          ],
+          "venue": "Prakšice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=a889eaac-7f93-41fc-8f69-bc610a821de6&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 11,
+          "date": "2026-10-11T15:00:00+02:00",
+          "home": "Uh. Ostroh",
+          "away": "Prakšice",
+          "score": [
+            3,
+            0
+          ],
+          "venue": "Uh. Ostroh",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=a9958695-045d-4749-800d-c9ff0a651323&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 12,
+          "date": "2026-10-17T14:30:00+02:00",
+          "home": "Prakšice",
+          "away": "Strání B",
+          "score": [
+            1,
+            0
+          ],
+          "venue": "Prakšice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=12bc74fe-1804-46c5-b192-ae16a28a83db&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 13,
+          "date": "2026-10-25T10:15:00+01:00",
+          "home": "FC Slovácko C",
+          "away": "Prakšice",
+          "score": [
+            3,
+            2
+          ],
+          "venue": "Kunovice-tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=18d611a9-80e1-4829-b24a-07915c0d7885&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 1,
+          "date": "2026-11-01T14:00:00+01:00",
+          "home": "Prakšice",
+          "away": "Šumice",
+          "score": [
+            5,
+            2
+          ],
+          "venue": "Prakšice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=8dad7b0d-3370-4df0-a2da-cdee7bcb32d6&zapis=1&hidemenu=1"
+        }
+      ],
+      "table": [
+        {
+          "position": 1,
+          "team": "Koryčany",
+          "played": 13,
+          "won": 12,
+          "drawn": 0,
+          "lost": 1,
+          "gf": 44,
+          "ga": 18,
+          "points": 36
+        },
+        {
+          "position": 2,
+          "team": "Strání B",
+          "played": 13,
+          "won": 8,
+          "drawn": 2,
+          "lost": 3,
+          "gf": 35,
+          "ga": 12,
+          "points": 26
+        },
+        {
+          "position": 3,
+          "team": "Uh. Ostroh",
+          "played": 13,
+          "won": 8,
+          "drawn": 1,
+          "lost": 4,
+          "gf": 31,
+          "ga": 20,
+          "points": 25
+        },
+        {
+          "position": 4,
+          "team": "Prakšice",
+          "played": 13,
+          "won": 7,
+          "drawn": 2,
+          "lost": 4,
+          "gf": 24,
+          "ga": 22,
+          "points": 23
+        },
+        {
+          "position": 5,
+          "team": "FC Slovácko C",
+          "played": 13,
+          "won": 6,
+          "drawn": 3,
+          "lost": 4,
+          "gf": 28,
+          "ga": 25,
+          "points": 21
+        },
+        {
+          "position": 6,
+          "team": "Vlčnov",
+          "played": 13,
+          "won": 6,
+          "drawn": 2,
+          "lost": 5,
+          "gf": 30,
+          "ga": 22,
+          "points": 20
+        },
+        {
+          "position": 7,
+          "team": "Polešovice",
+          "played": 13,
+          "won": 6,
+          "drawn": 2,
+          "lost": 5,
+          "gf": 26,
+          "ga": 24,
+          "points": 20
+        },
+        {
+          "position": 8,
+          "team": "Javořina",
+          "played": 13,
+          "won": 5,
+          "drawn": 4,
+          "lost": 4,
+          "gf": 23,
+          "ga": 21,
+          "points": 19
+        },
+        {
+          "position": 9,
+          "team": "Huštěnovice",
+          "played": 13,
+          "won": 5,
+          "drawn": 2,
+          "lost": 6,
+          "gf": 25,
+          "ga": 27,
+          "points": 17
+        },
+        {
+          "position": 10,
+          "team": "Chropyně",
+          "played": 13,
+          "won": 5,
+          "drawn": 0,
+          "lost": 8,
+          "gf": 30,
+          "ga": 36,
+          "points": 15
+        },
+        {
+          "position": 11,
+          "team": "O. N. Ves",
+          "played": 13,
+          "won": 3,
+          "drawn": 2,
+          "lost": 8,
+          "gf": 18,
+          "ga": 28,
+          "points": 11
+        },
+        {
+          "position": 12,
+          "team": "Hluk B",
+          "played": 13,
+          "won": 2,
+          "drawn": 4,
+          "lost": 7,
+          "gf": 23,
+          "ga": 35,
+          "points": 10
+        },
+        {
+          "position": 13,
+          "team": "Morkovice B",
+          "played": 13,
+          "won": 2,
+          "drawn": 3,
+          "lost": 8,
+          "gf": 28,
+          "ga": 50,
+          "points": 9
+        },
+        {
+          "position": 14,
+          "team": "Šumice",
+          "played": 13,
+          "won": 2,
+          "drawn": 1,
+          "lost": 10,
+          "gf": 21,
+          "ga": 46,
+          "points": 7
+        }
+      ],
+      "scorers": []
+    },
+    {
+      "id": "dorost",
+      "name": "Starší dorost",
+      "category": "U19",
+      "competition": "OP dorostu sk. B",
+      "competitionUrl": "https://is.fotbal.cz/public/souteze/detail-souteze.aspx?req=a93dfc86-ba5a-4bfe-9409-253b94c46e05&sport=fotbal",
+      "season": "2026/2027",
+      "description": "",
+      "matches": [
+        {
+          "round": 2,
+          "date": "2026-08-23T14:00:00+02:00",
+          "home": "Ostr. Lhota",
+          "away": "Prakšice/Orel",
+          "score": [
+            3,
+            4
+          ],
+          "venue": "Ostrožská Lhota",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=f2d97bd4-5df8-46a0-88eb-7c3dced3916b&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 3,
+          "date": "2026-08-29T14:00:00+02:00",
+          "home": "Prakšice/Orel",
+          "away": "Březolupy/Nedachlebice",
+          "score": [
+            10,
+            0
+          ],
+          "venue": "Prakšice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=3ab9f03e-9c84-42f1-bdf5-12aa96811d89&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 4,
+          "date": "2026-09-05T13:00:00+02:00",
+          "home": "Bílovice",
+          "away": "Prakšice/Orel",
+          "score": [
+            1,
+            0
+          ],
+          "venue": "Bílovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=6d00315b-b6b5-4a63-b79f-e4fc57d35db1&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 5,
+          "date": "2026-09-12T13:30:00+02:00",
+          "home": "Prakšice/Orel",
+          "away": "Hradčovice",
+          "score": [
+            5,
+            1
+          ],
+          "venue": "Prakšice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=0a24d01e-8e82-4d46-8c25-c90d2c6bb0c4&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 6,
+          "date": "2026-09-20T12:30:00+02:00",
+          "home": "Javořina/Strání B",
+          "away": "Prakšice/Orel",
+          "score": [
+            0,
+            0
+          ],
+          "venue": "Horní Němčí",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=65458101-5bdc-4cb2-908c-366311126d36&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 7,
+          "date": "2026-09-26T13:00:00+02:00",
+          "home": "Prakšice/Orel",
+          "away": "Šumice/Záhorovice",
+          "score": [
+            8,
+            2
+          ],
+          "venue": "Prakšice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=13153da9-e467-494b-a103-917f16d69719&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 8,
+          "date": "2026-10-03T12:00:00+02:00",
+          "home": "Jarošov/Kněžpole",
+          "away": "Prakšice/Orel",
+          "score": [
+            0,
+            7
+          ],
+          "venue": "Jarošov",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=f77e9e61-02a3-4362-abee-5df4030ceeba&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 9,
+          "date": "2026-10-10T12:30:00+02:00",
+          "home": "Prakšice/Orel",
+          "away": "Ostr. Lhota",
+          "score": [
+            2,
+            1
+          ],
+          "venue": "Prakšice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=e9ce1098-1efb-45c4-9f53-ea2896de4aae&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 1,
+          "date": "2026-10-24T14:30:00+02:00",
+          "home": "Prakšice/Orel",
+          "away": "Jarošov/Kněžpole",
+          "score": [
+            7,
+            0
+          ],
+          "venue": "Prakšice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=fe696cb4-e88f-4aea-9110-3c40ebc561f3&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 10,
+          "date": "2026-10-28T14:30:00+01:00",
+          "home": "Březolupy/Nedachlebice",
+          "away": "Prakšice/Orel",
+          "score": [
+            1,
+            7
+          ],
+          "venue": "Březolupy",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=9a790df3-3f34-4873-8218-4d0993f04803&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 11,
+          "date": "2027-03-20T12:30:00+01:00",
+          "home": "Prakšice/Orel",
+          "away": "Bílovice",
+          "score": null,
+          "venue": "Prakšice",
+          "report": null
+        },
+        {
+          "round": 12,
+          "date": "2027-03-27T15:00:00+01:00",
+          "home": "Hradčovice",
+          "away": "Prakšice/Orel",
+          "score": null,
+          "venue": "Hradčovice",
+          "report": null
+        },
+        {
+          "round": 13,
+          "date": "2027-04-03T13:00:00+02:00",
+          "home": "Prakšice/Orel",
+          "away": "Javořina/Strání B",
+          "score": null,
+          "venue": "Prakšice",
+          "report": null
+        },
+        {
+          "round": 14,
+          "date": "2027-04-10T15:30:00+02:00",
+          "home": "Šumice/Záhorovice",
+          "away": "Prakšice/Orel",
+          "score": null,
+          "venue": "Šumice",
+          "report": null
+        },
+        {
+          "round": 15,
+          "date": "2027-04-17T13:30:00+02:00",
+          "home": "Prakšice/Orel",
+          "away": "Jarošov/Kněžpole",
+          "score": null,
+          "venue": "Prakšice",
+          "report": null
+        },
+        {
+          "round": 16,
+          "date": "2027-04-25T13:30:00+02:00",
+          "home": "Ostr. Lhota",
+          "away": "Prakšice/Orel",
+          "score": null,
+          "venue": "Ostrožská Lhota",
+          "report": null
+        },
+        {
+          "round": 17,
+          "date": "2027-05-01T14:00:00+02:00",
+          "home": "Prakšice/Orel",
+          "away": "Březolupy/Nedachlebice",
+          "score": null,
+          "venue": "Prakšice",
+          "report": null
+        },
+        {
+          "round": 18,
+          "date": "2027-05-08T13:30:00+02:00",
+          "home": "Bílovice",
+          "away": "Prakšice/Orel",
+          "score": null,
+          "venue": "Bílovice",
+          "report": null
+        },
+        {
+          "round": 19,
+          "date": "2027-05-15T14:30:00+02:00",
+          "home": "Prakšice/Orel",
+          "away": "Hradčovice",
+          "score": null,
+          "venue": "Prakšice",
+          "report": null
+        },
+        {
+          "round": 20,
+          "date": "2027-05-23T14:00:00+02:00",
+          "home": "Javořina/Strání B",
+          "away": "Prakšice/Orel",
+          "score": null,
+          "venue": "Horní Němčí",
+          "report": null
+        },
+        {
+          "round": 21,
+          "date": "2027-05-29T14:30:00+02:00",
+          "home": "Prakšice/Orel",
+          "away": "Šumice/Záhorovice",
+          "score": null,
+          "venue": "Prakšice",
+          "report": null
+        }
+      ],
+      "table": [
+        {
+          "position": 1,
+          "team": "Prakšice/Orel",
+          "played": 10,
+          "won": 8,
+          "drawn": 1,
+          "lost": 1,
+          "gf": 50,
+          "ga": 9,
+          "points": 25
+        },
+        {
+          "position": 2,
+          "team": "Ostr. Lhota",
+          "played": 10,
+          "won": 7,
+          "drawn": 1,
+          "lost": 2,
+          "gf": 39,
+          "ga": 12,
+          "points": 22
+        },
+        {
+          "position": 3,
+          "team": "Javořina/Strání B",
+          "played": 10,
+          "won": 5,
+          "drawn": 4,
+          "lost": 1,
+          "gf": 36,
+          "ga": 15,
+          "points": 19
+        },
+        {
+          "position": 4,
+          "team": "Šumice/Záhorovice",
+          "played": 10,
+          "won": 4,
+          "drawn": 3,
+          "lost": 3,
+          "gf": 28,
+          "ga": 23,
+          "points": 15
+        },
+        {
+          "position": 5,
+          "team": "Bílovice",
+          "played": 10,
+          "won": 4,
+          "drawn": 2,
+          "lost": 4,
+          "gf": 20,
+          "ga": 18,
+          "points": 14
+        },
+        {
+          "position": 6,
+          "team": "Jarošov/Kněžpole",
+          "played": 10,
+          "won": 3,
+          "drawn": 2,
+          "lost": 5,
+          "gf": 10,
+          "ga": 29,
+          "points": 11
+        },
+        {
+          "position": 7,
+          "team": "Hradčovice",
+          "played": 10,
+          "won": 2,
+          "drawn": 1,
+          "lost": 7,
+          "gf": 16,
+          "ga": 30,
+          "points": 7
+        },
+        {
+          "position": 8,
+          "team": "Březolupy/Nedachlebice",
+          "played": 10,
+          "won": 0,
+          "drawn": 0,
+          "lost": 10,
+          "gf": 7,
+          "ga": 70,
+          "points": 0
+        }
+      ],
+      "scorers": []
+    },
+    {
+      "id": "starsi-zaci",
+      "name": "Starší žáci",
+      "category": "U15",
+      "competition": "OSŽ - MB",
+      "competitionUrl": "https://is.fotbal.cz/public/souteze/detail-souteze.aspx?req=ec747c71-ef5d-4cc3-9056-89f9612fba3c&sport=fotbal",
+      "season": "2026/2027",
+      "description": "",
+      "matches": [
+        {
+          "round": 1,
+          "date": "2026-08-30T11:30:00+02:00",
+          "home": "Prakšice",
+          "away": "Zlámanec",
+          "score": [
+            4,
+            0
+          ],
+          "venue": "Prakšice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=f973405e-62e8-414e-93ff-f85637afb0ac&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 3,
+          "date": "2026-09-17T17:00:00+02:00",
+          "home": "Prakšice",
+          "away": "Hradčovice A",
+          "score": [
+            3,
+            8
+          ],
+          "venue": "Prakšice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=ea12de9e-3d25-4477-874c-291f5e2ab2bb&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 4,
+          "date": "2026-09-20T13:00:00+02:00",
+          "home": "Lhota u Mal.",
+          "away": "Prakšice",
+          "score": [
+            0,
+            7
+          ],
+          "venue": "Lhota",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=9f1222a5-3fa8-4793-9ce2-4d45ddfd6757&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 6,
+          "date": "2026-10-04T11:30:00+02:00",
+          "home": "Prakšice",
+          "away": "Polešovice B",
+          "score": [
+            0,
+            0
+          ],
+          "venue": "Prakšice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=54bace7c-3619-4da6-8496-60399632958f&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 5,
+          "date": "2026-10-10T10:00:00+02:00",
+          "home": "Prakšice",
+          "away": "Bílovice",
+          "score": [
+            7,
+            4
+          ],
+          "venue": "Prakšice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=8d93698c-fc36-472c-85b8-9b2e8376899d&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 7,
+          "date": "2026-10-11T12:30:00+02:00",
+          "home": "Mistřice",
+          "away": "Prakšice",
+          "score": [
+            0,
+            0
+          ],
+          "venue": "Mistřice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=18c1ca17-4d6b-4411-9bda-0c917ff94b56&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 8,
+          "date": "2026-10-20T16:30:00+02:00",
+          "home": "Prakšice",
+          "away": "Popovice",
+          "score": [
+            6,
+            2
+          ],
+          "venue": "Prakšice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=710801fd-6ad8-4826-9e36-aa2255805650&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 9,
+          "date": "2026-10-25T10:00:00+01:00",
+          "home": "Nedachlebice/Březol.",
+          "away": "Prakšice",
+          "score": [
+            11,
+            1
+          ],
+          "venue": "Nedachlebice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=4ac23066-d531-4e65-8833-62c73684ef75&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 12,
+          "date": "2027-04-18T13:30:00+02:00",
+          "home": "Hradčovice A",
+          "away": "Prakšice",
+          "score": null,
+          "venue": "Hradčovice",
+          "report": null
+        },
+        {
+          "round": 13,
+          "date": "2027-04-25T11:30:00+02:00",
+          "home": "Prakšice",
+          "away": "Lhota u Mal.",
+          "score": null,
+          "venue": "Prakšice",
+          "report": null
+        },
+        {
+          "round": 14,
+          "date": "2027-05-02T14:00:00+02:00",
+          "home": "Bílovice",
+          "away": "Prakšice",
+          "score": null,
+          "venue": "Bílovice",
+          "report": null
+        },
+        {
+          "round": 17,
+          "date": "2027-05-23T14:30:00+02:00",
+          "home": "Popovice",
+          "away": "Prakšice",
+          "score": null,
+          "venue": "Popovice",
+          "report": null
+        },
+        {
+          "round": 18,
+          "date": "2027-05-30T11:30:00+02:00",
+          "home": "Prakšice",
+          "away": "Nedachlebice/Březol.",
+          "score": null,
+          "venue": "Prakšice",
+          "report": null
+        },
+        {
+          "round": 10,
+          "date": "2027-06-06T10:00:00+02:00",
+          "home": "Zlámanec",
+          "away": "Prakšice",
+          "score": null,
+          "venue": "Zlámanec",
+          "report": null
+        }
+      ],
+      "table": [
+        {
+          "position": 1,
+          "team": "Hradčovice A",
+          "played": 6,
+          "won": 6,
+          "drawn": 0,
+          "lost": 0,
+          "gf": 56,
+          "ga": 4,
+          "points": 18
+        },
+        {
+          "position": 2,
+          "team": "Prakšice",
+          "played": 6,
+          "won": 4,
+          "drawn": 0,
+          "lost": 2,
+          "gf": 28,
+          "ga": 25,
+          "points": 12
+        },
+        {
+          "position": 3,
+          "team": "Nedachlebice/Březol.",
+          "played": 6,
+          "won": 3,
+          "drawn": 1,
+          "lost": 2,
+          "gf": 28,
+          "ga": 16,
+          "points": 10
+        },
+        {
+          "position": 4,
+          "team": "Bílovice",
+          "played": 6,
+          "won": 3,
+          "drawn": 0,
+          "lost": 3,
+          "gf": 29,
+          "ga": 22,
+          "points": 9
+        },
+        {
+          "position": 5,
+          "team": "Lhota u Mal.",
+          "played": 6,
+          "won": 2,
+          "drawn": 1,
+          "lost": 3,
+          "gf": 19,
+          "ga": 30,
+          "points": 7
+        },
+        {
+          "position": 6,
+          "team": "Popovice",
+          "played": 6,
+          "won": 1,
+          "drawn": 0,
+          "lost": 5,
+          "gf": 15,
+          "ga": 41,
+          "points": 3
+        },
+        {
+          "position": 7,
+          "team": "Zlámanec",
+          "played": 6,
+          "won": 1,
+          "drawn": 0,
+          "lost": 5,
+          "gf": 10,
+          "ga": 47,
+          "points": 3
+        }
+      ],
+      "scorers": []
+    },
+    {
+      "id": "mladsi-zaci",
+      "name": "Mladší žáci",
+      "category": "U13",
+      "competition": "OPŽ - mladší",
+      "competitionUrl": "https://is.fotbal.cz/public/souteze/detail-souteze.aspx?req=803702a2-5882-41d6-999e-7307bfff564a&sport=fotbal",
+      "season": "2026/2027",
+      "description": "",
+      "matches": [
+        {
+          "round": 1,
+          "date": "2026-08-31T17:30:00+02:00",
+          "home": "Prakšice",
+          "away": "Bánov",
+          "score": [
+            2,
+            7
+          ],
+          "venue": "Prakšice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=e4af5b85-a38b-44ba-8d1e-79d0b426e755&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 2,
+          "date": "2026-09-05T10:00:00+02:00",
+          "home": "St. Město",
+          "away": "Prakšice",
+          "score": [
+            3,
+            2
+          ],
+          "venue": "Rybníček-tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=e8f1bec7-a539-4722-8051-cd6f26167b14&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 3,
+          "date": "2026-09-13T10:00:00+02:00",
+          "home": "Prakšice",
+          "away": "Mařatice",
+          "score": [
+            9,
+            2
+          ],
+          "venue": "Prakšice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=0a3a3ce5-9b67-4a02-ab3f-557875068f4c&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 6,
+          "date": "2026-10-04T10:00:00+02:00",
+          "home": "Prakšice",
+          "away": "Huštěnovice",
+          "score": [
+            1,
+            5
+          ],
+          "venue": "Prakšice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=267f233d-dd74-4bd5-abcb-9ec78608d42b&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 7,
+          "date": "2026-10-11T10:00:00+02:00",
+          "home": "Stříbrnice/Ořechov",
+          "away": "Prakšice",
+          "score": [
+            3,
+            3
+          ],
+          "venue": "Stříbrnice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=c63fb22c-615d-4d80-98ee-4f04a0ba8681&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 4,
+          "date": "2026-10-17T10:00:00+02:00",
+          "home": "OREL UB",
+          "away": "Prakšice",
+          "score": [
+            7,
+            1
+          ],
+          "venue": "Uherský Brod",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=065cabe7-8d80-40a8-b5c1-70220f603e08&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 11,
+          "date": "2027-04-25T10:00:00+02:00",
+          "home": "Prakšice",
+          "away": "OREL UB",
+          "score": null,
+          "venue": "Prakšice",
+          "report": null
+        },
+        {
+          "round": 13,
+          "date": "2027-05-09T10:00:00+02:00",
+          "home": "Huštěnovice",
+          "away": "Prakšice",
+          "score": null,
+          "venue": "Huštěnovice",
+          "report": null
+        },
+        {
+          "round": 14,
+          "date": "2027-05-16T10:00:00+02:00",
+          "home": "Prakšice",
+          "away": "Stříbrnice/Ořechov",
+          "score": null,
+          "venue": "Prakšice",
+          "report": null
+        },
+        {
+          "round": 8,
+          "date": "2027-05-23T10:00:00+02:00",
+          "home": "Bánov",
+          "away": "Prakšice",
+          "score": null,
+          "venue": "Bánov",
+          "report": null
+        },
+        {
+          "round": 9,
+          "date": "2027-05-30T10:00:00+02:00",
+          "home": "Prakšice",
+          "away": "St. Město",
+          "score": null,
+          "venue": "Prakšice",
+          "report": null
+        },
+        {
+          "round": 10,
+          "date": "2027-06-06T13:00:00+02:00",
+          "home": "Mařatice",
+          "away": "Prakšice",
+          "score": null,
+          "venue": "Mařatice",
+          "report": null
+        }
+      ],
+      "table": [
+        {
+          "position": 1,
+          "team": "Bánov",
+          "played": 6,
+          "won": 6,
+          "drawn": 0,
+          "lost": 0,
+          "gf": 55,
+          "ga": 13,
+          "points": 18
+        },
+        {
+          "position": 2,
+          "team": "St. Město",
+          "played": 6,
+          "won": 4,
+          "drawn": 1,
+          "lost": 1,
+          "gf": 28,
+          "ga": 15,
+          "points": 13
+        },
+        {
+          "position": 3,
+          "team": "OREL UB",
+          "played": 6,
+          "won": 4,
+          "drawn": 0,
+          "lost": 2,
+          "gf": 35,
+          "ga": 15,
+          "points": 12
+        },
+        {
+          "position": 4,
+          "team": "Huštěnovice",
+          "played": 6,
+          "won": 2,
+          "drawn": 1,
+          "lost": 3,
+          "gf": 13,
+          "ga": 19,
+          "points": 7
+        },
+        {
+          "position": 5,
+          "team": "Prakšice",
+          "played": 6,
+          "won": 1,
+          "drawn": 1,
+          "lost": 4,
+          "gf": 18,
+          "ga": 27,
+          "points": 4
+        },
+        {
+          "position": 6,
+          "team": "Mařatice",
+          "played": 6,
+          "won": 0,
+          "drawn": 3,
+          "lost": 3,
+          "gf": 11,
+          "ga": 44,
+          "points": 3
+        },
+        {
+          "position": 7,
+          "team": "Stříbrnice/Ořechov",
+          "played": 6,
+          "won": 0,
+          "drawn": 2,
+          "lost": 4,
+          "gf": 7,
+          "ga": 34,
+          "points": 2
+        }
+      ],
+      "scorers": []
+    },
+    {
+      "id": "starsi-pripravka",
+      "name": "Starší přípravka",
+      "category": "U11",
+      "competition": "OP - PSB",
+      "competitionUrl": "https://is.fotbal.cz/public/souteze/detail-souteze.aspx?req=7a0f6eb1-b75c-427a-80ee-1164f3e0a539&sport=fotbal",
+      "season": "2026/2027",
+      "description": "",
+      "matches": [
+        {
+          "round": 1,
+          "date": "2026-08-30T10:00:00+02:00",
+          "home": "Újezdec",
+          "away": "Prakšice",
+          "score": null,
+          "venue": "Újezdec",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=2b844763-9a72-4d5d-8821-e5c844a2b083&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 2,
+          "date": "2026-09-05T13:30:00+02:00",
+          "home": "Šumice",
+          "away": "Prakšice",
+          "score": null,
+          "venue": "Šumice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=e01a3e80-9ed3-4aa3-aeb8-4625b39c6240&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 3,
+          "date": "2026-09-14T17:00:00+02:00",
+          "home": "Prakšice",
+          "away": "OREL UB",
+          "score": null,
+          "venue": "Prakšice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=0a670878-4705-4a64-a9ee-62daa73a2597&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 4,
+          "date": "2026-09-19T10:00:00+02:00",
+          "home": "Dolní Němčí",
+          "away": "Prakšice",
+          "score": null,
+          "venue": "Dolní Němčí",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=28f6217f-0a7a-4db2-8452-74172fed9b56&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 5,
+          "date": "2026-09-28T16:00:00+02:00",
+          "home": "Prakšice",
+          "away": "Hradčovice",
+          "score": null,
+          "venue": "Prakšice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=f5085ad7-1fc5-426e-801e-43e7c8db0d86&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 6,
+          "date": "2026-10-03T10:00:00+02:00",
+          "home": "Nivnice",
+          "away": "Prakšice",
+          "score": null,
+          "venue": "Nivnice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=b568e8d0-5edb-4b05-a283-6e39898cf5fd&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 7,
+          "date": "2026-10-10T15:00:00+02:00",
+          "home": "Prakšice",
+          "away": "Bánov",
+          "score": null,
+          "venue": "Prakšice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=8948530a-7870-4ce0-9f36-6b801bb8865d&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 8,
+          "date": "2026-10-17T10:00:00+02:00",
+          "home": "Javořina",
+          "away": "Prakšice",
+          "score": null,
+          "venue": "Slavkov",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=f2d1b215-53c4-4dac-b712-b63b7384ef65&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 9,
+          "date": "2026-10-24T14:00:00+02:00",
+          "home": "Prakšice",
+          "away": "Vlčnov",
+          "score": null,
+          "venue": "Prakšice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=3a9507ea-f6ec-41eb-9bd4-f86d2053c19e&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 12,
+          "date": "2027-04-18T13:30:00+02:00",
+          "home": "OREL UB",
+          "away": "Prakšice",
+          "score": null,
+          "venue": "Uherský Brod",
+          "report": null,
+          "played": false
+        },
+        {
+          "round": 13,
+          "date": "2027-04-24T14:00:00+02:00",
+          "home": "Prakšice",
+          "away": "Dolní Němčí",
+          "score": null,
+          "venue": "Prakšice",
+          "report": null,
+          "played": false
+        },
+        {
+          "round": 14,
+          "date": "2027-05-03T16:30:00+02:00",
+          "home": "Hradčovice",
+          "away": "Prakšice",
+          "score": null,
+          "venue": "Hradčovice",
+          "report": null,
+          "played": false
+        },
+        {
+          "round": 15,
+          "date": "2027-05-08T14:00:00+02:00",
+          "home": "Prakšice",
+          "away": "Nivnice",
+          "score": null,
+          "venue": "Prakšice",
+          "report": null,
+          "played": false
+        },
+        {
+          "round": 16,
+          "date": "2027-05-15T14:00:00+02:00",
+          "home": "Bánov",
+          "away": "Prakšice",
+          "score": null,
+          "venue": "Bánov",
+          "report": null,
+          "played": false
+        },
+        {
+          "round": 17,
+          "date": "2027-05-22T14:00:00+02:00",
+          "home": "Prakšice",
+          "away": "Javořina",
+          "score": null,
+          "venue": "Prakšice",
+          "report": null,
+          "played": false
+        },
+        {
+          "round": 18,
+          "date": "2027-05-31T17:00:00+02:00",
+          "home": "Vlčnov",
+          "away": "Prakšice",
+          "score": null,
+          "venue": "Vlčnov",
+          "report": null,
+          "played": false
+        },
+        {
+          "round": 10,
+          "date": "2027-06-05T14:00:00+02:00",
+          "home": "Prakšice",
+          "away": "Újezdec",
+          "score": null,
+          "venue": "Prakšice",
+          "report": null,
+          "played": false
+        },
+        {
+          "round": 11,
+          "date": "2027-06-12T14:00:00+02:00",
+          "home": "Prakšice",
+          "away": "Šumice",
+          "score": null,
+          "venue": "Prakšice",
+          "report": null,
+          "played": false
+        }
+      ],
+      "table": [],
+      "scorers": []
+    },
+    {
+      "id": "mladsi-pripravka",
+      "name": "Mladší přípravka",
+      "category": "U9",
+      "competition": "OP - PMB",
+      "competitionUrl": "https://is.fotbal.cz/public/souteze/detail-souteze.aspx?req=ef19b991-b3ac-46f5-8159-00d0d7b6dcad&sport=fotbal",
+      "season": "2026/2027",
+      "description": "",
+      "matches": [
+        {
+          "round": 1,
+          "date": "2026-08-30T10:00:00+02:00",
+          "home": "Újezdec",
+          "away": "Prakšice",
+          "score": null,
+          "venue": "Újezdec",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=b763af05-fc81-4657-a4f2-bd3d86bbfaea&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 2,
+          "date": "2026-09-05T14:00:00+02:00",
+          "home": "Šumice",
+          "away": "Prakšice",
+          "score": null,
+          "venue": "Šumice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=e25e0558-0090-492e-8ad8-00e89773d085&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 3,
+          "date": "2026-09-14T17:00:00+02:00",
+          "home": "Prakšice",
+          "away": "OREL UB",
+          "score": null,
+          "venue": "Prakšice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=3786b252-eb87-478a-acce-8ad2f3880982&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 4,
+          "date": "2026-09-19T10:00:00+02:00",
+          "home": "Dolní Němčí",
+          "away": "Prakšice",
+          "score": null,
+          "venue": "Dolní Němčí",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=aed45cec-6b18-4493-a1b6-5e54456f10ba&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 5,
+          "date": "2026-09-28T16:00:00+02:00",
+          "home": "Prakšice",
+          "away": "Hradčovice",
+          "score": null,
+          "venue": "Prakšice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=573b44f5-727f-407e-be45-259165e13830&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 6,
+          "date": "2026-10-03T10:00:00+02:00",
+          "home": "Nivnice",
+          "away": "Prakšice",
+          "score": null,
+          "venue": "Nivnice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=374b3ac0-5c47-4915-b2e2-d4f21bae8b9e&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 7,
+          "date": "2026-10-10T15:00:00+02:00",
+          "home": "Prakšice",
+          "away": "Bánov",
+          "score": null,
+          "venue": "Prakšice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=0f1402d1-dbdd-42ce-b7f1-7af5c0474f5b&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 8,
+          "date": "2026-10-17T10:00:00+02:00",
+          "home": "Javořina",
+          "away": "Prakšice",
+          "score": null,
+          "venue": "Slavkov",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=c54495fe-5ea5-46b1-9008-f6ab48294130&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 9,
+          "date": "2026-10-24T15:00:00+02:00",
+          "home": "Prakšice",
+          "away": "Vlčnov",
+          "score": null,
+          "venue": "Prakšice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=0b5ffb14-1f2a-4e77-822c-d451bb0af653&zapis=1&hidemenu=1",
+          "played": true
+        }
+      ],
+      "table": [],
+      "scorers": []
+    }
+  ]
+}

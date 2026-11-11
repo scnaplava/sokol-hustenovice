@@ -52,6 +52,7 @@ a:hover { text-decoration: underline; }
 .brand small { display: block; color: var(--yellow); font-size: 11px; text-transform: uppercase; letter-spacing: .18em; font-weight: 600; margin-top: 3px; }
 .menu { display: flex; gap: 22px; }
 .menu a { color: var(--text); font-weight: 600; font-size: 14px; text-transform: uppercase; letter-spacing: .05em; }
+.menu a[hidden] { display: none; }
 .menu a:hover { color: var(--yellow); text-decoration: none; }
 
 /* Úvodní část */
@@ -71,7 +72,7 @@ a:hover { text-decoration: underline; }
   font-family: var(--display); font-weight: 800; text-transform: uppercase;
   font-size: clamp(54px, 10vw, 104px); line-height: .9; color: var(--white);
 }
-.hero h1 span { color: var(--yellow); }
+.hero h1 .hl { color: var(--yellow); }
 .tagline { max-width: 560px; color: #c5d1e3; font-size: 17px; margin: 0 0 24px; }
 .cta { display: flex; flex-wrap: wrap; gap: 12px; }
 .btn {
@@ -79,7 +80,7 @@ a:hover { text-decoration: underline; }
   font-family: var(--display); font-weight: 700; font-size: 18px; text-transform: uppercase; letter-spacing: .03em;
 }
 .btn:hover { text-decoration: none; filter: brightness(1.08); }
-.btn-primary { background: var(--yellow); color: var(--navy); }
+.btn-primary { background: var(--yellow); color: var(--on-yellow, var(--navy)); }
 .btn-ghost { border: 1px solid rgba(255,255,255,.3); color: var(--white); }
 
 .notice {
@@ -223,7 +224,9 @@ a:hover { text-decoration: underline; }
   .wrap { padding: 0 14px; }
   .topbar-inner { height: auto; flex-wrap: wrap; padding-top: 10px; padding-bottom: 8px; row-gap: 8px; }
   .menu { width: 100%; justify-content: space-between; gap: 6px; }
-  .menu a { font-size: 13px; padding: 4px 0; }
+  .menu a { font-size: 12px; letter-spacing: .02em; padding: 4px 0; white-space: nowrap; }
+  .menu { overflow-x: auto; scrollbar-width: none; }
+  .menu::-webkit-scrollbar { display: none; }
 
   .hero { padding: 26px 0 28px; }
   .logo-lg { width: 56px; height: 56px; }
@@ -291,4 +294,36 @@ img.crest-xs.ours { border-radius: 50%; background: #fff; object-fit: cover; }
 .recruit-contact .btn { margin-top: 6px; }
 @media (max-width: 760px) {
   .recruit { grid-template-columns: 1fr; padding: 22px 18px; }
+}
+
+/* Znak ve tvaru štítu (např. obecní znak) – bez kruhového ořezu */
+.club-logo.shield, img.ours.shield { border-radius: 0 !important; background: none !important; box-shadow: none !important; object-fit: contain !important; }
+.team-switch button[aria-selected="true"] { color: var(--on-yellow, var(--navy)); }
+
+/* Přepínač týmů: posouvání bez rušivého posuvníku */
+.team-switch { scrollbar-width: none; }
+.team-switch::-webkit-scrollbar { display: none; }
+
+/* Historie */
+.history-intro { color: #dbe4f2; font-size: 16.5px; max-width: 720px; margin: 0 0 22px; }
+.timeline { list-style: none; margin: 0; padding: 0; position: relative; display: grid; gap: 14px; }
+.timeline::before { content: ""; position: absolute; left: 51px; top: 6px; bottom: 6px; width: 2px; background: linear-gradient(var(--yellow), rgba(255,255,255,.08)); }
+.timeline li { display: grid; grid-template-columns: 104px 1fr; gap: 18px; align-items: start; }
+.tl-year {
+  justify-self: center; position: relative; z-index: 1; min-width: 72px; text-align: center;
+  padding: 4px 10px; border-radius: 999px; background: var(--yellow); color: var(--on-yellow, var(--navy));
+  font-family: var(--display); font-weight: 800; font-size: 17px; letter-spacing: .02em;
+}
+.timeline li > div { background: var(--navy-2); border: 1px solid var(--line); border-radius: 12px; padding: 12px 16px; }
+.timeline h3 { margin: 0 0 4px; font-family: var(--display); font-size: 21px; text-transform: uppercase; color: var(--white); }
+.timeline p { margin: 0; color: #c9d5e8; font-size: 15px; }
+.chairmen { margin-top: 20px; background: var(--navy-2); border: 1px solid var(--line); border-radius: 12px; padding: 12px 16px; }
+.chairmen summary { cursor: pointer; font-weight: 700; color: var(--white); }
+.chairmen p { margin: 10px 0 0; color: #c9d5e8; font-size: 14.5px; line-height: 1.7; }
+.history-source { font-size: 13px; margin-top: 12px; }
+@media (max-width: 640px) {
+  .timeline::before { left: 7px; }
+  .timeline li { grid-template-columns: 1fr; gap: 6px; padding-left: 22px; }
+  .tl-year { justify-self: start; font-size: 15px; }
+  .timeline h3 { font-size: 19px; }
 }

@@ -1,0 +1,1115 @@
+{
+  "source": "facr",
+  "updatedAt": "2026-11-10T22:55:22+01:00",
+  "club": {
+    "name": "FC Koryčany",
+    "official": "FC Koryčany z.s.",
+    "shortName": "Koryčany",
+    "brand": "FC Koryčany",
+    "hero": [
+      "FC",
+      "Koryčany"
+    ],
+    "founded": null,
+    "logo": "",
+    "logoShape": "shield",
+    "colors": {},
+    "stadium": "",
+    "email": "",
+    "facebook": "",
+    "tagline": "Zápasy, výsledky a tabulky všech našich týmů na jednom místě.",
+    "facr": {
+      "number": "7210121",
+      "isId": "2011",
+      "match": [
+        "Koryčany"
+      ]
+    }
+  },
+  "teams": [
+    {
+      "id": "muzi",
+      "name": "Muži A",
+      "category": "Dospělí",
+      "competition": "7. liga, sk. C",
+      "competitionUrl": "https://is.fotbal.cz/public/souteze/detail-souteze.aspx?req=d1e0f817-6286-4337-9d2c-b3f0a103a16d&sport=fotbal",
+      "season": "2026/2027",
+      "description": "",
+      "matches": [
+        {
+          "round": 2,
+          "date": "2026-08-09T17:00:00+02:00",
+          "home": "Prakšice",
+          "away": "Koryčany",
+          "score": [
+            2,
+            3
+          ],
+          "venue": "Prakšice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=39a5cc75-4ded-464f-9161-1d8a61c6962e&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 3,
+          "date": "2026-08-16T16:30:00+02:00",
+          "home": "Koryčany",
+          "away": "Šumice",
+          "score": [
+            4,
+            1
+          ],
+          "venue": "Koryčany",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=b964934f-6bb6-492b-bd13-3614827bdd49&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 4,
+          "date": "2026-08-23T16:30:00+02:00",
+          "home": "Koryčany",
+          "away": "Javořina",
+          "score": [
+            1,
+            0
+          ],
+          "venue": "Koryčany",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=cdd4f598-cb18-4bae-8712-bf9dd464338a&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 5,
+          "date": "2026-08-30T16:30:00+02:00",
+          "home": "Vlčnov",
+          "away": "Koryčany",
+          "score": [
+            1,
+            2
+          ],
+          "venue": "Vlčnov",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=9a9dc557-2e43-4a1a-9e21-272e6d9127f2&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 6,
+          "date": "2026-09-04T17:30:00+02:00",
+          "home": "Koryčany",
+          "away": "Hluk B",
+          "score": [
+            5,
+            2
+          ],
+          "venue": "Koryčany",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=e5e1b8d2-61ed-421e-ad44-75741f88c69d&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 7,
+          "date": "2026-09-13T16:00:00+02:00",
+          "home": "O. N. Ves",
+          "away": "Koryčany",
+          "score": [
+            1,
+            2
+          ],
+          "venue": "O. N. Ves",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=59e466ab-0b3d-4fdc-b81e-17efea8f8a3d&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 8,
+          "date": "2026-09-20T15:30:00+02:00",
+          "home": "Koryčany",
+          "away": "Morkovice B",
+          "score": [
+            8,
+            3
+          ],
+          "venue": "Koryčany",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=f69ccd40-8520-4b25-a381-bfca477bade2&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 9,
+          "date": "2026-09-27T15:30:00+02:00",
+          "home": "Polešovice",
+          "away": "Koryčany",
+          "score": [
+            0,
+            5
+          ],
+          "venue": "Polešovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=e7934da8-a1c8-4d33-b786-3c07746ac2e8&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 10,
+          "date": "2026-10-04T15:00:00+02:00",
+          "home": "Koryčany",
+          "away": "Huštěnovice",
+          "score": [
+            2,
+            1
+          ],
+          "venue": "Koryčany",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=783cb5a3-b56b-4e1a-b9a7-b345f67e5400&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 11,
+          "date": "2026-10-10T15:00:00+02:00",
+          "home": "Chropyně",
+          "away": "Koryčany",
+          "score": [
+            2,
+            5
+          ],
+          "venue": "Chropyně,tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=eb2d8033-60b8-4295-8044-8240bcbf05a7&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 12,
+          "date": "2026-10-18T14:30:00+02:00",
+          "home": "Koryčany",
+          "away": "Uh. Ostroh",
+          "score": [
+            4,
+            1
+          ],
+          "venue": "Koryčany",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=ae00c833-d7ad-4a1b-9a74-ad0b2dd014af&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 13,
+          "date": "2026-10-24T14:30:00+02:00",
+          "home": "Strání B",
+          "away": "Koryčany",
+          "score": [
+            3,
+            1
+          ],
+          "venue": "Strání-tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=04703caf-bf17-4674-ae7f-f5424be821b9&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 1,
+          "date": "2026-10-31T14:00:00+01:00",
+          "home": "Koryčany",
+          "away": "FC Slovácko C",
+          "score": [
+            2,
+            1
+          ],
+          "venue": "Koryčany",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=a6e2870c-f87b-422a-8bec-35a03a947d73&zapis=1&hidemenu=1"
+        }
+      ],
+      "table": [
+        {
+          "position": 1,
+          "team": "Koryčany",
+          "played": 13,
+          "won": 12,
+          "drawn": 0,
+          "lost": 1,
+          "gf": 44,
+          "ga": 18,
+          "points": 36
+        },
+        {
+          "position": 2,
+          "team": "Strání B",
+          "played": 13,
+          "won": 8,
+          "drawn": 2,
+          "lost": 3,
+          "gf": 35,
+          "ga": 12,
+          "points": 26
+        },
+        {
+          "position": 3,
+          "team": "Uh. Ostroh",
+          "played": 13,
+          "won": 8,
+          "drawn": 1,
+          "lost": 4,
+          "gf": 31,
+          "ga": 20,
+          "points": 25
+        },
+        {
+          "position": 4,
+          "team": "Prakšice",
+          "played": 13,
+          "won": 7,
+          "drawn": 2,
+          "lost": 4,
+          "gf": 24,
+          "ga": 22,
+          "points": 23
+        },
+        {
+          "position": 5,
+          "team": "FC Slovácko C",
+          "played": 13,
+          "won": 6,
+          "drawn": 3,
+          "lost": 4,
+          "gf": 28,
+          "ga": 25,
+          "points": 21
+        },
+        {
+          "position": 6,
+          "team": "Vlčnov",
+          "played": 13,
+          "won": 6,
+          "drawn": 2,
+          "lost": 5,
+          "gf": 30,
+          "ga": 22,
+          "points": 20
+        },
+        {
+          "position": 7,
+          "team": "Polešovice",
+          "played": 13,
+          "won": 6,
+          "drawn": 2,
+          "lost": 5,
+          "gf": 26,
+          "ga": 24,
+          "points": 20
+        },
+        {
+          "position": 8,
+          "team": "Javořina",
+          "played": 13,
+          "won": 5,
+          "drawn": 4,
+          "lost": 4,
+          "gf": 23,
+          "ga": 21,
+          "points": 19
+        },
+        {
+          "position": 9,
+          "team": "Huštěnovice",
+          "played": 13,
+          "won": 5,
+          "drawn": 2,
+          "lost": 6,
+          "gf": 25,
+          "ga": 27,
+          "points": 17
+        },
+        {
+          "position": 10,
+          "team": "Chropyně",
+          "played": 13,
+          "won": 5,
+          "drawn": 0,
+          "lost": 8,
+          "gf": 30,
+          "ga": 36,
+          "points": 15
+        },
+        {
+          "position": 11,
+          "team": "O. N. Ves",
+          "played": 13,
+          "won": 3,
+          "drawn": 2,
+          "lost": 8,
+          "gf": 18,
+          "ga": 28,
+          "points": 11
+        },
+        {
+          "position": 12,
+          "team": "Hluk B",
+          "played": 13,
+          "won": 2,
+          "drawn": 4,
+          "lost": 7,
+          "gf": 23,
+          "ga": 35,
+          "points": 10
+        },
+        {
+          "position": 13,
+          "team": "Morkovice B",
+          "played": 13,
+          "won": 2,
+          "drawn": 3,
+          "lost": 8,
+          "gf": 28,
+          "ga": 50,
+          "points": 9
+        },
+        {
+          "position": 14,
+          "team": "Šumice",
+          "played": 13,
+          "won": 2,
+          "drawn": 1,
+          "lost": 10,
+          "gf": 21,
+          "ga": 46,
+          "points": 7
+        }
+      ],
+      "scorers": []
+    },
+    {
+      "id": "muzi-b",
+      "name": "Muži B",
+      "category": "Dospělí",
+      "competition": "9.liga sk.C KM",
+      "competitionUrl": "https://is.fotbal.cz/public/souteze/detail-souteze.aspx?req=a3d7e97f-24f1-40c5-88ab-0dc74e8d023e&sport=fotbal",
+      "season": "2026/2027",
+      "description": "",
+      "matches": [
+        {
+          "round": 2,
+          "date": "2026-08-08T16:30:00+02:00",
+          "home": "Koryčany \"B\"",
+          "away": "Litenčice",
+          "score": [
+            5,
+            0
+          ],
+          "venue": "Koryčany",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=83490b43-1dda-4f80-9e31-7693ed1eb269&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 3,
+          "date": "2026-08-16T13:00:00+02:00",
+          "home": "Zlobice",
+          "away": "Koryčany \"B\"",
+          "score": [
+            0,
+            3
+          ],
+          "venue": "Zlobice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=05f3cd3f-c62f-4d50-ac1b-9f11566f5ca5&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 4,
+          "date": "2026-08-22T16:30:00+02:00",
+          "home": "Koryčany \"B\"",
+          "away": "Lutopecny-Měrůtky",
+          "score": [
+            1,
+            1
+          ],
+          "venue": "Koryčany",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=eed2ebee-48ad-4111-aa46-8ec1a4ce253f&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 5,
+          "date": "2026-08-29T16:30:00+02:00",
+          "home": "Záříčí",
+          "away": "Koryčany \"B\"",
+          "score": [
+            2,
+            4
+          ],
+          "venue": "Záříčí",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=68c0ea45-6d2d-47f0-926a-d581cb9114a2&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 6,
+          "date": "2026-09-05T16:00:00+02:00",
+          "home": "Koryčany \"B\"",
+          "away": "Šelešovice",
+          "score": [
+            4,
+            4
+          ],
+          "venue": "Koryčany",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=7a80e059-303a-4962-84ac-4b1af07053e6&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 7,
+          "date": "2026-09-12T16:00:00+02:00",
+          "home": "Bařice",
+          "away": "Koryčany \"B\"",
+          "score": [
+            3,
+            1
+          ],
+          "venue": "Bařice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=5d9d19e0-f3c6-4592-a980-7ee7abd9134b&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 8,
+          "date": "2026-09-20T13:30:00+02:00",
+          "home": "Postoupky",
+          "away": "Koryčany \"B\"",
+          "score": [
+            2,
+            6
+          ],
+          "venue": "UT HS Kroměříž",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=315e1f0f-5093-40f8-8a75-292156eaaacd&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 9,
+          "date": "2026-09-26T13:30:00+02:00",
+          "home": "Koryčany \"B\"",
+          "away": "Troubky-Zdislavice",
+          "score": [
+            2,
+            3
+          ],
+          "venue": "Koryčany",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=252d8028-43e4-4f18-8df6-e47168e881a3&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 10,
+          "date": "2026-10-03T15:00:00+02:00",
+          "home": "Koryčany \"B\"",
+          "away": "Dřínov",
+          "score": [
+            2,
+            1
+          ],
+          "venue": "Koryčany",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=ecc6fbca-a17b-4a13-92e3-28b9678a0195&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 11,
+          "date": "2026-10-11T12:00:00+02:00",
+          "home": "Litenčice",
+          "away": "Koryčany \"B\"",
+          "score": [
+            1,
+            1
+          ],
+          "venue": "Litenčice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=a1b06cf2-e545-4d28-85f1-8d7f06faf4ac&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 12,
+          "date": "2026-10-17T14:30:00+02:00",
+          "home": "Koryčany \"B\"",
+          "away": "Zlobice",
+          "score": [
+            3,
+            0
+          ],
+          "venue": "Koryčany",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=d8f86157-f54d-4703-b41b-ee67ff40a9bd&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 13,
+          "date": "2026-10-25T14:30:00+01:00",
+          "home": "Lutopecny-Měrůtky",
+          "away": "Koryčany \"B\"",
+          "score": [
+            4,
+            1
+          ],
+          "venue": "Lutopecny",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=70adb3c1-c47c-43d9-8500-eb00cfce844b&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 14,
+          "date": "2026-10-28T14:30:00+01:00",
+          "home": "Koryčany \"B\"",
+          "away": "Záříčí",
+          "score": [
+            4,
+            2
+          ],
+          "venue": "Koryčany",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=3cdedfcc-33d5-4e11-8992-45104fe9894a&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 1,
+          "date": "2026-11-01T14:00:00+01:00",
+          "home": "Dřínov",
+          "away": "Koryčany \"B\"",
+          "score": [
+            7,
+            0
+          ],
+          "venue": "Dřínov",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=bde4baa2-f67c-4b55-a1e7-42bfd765a217&zapis=1&hidemenu=1"
+        }
+      ],
+      "table": [
+        {
+          "position": 1,
+          "team": "Lutopecny-Měrůtky",
+          "played": 14,
+          "won": 11,
+          "drawn": 2,
+          "lost": 1,
+          "gf": 56,
+          "ga": 24,
+          "points": 35
+        },
+        {
+          "position": 2,
+          "team": "Troubky-Zdislavice",
+          "played": 14,
+          "won": 10,
+          "drawn": 1,
+          "lost": 3,
+          "gf": 68,
+          "ga": 25,
+          "points": 31
+        },
+        {
+          "position": 3,
+          "team": "Dřínov",
+          "played": 14,
+          "won": 10,
+          "drawn": 1,
+          "lost": 3,
+          "gf": 57,
+          "ga": 22,
+          "points": 31
+        },
+        {
+          "position": 4,
+          "team": "Koryčany \"B\"",
+          "played": 14,
+          "won": 7,
+          "drawn": 3,
+          "lost": 4,
+          "gf": 37,
+          "ga": 30,
+          "points": 24
+        },
+        {
+          "position": 5,
+          "team": "Bařice",
+          "played": 14,
+          "won": 7,
+          "drawn": 0,
+          "lost": 7,
+          "gf": 41,
+          "ga": 43,
+          "points": 21
+        },
+        {
+          "position": 6,
+          "team": "Litenčice",
+          "played": 14,
+          "won": 5,
+          "drawn": 3,
+          "lost": 6,
+          "gf": 30,
+          "ga": 44,
+          "points": 18
+        },
+        {
+          "position": 7,
+          "team": "Záříčí",
+          "played": 14,
+          "won": 4,
+          "drawn": 2,
+          "lost": 8,
+          "gf": 30,
+          "ga": 41,
+          "points": 14
+        },
+        {
+          "position": 8,
+          "team": "Šelešovice",
+          "played": 14,
+          "won": 4,
+          "drawn": 2,
+          "lost": 8,
+          "gf": 26,
+          "ga": 54,
+          "points": 14
+        },
+        {
+          "position": 9,
+          "team": "Zlobice",
+          "played": 14,
+          "won": 3,
+          "drawn": 1,
+          "lost": 10,
+          "gf": 25,
+          "ga": 37,
+          "points": 10
+        },
+        {
+          "position": 10,
+          "team": "Postoupky",
+          "played": 14,
+          "won": 0,
+          "drawn": 3,
+          "lost": 11,
+          "gf": 15,
+          "ga": 65,
+          "points": 3
+        }
+      ],
+      "scorers": []
+    },
+    {
+      "id": "mladsi-zaci",
+      "name": "Mladší žáci",
+      "category": "U13",
+      "competition": "5. liga mladší žáci sk. A",
+      "competitionUrl": "https://is.fotbal.cz/public/souteze/detail-souteze.aspx?req=617b1921-aac2-4a41-8b5b-c91bdbcde29b&sport=fotbal",
+      "season": "2026/2027",
+      "description": "",
+      "matches": [
+        {
+          "round": 4,
+          "date": "2026-08-23T13:00:00+02:00",
+          "home": "Koryčany",
+          "away": "Hovorany",
+          "score": [
+            4,
+            0
+          ],
+          "venue": "Koryčany",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=c35f075d-bca5-4933-b265-83376a60f3b8&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 5,
+          "date": "2026-08-30T10:00:00+02:00",
+          "home": "FK Hodonín C",
+          "away": "Koryčany",
+          "score": [
+            8,
+            2
+          ],
+          "venue": "Hodonín-Rybáře",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=44ad0081-6271-4d26-b198-86c38e7bde6a&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 6,
+          "date": "2026-09-05T13:00:00+02:00",
+          "home": "Koryčany",
+          "away": "Ždánice/Sobůlky",
+          "score": [
+            7,
+            2
+          ],
+          "venue": "Koryčany",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=cd04db7e-85c9-42f1-81cf-f25b9898cf91&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 7,
+          "date": "2026-09-12T10:30:00+02:00",
+          "home": "Žarošice/Násedlovice",
+          "away": "Koryčany",
+          "score": [
+            3,
+            1
+          ],
+          "venue": "Žarošice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=59089cb3-87d1-4e0b-a4c9-b0eef689c2cb&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 8,
+          "date": "2026-09-19T12:30:00+02:00",
+          "home": "Koryčany",
+          "away": "Dambořice",
+          "score": [
+            7,
+            2
+          ],
+          "venue": "Koryčany",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=1c647271-1d3b-4841-a6dc-434954638d6f&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 9,
+          "date": "2026-09-26T14:00:00+02:00",
+          "home": "Prušánky",
+          "away": "Koryčany",
+          "score": [
+            0,
+            3
+          ],
+          "venue": "Prušánky",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=8b94a12f-bf0c-466c-a1f2-ea1f9f3ceab6&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 2,
+          "date": "2026-10-04T12:00:00+02:00",
+          "home": "Koryčany",
+          "away": "Šardice/Čejkovice",
+          "score": [
+            1,
+            7
+          ],
+          "venue": "Koryčany",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=1b3596ed-415a-425c-ab86-5f5ee38746f6&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 1,
+          "date": "2026-10-10T10:00:00+02:00",
+          "home": "Koryčany",
+          "away": "Vacenovice",
+          "score": [
+            9,
+            3
+          ],
+          "venue": "Koryčany",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=ac464683-3c8f-46d9-9aa4-71d57b45daaa&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 3,
+          "date": "2026-10-19T16:30:00+02:00",
+          "home": "Milotice/Svatobořice",
+          "away": "Koryčany",
+          "score": [
+            1,
+            1
+          ],
+          "venue": "Milotice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=f80bd68d-92d5-46fb-aa2e-8a0103dec087&zapis=1&hidemenu=1"
+        }
+      ],
+      "table": [
+        {
+          "position": 1,
+          "team": "FK Hodonín C",
+          "played": 9,
+          "won": 9,
+          "drawn": 0,
+          "lost": 0,
+          "gf": 59,
+          "ga": 11,
+          "points": 27
+        },
+        {
+          "position": 2,
+          "team": "Šardice/Čejkovice",
+          "played": 9,
+          "won": 6,
+          "drawn": 1,
+          "lost": 2,
+          "gf": 45,
+          "ga": 28,
+          "points": 19
+        },
+        {
+          "position": 3,
+          "team": "Žarošice/Násedlovice",
+          "played": 9,
+          "won": 6,
+          "drawn": 0,
+          "lost": 3,
+          "gf": 28,
+          "ga": 17,
+          "points": 18
+        },
+        {
+          "position": 4,
+          "team": "Koryčany",
+          "played": 9,
+          "won": 5,
+          "drawn": 1,
+          "lost": 3,
+          "gf": 35,
+          "ga": 26,
+          "points": 16
+        },
+        {
+          "position": 5,
+          "team": "Dambořice",
+          "played": 9,
+          "won": 3,
+          "drawn": 2,
+          "lost": 4,
+          "gf": 38,
+          "ga": 38,
+          "points": 11
+        },
+        {
+          "position": 6,
+          "team": "Ždánice/Sobůlky",
+          "played": 9,
+          "won": 3,
+          "drawn": 1,
+          "lost": 5,
+          "gf": 17,
+          "ga": 23,
+          "points": 10
+        },
+        {
+          "position": 7,
+          "team": "Vacenovice",
+          "played": 9,
+          "won": 3,
+          "drawn": 1,
+          "lost": 5,
+          "gf": 15,
+          "ga": 35,
+          "points": 10
+        },
+        {
+          "position": 8,
+          "team": "Milotice/Svatobořice",
+          "played": 9,
+          "won": 2,
+          "drawn": 3,
+          "lost": 4,
+          "gf": 20,
+          "ga": 36,
+          "points": 9
+        },
+        {
+          "position": 9,
+          "team": "Hovorany",
+          "played": 9,
+          "won": 2,
+          "drawn": 0,
+          "lost": 7,
+          "gf": 10,
+          "ga": 36,
+          "points": 6
+        },
+        {
+          "position": 10,
+          "team": "Prušánky",
+          "played": 9,
+          "won": 0,
+          "drawn": 3,
+          "lost": 6,
+          "gf": 13,
+          "ga": 30,
+          "points": 3
+        }
+      ],
+      "scorers": []
+    },
+    {
+      "id": "starsi-pripravka",
+      "name": "Starší přípravka",
+      "category": "U11",
+      "competition": "Okresní liga st. přípravka Kyjovsko",
+      "competitionUrl": "https://is.fotbal.cz/public/souteze/detail-souteze.aspx?req=5992776a-6cda-4365-b184-6d827377db15&sport=fotbal",
+      "season": "2026/2027",
+      "description": "",
+      "matches": [
+        {
+          "round": 4,
+          "date": "2026-08-23T10:00:00+02:00",
+          "home": "Koryčany",
+          "away": "Kostelec",
+          "score": null,
+          "venue": "Koryčany",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=e09e3df4-932a-4559-9e0c-b5bf82d5ac56&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 5,
+          "date": "2026-08-30T11:30:00+02:00",
+          "home": "Hovorany/Čejč",
+          "away": "Koryčany",
+          "score": null,
+          "venue": "Hovorany",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=8de4d441-c2fb-4add-897c-17e598e4ea56&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 7,
+          "date": "2026-09-13T10:00:00+02:00",
+          "home": "Násedlovice/Žarošice",
+          "away": "Koryčany",
+          "score": null,
+          "venue": "Násedlovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=37315b0c-cd41-4d61-8986-3d7216ba15e6&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 8,
+          "date": "2026-09-19T10:00:00+02:00",
+          "home": "Koryčany",
+          "away": "Ždánice",
+          "score": null,
+          "venue": "Koryčany",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=d8dd41f9-1f1d-4fbc-ae67-29d676d54fcc&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 9,
+          "date": "2026-09-27T09:00:00+02:00",
+          "home": "Dambořice",
+          "away": "Koryčany",
+          "score": null,
+          "venue": "Bošovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=0662314c-0d73-4fdf-bd20-2511afc911ed&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 10,
+          "date": "2026-10-04T10:00:00+02:00",
+          "home": "Koryčany",
+          "away": "Sobůlky",
+          "score": null,
+          "venue": "Koryčany",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=91a8a013-9b79-4bc5-889f-0db2305ed2fb&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 11,
+          "date": "2026-10-10T15:30:00+02:00",
+          "home": "Uhřice",
+          "away": "Koryčany",
+          "score": null,
+          "venue": "Uhřice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=da9fb811-a0aa-4f47-bf07-e1026829fcef&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 1,
+          "date": "2026-10-18T10:00:00+02:00",
+          "home": "Koryčany",
+          "away": "Bzenec-Vracov A",
+          "score": null,
+          "venue": "Koryčany",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=17fb431a-0539-495b-bf0e-c7fb8a774c09&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 2,
+          "date": "2026-10-24T10:00:00+02:00",
+          "home": "Koryčany",
+          "away": "Kyjov",
+          "score": null,
+          "venue": "Koryčany",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=5e885e4a-afcb-4647-a5d7-1a784ec299bd&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 3,
+          "date": "2026-10-31T11:30:00+01:00",
+          "home": "Lovčice",
+          "away": "Koryčany",
+          "score": null,
+          "venue": "Lovčice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=a2afcb4e-45b9-457c-b03e-e2e409325ee2&zapis=1&hidemenu=1",
+          "played": true
+        }
+      ],
+      "table": [],
+      "scorers": []
+    },
+    {
+      "id": "mladsi-pripravka",
+      "name": "Mladší přípravka",
+      "category": "U9",
+      "competition": "Okresní liga ml. přípravek Kyjovsko",
+      "competitionUrl": "https://is.fotbal.cz/public/souteze/detail-souteze.aspx?req=34e39d0a-e2d5-4bb6-b533-444346a7987a&sport=fotbal",
+      "season": "2026/2027",
+      "description": "",
+      "matches": [
+        {
+          "round": 4,
+          "date": "2026-08-23T10:00:00+02:00",
+          "home": "Koryčany",
+          "away": "Šardice/Čejkovice",
+          "score": null,
+          "venue": "Koryčany",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=147129e1-21d8-4d0b-8a95-57c46f09a2cf&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 5,
+          "date": "2026-08-30T10:00:00+02:00",
+          "home": "Hovorany/Čejč",
+          "away": "Koryčany",
+          "score": null,
+          "venue": "Hovorany",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=ed329615-b150-4a78-9ec7-059caec260b9&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 6,
+          "date": "2026-09-05T10:00:00+02:00",
+          "home": "Koryčany",
+          "away": "Nenkovice A",
+          "score": null,
+          "venue": "Koryčany",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=b7215f2f-9aef-4579-903a-89f8cff894a7&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 7,
+          "date": "2026-09-12T09:00:00+02:00",
+          "home": "Žarošice/Násedlovice",
+          "away": "Koryčany",
+          "score": null,
+          "venue": "Žarošice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=0b6bd411-e913-4be2-b088-1ff3a98a0ba9&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 8,
+          "date": "2026-09-19T10:00:00+02:00",
+          "home": "Koryčany",
+          "away": "Ždánice",
+          "score": null,
+          "venue": "Koryčany",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=f1327b1e-f32c-438c-910d-370be3419c7d&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 9,
+          "date": "2026-09-28T10:00:00+02:00",
+          "home": "Dambořice",
+          "away": "Koryčany",
+          "score": null,
+          "venue": "Dambořice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=fec98133-a8c4-4ddb-a3da-196a3a478a9d&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 10,
+          "date": "2026-10-04T10:00:00+02:00",
+          "home": "Koryčany",
+          "away": "Sobůlky",
+          "score": null,
+          "venue": "Koryčany",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=a53bfd3e-58e7-4100-893b-fc6bc7ed4b31&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 11,
+          "date": "2026-10-10T13:45:00+02:00",
+          "home": "Uhřice",
+          "away": "Koryčany",
+          "score": null,
+          "venue": "Uhřice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=79dbcf8e-f663-4be4-92c2-27dbe11dabf0&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 1,
+          "date": "2026-10-18T10:00:00+02:00",
+          "home": "Koryčany",
+          "away": "Nenkovice B",
+          "score": null,
+          "venue": "Koryčany",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=dd5fc0e4-feac-44ec-87f1-4a6b15a0cfd2&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 2,
+          "date": "2026-10-28T11:00:00+01:00",
+          "home": "Koryčany",
+          "away": "Kyjov",
+          "score": null,
+          "venue": "Koryčany",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=843fd478-5be5-46b7-98c6-8b0644f3beab&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 3,
+          "date": "2026-10-31T10:00:00+01:00",
+          "home": "FK Hodonín B",
+          "away": "Koryčany",
+          "score": null,
+          "venue": "Hodonín-Rybáře",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=11ce9cb6-9a5b-4d9c-a7cd-a8b29bbbb58d&zapis=1&hidemenu=1",
+          "played": true
+        }
+      ],
+      "table": [],
+      "scorers": []
+    }
+  ]
+}

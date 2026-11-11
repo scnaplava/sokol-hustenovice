@@ -31,7 +31,99 @@
     "Velehrad": "img/obce/velehrad.jpg",
     "Vlčnov": "img/obce/vlcnov.png",
     "Zlechov": "img/obce/zlechov.png",
-    "Šumice": "img/obce/sumice.png"
+    "Šumice": "img/obce/sumice.png",
+    "Baťov": "img/obce/batov.png",
+    "Bezměrov": "img/obce/bezmerov.png",
+    "Bojkovice": "img/obce/bojkovice.png",
+    "Brumov": "img/obce/brumov.png",
+    "Břeclav": "img/obce/breclav.png",
+    "Březolupy": "img/obce/brezolupy.jpg",
+    "Chvalčov": "img/obce/chvalcov.png",
+    "Dambořice": "img/obce/damborice.png",
+    "Dolní Němčí": "img/obce/dolni-nemci.png",
+    "Dřínov": "img/obce/drinov.png",
+    "Holešov": "img/obce/holesov.png",
+    "Horní Bečva": "img/obce/horni-becva.png",
+    "Hovorany": "img/obce/hovorany.png",
+    "Hradčovice": "img/obce/hradcovice.png",
+    "Hulín": "img/obce/hulin.jpg",
+    "Huslenky": "img/obce/huslenky.png",
+    "Jankovice": "img/obce/jankovice.jpg",
+    "Jaroslavice": "img/obce/jaroslavice.jpg",
+    "Kostelec": "img/obce/kostelec.jpg",
+    "Kroměříž": "img/obce/kromeriz.png",
+    "Krumvíř": "img/obce/krumvir.jpg",
+    "Kvasice": "img/obce/kvasice.png",
+    "Kyjov": "img/obce/kyjov.png",
+    "Lanžhot": "img/obce/lanzhot.jpg",
+    "Litenčice": "img/obce/litencice.jpg",
+    "Lovčice": "img/obce/lovcice.jpg",
+    "Luhačovice": "img/obce/luhacovice.png",
+    "Lutopecny": "img/obce/lutopecny.jpg",
+    "Lípa": "img/obce/lipa.jpg",
+    "Milotice": "img/obce/milotice.png",
+    "Mistřice": "img/obce/mistrice.png",
+    "Napajedla": "img/obce/napajedla.jpg",
+    "Nedachlebice": "img/obce/nedachlebice.png",
+    "Nedakonice": "img/obce/nedakonice.jpg",
+    "Nenkovice": "img/obce/nenkovice.jpg",
+    "Nivnice": "img/obce/nivnice.jpg",
+    "Násedlovice": "img/obce/nasedlovice.jpg",
+    "Ostrožská Lhota": "img/obce/ostrozska-lhota.png",
+    "Osvětimany": "img/obce/osvetimany.jpg",
+    "Popovice": "img/obce/popovice.jpg",
+    "Prostějov": "img/obce/prostejov.png",
+    "Prusinovice": "img/obce/prusinovice.jpg",
+    "Prušánky": "img/obce/prusanky.png",
+    "Rymice": "img/obce/rymice.jpg",
+    "Skaštice": "img/obce/skastice.jpg",
+    "Slavičín": "img/obce/slavicin.jpg",
+    "Slušovice": "img/obce/slusovice.png",
+    "Sobůlky": "img/obce/sobulky.jpg",
+    "Staré Město": "img/obce/stare-mesto.png",
+    "Sušice": "img/obce/susice.png",
+    "Tečovice": "img/obce/tecovice.png",
+    "Tlumačov": "img/obce/tlumacov.png",
+    "Troubky-Zdislavice": "img/obce/troubky-zdislavice.jpg",
+    "Tupesy": "img/obce/tupesy.jpg",
+    "Uhřice": "img/obce/uhrice.jpg",
+    "Vacenovice": "img/obce/vacenovice.jpg",
+    "Velké Karlovice": "img/obce/velke-karlovice.png",
+    "Velký Ořechov": "img/obce/velky-orechov.png",
+    "Vigantice": "img/obce/vigantice.png",
+    "Vsetín": "img/obce/vsetin.png",
+    "Vážany": "img/obce/vazany.jpg",
+    "Zdounky": "img/obce/zdounky.jpg",
+    "Zlobice": "img/obce/zlobice.jpg",
+    "Zlámanec": "img/obce/zlamanec.png",
+    "Záříčí": "img/obce/zarici.png",
+    "Újezdec": "img/obce/ujezdec.jpg",
+    "Ústí": "img/obce/usti.png",
+    "Částkov": "img/obce/castkov.jpg",
+    "Šardice": "img/obce/sardice.png",
+    "Šelešovice": "img/obce/selesovice.jpg",
+    "Žarošice": "img/obce/zarosice.jpg",
+    "Ždánice": "img/obce/zdanice.png",
+    "Žeranovice": "img/obce/zeranovice.jpg",
+    "Bystřice pH": "img/obce/bystrice-pod-hostynem.png",
+    "Bzenec-Vracov": "img/obce/bzenec.png",
+    "Fryšták-Březnice": "img/obce/frystak.jpg",
+    "Hodonín": "img/obce/hodonin.png",
+    "Jeseník": "img/obce/jesenik.png",
+    "Lhota u Mal.": "img/obce/lhota-u-malenovic.png",
+    "Litovel-Haňovice": "img/obce/litovel.png",
+    "MOHELNICE": "img/obce/mohelnice.png",
+    "Nový Malín": "img/obce/novy-malin.jpg",
+    "O.N.Ves": "img/obce/ostrozska-nova-ves.jpg",
+    "Olomouc-Nové Sady": "img/obce/olomouc.png",
+    "Ostr. Lhota": "img/obce/ostrozska-lhota.png",
+    "Uh. Brod": "img/obce/uhersky-brod.png",
+    "Val. Meziříčí": "img/obce/valasske-mezirici.png",
+    "Val. Polanka": "img/obce/valasska-polanka.png",
+    "Velká Bystřice": "img/obce/velka-bystrice.png",
+    "Velký Týnec": "img/obce/velky-tynec.png",
+    "Zlín": "img/obce/zlin.png",
+    "ŠTERNBERK": "img/obce/sternberk.png"
   },
   "sources": {
     "img/obce/babice.png": {
@@ -172,6 +264,446 @@
     "img/obce/sumice.png": {
       "obec": "Šumice (okres Uherské Hradiště)",
       "soubor": "https://commons.wikimedia.org/wiki/File:%C5%A0umiceUH_znak.gif",
+      "licence": "Public domain"
+    },
+    "img/obce/batov.png": {
+      "obec": "Baťov",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Znak_mesta_otrokovice.svg",
+      "licence": "Public domain"
+    },
+    "img/obce/bezmerov.png": {
+      "obec": "Bezměrov",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Bezm%C4%9Brov_CoA.png",
+      "licence": "Public domain"
+    },
+    "img/obce/bojkovice.png": {
+      "obec": "Bojkovice",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Bojkovice_znak.svg",
+      "licence": "CC BY-SA 3.0"
+    },
+    "img/obce/brumov.png": {
+      "obec": "Brumov",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Znak_Brumov.png",
+      "licence": "Public domain"
+    },
+    "img/obce/breclav.png": {
+      "obec": "Břeclav",
+      "soubor": "https://commons.wikimedia.org/wiki/File:B%C5%99eclav_znak.png",
+      "licence": "Public domain"
+    },
+    "img/obce/brezolupy.jpg": {
+      "obec": "Březolupy",
+      "soubor": "https://commons.wikimedia.org/wiki/File:B%C5%99ezolupy_CoA.jpg",
+      "licence": "Public domain"
+    },
+    "img/obce/chvalcov.png": {
+      "obec": "Chvalčov",
+      "soubor": "https://commons.wikimedia.org/wiki/File:CoA_of_Chval%C4%8Dov.svg",
+      "licence": "Public domain"
+    },
+    "img/obce/damborice.png": {
+      "obec": "Dambořice",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Znak_obce_Dambo%C5%99ice.svg",
+      "licence": "Public domain"
+    },
+    "img/obce/dolni-nemci.png": {
+      "obec": "Dolní Němčí",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Doln%C3%AD_N%C4%9Bm%C4%8D%C3%AD_znak.png",
+      "licence": "Public domain"
+    },
+    "img/obce/drinov.png": {
+      "obec": "Dřínov (okres Kroměříž)",
+      "soubor": "https://commons.wikimedia.org/wiki/File:D%C5%99%C3%ADnov_(Krom%C4%9B%C5%99%C3%AD%C5%BE_District)_CoA.PNG",
+      "licence": "Public domain"
+    },
+    "img/obce/holesov.png": {
+      "obec": "Holešov",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Hole%C5%A1ov.svg",
+      "licence": "Public domain"
+    },
+    "img/obce/horni-becva.png": {
+      "obec": "Horní Bečva",
+      "soubor": "https://commons.wikimedia.org/wiki/File:CZ_Horn%C3%AD_Be%C4%8Dva_COA.svg",
+      "licence": "Public domain"
+    },
+    "img/obce/hovorany.png": {
+      "obec": "Hovorany",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Hovorany_znak.png",
+      "licence": "Public domain"
+    },
+    "img/obce/hradcovice.png": {
+      "obec": "Hradčovice",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Hrad%C4%8Dovice_znak.gif",
+      "licence": "Public domain"
+    },
+    "img/obce/hulin.jpg": {
+      "obec": "Hulín",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Hul%C3%ADn_znak.jpg",
+      "licence": "Public domain"
+    },
+    "img/obce/huslenky.png": {
+      "obec": "Huslenky",
+      "soubor": "https://commons.wikimedia.org/wiki/File:CZ_Huslenky_COA.svg",
+      "licence": "Public domain"
+    },
+    "img/obce/jankovice.jpg": {
+      "obec": "Jankovice (okres Uherské Hradiště)",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Jankovice_(UH),_znak.jpg",
+      "licence": "Public domain"
+    },
+    "img/obce/jaroslavice.jpg": {
+      "obec": "Jaroslavice",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Jaroslavice_znak.jpg",
+      "licence": "Public domain"
+    },
+    "img/obce/kostelec.jpg": {
+      "obec": "Kostelec (okres Hodonín)",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Kostelec_CoA_HO_CZ.jpg",
+      "licence": "Public domain"
+    },
+    "img/obce/kromeriz.png": {
+      "obec": "Kroměříž",
+      "soubor": "https://commons.wikimedia.org/wiki/File:CZE_Krom%C4%9B%C5%99%C3%AD%C5%BE_COA.svg",
+      "licence": "Public domain"
+    },
+    "img/obce/krumvir.jpg": {
+      "obec": "Krumvíř",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Krumv%C3%AD%C5%99_CoA_01.jpg",
+      "licence": "Public domain"
+    },
+    "img/obce/kvasice.png": {
+      "obec": "Kvasice",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Kvasice-znak.svg",
+      "licence": "Public domain"
+    },
+    "img/obce/kyjov.png": {
+      "obec": "Kyjov",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Kyjov_znak.png",
+      "licence": "Public domain"
+    },
+    "img/obce/lanzhot.jpg": {
+      "obec": "Lanžhot",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Znak_m%C4%9Bsta_Lan%C5%BEhot.jpg",
+      "licence": "Public domain"
+    },
+    "img/obce/litencice.jpg": {
+      "obec": "Litenčice",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Liten%C4%8Dice_znak.jpg",
+      "licence": "Public domain"
+    },
+    "img/obce/lovcice.jpg": {
+      "obec": "Lovčice (okres Hodonín)",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Lovcice_HO_CZ_CoA.jpg",
+      "licence": "Public domain"
+    },
+    "img/obce/luhacovice.png": {
+      "obec": "Luhačovice",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Luha%C4%8Dovice_znak.png",
+      "licence": "Public domain"
+    },
+    "img/obce/lutopecny.jpg": {
+      "obec": "Lutopecny",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Lutopecny_CoA.jpg",
+      "licence": "Public domain"
+    },
+    "img/obce/lipa.jpg": {
+      "obec": "Lípa (okres Zlín)",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Lipa_ZL_CZ_CoA.jpg",
+      "licence": "Public domain"
+    },
+    "img/obce/milotice.png": {
+      "obec": "Milotice",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Milotice_Hodon%C3%ADn_znak.png",
+      "licence": "Public domain"
+    },
+    "img/obce/mistrice.png": {
+      "obec": "Mistřice",
+      "soubor": "https://commons.wikimedia.org/wiki/File:CoA_of_Mist%C5%99ice.svg",
+      "licence": "Public domain"
+    },
+    "img/obce/napajedla.jpg": {
+      "obec": "Napajedla",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Napajedla_znak_REKOS.jpg",
+      "licence": "Public domain"
+    },
+    "img/obce/nedachlebice.png": {
+      "obec": "Nedachlebice",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Nedachlebice-znak.png",
+      "licence": "Public domain"
+    },
+    "img/obce/nedakonice.jpg": {
+      "obec": "Nedakonice",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Nedakonice,_znak.jpg",
+      "licence": "Public domain"
+    },
+    "img/obce/nenkovice.jpg": {
+      "obec": "Nenkovice",
+      "soubor": "https://commons.wikimedia.org/wiki/File:NenkoviceZnak.jpg",
+      "licence": "Public domain"
+    },
+    "img/obce/nivnice.jpg": {
+      "obec": "Nivnice",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Nivnice_CZ_CoA.jpg",
+      "licence": "Public domain"
+    },
+    "img/obce/nasedlovice.jpg": {
+      "obec": "Násedlovice",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Nasedlovice_CZ_CoA.jpg",
+      "licence": "Public domain"
+    },
+    "img/obce/ostrozska-lhota.png": {
+      "obec": "Ostrožská Lhota",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Ostro%C5%BEsk%C3%A1_Lhota_CoA.svg",
+      "licence": "Public domain"
+    },
+    "img/obce/osvetimany.jpg": {
+      "obec": "Osvětimany",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Osv%C4%9Btimany_CoA_CZ.jpg",
+      "licence": "Public domain"
+    },
+    "img/obce/popovice.jpg": {
+      "obec": "Popovice (okres Uherské Hradiště)",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Popovice_UH_CoA.jpg",
+      "licence": "Public domain"
+    },
+    "img/obce/prostejov.png": {
+      "obec": "Prostějov",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Prostejov_CoA_CZ.png",
+      "licence": "Public domain"
+    },
+    "img/obce/prusinovice.jpg": {
+      "obec": "Prusinovice",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Prusinovice_znak.jpg",
+      "licence": "Public domain"
+    },
+    "img/obce/prusanky.png": {
+      "obec": "Prušánky",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Prusanky_znak.png",
+      "licence": "Public domain"
+    },
+    "img/obce/rymice.jpg": {
+      "obec": "Rymice",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Rymice_CZ_CoA.jpg",
+      "licence": "Public domain"
+    },
+    "img/obce/skastice.jpg": {
+      "obec": "Skaštice",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Ska%C5%A1tice_znak.jpg",
+      "licence": "Public domain"
+    },
+    "img/obce/slavicin.jpg": {
+      "obec": "Slavičín",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Slavicin_CoA_CZ.jpg",
+      "licence": "Public domain"
+    },
+    "img/obce/slusovice.png": {
+      "obec": "Slušovice",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Coa_Czech_Town_Slu%C5%A1ovice.svg",
+      "licence": "Public domain"
+    },
+    "img/obce/sobulky.jpg": {
+      "obec": "Sobůlky",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Sob%C5%AFlky_CoA_CZ.jpg",
+      "licence": "Public domain"
+    },
+    "img/obce/susice.png": {
+      "obec": "Sušice",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Su%C5%A1ice-znak.svg",
+      "licence": "Public domain"
+    },
+    "img/obce/tecovice.png": {
+      "obec": "Tečovice",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Te%C4%8Dovice_znak.png",
+      "licence": "Public domain"
+    },
+    "img/obce/tlumacov.png": {
+      "obec": "Tlumačov (okres Zlín)",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Tluma%C4%8Dov_znak.png",
+      "licence": "Public domain"
+    },
+    "img/obce/troubky-zdislavice.jpg": {
+      "obec": "Troubky-Zdislavice",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Troubky-Zdislavice_CZ_CoA.jpg",
+      "licence": "Public domain"
+    },
+    "img/obce/tupesy.jpg": {
+      "obec": "Tupesy",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Tupesy,_znak.jpg",
+      "licence": "Public domain"
+    },
+    "img/obce/uhrice.jpg": {
+      "obec": "Uhřice (okres Kroměříž)",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Uh%C5%99ice_(okres_Krom%C4%9B%C5%99%C3%AD%C5%BE)_znak.jpg",
+      "licence": "Public domain"
+    },
+    "img/obce/vacenovice.jpg": {
+      "obec": "Vacenovice",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Vacenovice_znak.jpg",
+      "licence": "Public domain"
+    },
+    "img/obce/velke-karlovice.png": {
+      "obec": "Velké Karlovice",
+      "soubor": "https://commons.wikimedia.org/wiki/File:CZ_Velk%C3%A9_Karlovice_COA.svg",
+      "licence": "Public domain"
+    },
+    "img/obce/velky-orechov.png": {
+      "obec": "Velký Ořechov",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Velky_orechov_znak.gif",
+      "licence": "Public domain"
+    },
+    "img/obce/vigantice.png": {
+      "obec": "Vigantice",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Coat_of_Arm_Vigantice.svg",
+      "licence": "Public domain"
+    },
+    "img/obce/vsetin.png": {
+      "obec": "Vsetín",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Vset%C3%ADn.svg",
+      "licence": "Public domain"
+    },
+    "img/obce/vazany.jpg": {
+      "obec": "Vážany (okres Uherské Hradiště)",
+      "soubor": "https://commons.wikimedia.org/wiki/File:V%C3%A1%C5%BEany,_znak.jpg",
+      "licence": "Public domain"
+    },
+    "img/obce/zdounky.jpg": {
+      "obec": "Zdounky",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Zdounky_CoA_CZ.jpg",
+      "licence": "Public domain"
+    },
+    "img/obce/zlobice.jpg": {
+      "obec": "Zlobice",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Zlobice_znak.jpg",
+      "licence": "Public domain"
+    },
+    "img/obce/zlamanec.png": {
+      "obec": "Zlámanec",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Zlamanec-znak.png",
+      "licence": "Public domain"
+    },
+    "img/obce/zarici.png": {
+      "obec": "Záříčí",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Z%C3%A1%C5%99%C3%AD%C4%8D%C3%AD_CoA_CZ.svg",
+      "licence": "Public domain"
+    },
+    "img/obce/ujezdec.jpg": {
+      "obec": "Újezdec (okres Uherské Hradiště)",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Ujezdec_znak.jpg",
+      "licence": "Public domain"
+    },
+    "img/obce/usti.png": {
+      "obec": "Ústí (okres Vsetín)",
+      "soubor": "https://commons.wikimedia.org/wiki/File:CZ_%C3%9Ast%C3%AD_COA.svg",
+      "licence": "Public domain"
+    },
+    "img/obce/castkov.jpg": {
+      "obec": "Částkov (okres Uherské Hradiště)",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Znak_C%C3%A1stkov.jpg",
+      "licence": "Public domain"
+    },
+    "img/obce/sardice.png": {
+      "obec": "Šardice",
+      "soubor": "https://commons.wikimedia.org/wiki/File:%C5%A0ardice_znak.png",
+      "licence": "Public domain"
+    },
+    "img/obce/selesovice.jpg": {
+      "obec": "Šelešovice",
+      "soubor": "https://commons.wikimedia.org/wiki/File:%C5%A0ele%C5%A1ovice_znak.jpg",
+      "licence": "Public domain"
+    },
+    "img/obce/zarosice.jpg": {
+      "obec": "Žarošice",
+      "soubor": "https://commons.wikimedia.org/wiki/File:%C5%BDaro%C5%A1ice_CoA_CZ.jpg",
+      "licence": "Public domain"
+    },
+    "img/obce/zdanice.png": {
+      "obec": "Ždánice",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Zdanice_CoA_CZ.png",
+      "licence": "Public domain"
+    },
+    "img/obce/zeranovice.jpg": {
+      "obec": "Žeranovice",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Zeranovice_CZ_CoA.jpg",
+      "licence": "Public domain"
+    },
+    "img/obce/bystrice-pod-hostynem.png": {
+      "obec": "Bystřice pod Hostýnem",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Bystrice_pod_Hostynem-znak.png",
+      "licence": "Public domain"
+    },
+    "img/obce/bzenec.png": {
+      "obec": "Bzenec",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Bzenec_(znak).png",
+      "licence": "Public domain"
+    },
+    "img/obce/frystak.jpg": {
+      "obec": "Fryšták",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Frystak_CoA_CZ.jpg",
+      "licence": "Public domain"
+    },
+    "img/obce/hodonin.png": {
+      "obec": "Hodonín",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Hodonin_CoA_CZ.png",
+      "licence": "Public domain"
+    },
+    "img/obce/jesenik.png": {
+      "obec": "Jeseník",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Jesen%C3%ADk.svg",
+      "licence": "Public domain"
+    },
+    "img/obce/lhota-u-malenovic.png": {
+      "obec": "Lhota u Malenovic",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Lhota_(okres_Zl%C3%ADn).svg",
+      "licence": "Public domain"
+    },
+    "img/obce/litovel.png": {
+      "obec": "Litovel",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Znak_m%C4%9Bsta_Litovel.png",
+      "licence": "Public domain"
+    },
+    "img/obce/mohelnice.png": {
+      "obec": "Mohelnice",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Mohelnice_SU_CZ_CoA.svg",
+      "licence": "Public domain"
+    },
+    "img/obce/novy-malin.jpg": {
+      "obec": "Nový Malín",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Nov%C3%BD_Mal%C3%ADn_CoA.jpg",
+      "licence": "Public domain"
+    },
+    "img/obce/olomouc.png": {
+      "obec": "Olomouc",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Olomouc,_city_in_the_Czech_Republic.svg",
+      "licence": "Public domain"
+    },
+    "img/obce/valasske-mezirici.png": {
+      "obec": "Valašské Meziříčí",
+      "soubor": "https://commons.wikimedia.org/wiki/File:CoA_of_Vala%C5%A1sk%C3%A9_Mezi%C5%99%C3%AD%C4%8D%C3%AD.svg",
+      "licence": "Public domain"
+    },
+    "img/obce/valasska-polanka.png": {
+      "obec": "Valašská Polanka",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Vala%C5%A1sk%C3%A1_Polanka_CoA_CZ.png",
+      "licence": "Public domain"
+    },
+    "img/obce/velka-bystrice.png": {
+      "obec": "Velká Bystřice",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Velk%C3%A1_Byst%C5%99ice.svg",
+      "licence": "Public domain"
+    },
+    "img/obce/velky-tynec.png": {
+      "obec": "Velký Týnec",
+      "soubor": "https://commons.wikimedia.org/wiki/File:Velk%C3%BD_T%C3%BDnec_znak.svg",
+      "licence": "CC BY-SA 3.0"
+    },
+    "img/obce/zlin.png": {
+      "obec": "Zlín",
+      "soubor": "https://commons.wikimedia.org/wiki/File:CZ_Zl%C3%ADn_COA.svg",
+      "licence": "Public domain"
+    },
+    "img/obce/sternberk.png": {
+      "obec": "Šternberk",
+      "soubor": "https://commons.wikimedia.org/wiki/File:%C5%A0ternberk_coat_of_arms.svg",
       "licence": "Public domain"
     }
   }

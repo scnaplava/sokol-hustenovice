@@ -29,9 +29,13 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA_FILE = ROOT / "web" / "data" / "club.json"
 
 # --- Nastavení klubu -------------------------------------------------------
-CLUB_NUMBER = "7220181"   # číslo klubu ve FAČR
-CLUB_IS_ID = "2173"       # vnitřní ID klubu ve veřejné části IS FAČR
-CLUB_MATCH = "Huštěnovice"  # podle tohoto textu se poznají naše družstva
+# Výchozí hodnoty pro TJ Sokol Huštěnovice. Jiný klub si je nastaví
+# v club.json v sekci "club.facr": {"number", "isId", "match": [...]}.
+DEFAULT_FACR = {
+    "number": "7220181",      # číslo klubu ve FAČR
+    "isId": "2173",           # vnitřní ID klubu ve veřejné části IS FAČR
+    "match": ["Huštěnovice"],  # podle těchto textů se poznají naše družstva
+}
 
 BASE = "https://is.fotbal.cz/public/souteze/"
 USER_AGENT = "TJSokolHustenoviceWeb/1.0 (klubovy web, aktualizace 1x za 15 min)"
@@ -120,7 +124,7 @@ def strip_team_no(name: str) -> str:
     return re.sub(r"\s*\(\d+\)\s*$", "", name).strip()
 
 
-def find_competitions(client: IsClient) -> list[dict]:
+def find_competitions(client: IsClient, number: str, is_id: str) -> list[dict]:
     """Vyhledá všechny soutěže klubu v aktuálním ročníku."""
     url = BASE + "prehled-soutezi.aspx?sport=fotbal"
     page = client.get(url)
@@ -133,9 +137,9 @@ def find_competitions(client: IsClient) -> list[dict]:
         m = re.search(r'<option[^>]*selected[^>]*value="([^"]*)"', body) or re.search(r'value="([^"]*)"', body)
         form[name] = m.group(1) if m else ""
     form.update({
-        "ctl00$MainContent$OddilBoxClenem$txtCisloKlubu": CLUB_NUMBER,
-        "ctl00$MainContent$OddilBoxClenem$hidIdKlubu": CLUB_IS_ID,
-        "ctl00$MainContent$OddilBoxClenem$hidTypSportu": CLUB_IS_ID,
+        "ctl00$MainContent$OddilBoxClenem$txtCisloKlubu": number,
+        "ctl00$MainContent$OddilBoxClenem$hidIdKlubu": is_id,
+        "ctl00$MainContent$OddilBoxClenem$hidTypSportu": is_id,
         "__EVENTTARGET": "ctl00$MainContent$btnSearch",
         "__EVENTARGUMENT": "",
     })
@@ -219,10 +223,15 @@ def parse_table(page: str) -> list[dict]:
 
 
 def fetch_facr(current: dict) -> dict:
+    cfg = {**DEFAULT_FACR, **current.get("club", {}).get("facr", {})}
+    aliases = cfg["match"] if isinstance(cfg["match"], list) else [cfg["match"]]
+    is_ours = lambda name: any(a in name for a in aliases)  # noqa: E731
+
     client = IsClient()
     previous = {t["id"]: t for t in current.get("teams", [])}
     teams = []
-    for comp in find_competitions(client):
+    used_ids: set[str] = set()
+    for comp in find_competitions(client, cfg["number"], cfg["isId"]):
         letter = comp["code"][:1].upper()
         if letter not in CATEGORIES:
             continue  # poháry apod.
@@ -234,7 +243,24 @@ def fetch_facr(current: dict) -> dict:
             if e.code != 403:
                 raise
             tables = ""  # FAČR tabulky některých soutěží (přípravky) nezveřejňuje
-        ours = [m for m in parse_matches(detail) if CLUB_MATCH in m["home"] or CLUB_MATCH in m["away"]]
+        ours = [m for m in parse_matches(detail) if is_ours(m["home"]) or is_ours(m["away"])]
+        if not ours:
+            continue
+        # Béčko / céčko klubu ve stejné kategorii (např. "Strání B") dostane vlastní tým.
+        our_names = {n for m in ours for n in (m["home"], m["away"]) if is_ours(n)}
+        # Béčko se v IS píše různě: "Strání B", 'Koryčany "B"'
+        suffix = next((m.group(1) for n in our_names if (m := re.search(r' "?([B-D])"?$', n))), "")
+        if suffix:
+            team_id = f"{team_id}-{suffix.lower()}"
+            team_name = re.sub(r" A$", "", team_name) + f" {suffix}"
+        if team_id in used_ids:  # stejná kategorie ve dvou skupinách (např. přípravky B-1 a B-2)
+            group = re.search(r"sk\.\s*(\S+)$", comp["name"])
+            team_name += f" ({group.group(1)})" if group else " II"
+            n = 2
+            while f"{team_id}-{n}" in used_ids:
+                n += 1
+            team_id = f"{team_id}-{n}"
+        used_ids.add(team_id)
         if letter in NO_SCORE_CATEGORIES:
             for m in ours:
                 m["played"] = m["score"] is not None
@@ -255,7 +281,8 @@ def fetch_facr(current: dict) -> dict:
         })
         print(f"  {team_name}: {comp['name']} – {len(ours)} zápasů")
 
-    teams.sort(key=lambda t: next(i for i, v in enumerate(CATEGORIES.values()) if v[0] == t["id"]))
+    order = [v[0] for v in CATEGORIES.values()]
+    teams.sort(key=lambda t: (next((i for i, b in enumerate(order) if t["id"].startswith(b)), 99), t["id"]))
     return {
         "source": "facr",
         "updatedAt": current.get("updatedAt"),
@@ -270,7 +297,8 @@ def strip_timestamp(d: dict) -> dict:
 
 def main() -> int:
     source = os.environ.get("DATA_SOURCE", "facr")
-    current = json.loads(DATA_FILE.read_text(encoding="utf-8"))
+    data_file = Path(sys.argv[1]) if len(sys.argv) > 1 else DATA_FILE
+    current = json.loads(data_file.read_text(encoding="utf-8"))
 
     if source == "facr":
         try:
@@ -289,7 +317,7 @@ def main() -> int:
 
     if strip_timestamp(new) != strip_timestamp(current):
         new["updatedAt"] = datetime.now(TZ).isoformat(timespec="seconds")
-        DATA_FILE.write_text(json.dumps(new, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        data_file.write_text(json.dumps(new, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         print(f"Data aktualizována ({source}).")
     else:
         print(f"Beze změny ({source}).")

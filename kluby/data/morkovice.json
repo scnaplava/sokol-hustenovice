@@ -1,0 +1,2148 @@
+{
+  "source": "facr",
+  "updatedAt": "2026-11-10T23:02:45+01:00",
+  "club": {
+    "name": "FC Morkovice",
+    "official": "FC Morkovice, z.s.",
+    "shortName": "Morkovice",
+    "brand": "FC Morkovice",
+    "hero": [
+      "FC",
+      "Morkovice"
+    ],
+    "founded": null,
+    "logo": "",
+    "logoShape": "shield",
+    "colors": {},
+    "stadium": "",
+    "email": "",
+    "facebook": "",
+    "tagline": "Zápasy, výsledky a tabulky všech našich týmů na jednom místě.",
+    "facr": {
+      "number": "7210251",
+      "isId": "2023",
+      "match": [
+        "Morkovice"
+      ]
+    }
+  },
+  "teams": [
+    {
+      "id": "muzi",
+      "name": "Muži A",
+      "category": "Dospělí",
+      "competition": "5. liga",
+      "competitionUrl": "https://is.fotbal.cz/public/souteze/detail-souteze.aspx?req=1e14d836-4e8e-4b73-989c-d01651c5e3e2&sport=fotbal",
+      "season": "2026/2027",
+      "description": "",
+      "matches": [
+        {
+          "round": 2,
+          "date": "2026-08-08T17:00:00+02:00",
+          "home": "Velké Karlovice",
+          "away": "Morkovice",
+          "score": [
+            2,
+            0
+          ],
+          "venue": "Velké Karlovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=ba1697e6-d04c-4cd4-84fa-4f1e83af7f87&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 3,
+          "date": "2026-08-15T16:30:00+02:00",
+          "home": "Morkovice",
+          "away": "Staré Město",
+          "score": [
+            0,
+            4
+          ],
+          "venue": "Morkovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=00285b9d-5c1d-43a0-a4c2-070cae102260&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 4,
+          "date": "2026-08-23T16:30:00+02:00",
+          "home": "Nivnice",
+          "away": "Morkovice",
+          "score": [
+            1,
+            0
+          ],
+          "venue": "Nivnice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=ab604c1e-1bc7-44d0-8533-98586bba9736&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 5,
+          "date": "2026-08-29T16:30:00+02:00",
+          "home": "Morkovice",
+          "away": "Vigantice",
+          "score": [
+            3,
+            4
+          ],
+          "venue": "Morkovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=5f00a230-fa97-452f-8f32-8d8566162636&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 6,
+          "date": "2026-09-05T16:00:00+02:00",
+          "home": "Slušovice",
+          "away": "Morkovice",
+          "score": [
+            5,
+            2
+          ],
+          "venue": "Slušovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=30a37cbd-8fa3-40bf-94fc-a4c2321d12ab&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 7,
+          "date": "2026-09-12T16:00:00+02:00",
+          "home": "Morkovice",
+          "away": "Kunovice",
+          "score": [
+            0,
+            3
+          ],
+          "venue": "Morkovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=77d90f73-5ac9-485b-afbe-080c2bc2e45f&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 8,
+          "date": "2026-09-20T15:30:00+02:00",
+          "home": "Horní Bečva",
+          "away": "Morkovice",
+          "score": [
+            5,
+            4
+          ],
+          "venue": "Horní Bečva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=f23b8c1d-bf0c-4953-acb9-5d10990b0b87&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 9,
+          "date": "2026-09-25T18:00:00+02:00",
+          "home": "Morkovice",
+          "away": "Luhačovice",
+          "score": [
+            0,
+            2
+          ],
+          "venue": "UT Morkovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=e2158060-4f8b-4410-96c6-95b27105e777&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 10,
+          "date": "2026-10-03T15:00:00+02:00",
+          "home": "Mladcová",
+          "away": "Morkovice",
+          "score": [
+            7,
+            0
+          ],
+          "venue": "Mladcová",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=4ee446f4-e925-4b87-8210-3bee18474343&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 11,
+          "date": "2026-10-10T15:00:00+02:00",
+          "home": "Morkovice",
+          "away": "Nevšová",
+          "score": [
+            4,
+            2
+          ],
+          "venue": "Morkovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=fd7acad3-613c-4834-877f-8d7e3fcefef3&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 12,
+          "date": "2026-10-17T10:00:00+02:00",
+          "home": "Osvětimany",
+          "away": "Morkovice",
+          "score": [
+            3,
+            0
+          ],
+          "venue": "Osvětimany",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=e9037423-79bb-470e-8823-ceb897f82da4&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 13,
+          "date": "2026-10-24T14:30:00+02:00",
+          "home": "Morkovice",
+          "away": "Napajedla",
+          "score": [
+            3,
+            1
+          ],
+          "venue": "Morkovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=46bd5d75-3a3e-4b81-b127-87e3056b32be&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 1,
+          "date": "2026-10-31T14:00:00+01:00",
+          "home": "Morkovice",
+          "away": "Štítná nVl",
+          "score": [
+            3,
+            3
+          ],
+          "venue": "Morkovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=b425f220-a96b-4fc4-83b8-afbae6bd0b6d&zapis=1&hidemenu=1"
+        }
+      ],
+      "table": [
+        {
+          "position": 1,
+          "team": "Mladcová",
+          "played": 13,
+          "won": 9,
+          "drawn": 4,
+          "lost": 0,
+          "gf": 42,
+          "ga": 11,
+          "points": 31
+        },
+        {
+          "position": 2,
+          "team": "Osvětimany",
+          "played": 13,
+          "won": 9,
+          "drawn": 3,
+          "lost": 1,
+          "gf": 43,
+          "ga": 19,
+          "points": 30
+        },
+        {
+          "position": 3,
+          "team": "Slušovice",
+          "played": 13,
+          "won": 9,
+          "drawn": 1,
+          "lost": 3,
+          "gf": 35,
+          "ga": 21,
+          "points": 28
+        },
+        {
+          "position": 4,
+          "team": "Staré Město",
+          "played": 13,
+          "won": 5,
+          "drawn": 6,
+          "lost": 2,
+          "gf": 27,
+          "ga": 19,
+          "points": 21
+        },
+        {
+          "position": 5,
+          "team": "Nivnice",
+          "played": 13,
+          "won": 6,
+          "drawn": 3,
+          "lost": 4,
+          "gf": 32,
+          "ga": 26,
+          "points": 21
+        },
+        {
+          "position": 6,
+          "team": "Vigantice",
+          "played": 13,
+          "won": 6,
+          "drawn": 3,
+          "lost": 4,
+          "gf": 26,
+          "ga": 27,
+          "points": 21
+        },
+        {
+          "position": 7,
+          "team": "Horní Bečva",
+          "played": 13,
+          "won": 7,
+          "drawn": 0,
+          "lost": 6,
+          "gf": 26,
+          "ga": 30,
+          "points": 21
+        },
+        {
+          "position": 8,
+          "team": "Velké Karlovice",
+          "played": 13,
+          "won": 5,
+          "drawn": 3,
+          "lost": 5,
+          "gf": 24,
+          "ga": 29,
+          "points": 18
+        },
+        {
+          "position": 9,
+          "team": "Nevšová",
+          "played": 13,
+          "won": 4,
+          "drawn": 3,
+          "lost": 6,
+          "gf": 17,
+          "ga": 27,
+          "points": 15
+        },
+        {
+          "position": 10,
+          "team": "Kunovice",
+          "played": 13,
+          "won": 3,
+          "drawn": 4,
+          "lost": 6,
+          "gf": 25,
+          "ga": 24,
+          "points": 13
+        },
+        {
+          "position": 11,
+          "team": "Luhačovice",
+          "played": 13,
+          "won": 4,
+          "drawn": 1,
+          "lost": 8,
+          "gf": 23,
+          "ga": 34,
+          "points": 13
+        },
+        {
+          "position": 12,
+          "team": "Štítná nVl",
+          "played": 13,
+          "won": 3,
+          "drawn": 3,
+          "lost": 7,
+          "gf": 21,
+          "ga": 35,
+          "points": 12
+        },
+        {
+          "position": 13,
+          "team": "Morkovice",
+          "played": 13,
+          "won": 2,
+          "drawn": 1,
+          "lost": 10,
+          "gf": 19,
+          "ga": 42,
+          "points": 7
+        },
+        {
+          "position": 14,
+          "team": "Napajedla",
+          "played": 13,
+          "won": 1,
+          "drawn": 1,
+          "lost": 11,
+          "gf": 11,
+          "ga": 27,
+          "points": 4
+        }
+      ],
+      "scorers": []
+    },
+    {
+      "id": "muzi-b",
+      "name": "Muži B",
+      "category": "Dospělí",
+      "competition": "7. liga, sk. C",
+      "competitionUrl": "https://is.fotbal.cz/public/souteze/detail-souteze.aspx?req=d1e0f817-6286-4337-9d2c-b3f0a103a16d&sport=fotbal",
+      "season": "2026/2027",
+      "description": "",
+      "matches": [
+        {
+          "round": 2,
+          "date": "2026-08-09T17:00:00+02:00",
+          "home": "Huštěnovice",
+          "away": "Morkovice B",
+          "score": [
+            3,
+            3
+          ],
+          "venue": "Huštěnovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=07be7d3b-6163-44df-9678-06e0d9a33538&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 3,
+          "date": "2026-08-16T16:30:00+02:00",
+          "home": "Morkovice B",
+          "away": "Chropyně",
+          "score": [
+            5,
+            1
+          ],
+          "venue": "Morkovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=78b94d83-285d-4e36-be30-bb5370d710c4&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 4,
+          "date": "2026-08-23T16:30:00+02:00",
+          "home": "Uh. Ostroh",
+          "away": "Morkovice B",
+          "score": [
+            4,
+            1
+          ],
+          "venue": "Uh. Ostroh",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=db114087-e669-4a2f-90a7-b34aaaf02ae5&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 5,
+          "date": "2026-08-30T16:30:00+02:00",
+          "home": "Morkovice B",
+          "away": "Strání B",
+          "score": [
+            3,
+            7
+          ],
+          "venue": "Morkovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=349e97dc-d7a4-4158-af25-bee2660911b6&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 7,
+          "date": "2026-09-13T16:00:00+02:00",
+          "home": "Morkovice B",
+          "away": "Prakšice",
+          "score": [
+            3,
+            0
+          ],
+          "venue": "Morkovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=172be8b5-32fb-4cd4-bcd1-a4ffd3d819f3&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 8,
+          "date": "2026-09-20T15:30:00+02:00",
+          "home": "Koryčany",
+          "away": "Morkovice B",
+          "score": [
+            8,
+            3
+          ],
+          "venue": "Koryčany",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=f69ccd40-8520-4b25-a381-bfca477bade2&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 9,
+          "date": "2026-09-27T15:30:00+02:00",
+          "home": "Morkovice B",
+          "away": "Javořina",
+          "score": [
+            2,
+            2
+          ],
+          "venue": "Morkovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=be3dc42d-5f2c-4d41-9f24-10bd01039b9d&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 10,
+          "date": "2026-10-03T15:00:00+02:00",
+          "home": "Vlčnov",
+          "away": "Morkovice B",
+          "score": [
+            7,
+            1
+          ],
+          "venue": "Vlčnov",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=4f9194f7-e283-44a4-9fc8-60fd6139be2f&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 11,
+          "date": "2026-10-11T15:00:00+02:00",
+          "home": "Morkovice B",
+          "away": "Hluk B",
+          "score": [
+            1,
+            2
+          ],
+          "venue": "Morkovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=bd01abe6-bce7-41b5-9027-d685e5004acc&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 12,
+          "date": "2026-10-17T14:30:00+02:00",
+          "home": "O. N. Ves",
+          "away": "Morkovice B",
+          "score": [
+            5,
+            0
+          ],
+          "venue": "O. N. Ves",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=3fe1b745-1258-47c2-bcfe-6efd0f25f5ec&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 13,
+          "date": "2026-10-25T14:30:00+01:00",
+          "home": "Morkovice B",
+          "away": "Šumice",
+          "score": [
+            1,
+            4
+          ],
+          "venue": "Morkovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=8cc5a967-7311-4cbb-9af4-667da00c0976&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 1,
+          "date": "2026-11-01T14:00:00+01:00",
+          "home": "Morkovice B",
+          "away": "Polešovice",
+          "score": [
+            2,
+            4
+          ],
+          "venue": "Morkovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=368dcc98-24a0-416a-84f3-a37a3a1523ef&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 6,
+          "date": "2026-11-06T18:15:00+01:00",
+          "home": "FC Slovácko C",
+          "away": "Morkovice B",
+          "score": [
+            3,
+            3
+          ],
+          "venue": "Širůch UMT + UO",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=4f9270a8-173b-4881-b875-993f03114b02&zapis=1&hidemenu=1"
+        }
+      ],
+      "table": [
+        {
+          "position": 1,
+          "team": "Koryčany",
+          "played": 13,
+          "won": 12,
+          "drawn": 0,
+          "lost": 1,
+          "gf": 44,
+          "ga": 18,
+          "points": 36
+        },
+        {
+          "position": 2,
+          "team": "Strání B",
+          "played": 13,
+          "won": 8,
+          "drawn": 2,
+          "lost": 3,
+          "gf": 35,
+          "ga": 12,
+          "points": 26
+        },
+        {
+          "position": 3,
+          "team": "Uh. Ostroh",
+          "played": 13,
+          "won": 8,
+          "drawn": 1,
+          "lost": 4,
+          "gf": 31,
+          "ga": 20,
+          "points": 25
+        },
+        {
+          "position": 4,
+          "team": "Prakšice",
+          "played": 13,
+          "won": 7,
+          "drawn": 2,
+          "lost": 4,
+          "gf": 24,
+          "ga": 22,
+          "points": 23
+        },
+        {
+          "position": 5,
+          "team": "FC Slovácko C",
+          "played": 13,
+          "won": 6,
+          "drawn": 3,
+          "lost": 4,
+          "gf": 28,
+          "ga": 25,
+          "points": 21
+        },
+        {
+          "position": 6,
+          "team": "Vlčnov",
+          "played": 13,
+          "won": 6,
+          "drawn": 2,
+          "lost": 5,
+          "gf": 30,
+          "ga": 22,
+          "points": 20
+        },
+        {
+          "position": 7,
+          "team": "Polešovice",
+          "played": 13,
+          "won": 6,
+          "drawn": 2,
+          "lost": 5,
+          "gf": 26,
+          "ga": 24,
+          "points": 20
+        },
+        {
+          "position": 8,
+          "team": "Javořina",
+          "played": 13,
+          "won": 5,
+          "drawn": 4,
+          "lost": 4,
+          "gf": 23,
+          "ga": 21,
+          "points": 19
+        },
+        {
+          "position": 9,
+          "team": "Huštěnovice",
+          "played": 13,
+          "won": 5,
+          "drawn": 2,
+          "lost": 6,
+          "gf": 25,
+          "ga": 27,
+          "points": 17
+        },
+        {
+          "position": 10,
+          "team": "Chropyně",
+          "played": 13,
+          "won": 5,
+          "drawn": 0,
+          "lost": 8,
+          "gf": 30,
+          "ga": 36,
+          "points": 15
+        },
+        {
+          "position": 11,
+          "team": "O. N. Ves",
+          "played": 13,
+          "won": 3,
+          "drawn": 2,
+          "lost": 8,
+          "gf": 18,
+          "ga": 28,
+          "points": 11
+        },
+        {
+          "position": 12,
+          "team": "Hluk B",
+          "played": 13,
+          "won": 2,
+          "drawn": 4,
+          "lost": 7,
+          "gf": 23,
+          "ga": 35,
+          "points": 10
+        },
+        {
+          "position": 13,
+          "team": "Morkovice B",
+          "played": 13,
+          "won": 2,
+          "drawn": 3,
+          "lost": 8,
+          "gf": 28,
+          "ga": 50,
+          "points": 9
+        },
+        {
+          "position": 14,
+          "team": "Šumice",
+          "played": 13,
+          "won": 2,
+          "drawn": 1,
+          "lost": 10,
+          "gf": 21,
+          "ga": 46,
+          "points": 7
+        }
+      ],
+      "scorers": []
+    },
+    {
+      "id": "dorost",
+      "name": "Starší dorost",
+      "category": "U19",
+      "competition": "4. liga starší dorost",
+      "competitionUrl": "https://is.fotbal.cz/public/souteze/detail-souteze.aspx?req=2c190368-ad5c-4372-a127-63e8fea2d2e5&sport=fotbal",
+      "season": "2026/2027",
+      "description": "",
+      "matches": [
+        {
+          "round": 2,
+          "date": "2026-08-25T17:30:00+02:00",
+          "home": "Morkovice",
+          "away": "Baťov",
+          "score": [
+            2,
+            4
+          ],
+          "venue": "UT Morkovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=d3184950-f97b-4bba-a85e-3e5f36dd16d7&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 3,
+          "date": "2026-08-30T10:00:00+02:00",
+          "home": "Kroměříž B",
+          "away": "Morkovice",
+          "score": [
+            4,
+            1
+          ],
+          "venue": "UMT Kroměříž",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=54cd9975-9716-4cac-882e-74954a31fe84&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 4,
+          "date": "2026-09-05T10:00:00+02:00",
+          "home": "Morkovice",
+          "away": "Tečovice",
+          "score": [
+            0,
+            8
+          ],
+          "venue": "UT Morkovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=473ee9c0-29bf-4842-b59d-b09bb31b176c&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 5,
+          "date": "2026-09-13T10:00:00+02:00",
+          "home": "Fryšták-Březnice",
+          "away": "Morkovice",
+          "score": [
+            0,
+            2
+          ],
+          "venue": "Fryšták",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=dea78007-b098-40c8-b7f7-55942512c9cc&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 6,
+          "date": "2026-09-19T10:00:00+02:00",
+          "home": "Morkovice",
+          "away": "Bojkovice",
+          "score": [
+            2,
+            0
+          ],
+          "venue": "UT Morkovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=ceac4770-1b91-4110-9eb9-104eb60c17d6&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 7,
+          "date": "2026-09-26T10:00:00+02:00",
+          "home": "Val. Polanka",
+          "away": "Morkovice",
+          "score": [
+            0,
+            5
+          ],
+          "venue": "Val. Polanka",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=1b7629b6-3206-437b-9ae4-3d127afd699f&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 8,
+          "date": "2026-10-03T10:00:00+02:00",
+          "home": "Morkovice",
+          "away": "Strání",
+          "score": [
+            4,
+            2
+          ],
+          "venue": "UT Morkovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=fcc00773-cfbd-43fd-adec-8f89e438ac69&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 9,
+          "date": "2026-10-10T10:00:00+02:00",
+          "home": "Slavičín",
+          "away": "Morkovice",
+          "score": [
+            2,
+            5
+          ],
+          "venue": "Slavičín",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=452905e9-ccb1-4b09-ad34-a55a9a6aa02e&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 10,
+          "date": "2026-10-17T10:00:00+02:00",
+          "home": "Morkovice",
+          "away": "Hluk",
+          "score": [
+            1,
+            3
+          ],
+          "venue": "UT Morkovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=d5b44d4e-624e-49f2-ba3b-d12983da7a06&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 11,
+          "date": "2026-10-24T10:00:00+02:00",
+          "home": "Slušovice-Veselá",
+          "away": "Morkovice",
+          "score": [
+            3,
+            1
+          ],
+          "venue": "Slušovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=97cf09e5-eb1a-43de-bb6c-fca70d73726d&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 1,
+          "date": "2026-10-31T10:00:00+01:00",
+          "home": "Holešov",
+          "away": "Morkovice",
+          "score": [
+            2,
+            5
+          ],
+          "venue": "Střelnice-tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=8502a287-58a7-4df8-b102-44564e8f003a&zapis=1&hidemenu=1"
+        }
+      ],
+      "table": [
+        {
+          "position": 1,
+          "team": "Slušovice-Veselá",
+          "played": 11,
+          "won": 8,
+          "drawn": 2,
+          "lost": 1,
+          "gf": 39,
+          "ga": 18,
+          "points": 26
+        },
+        {
+          "position": 2,
+          "team": "Kroměříž B",
+          "played": 11,
+          "won": 8,
+          "drawn": 1,
+          "lost": 2,
+          "gf": 37,
+          "ga": 9,
+          "points": 25
+        },
+        {
+          "position": 3,
+          "team": "Strání",
+          "played": 11,
+          "won": 8,
+          "drawn": 1,
+          "lost": 2,
+          "gf": 44,
+          "ga": 24,
+          "points": 25
+        },
+        {
+          "position": 4,
+          "team": "Hluk",
+          "played": 11,
+          "won": 6,
+          "drawn": 3,
+          "lost": 2,
+          "gf": 33,
+          "ga": 21,
+          "points": 21
+        },
+        {
+          "position": 5,
+          "team": "Baťov",
+          "played": 11,
+          "won": 6,
+          "drawn": 1,
+          "lost": 4,
+          "gf": 29,
+          "ga": 26,
+          "points": 19
+        },
+        {
+          "position": 6,
+          "team": "Morkovice",
+          "played": 11,
+          "won": 6,
+          "drawn": 0,
+          "lost": 5,
+          "gf": 28,
+          "ga": 28,
+          "points": 18
+        },
+        {
+          "position": 7,
+          "team": "Tečovice",
+          "played": 11,
+          "won": 4,
+          "drawn": 3,
+          "lost": 4,
+          "gf": 36,
+          "ga": 29,
+          "points": 15
+        },
+        {
+          "position": 8,
+          "team": "Slavičín",
+          "played": 11,
+          "won": 3,
+          "drawn": 2,
+          "lost": 6,
+          "gf": 22,
+          "ga": 30,
+          "points": 11
+        },
+        {
+          "position": 9,
+          "team": "Holešov",
+          "played": 11,
+          "won": 3,
+          "drawn": 0,
+          "lost": 8,
+          "gf": 27,
+          "ga": 32,
+          "points": 9
+        },
+        {
+          "position": 10,
+          "team": "Fryšták-Březnice",
+          "played": 11,
+          "won": 2,
+          "drawn": 3,
+          "lost": 6,
+          "gf": 16,
+          "ga": 29,
+          "points": 9
+        },
+        {
+          "position": 11,
+          "team": "Val. Polanka",
+          "played": 11,
+          "won": 3,
+          "drawn": 0,
+          "lost": 8,
+          "gf": 13,
+          "ga": 31,
+          "points": 9
+        },
+        {
+          "position": 12,
+          "team": "Bojkovice",
+          "played": 11,
+          "won": 1,
+          "drawn": 0,
+          "lost": 10,
+          "gf": 8,
+          "ga": 55,
+          "points": 3
+        }
+      ],
+      "scorers": []
+    },
+    {
+      "id": "mladsi-dorost",
+      "name": "Mladší dorost",
+      "category": "U17",
+      "competition": "4. liga mladší dorost",
+      "competitionUrl": "https://is.fotbal.cz/public/souteze/detail-souteze.aspx?req=ac190431-f8a9-455e-8970-ae903abb90ba&sport=fotbal",
+      "season": "2026/2027",
+      "description": "",
+      "matches": [
+        {
+          "round": 1,
+          "date": "2026-08-30T13:45:00+02:00",
+          "home": "Baťov",
+          "away": "Morkovice",
+          "score": [
+            1,
+            2
+          ],
+          "venue": "UT Baťov",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=1d9fad2e-830f-4043-82d3-4d17332a6661&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 2,
+          "date": "2026-09-05T12:15:00+02:00",
+          "home": "Morkovice",
+          "away": "Volno",
+          "score": [
+            0,
+            0
+          ],
+          "venue": "UT Morkovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=7749cded-fb6d-4dd9-ab02-9b2399fb91e0&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 4,
+          "date": "2026-09-19T12:15:00+02:00",
+          "home": "Morkovice",
+          "away": "Val. Meziříčí B",
+          "score": [
+            2,
+            1
+          ],
+          "venue": "UT Morkovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=add98b47-8340-4c81-b625-cee36b5cf651&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 5,
+          "date": "2026-09-26T12:30:00+02:00",
+          "home": "Lípa",
+          "away": "Morkovice",
+          "score": [
+            2,
+            1
+          ],
+          "venue": "Lípa",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=72bc7d0d-e3b3-4d4a-ade8-376ebb705efb&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 6,
+          "date": "2026-10-03T12:15:00+02:00",
+          "home": "Morkovice",
+          "away": "Ústí",
+          "score": [
+            2,
+            1
+          ],
+          "venue": "UT Morkovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=107a5a5b-22ba-4394-98cc-f7442030020c&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 7,
+          "date": "2026-10-11T12:30:00+02:00",
+          "home": "Újezdec-Uh. Brod B",
+          "away": "Morkovice",
+          "score": [
+            2,
+            5
+          ],
+          "venue": "Újezdec",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=515cc0b1-ad5b-41ea-ae43-ee6555b45d86&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 9,
+          "date": "2026-10-25T14:30:00+01:00",
+          "home": "Volno",
+          "away": "Morkovice",
+          "score": [
+            0,
+            0
+          ],
+          "venue": "Volno",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=42d53a40-aa80-4f4f-be0a-1b361123d885&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 3,
+          "date": "2026-10-28T10:00:00+01:00",
+          "home": "Huslenky",
+          "away": "Morkovice",
+          "score": [
+            0,
+            7
+          ],
+          "venue": "Huslenky",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=a82248ab-38a4-4dcb-9943-5d1e24133ee7&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 10,
+          "date": "2026-11-01T10:00:00+01:00",
+          "home": "Morkovice",
+          "away": "Huslenky",
+          "score": [
+            7,
+            0
+          ],
+          "venue": "UT Morkovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=ad95a545-3cbc-4a9c-abe7-cbcb742832bc&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 8,
+          "date": "2026-11-06T18:00:00+01:00",
+          "home": "Morkovice",
+          "away": "Baťov",
+          "score": [
+            1,
+            3
+          ],
+          "venue": "UT Morkovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=08d14ef1-db59-4df3-a2a4-baa360957433&zapis=1&hidemenu=1"
+        }
+      ],
+      "table": [
+        {
+          "position": 1,
+          "team": "Baťov",
+          "played": 9,
+          "won": 7,
+          "drawn": 0,
+          "lost": 2,
+          "gf": 47,
+          "ga": 11,
+          "points": 21
+        },
+        {
+          "position": 2,
+          "team": "Ústí",
+          "played": 9,
+          "won": 6,
+          "drawn": 1,
+          "lost": 2,
+          "gf": 41,
+          "ga": 14,
+          "points": 19
+        },
+        {
+          "position": 3,
+          "team": "Morkovice",
+          "played": 8,
+          "won": 6,
+          "drawn": 0,
+          "lost": 2,
+          "gf": 27,
+          "ga": 10,
+          "points": 18
+        },
+        {
+          "position": 4,
+          "team": "Val. Meziříčí B",
+          "played": 8,
+          "won": 3,
+          "drawn": 2,
+          "lost": 3,
+          "gf": 31,
+          "ga": 24,
+          "points": 11
+        },
+        {
+          "position": 5,
+          "team": "Lípa",
+          "played": 9,
+          "won": 2,
+          "drawn": 4,
+          "lost": 3,
+          "gf": 24,
+          "ga": 23,
+          "points": 10
+        },
+        {
+          "position": 6,
+          "team": "Újezdec-Uh. Brod B",
+          "played": 8,
+          "won": 1,
+          "drawn": 1,
+          "lost": 6,
+          "gf": 13,
+          "ga": 40,
+          "points": 4
+        },
+        {
+          "position": 7,
+          "team": "Huslenky",
+          "played": 9,
+          "won": 1,
+          "drawn": 0,
+          "lost": 8,
+          "gf": 11,
+          "ga": 72,
+          "points": 3
+        }
+      ],
+      "scorers": []
+    },
+    {
+      "id": "starsi-zaci",
+      "name": "Starší žáci",
+      "category": "U15",
+      "competition": "3. liga starší žáci",
+      "competitionUrl": "https://is.fotbal.cz/public/souteze/detail-souteze.aspx?req=37c2477f-821a-4d2b-a18e-21ae9dab405c&sport=fotbal",
+      "season": "2026/2027",
+      "description": "",
+      "matches": [
+        {
+          "round": 4,
+          "date": "2026-08-23T09:30:00+02:00",
+          "home": "Morkovice",
+          "away": "Staré Město",
+          "score": [
+            7,
+            2
+          ],
+          "venue": "UT Morkovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=2b39744c-84b5-4d43-932f-dadc41f0b564&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 5,
+          "date": "2026-08-29T09:30:00+02:00",
+          "home": "Holešov",
+          "away": "Morkovice",
+          "score": [
+            4,
+            10
+          ],
+          "venue": "Všetuly",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=4cb71798-5bec-484e-ac5e-f0377905df12&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 6,
+          "date": "2026-09-06T09:30:00+02:00",
+          "home": "Morkovice",
+          "away": "Kroměříž B",
+          "score": [
+            2,
+            4
+          ],
+          "venue": "UT Morkovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=3de8e3cc-94db-4d47-891b-9200b1e286c3&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 7,
+          "date": "2026-09-12T10:00:00+02:00",
+          "home": "Val. Meziříčí",
+          "away": "Morkovice",
+          "score": [
+            13,
+            2
+          ],
+          "venue": "Valašské Meziříčí",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=3a4c10c4-adc6-43a5-b67d-c90a20464878&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 8,
+          "date": "2026-09-20T09:30:00+02:00",
+          "home": "Morkovice",
+          "away": "Uh. Brod",
+          "score": [
+            0,
+            4
+          ],
+          "venue": "UT Morkovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=77113e88-8db9-4505-a5b2-fc803bbf6c5a&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 9,
+          "date": "2026-09-26T09:30:00+02:00",
+          "home": "Hluk",
+          "away": "Morkovice",
+          "score": [
+            4,
+            7
+          ],
+          "venue": "Hluk-tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=b5660ee0-b82e-47f7-bc1f-e479d6620cf1&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 10,
+          "date": "2026-10-04T09:30:00+02:00",
+          "home": "Morkovice",
+          "away": "SK Zlín",
+          "score": [
+            2,
+            5
+          ],
+          "venue": "UT Morkovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=1d8f3c2a-eaff-4c69-8db0-01378854bfbd&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 11,
+          "date": "2026-10-11T09:30:00+02:00",
+          "home": "FC Zlín B",
+          "away": "Morkovice",
+          "score": [
+            5,
+            2
+          ],
+          "venue": "UT Paseky",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=9ada5903-9bb0-4431-803f-3dbff5e853b1&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 12,
+          "date": "2026-10-18T09:30:00+02:00",
+          "home": "Morkovice",
+          "away": "Slavičín",
+          "score": [
+            10,
+            5
+          ],
+          "venue": "UT Morkovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=3aec9727-6543-4ddb-8de3-dea317408136&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 13,
+          "date": "2026-10-24T14:45:00+02:00",
+          "home": "Kunovice",
+          "away": "Morkovice",
+          "score": [
+            2,
+            5
+          ],
+          "venue": "UT Kunovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=834959ff-c014-41bd-97fd-5c03b85598bf&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 2,
+          "date": "2026-10-28T09:30:00+01:00",
+          "home": "Morkovice",
+          "away": "Vsetín",
+          "score": [
+            3,
+            8
+          ],
+          "venue": "UT Morkovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=570ec848-1ce6-4205-bc87-bcfa317ed35f&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 1,
+          "date": "2026-10-31T09:30:00+01:00",
+          "home": "Baťov",
+          "away": "Morkovice",
+          "score": [
+            5,
+            3
+          ],
+          "venue": "UT Baťov",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=14270fcb-6ab8-428f-98a8-b745df3be535&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 3,
+          "date": "2026-11-07T09:30:00+01:00",
+          "home": "Brumov-Štítná nVl",
+          "away": "Morkovice",
+          "score": [
+            2,
+            1
+          ],
+          "venue": "UT Štítná n/Vl.",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=78a80ac8-a288-4f56-b901-75be28251173&zapis=1&hidemenu=1"
+        }
+      ],
+      "table": [
+        {
+          "position": 1,
+          "team": "Val. Meziříčí",
+          "played": 12,
+          "won": 11,
+          "drawn": 1,
+          "lost": 0,
+          "gf": 109,
+          "ga": 12,
+          "points": 34
+        },
+        {
+          "position": 2,
+          "team": "FC Zlín B",
+          "played": 13,
+          "won": 9,
+          "drawn": 2,
+          "lost": 2,
+          "gf": 74,
+          "ga": 22,
+          "points": 29
+        },
+        {
+          "position": 3,
+          "team": "SK Zlín",
+          "played": 13,
+          "won": 9,
+          "drawn": 1,
+          "lost": 3,
+          "gf": 52,
+          "ga": 23,
+          "points": 28
+        },
+        {
+          "position": 4,
+          "team": "Hluk",
+          "played": 13,
+          "won": 9,
+          "drawn": 1,
+          "lost": 3,
+          "gf": 58,
+          "ga": 40,
+          "points": 28
+        },
+        {
+          "position": 5,
+          "team": "Kroměříž B",
+          "played": 13,
+          "won": 7,
+          "drawn": 2,
+          "lost": 4,
+          "gf": 54,
+          "ga": 30,
+          "points": 23
+        },
+        {
+          "position": 6,
+          "team": "Vsetín",
+          "played": 12,
+          "won": 6,
+          "drawn": 1,
+          "lost": 5,
+          "gf": 57,
+          "ga": 44,
+          "points": 19
+        },
+        {
+          "position": 7,
+          "team": "Baťov",
+          "played": 13,
+          "won": 6,
+          "drawn": 1,
+          "lost": 6,
+          "gf": 44,
+          "ga": 38,
+          "points": 19
+        },
+        {
+          "position": 8,
+          "team": "Staré Město",
+          "played": 13,
+          "won": 6,
+          "drawn": 0,
+          "lost": 7,
+          "gf": 47,
+          "ga": 53,
+          "points": 18
+        },
+        {
+          "position": 9,
+          "team": "Slavičín",
+          "played": 13,
+          "won": 5,
+          "drawn": 1,
+          "lost": 7,
+          "gf": 39,
+          "ga": 79,
+          "points": 16
+        },
+        {
+          "position": 10,
+          "team": "Morkovice",
+          "played": 13,
+          "won": 5,
+          "drawn": 0,
+          "lost": 8,
+          "gf": 54,
+          "ga": 63,
+          "points": 15
+        },
+        {
+          "position": 11,
+          "team": "Uh. Brod",
+          "played": 12,
+          "won": 5,
+          "drawn": 0,
+          "lost": 7,
+          "gf": 24,
+          "ga": 34,
+          "points": 15
+        },
+        {
+          "position": 12,
+          "team": "Brumov-Štítná nVl",
+          "played": 13,
+          "won": 3,
+          "drawn": 2,
+          "lost": 8,
+          "gf": 30,
+          "ga": 53,
+          "points": 11
+        },
+        {
+          "position": 13,
+          "team": "Kunovice",
+          "played": 12,
+          "won": 2,
+          "drawn": 0,
+          "lost": 10,
+          "gf": 28,
+          "ga": 83,
+          "points": 6
+        },
+        {
+          "position": 14,
+          "team": "Holešov",
+          "played": 13,
+          "won": 0,
+          "drawn": 0,
+          "lost": 13,
+          "gf": 14,
+          "ga": 110,
+          "points": 0
+        }
+      ],
+      "scorers": []
+    },
+    {
+      "id": "mladsi-zaci",
+      "name": "Mladší žáci",
+      "category": "U13",
+      "competition": "3. liga mladší žáci",
+      "competitionUrl": "https://is.fotbal.cz/public/souteze/detail-souteze.aspx?req=85af195f-c796-415b-8252-0f57c8ff8a71&sport=fotbal",
+      "season": "2026/2027",
+      "description": "",
+      "matches": [
+        {
+          "round": 4,
+          "date": "2026-08-23T11:15:00+02:00",
+          "home": "Morkovice",
+          "away": "Staré Město",
+          "score": [
+            0,
+            3
+          ],
+          "venue": "UT Morkovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=74334610-13c9-447f-a9b5-37951511a879&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 5,
+          "date": "2026-08-29T11:15:00+02:00",
+          "home": "Holešov",
+          "away": "Morkovice",
+          "score": [
+            4,
+            1
+          ],
+          "venue": "Všetuly",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=5f244a59-03c9-4ca6-bb5a-6af311df2d1a&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 6,
+          "date": "2026-09-06T11:15:00+02:00",
+          "home": "Morkovice",
+          "away": "Kroměříž B",
+          "score": [
+            3,
+            4
+          ],
+          "venue": "UT Morkovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=4650599c-5185-40cb-9af6-af754d0fb8c7&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 7,
+          "date": "2026-09-12T12:00:00+02:00",
+          "home": "Val. Meziříčí",
+          "away": "Morkovice",
+          "score": [
+            5,
+            2
+          ],
+          "venue": "Valašské Meziříčí",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=114dedd1-e2a0-4e58-8090-e9401007f4a7&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 8,
+          "date": "2026-09-20T11:15:00+02:00",
+          "home": "Morkovice",
+          "away": "Uh. Brod",
+          "score": [
+            0,
+            3
+          ],
+          "venue": "UT Morkovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=fe849c67-40ee-4c42-b2cf-28696e67b9ce&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 9,
+          "date": "2026-09-26T11:15:00+02:00",
+          "home": "Hluk",
+          "away": "Morkovice",
+          "score": [
+            11,
+            0
+          ],
+          "venue": "Hluk-tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=aac30239-0c60-4206-bc68-6361d54e0712&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 10,
+          "date": "2026-10-04T11:15:00+02:00",
+          "home": "Morkovice",
+          "away": "SK Zlín",
+          "score": [
+            1,
+            10
+          ],
+          "venue": "UT Morkovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=695770b5-3ea0-4720-8758-fe537e733f4f&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 11,
+          "date": "2026-10-11T11:15:00+02:00",
+          "home": "FC Zlín B",
+          "away": "Morkovice",
+          "score": [
+            2,
+            2
+          ],
+          "venue": "UT Paseky",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=37ac61a8-b264-4150-92d6-0769a073fb29&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 12,
+          "date": "2026-10-18T11:15:00+02:00",
+          "home": "Morkovice",
+          "away": "Slavičín",
+          "score": [
+            5,
+            5
+          ],
+          "venue": "UT Morkovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=a6894fcc-43f0-4e9f-9df3-1e8c430d314c&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 13,
+          "date": "2026-10-24T16:30:00+02:00",
+          "home": "Kunovice",
+          "away": "Morkovice",
+          "score": [
+            15,
+            2
+          ],
+          "venue": "UT Kunovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=2554c9bd-d74a-4944-8a29-15680c9c42f5&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 2,
+          "date": "2026-10-28T11:15:00+01:00",
+          "home": "Morkovice",
+          "away": "Vsetín",
+          "score": [
+            1,
+            7
+          ],
+          "venue": "UT Morkovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=c5ae7d49-7274-4127-9307-9d0f59fb0c4f&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 1,
+          "date": "2026-10-31T11:15:00+01:00",
+          "home": "Baťov",
+          "away": "Morkovice",
+          "score": [
+            6,
+            1
+          ],
+          "venue": "UT Baťov",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=a59a77c6-8217-449f-8b58-d89a07920699&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 3,
+          "date": "2026-11-07T11:15:00+01:00",
+          "home": "Brumov",
+          "away": "Morkovice",
+          "score": [
+            15,
+            1
+          ],
+          "venue": "UT Štítná n/Vl.",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=50ea61b7-3d44-4ae9-9e4b-74f9510fb66f&zapis=1&hidemenu=1"
+        }
+      ],
+      "table": [
+        {
+          "position": 1,
+          "team": "Hluk",
+          "played": 13,
+          "won": 11,
+          "drawn": 0,
+          "lost": 2,
+          "gf": 88,
+          "ga": 32,
+          "points": 33
+        },
+        {
+          "position": 2,
+          "team": "FC Zlín B",
+          "played": 13,
+          "won": 10,
+          "drawn": 1,
+          "lost": 2,
+          "gf": 80,
+          "ga": 24,
+          "points": 31
+        },
+        {
+          "position": 3,
+          "team": "Val. Meziříčí",
+          "played": 12,
+          "won": 10,
+          "drawn": 1,
+          "lost": 1,
+          "gf": 90,
+          "ga": 38,
+          "points": 31
+        },
+        {
+          "position": 4,
+          "team": "Staré Město",
+          "played": 13,
+          "won": 10,
+          "drawn": 0,
+          "lost": 3,
+          "gf": 67,
+          "ga": 26,
+          "points": 30
+        },
+        {
+          "position": 5,
+          "team": "Uh. Brod",
+          "played": 12,
+          "won": 8,
+          "drawn": 1,
+          "lost": 3,
+          "gf": 38,
+          "ga": 14,
+          "points": 25
+        },
+        {
+          "position": 6,
+          "team": "Kunovice",
+          "played": 12,
+          "won": 7,
+          "drawn": 0,
+          "lost": 5,
+          "gf": 74,
+          "ga": 43,
+          "points": 21
+        },
+        {
+          "position": 7,
+          "team": "Kroměříž B",
+          "played": 13,
+          "won": 7,
+          "drawn": 0,
+          "lost": 6,
+          "gf": 45,
+          "ga": 51,
+          "points": 21
+        },
+        {
+          "position": 8,
+          "team": "Vsetín",
+          "played": 12,
+          "won": 5,
+          "drawn": 2,
+          "lost": 5,
+          "gf": 51,
+          "ga": 46,
+          "points": 17
+        },
+        {
+          "position": 9,
+          "team": "Holešov",
+          "played": 13,
+          "won": 5,
+          "drawn": 1,
+          "lost": 7,
+          "gf": 39,
+          "ga": 53,
+          "points": 16
+        },
+        {
+          "position": 10,
+          "team": "Brumov",
+          "played": 13,
+          "won": 4,
+          "drawn": 1,
+          "lost": 8,
+          "gf": 72,
+          "ga": 58,
+          "points": 13
+        },
+        {
+          "position": 11,
+          "team": "SK Zlín",
+          "played": 13,
+          "won": 3,
+          "drawn": 2,
+          "lost": 8,
+          "gf": 56,
+          "ga": 58,
+          "points": 11
+        },
+        {
+          "position": 12,
+          "team": "Baťov",
+          "played": 13,
+          "won": 3,
+          "drawn": 0,
+          "lost": 10,
+          "gf": 25,
+          "ga": 79,
+          "points": 9
+        },
+        {
+          "position": 13,
+          "team": "Morkovice",
+          "played": 13,
+          "won": 0,
+          "drawn": 2,
+          "lost": 11,
+          "gf": 19,
+          "ga": 90,
+          "points": 2
+        },
+        {
+          "position": 14,
+          "team": "Slavičín",
+          "played": 13,
+          "won": 0,
+          "drawn": 1,
+          "lost": 12,
+          "gf": 23,
+          "ga": 155,
+          "points": 1
+        }
+      ],
+      "scorers": []
+    },
+    {
+      "id": "starsi-pripravka",
+      "name": "Starší přípravka",
+      "category": "U11",
+      "competition": "1. liga starší přípravky sk. A-1",
+      "competitionUrl": "https://is.fotbal.cz/public/souteze/detail-souteze.aspx?req=911f11f9-34b5-4084-93fc-8dff556fcefa&sport=fotbal",
+      "season": "2026/2027",
+      "description": "",
+      "matches": [
+        {
+          "round": 2,
+          "date": "2026-09-07T17:00:00+02:00",
+          "home": "Holešov",
+          "away": "Morkovice",
+          "score": null,
+          "venue": "Všetuly",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=7704a34b-6d08-404c-b22d-957d2c3f816c&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 3,
+          "date": "2026-09-14T17:00:00+02:00",
+          "home": "Morkovice",
+          "away": "Bystřice pH",
+          "score": null,
+          "venue": "UT Morkovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=cfd82b38-c60b-488d-9766-01b05386b66d&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 4,
+          "date": "2026-09-21T17:00:00+02:00",
+          "home": "Chropyně",
+          "away": "Morkovice",
+          "score": null,
+          "venue": "UT Chropyně",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=07532d07-e8b9-4fc8-9176-421b1e119215&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 5,
+          "date": "2026-09-28T17:00:00+02:00",
+          "home": "Morkovice",
+          "away": "Bezměrov",
+          "score": null,
+          "venue": "UT Morkovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=caea3363-754a-43bc-b19b-b137e25fa63d&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 1,
+          "date": "2026-10-05T17:00:00+02:00",
+          "home": "Morkovice",
+          "away": "Kroměříž A",
+          "score": null,
+          "venue": "UT Morkovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=d7df1d9a-89d0-44c2-bcb7-5ee7cee1f04b&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 6,
+          "date": "2026-10-12T17:45:00+02:00",
+          "home": "Kroměříž A",
+          "away": "Morkovice",
+          "score": null,
+          "venue": "UMT Kroměříž",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=7a7d3c49-ba28-4e35-941f-7a098b0e39b2&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 7,
+          "date": "2026-10-19T17:00:00+02:00",
+          "home": "Morkovice",
+          "away": "Holešov",
+          "score": null,
+          "venue": "UT Morkovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=b5d89de8-6849-4a13-a97e-c4c0d0d536b2&zapis=1&hidemenu=1",
+          "played": true
+        }
+      ],
+      "table": [],
+      "scorers": []
+    },
+    {
+      "id": "starsi-pripravka-2",
+      "name": "Starší přípravka (A-2)",
+      "category": "U11",
+      "competition": "1. liga starší přípravky sk. A-2",
+      "competitionUrl": "https://is.fotbal.cz/public/souteze/detail-souteze.aspx?req=8982434c-7db3-4583-a816-8d94769a896e&sport=fotbal",
+      "season": "2026/2027",
+      "description": "",
+      "matches": [
+        {
+          "round": 2,
+          "date": "2026-09-07T17:00:00+02:00",
+          "home": "Holešov",
+          "away": "Morkovice",
+          "score": null,
+          "venue": "Všetuly",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=ad960d9d-8600-4e93-b815-01e606edd7a9&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 3,
+          "date": "2026-09-14T17:00:00+02:00",
+          "home": "Morkovice",
+          "away": "Bystřice pH",
+          "score": null,
+          "venue": "UT Morkovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=73c9ffb6-3a11-4a74-970a-c817bde75dfe&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 4,
+          "date": "2026-09-21T17:00:00+02:00",
+          "home": "Chropyně",
+          "away": "Morkovice",
+          "score": null,
+          "venue": "UT Chropyně",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=d1b91111-2fcc-4f97-ab13-41b715efb33a&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 5,
+          "date": "2026-09-28T17:00:00+02:00",
+          "home": "Morkovice",
+          "away": "Bezměrov",
+          "score": null,
+          "venue": "UT Morkovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=12dc111a-34c8-41f5-9e80-cd5d346d1260&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 1,
+          "date": "2026-10-05T17:00:00+02:00",
+          "home": "Morkovice",
+          "away": "Kroměříž A",
+          "score": null,
+          "venue": "UT Morkovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=483e3eff-7b18-4dab-807a-c65f3114ed67&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 6,
+          "date": "2026-10-12T17:45:00+02:00",
+          "home": "Kroměříž A",
+          "away": "Morkovice",
+          "score": null,
+          "venue": "UMT Kroměříž",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=86035c7b-ad0d-4372-82d0-316cf58330c3&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 7,
+          "date": "2026-10-19T17:00:00+02:00",
+          "home": "Morkovice",
+          "away": "Holešov",
+          "score": null,
+          "venue": "UT Morkovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=761e2fdb-2084-48bb-8161-8041c291d87b&zapis=1&hidemenu=1",
+          "played": true
+        }
+      ],
+      "table": [],
+      "scorers": []
+    },
+    {
+      "id": "mladsi-pripravka",
+      "name": "Mladší přípravka",
+      "category": "U9",
+      "competition": "1. liga mladší přípravky sk. A-1",
+      "competitionUrl": "https://is.fotbal.cz/public/souteze/detail-souteze.aspx?req=47da8475-2357-4e79-a57d-78eeb77672bb&sport=fotbal",
+      "season": "2026/2027",
+      "description": "",
+      "matches": [
+        {
+          "round": 2,
+          "date": "2026-09-07T17:00:00+02:00",
+          "home": "Holešov",
+          "away": "Morkovice",
+          "score": null,
+          "venue": "Všetuly",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=ee2517a8-63b5-428e-8e4b-f7d94b2bb914&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 3,
+          "date": "2026-09-14T17:00:00+02:00",
+          "home": "Morkovice",
+          "away": "Bystřice pH",
+          "score": null,
+          "venue": "UT Morkovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=166ef268-879e-4ab1-a37a-0212f8e1ad42&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 4,
+          "date": "2026-09-21T17:00:00+02:00",
+          "home": "Chropyně",
+          "away": "Morkovice",
+          "score": null,
+          "venue": "UT Chropyně",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=08ead77f-ef0e-4a39-8f26-86461995f7b6&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 5,
+          "date": "2026-09-28T17:00:00+02:00",
+          "home": "Morkovice",
+          "away": "Bezměrov",
+          "score": null,
+          "venue": "UT Morkovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=23d672b5-6910-4745-a773-4f05530b7a1a&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 1,
+          "date": "2026-10-05T17:00:00+02:00",
+          "home": "Morkovice",
+          "away": "Kroměříž A",
+          "score": null,
+          "venue": "UT Morkovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=1fbe1859-76fe-4423-829f-761e1f37f057&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 6,
+          "date": "2026-10-12T17:45:00+02:00",
+          "home": "Kroměříž A",
+          "away": "Morkovice",
+          "score": null,
+          "venue": "UMT Kroměříž",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=e5ba6195-0b76-4ee7-a720-6b382b1044bd&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 7,
+          "date": "2026-10-19T17:00:00+02:00",
+          "home": "Morkovice",
+          "away": "Holešov",
+          "score": null,
+          "venue": "UT Morkovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=f85be193-db51-4246-b4a6-8af28271453f&zapis=1&hidemenu=1",
+          "played": true
+        }
+      ],
+      "table": [],
+      "scorers": []
+    },
+    {
+      "id": "mladsi-pripravka-2",
+      "name": "Mladší přípravka (A-2)",
+      "category": "U9",
+      "competition": "1. liga mladší přípravky sk. A-2",
+      "competitionUrl": "https://is.fotbal.cz/public/souteze/detail-souteze.aspx?req=8d2f7dd2-6af4-4664-9460-a15deb3b8b79&sport=fotbal",
+      "season": "2026/2027",
+      "description": "",
+      "matches": [
+        {
+          "round": 2,
+          "date": "2026-09-07T17:00:00+02:00",
+          "home": "Holešov",
+          "away": "Morkovice",
+          "score": null,
+          "venue": "Všetuly",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=b196c896-4ad6-439f-bf1c-8b6e34a279dc&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 3,
+          "date": "2026-09-14T17:00:00+02:00",
+          "home": "Morkovice",
+          "away": "Bystřice pH",
+          "score": null,
+          "venue": "UT Morkovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=928225bc-be20-4749-bb1a-0d794cdd2d2a&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 4,
+          "date": "2026-09-21T17:00:00+02:00",
+          "home": "Chropyně",
+          "away": "Morkovice",
+          "score": null,
+          "venue": "UT Chropyně",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=776971e2-422a-42c7-acf5-bf572722c018&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 5,
+          "date": "2026-09-28T17:00:00+02:00",
+          "home": "Morkovice",
+          "away": "Bezměrov",
+          "score": null,
+          "venue": "UT Morkovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=6b912641-d33a-415a-b169-162af60ab201&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 1,
+          "date": "2026-10-05T17:00:00+02:00",
+          "home": "Morkovice",
+          "away": "Kroměříž A",
+          "score": null,
+          "venue": "UT Morkovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=bd2c07e6-3303-4bfb-9130-3ddca3e6c346&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 6,
+          "date": "2026-10-12T17:45:00+02:00",
+          "home": "Kroměříž A",
+          "away": "Morkovice",
+          "score": null,
+          "venue": "UMT Kroměříž",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=3224f8ac-6988-4cb1-9563-109ab4f01827&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 7,
+          "date": "2026-10-19T17:00:00+02:00",
+          "home": "Morkovice",
+          "away": "Holešov",
+          "score": null,
+          "venue": "UT Morkovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=ebe51011-759f-4f86-9b7a-7fd722bf9cf0&zapis=1&hidemenu=1",
+          "played": true
+        }
+      ],
+      "table": [],
+      "scorers": []
+    }
+  ]
+}

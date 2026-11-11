@@ -1,0 +1,1645 @@
+{
+  "source": "facr",
+  "updatedAt": "2026-11-10T23:00:07+01:00",
+  "club": {
+    "name": "FK Chropyně",
+    "official": "Fotbalový klub Chropyně, z.s.",
+    "shortName": "Chropyně",
+    "brand": "FK Chropyně",
+    "hero": [
+      "FK",
+      "Chropyně"
+    ],
+    "founded": null,
+    "logo": "",
+    "logoShape": "shield",
+    "colors": {},
+    "stadium": "",
+    "email": "",
+    "facebook": "",
+    "tagline": "Zápasy, výsledky a tabulky všech našich týmů na jednom místě.",
+    "facr": {
+      "number": "7210561",
+      "isId": "3383",
+      "match": [
+        "Chropyně"
+      ]
+    }
+  },
+  "teams": [
+    {
+      "id": "muzi",
+      "name": "Muži A",
+      "category": "Dospělí",
+      "competition": "7. liga, sk. C",
+      "competitionUrl": "https://is.fotbal.cz/public/souteze/detail-souteze.aspx?req=d1e0f817-6286-4337-9d2c-b3f0a103a16d&sport=fotbal",
+      "season": "2026/2027",
+      "description": "",
+      "matches": [
+        {
+          "round": 2,
+          "date": "2026-08-08T17:00:00+02:00",
+          "home": "Chropyně",
+          "away": "O. N. Ves",
+          "score": [
+            2,
+            4
+          ],
+          "venue": "Chropyně,tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=11e540c0-c50b-4180-9a62-73abe25d06d4&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 3,
+          "date": "2026-08-16T16:30:00+02:00",
+          "home": "Morkovice B",
+          "away": "Chropyně",
+          "score": [
+            5,
+            1
+          ],
+          "venue": "Morkovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=78b94d83-285d-4e36-be30-bb5370d710c4&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 4,
+          "date": "2026-08-22T16:30:00+02:00",
+          "home": "Chropyně",
+          "away": "Polešovice",
+          "score": [
+            2,
+            0
+          ],
+          "venue": "Chropyně,tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=865e25c9-6069-4a41-885e-7ef347c1ae20&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 5,
+          "date": "2026-08-29T16:30:00+02:00",
+          "home": "Huštěnovice",
+          "away": "Chropyně",
+          "score": [
+            5,
+            2
+          ],
+          "venue": "Huštěnovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=e48a9715-07da-42e4-a25d-1ffa84f0526e&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 6,
+          "date": "2026-09-06T16:00:00+02:00",
+          "home": "Šumice",
+          "away": "Chropyně",
+          "score": [
+            2,
+            5
+          ],
+          "venue": "Šumice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=6e4d79a6-f1ec-4899-b50c-e9620967c783&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 7,
+          "date": "2026-09-12T16:00:00+02:00",
+          "home": "Chropyně",
+          "away": "Uh. Ostroh",
+          "score": [
+            3,
+            5
+          ],
+          "venue": "Chropyně,tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=1d46a346-2c02-490a-bc97-0ec52e7b51d9&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 8,
+          "date": "2026-09-20T15:30:00+02:00",
+          "home": "Strání B",
+          "away": "Chropyně",
+          "score": [
+            3,
+            1
+          ],
+          "venue": "Strání-tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=be03477e-67d2-48dd-9385-155424164596&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 9,
+          "date": "2026-09-26T15:30:00+02:00",
+          "home": "Chropyně",
+          "away": "FC Slovácko C",
+          "score": [
+            1,
+            2
+          ],
+          "venue": "Chropyně,tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=dced7832-00de-4352-afca-4792aa75dcb7&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 10,
+          "date": "2026-10-04T15:00:00+02:00",
+          "home": "Prakšice",
+          "away": "Chropyně",
+          "score": [
+            2,
+            1
+          ],
+          "venue": "Prakšice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=a889eaac-7f93-41fc-8f69-bc610a821de6&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 11,
+          "date": "2026-10-10T15:00:00+02:00",
+          "home": "Chropyně",
+          "away": "Koryčany",
+          "score": [
+            2,
+            5
+          ],
+          "venue": "Chropyně,tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=eb2d8033-60b8-4295-8044-8240bcbf05a7&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 12,
+          "date": "2026-10-17T14:30:00+02:00",
+          "home": "Javořina",
+          "away": "Chropyně",
+          "score": [
+            1,
+            4
+          ],
+          "venue": "Slavkov",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=105daced-2466-4bed-bef6-2d332b1528a4&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 13,
+          "date": "2026-10-24T14:30:00+02:00",
+          "home": "Chropyně",
+          "away": "Vlčnov",
+          "score": [
+            4,
+            1
+          ],
+          "venue": "Chropyně,tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=871ddd6f-ec1d-4185-b35e-bc06f9ceeb01&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 1,
+          "date": "2026-10-31T14:30:00+01:00",
+          "home": "Hluk B",
+          "away": "Chropyně",
+          "score": [
+            1,
+            2
+          ],
+          "venue": "Hluk-tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=183bb3a7-e81d-4d20-94ad-28b78caab78b&zapis=1&hidemenu=1"
+        }
+      ],
+      "table": [
+        {
+          "position": 1,
+          "team": "Koryčany",
+          "played": 13,
+          "won": 12,
+          "drawn": 0,
+          "lost": 1,
+          "gf": 44,
+          "ga": 18,
+          "points": 36
+        },
+        {
+          "position": 2,
+          "team": "Strání B",
+          "played": 13,
+          "won": 8,
+          "drawn": 2,
+          "lost": 3,
+          "gf": 35,
+          "ga": 12,
+          "points": 26
+        },
+        {
+          "position": 3,
+          "team": "Uh. Ostroh",
+          "played": 13,
+          "won": 8,
+          "drawn": 1,
+          "lost": 4,
+          "gf": 31,
+          "ga": 20,
+          "points": 25
+        },
+        {
+          "position": 4,
+          "team": "Prakšice",
+          "played": 13,
+          "won": 7,
+          "drawn": 2,
+          "lost": 4,
+          "gf": 24,
+          "ga": 22,
+          "points": 23
+        },
+        {
+          "position": 5,
+          "team": "FC Slovácko C",
+          "played": 13,
+          "won": 6,
+          "drawn": 3,
+          "lost": 4,
+          "gf": 28,
+          "ga": 25,
+          "points": 21
+        },
+        {
+          "position": 6,
+          "team": "Vlčnov",
+          "played": 13,
+          "won": 6,
+          "drawn": 2,
+          "lost": 5,
+          "gf": 30,
+          "ga": 22,
+          "points": 20
+        },
+        {
+          "position": 7,
+          "team": "Polešovice",
+          "played": 13,
+          "won": 6,
+          "drawn": 2,
+          "lost": 5,
+          "gf": 26,
+          "ga": 24,
+          "points": 20
+        },
+        {
+          "position": 8,
+          "team": "Javořina",
+          "played": 13,
+          "won": 5,
+          "drawn": 4,
+          "lost": 4,
+          "gf": 23,
+          "ga": 21,
+          "points": 19
+        },
+        {
+          "position": 9,
+          "team": "Huštěnovice",
+          "played": 13,
+          "won": 5,
+          "drawn": 2,
+          "lost": 6,
+          "gf": 25,
+          "ga": 27,
+          "points": 17
+        },
+        {
+          "position": 10,
+          "team": "Chropyně",
+          "played": 13,
+          "won": 5,
+          "drawn": 0,
+          "lost": 8,
+          "gf": 30,
+          "ga": 36,
+          "points": 15
+        },
+        {
+          "position": 11,
+          "team": "O. N. Ves",
+          "played": 13,
+          "won": 3,
+          "drawn": 2,
+          "lost": 8,
+          "gf": 18,
+          "ga": 28,
+          "points": 11
+        },
+        {
+          "position": 12,
+          "team": "Hluk B",
+          "played": 13,
+          "won": 2,
+          "drawn": 4,
+          "lost": 7,
+          "gf": 23,
+          "ga": 35,
+          "points": 10
+        },
+        {
+          "position": 13,
+          "team": "Morkovice B",
+          "played": 13,
+          "won": 2,
+          "drawn": 3,
+          "lost": 8,
+          "gf": 28,
+          "ga": 50,
+          "points": 9
+        },
+        {
+          "position": 14,
+          "team": "Šumice",
+          "played": 13,
+          "won": 2,
+          "drawn": 1,
+          "lost": 10,
+          "gf": 21,
+          "ga": 46,
+          "points": 7
+        }
+      ],
+      "scorers": []
+    },
+    {
+      "id": "dorost",
+      "name": "Starší dorost",
+      "category": "U19",
+      "competition": "4.liga staršího dorostu KP",
+      "competitionUrl": "https://is.fotbal.cz/public/souteze/detail-souteze.aspx?req=a8dacbb5-0568-409b-9331-0e90f954d8c5&sport=fotbal",
+      "season": "2026/2027",
+      "description": "",
+      "matches": [
+        {
+          "round": 4,
+          "date": "2026-08-23T10:00:00+02:00",
+          "home": "FK Chropyně",
+          "away": "FK KOZLOVICE",
+          "score": [
+            6,
+            3
+          ],
+          "venue": "Chropyně,tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=5bfd3b14-4bfb-48ec-9694-c83225bf1536&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 1,
+          "date": "2026-08-26T16:30:00+02:00",
+          "home": "FK Slavonín",
+          "away": "FK Chropyně",
+          "score": [
+            2,
+            3
+          ],
+          "venue": "Slavonín,tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=35d0f43e-c386-4432-9aac-5bca8b3321f4&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 5,
+          "date": "2026-08-30T10:00:00+02:00",
+          "home": "FK ŠTERNBERK",
+          "away": "FK Chropyně",
+          "score": [
+            4,
+            1
+          ],
+          "venue": "Mladějovice 190",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=3e5d987a-6247-41c7-9dab-bf3e6cca80be&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 2,
+          "date": "2026-09-02T16:30:00+02:00",
+          "home": "FK Chropyně",
+          "away": "Sokol Velký Týnec",
+          "score": [
+            4,
+            2
+          ],
+          "venue": "Chropyně,tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=6d76b2c2-d9ea-4dff-81c7-a4b0b6e3092f&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 6,
+          "date": "2026-09-06T10:00:00+02:00",
+          "home": "FK Chropyně",
+          "away": "SK Hranice \"B\"",
+          "score": [
+            2,
+            3
+          ],
+          "venue": "Chropyně,tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=c51db2f3-de4a-4bbc-8382-fb07382f3a53&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 7,
+          "date": "2026-09-13T13:30:00+02:00",
+          "home": "Tatran Litovel-Haňovice",
+          "away": "FK Chropyně",
+          "score": [
+            1,
+            7
+          ],
+          "venue": "Haňovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=4474706c-f6c5-4d12-b28e-59260dd01931&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 8,
+          "date": "2026-09-17T17:00:00+02:00",
+          "home": "FK Chropyně",
+          "away": "Milo Olomouc-Nové Sady",
+          "score": [
+            3,
+            8
+          ],
+          "venue": "Chropyně,tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=7f65c8eb-a4d0-4765-bf0c-4e6b7cccba2b&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 9,
+          "date": "2026-09-28T10:00:00+02:00",
+          "home": "Chválkovice- Dolany",
+          "away": "FK Chropyně",
+          "score": [
+            1,
+            9
+          ],
+          "venue": "Dolany",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=6287d6c9-d1e5-49ba-b85b-2ab2b078c957&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 10,
+          "date": "2026-10-04T10:00:00+02:00",
+          "home": "FK Chropyně",
+          "away": "Sokol Nový Malín",
+          "score": [
+            4,
+            2
+          ],
+          "venue": "Chropyně,tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=b856f09a-d0a9-4b28-97f3-3f9f0a76db7b&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 11,
+          "date": "2026-10-11T10:00:00+02:00",
+          "home": "FK MOHELNICE",
+          "away": "FK Chropyně",
+          "score": [
+            2,
+            2
+          ],
+          "venue": "Mohelnice,tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=9d9e6607-e5bb-43d1-8ac1-caf08dd57965&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 12,
+          "date": "2026-10-18T10:00:00+02:00",
+          "home": "FK Chropyně",
+          "away": "TATRAN Všechovice",
+          "score": [
+            0,
+            0
+          ],
+          "venue": "Chropyně,tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=b9742350-b814-49f4-9c90-cac80e46ee37&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 13,
+          "date": "2026-10-25T10:00:00+01:00",
+          "home": "Sokol Čechovice",
+          "away": "FK Chropyně",
+          "score": [
+            3,
+            5
+          ],
+          "venue": "Čechovice, tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=086d1d67-b792-4992-a4b2-feaa5ee97da0&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 3,
+          "date": "2026-10-28T10:00:00+01:00",
+          "home": "FK Velká Bystřice",
+          "away": "FK Chropyně",
+          "score": [
+            4,
+            2
+          ],
+          "venue": "Na Letné 766",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=7349c2ac-5690-4e21-b38a-968547bcdeb7&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 14,
+          "date": "2026-11-01T10:00:00+01:00",
+          "home": "Slovan Černovír",
+          "away": "FK Chropyně",
+          "score": [
+            1,
+            7
+          ],
+          "venue": "Tvrdíkova 10,tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=d2809b7a-2278-4862-9cab-57b3bbc2bff6&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 15,
+          "date": "2026-11-08T10:00:00+01:00",
+          "home": "FK Chropyně",
+          "away": "FK WAREX Jeseník",
+          "score": [
+            5,
+            2
+          ],
+          "venue": "Chropyně,tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=498ab92e-38da-49b4-abaa-1789b2cb310c&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 16,
+          "date": "2027-03-07T10:00:00+01:00",
+          "home": "FK Chropyně",
+          "away": "FK Slavonín",
+          "score": null,
+          "venue": "Chropyně,tráva",
+          "report": null
+        },
+        {
+          "round": 17,
+          "date": "2027-03-14T10:00:00+01:00",
+          "home": "Sokol Velký Týnec",
+          "away": "FK Chropyně",
+          "score": null,
+          "venue": "Velký Týnec,tráva",
+          "report": null
+        },
+        {
+          "round": 18,
+          "date": "2027-03-21T10:00:00+01:00",
+          "home": "FK Chropyně",
+          "away": "FK Velká Bystřice",
+          "score": null,
+          "venue": "Chropyně,tráva",
+          "report": null
+        },
+        {
+          "round": 19,
+          "date": "2027-03-28T10:00:00+02:00",
+          "home": "FK KOZLOVICE",
+          "away": "FK Chropyně",
+          "score": null,
+          "venue": "Kozlovice-tráva",
+          "report": null
+        },
+        {
+          "round": 20,
+          "date": "2027-04-04T10:00:00+02:00",
+          "home": "FK Chropyně",
+          "away": "FK ŠTERNBERK",
+          "score": null,
+          "venue": "Chropyně,tráva",
+          "report": null
+        },
+        {
+          "round": 21,
+          "date": "2027-04-11T10:00:00+02:00",
+          "home": "SK Hranice \"B\"",
+          "away": "FK Chropyně",
+          "score": null,
+          "venue": "Hranice-tráva",
+          "report": null
+        },
+        {
+          "round": 22,
+          "date": "2027-04-18T10:00:00+02:00",
+          "home": "FK Chropyně",
+          "away": "Tatran Litovel-Haňovice",
+          "score": null,
+          "venue": "Chropyně,tráva",
+          "report": null
+        },
+        {
+          "round": 23,
+          "date": "2027-04-25T10:00:00+02:00",
+          "home": "Milo Olomouc-Nové Sady",
+          "away": "FK Chropyně",
+          "score": null,
+          "venue": "Nové Sady-tráva",
+          "report": null
+        },
+        {
+          "round": 24,
+          "date": "2027-05-02T10:00:00+02:00",
+          "home": "FK Chropyně",
+          "away": "Chválkovice- Dolany",
+          "score": null,
+          "venue": "Chropyně,tráva",
+          "report": null
+        },
+        {
+          "round": 25,
+          "date": "2027-05-09T10:00:00+02:00",
+          "home": "Sokol Nový Malín",
+          "away": "FK Chropyně",
+          "score": null,
+          "venue": "Nový Malín",
+          "report": null
+        },
+        {
+          "round": 26,
+          "date": "2027-05-16T10:00:00+02:00",
+          "home": "FK Chropyně",
+          "away": "FK MOHELNICE",
+          "score": null,
+          "venue": "Chropyně,tráva",
+          "report": null
+        },
+        {
+          "round": 27,
+          "date": "2027-05-23T10:00:00+02:00",
+          "home": "TATRAN Všechovice",
+          "away": "FK Chropyně",
+          "score": null,
+          "venue": "Loukov",
+          "report": null
+        },
+        {
+          "round": 28,
+          "date": "2027-05-30T10:00:00+02:00",
+          "home": "FK Chropyně",
+          "away": "Sokol Čechovice",
+          "score": null,
+          "venue": "Chropyně,tráva",
+          "report": null
+        },
+        {
+          "round": 29,
+          "date": "2027-06-06T10:00:00+02:00",
+          "home": "FK Chropyně",
+          "away": "Slovan Černovír",
+          "score": null,
+          "venue": "Chropyně,tráva",
+          "report": null
+        },
+        {
+          "round": 30,
+          "date": "2027-06-13T10:00:00+02:00",
+          "home": "FK WAREX Jeseník",
+          "away": "FK Chropyně",
+          "score": null,
+          "venue": "Jeseník,tráva",
+          "report": null
+        }
+      ],
+      "table": [
+        {
+          "position": 1,
+          "team": "FK ŠTERNBERK",
+          "played": 14,
+          "won": 11,
+          "drawn": 0,
+          "lost": 3,
+          "gf": 45,
+          "ga": 23,
+          "points": 34
+        },
+        {
+          "position": 2,
+          "team": "FK WAREX Jeseník",
+          "played": 14,
+          "won": 11,
+          "drawn": 0,
+          "lost": 3,
+          "gf": 62,
+          "ga": 18,
+          "points": 33
+        },
+        {
+          "position": 3,
+          "team": "Sokol Čechovice",
+          "played": 14,
+          "won": 10,
+          "drawn": 0,
+          "lost": 4,
+          "gf": 56,
+          "ga": 22,
+          "points": 30
+        },
+        {
+          "position": 4,
+          "team": "FK Velká Bystřice",
+          "played": 14,
+          "won": 10,
+          "drawn": 0,
+          "lost": 4,
+          "gf": 60,
+          "ga": 32,
+          "points": 29
+        },
+        {
+          "position": 5,
+          "team": "FK Chropyně",
+          "played": 14,
+          "won": 9,
+          "drawn": 0,
+          "lost": 5,
+          "gf": 60,
+          "ga": 38,
+          "points": 28
+        },
+        {
+          "position": 6,
+          "team": "Sokol Nový Malín",
+          "played": 14,
+          "won": 9,
+          "drawn": 0,
+          "lost": 5,
+          "gf": 41,
+          "ga": 32,
+          "points": 27
+        },
+        {
+          "position": 7,
+          "team": "Sokol Velký Týnec",
+          "played": 14,
+          "won": 8,
+          "drawn": 0,
+          "lost": 6,
+          "gf": 45,
+          "ga": 24,
+          "points": 25
+        },
+        {
+          "position": 8,
+          "team": "SK Hranice \"B\"",
+          "played": 13,
+          "won": 7,
+          "drawn": 0,
+          "lost": 6,
+          "gf": 37,
+          "ga": 49,
+          "points": 21
+        },
+        {
+          "position": 9,
+          "team": "FK KOZLOVICE",
+          "played": 14,
+          "won": 6,
+          "drawn": 0,
+          "lost": 8,
+          "gf": 51,
+          "ga": 59,
+          "points": 17
+        },
+        {
+          "position": 10,
+          "team": "FK MOHELNICE",
+          "played": 14,
+          "won": 7,
+          "drawn": 0,
+          "lost": 7,
+          "gf": 19,
+          "ga": 39,
+          "points": 17
+        },
+        {
+          "position": 11,
+          "team": "Milo Olomouc-Nové Sady",
+          "played": 13,
+          "won": 4,
+          "drawn": 0,
+          "lost": 9,
+          "gf": 22,
+          "ga": 31,
+          "points": 14
+        },
+        {
+          "position": 12,
+          "team": "Tatran Litovel-Haňovice",
+          "played": 14,
+          "won": 4,
+          "drawn": 0,
+          "lost": 10,
+          "gf": 34,
+          "ga": 48,
+          "points": 12
+        },
+        {
+          "position": 13,
+          "team": "Chválkovice- Dolany",
+          "played": 14,
+          "won": 4,
+          "drawn": 0,
+          "lost": 10,
+          "gf": 23,
+          "ga": 42,
+          "points": 12
+        },
+        {
+          "position": 14,
+          "team": "FK Slavonín",
+          "played": 14,
+          "won": 3,
+          "drawn": 0,
+          "lost": 11,
+          "gf": 19,
+          "ga": 49,
+          "points": 9
+        },
+        {
+          "position": 15,
+          "team": "Slovan Černovír",
+          "played": 14,
+          "won": 1,
+          "drawn": 0,
+          "lost": 13,
+          "gf": 12,
+          "ga": 80,
+          "points": 4
+        }
+      ],
+      "scorers": []
+    },
+    {
+      "id": "starsi-zaci",
+      "name": "Starší žáci",
+      "category": "U15",
+      "competition": "5.liga starší žáci KM",
+      "competitionUrl": "https://is.fotbal.cz/public/souteze/detail-souteze.aspx?req=5e4f43f3-e361-4206-94d2-5408dbd06c30&sport=fotbal",
+      "season": "2026/2027",
+      "description": "",
+      "matches": [
+        {
+          "round": 1,
+          "date": "2026-09-05T09:30:00+02:00",
+          "home": "Chropyně",
+          "away": "TJ Těšnovice",
+          "score": [
+            5,
+            2
+          ],
+          "venue": "Chropyně,tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=780449be-6dda-42b6-89f8-f4a2aba83231&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 2,
+          "date": "2026-09-12T09:30:00+02:00",
+          "home": "Chropyně",
+          "away": "Rymice",
+          "score": [
+            6,
+            3
+          ],
+          "venue": "Chropyně,tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=d555139b-726e-456b-8893-9ac7953e9720&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 3,
+          "date": "2026-09-19T10:00:00+02:00",
+          "home": "Skaštice",
+          "away": "Chropyně",
+          "score": [
+            0,
+            6
+          ],
+          "venue": "Skaštice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=300e8bd0-647c-47d4-8464-875771a7f993&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 5,
+          "date": "2026-09-30T17:00:00+02:00",
+          "home": "Tlumačov",
+          "away": "Chropyně",
+          "score": [
+            9,
+            0
+          ],
+          "venue": "Tlumačov",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=dbcfdab0-db24-4310-8aca-4bee3faef3b6&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 6,
+          "date": "2026-10-10T09:30:00+02:00",
+          "home": "Chropyně",
+          "away": "Chvalčov/Mrlínek.",
+          "score": [
+            6,
+            1
+          ],
+          "venue": "Chropyně,tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=ecfb7313-6ef7-4b5a-8e46-59ae5f81a696&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 7,
+          "date": "2026-10-18T10:00:00+02:00",
+          "home": "Zdounky/Zborovice",
+          "away": "Chropyně",
+          "score": [
+            7,
+            1
+          ],
+          "venue": "Zborovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=fd3dd0fb-058c-47ec-b2ac-e5d7f0bac9c1&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 8,
+          "date": "2026-10-24T09:30:00+02:00",
+          "home": "Chropyně",
+          "away": "Lutopecny/Zlobice",
+          "score": [
+            4,
+            6
+          ],
+          "venue": "Chropyně,tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=8d5c6df6-dfd8-4b07-8ed4-b3a68eb7c4ec&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 4,
+          "date": "2026-10-28T14:00:00+01:00",
+          "home": "Chropyně",
+          "away": "Žeranovice",
+          "score": [
+            2,
+            10
+          ],
+          "venue": "Chropyně,tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=7223bc9d-8ae9-4096-b29f-dea660e2234c&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 9,
+          "date": "2026-10-31T10:00:00+01:00",
+          "home": "TJ Prusinovice//Rusava",
+          "away": "Chropyně",
+          "score": [
+            5,
+            4
+          ],
+          "venue": "Rusava",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=42c6c71c-8cb6-4b89-96db-e71d86c9b115&zapis=1&hidemenu=1"
+        }
+      ],
+      "table": [
+        {
+          "position": 1,
+          "team": "Zdounky/Zborovice",
+          "played": 9,
+          "won": 8,
+          "drawn": 1,
+          "lost": 0,
+          "gf": 44,
+          "ga": 8,
+          "points": 25
+        },
+        {
+          "position": 2,
+          "team": "Tlumačov",
+          "played": 9,
+          "won": 7,
+          "drawn": 0,
+          "lost": 2,
+          "gf": 47,
+          "ga": 13,
+          "points": 21
+        },
+        {
+          "position": 3,
+          "team": "Žeranovice",
+          "played": 9,
+          "won": 5,
+          "drawn": 1,
+          "lost": 3,
+          "gf": 38,
+          "ga": 19,
+          "points": 16
+        },
+        {
+          "position": 4,
+          "team": "TJ Těšnovice",
+          "played": 9,
+          "won": 4,
+          "drawn": 1,
+          "lost": 4,
+          "gf": 27,
+          "ga": 18,
+          "points": 13
+        },
+        {
+          "position": 5,
+          "team": "Lutopecny/Zlobice",
+          "played": 9,
+          "won": 3,
+          "drawn": 4,
+          "lost": 2,
+          "gf": 17,
+          "ga": 19,
+          "points": 13
+        },
+        {
+          "position": 6,
+          "team": "Chropyně",
+          "played": 9,
+          "won": 4,
+          "drawn": 0,
+          "lost": 5,
+          "gf": 34,
+          "ga": 43,
+          "points": 12
+        },
+        {
+          "position": 7,
+          "team": "TJ Prusinovice//Rusava",
+          "played": 9,
+          "won": 3,
+          "drawn": 1,
+          "lost": 5,
+          "gf": 20,
+          "ga": 37,
+          "points": 10
+        },
+        {
+          "position": 8,
+          "team": "Chvalčov/Mrlínek.",
+          "played": 9,
+          "won": 2,
+          "drawn": 2,
+          "lost": 5,
+          "gf": 12,
+          "ga": 27,
+          "points": 8
+        },
+        {
+          "position": 9,
+          "team": "Skaštice",
+          "played": 9,
+          "won": 2,
+          "drawn": 1,
+          "lost": 6,
+          "gf": 16,
+          "ga": 49,
+          "points": 7
+        },
+        {
+          "position": 10,
+          "team": "Rymice",
+          "played": 9,
+          "won": 1,
+          "drawn": 1,
+          "lost": 7,
+          "gf": 23,
+          "ga": 45,
+          "points": 4
+        }
+      ],
+      "scorers": []
+    },
+    {
+      "id": "mladsi-zaci",
+      "name": "Mladší žáci",
+      "category": "U13",
+      "competition": "5.liga mladší žáci KM",
+      "competitionUrl": "https://is.fotbal.cz/public/souteze/detail-souteze.aspx?req=6fb3ba04-a385-4209-9981-b20c9ccbb8e6&sport=fotbal",
+      "season": "2026/2027",
+      "description": "",
+      "matches": [
+        {
+          "round": 1,
+          "date": "2026-09-05T11:15:00+02:00",
+          "home": "Chropyně",
+          "away": "Zdounky/Zborovice",
+          "score": [
+            1,
+            2
+          ],
+          "venue": "UT Chropyně",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=9efd0bc2-598d-49c3-b3b6-0bde3a4501ab&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 2,
+          "date": "2026-09-12T11:15:00+02:00",
+          "home": "Chropyně",
+          "away": "Kvasice",
+          "score": [
+            11,
+            1
+          ],
+          "venue": "UT Chropyně",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=d1490cd5-0d5e-4b17-a687-259f4668a2df&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 3,
+          "date": "2026-09-17T17:00:00+02:00",
+          "home": "Skaštice",
+          "away": "Chropyně",
+          "score": [
+            3,
+            6
+          ],
+          "venue": "Skaštice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=1db2931d-dc89-49c0-8b17-09fdbbca24d4&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 4,
+          "date": "2026-10-02T17:00:00+02:00",
+          "home": "Chropyně",
+          "away": "Prusinovice/Chvalčov",
+          "score": [
+            3,
+            5
+          ],
+          "venue": "UT Chropyně",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=74a3e9af-fcd0-4fa1-967d-d86e93f64cff&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 5,
+          "date": "2026-10-04T12:00:00+02:00",
+          "home": "Těšnovice",
+          "away": "Chropyně",
+          "score": [
+            6,
+            5
+          ],
+          "venue": "Těšnovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=b77235ad-b6a4-4ca5-be0d-d5f85ce406f1&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 6,
+          "date": "2026-10-10T11:15:00+02:00",
+          "home": "Chropyně",
+          "away": "Rymice",
+          "score": [
+            5,
+            0
+          ],
+          "venue": "UT Chropyně",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=14fd875d-546e-4af1-8e68-ec854dd02777&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 7,
+          "date": "2026-10-18T10:00:00+02:00",
+          "home": "HS Kroměříž \"C\"",
+          "away": "Chropyně",
+          "score": [
+            9,
+            0
+          ],
+          "venue": "UMT Kroměříž",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=42926d91-0919-44ff-ab6a-767c013b18e4&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 8,
+          "date": "2026-10-24T11:15:00+02:00",
+          "home": "Chropyně",
+          "away": "Všechovice B",
+          "score": [
+            3,
+            10
+          ],
+          "venue": "UT Chropyně",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=e6889562-6871-4303-b4be-dbd4372bc1ba&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 9,
+          "date": "2026-11-01T14:00:00+01:00",
+          "home": "Holešov B",
+          "away": "Chropyně",
+          "score": [
+            5,
+            0
+          ],
+          "venue": "Všetuly",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=a98f8a03-ffcd-404e-aa8c-1bacf21643a4&zapis=1&hidemenu=1"
+        }
+      ],
+      "table": [
+        {
+          "position": 1,
+          "team": "HS Kroměříž \"C\"",
+          "played": 9,
+          "won": 8,
+          "drawn": 0,
+          "lost": 1,
+          "gf": 57,
+          "ga": 12,
+          "points": 24
+        },
+        {
+          "position": 2,
+          "team": "Všechovice B",
+          "played": 9,
+          "won": 7,
+          "drawn": 1,
+          "lost": 1,
+          "gf": 88,
+          "ga": 24,
+          "points": 22
+        },
+        {
+          "position": 3,
+          "team": "Holešov B",
+          "played": 9,
+          "won": 7,
+          "drawn": 1,
+          "lost": 1,
+          "gf": 50,
+          "ga": 13,
+          "points": 22
+        },
+        {
+          "position": 4,
+          "team": "Těšnovice",
+          "played": 9,
+          "won": 5,
+          "drawn": 0,
+          "lost": 4,
+          "gf": 44,
+          "ga": 43,
+          "points": 15
+        },
+        {
+          "position": 5,
+          "team": "Zdounky/Zborovice",
+          "played": 9,
+          "won": 5,
+          "drawn": 0,
+          "lost": 4,
+          "gf": 29,
+          "ga": 38,
+          "points": 15
+        },
+        {
+          "position": 6,
+          "team": "Prusinovice/Chvalčov",
+          "played": 9,
+          "won": 5,
+          "drawn": 0,
+          "lost": 4,
+          "gf": 26,
+          "ga": 41,
+          "points": 15
+        },
+        {
+          "position": 7,
+          "team": "Chropyně",
+          "played": 9,
+          "won": 3,
+          "drawn": 0,
+          "lost": 6,
+          "gf": 34,
+          "ga": 41,
+          "points": 9
+        },
+        {
+          "position": 8,
+          "team": "Rymice",
+          "played": 9,
+          "won": 2,
+          "drawn": 0,
+          "lost": 7,
+          "gf": 13,
+          "ga": 53,
+          "points": 6
+        },
+        {
+          "position": 9,
+          "team": "Kvasice",
+          "played": 9,
+          "won": 1,
+          "drawn": 0,
+          "lost": 8,
+          "gf": 21,
+          "ga": 57,
+          "points": 3
+        },
+        {
+          "position": 10,
+          "team": "Skaštice",
+          "played": 9,
+          "won": 1,
+          "drawn": 0,
+          "lost": 8,
+          "gf": 24,
+          "ga": 64,
+          "points": 3
+        }
+      ],
+      "scorers": []
+    },
+    {
+      "id": "starsi-pripravka",
+      "name": "Starší přípravka",
+      "category": "U11",
+      "competition": "1. liga starší přípravky sk. A-1",
+      "competitionUrl": "https://is.fotbal.cz/public/souteze/detail-souteze.aspx?req=911f11f9-34b5-4084-93fc-8dff556fcefa&sport=fotbal",
+      "season": "2026/2027",
+      "description": "",
+      "matches": [
+        {
+          "round": 2,
+          "date": "2026-09-07T17:00:00+02:00",
+          "home": "Bystřice pH",
+          "away": "Chropyně",
+          "score": null,
+          "venue": "Bystřice pH",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=8bd25a5d-cd99-4b4f-83ab-2da27d4d522f&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 3,
+          "date": "2026-09-14T17:00:00+02:00",
+          "home": "Chropyně",
+          "away": "Bezměrov",
+          "score": null,
+          "venue": "UT Chropyně",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=c514af43-618f-48fb-8468-42b1bd3a2a0b&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 4,
+          "date": "2026-09-21T17:00:00+02:00",
+          "home": "Chropyně",
+          "away": "Morkovice",
+          "score": null,
+          "venue": "UT Chropyně",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=07532d07-e8b9-4fc8-9176-421b1e119215&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 5,
+          "date": "2026-09-28T17:45:00+02:00",
+          "home": "Kroměříž A",
+          "away": "Chropyně",
+          "score": null,
+          "venue": "UMT Kroměříž",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=f7758aca-f362-4d5d-a6c7-0ca04c06e735&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 1,
+          "date": "2026-10-05T17:00:00+02:00",
+          "home": "Chropyně",
+          "away": "Holešov",
+          "score": null,
+          "venue": "UT Chropyně",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=7728c006-61fc-4004-ae14-b0ce61946777&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 6,
+          "date": "2026-10-12T17:00:00+02:00",
+          "home": "Holešov",
+          "away": "Chropyně",
+          "score": null,
+          "venue": "Všetuly",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=e165da85-ef31-4b42-abe5-d9f7f01964c5&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 7,
+          "date": "2026-10-19T17:00:00+02:00",
+          "home": "Chropyně",
+          "away": "Bystřice pH",
+          "score": null,
+          "venue": "UT Chropyně",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=33579fce-96e7-46e8-b0be-6d9a9c259076&zapis=1&hidemenu=1",
+          "played": true
+        }
+      ],
+      "table": [],
+      "scorers": []
+    },
+    {
+      "id": "starsi-pripravka-2",
+      "name": "Starší přípravka (A-2)",
+      "category": "U11",
+      "competition": "1. liga starší přípravky sk. A-2",
+      "competitionUrl": "https://is.fotbal.cz/public/souteze/detail-souteze.aspx?req=8982434c-7db3-4583-a816-8d94769a896e&sport=fotbal",
+      "season": "2026/2027",
+      "description": "",
+      "matches": [
+        {
+          "round": 2,
+          "date": "2026-09-07T17:00:00+02:00",
+          "home": "Bystřice pH",
+          "away": "Chropyně",
+          "score": null,
+          "venue": "Bystřice pH",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=3a65800f-d833-4d0d-8c1c-e863476564f9&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 3,
+          "date": "2026-09-14T17:00:00+02:00",
+          "home": "Chropyně",
+          "away": "Bezměrov",
+          "score": null,
+          "venue": "UT Chropyně",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=5bc18c17-d1d7-4628-b6d6-14189dbf06e4&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 4,
+          "date": "2026-09-21T17:00:00+02:00",
+          "home": "Chropyně",
+          "away": "Morkovice",
+          "score": null,
+          "venue": "UT Chropyně",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=d1b91111-2fcc-4f97-ab13-41b715efb33a&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 5,
+          "date": "2026-09-28T17:45:00+02:00",
+          "home": "Kroměříž A",
+          "away": "Chropyně",
+          "score": null,
+          "venue": "UMT Kroměříž",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=2ce15a02-5022-4752-b54b-ef2068a958de&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 1,
+          "date": "2026-10-05T17:00:00+02:00",
+          "home": "Chropyně",
+          "away": "Holešov",
+          "score": null,
+          "venue": "UT Chropyně",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=20bf0560-0eff-4eb3-9e7f-bb0bb0ffd3a5&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 6,
+          "date": "2026-10-12T17:00:00+02:00",
+          "home": "Holešov",
+          "away": "Chropyně",
+          "score": null,
+          "venue": "Všetuly",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=f8591c10-0dee-499e-887f-c448b82213ba&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 7,
+          "date": "2026-10-19T17:00:00+02:00",
+          "home": "Chropyně",
+          "away": "Bystřice pH",
+          "score": null,
+          "venue": "UT Chropyně",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=07671136-f105-4d7b-af8e-215dcab2c149&zapis=1&hidemenu=1",
+          "played": true
+        }
+      ],
+      "table": [],
+      "scorers": []
+    },
+    {
+      "id": "mladsi-pripravka",
+      "name": "Mladší přípravka",
+      "category": "U9",
+      "competition": "1. liga mladší přípravky sk. A-1",
+      "competitionUrl": "https://is.fotbal.cz/public/souteze/detail-souteze.aspx?req=47da8475-2357-4e79-a57d-78eeb77672bb&sport=fotbal",
+      "season": "2026/2027",
+      "description": "",
+      "matches": [
+        {
+          "round": 2,
+          "date": "2026-09-07T17:00:00+02:00",
+          "home": "Bystřice pH",
+          "away": "Chropyně",
+          "score": null,
+          "venue": "Bystřice pH",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=24d531d1-92ac-4981-8f33-4ff320771445&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 3,
+          "date": "2026-09-14T17:00:00+02:00",
+          "home": "Chropyně",
+          "away": "Bezměrov",
+          "score": null,
+          "venue": "UT Chropyně",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=36780ece-beeb-4277-bf1a-0b418e886317&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 4,
+          "date": "2026-09-21T17:00:00+02:00",
+          "home": "Chropyně",
+          "away": "Morkovice",
+          "score": null,
+          "venue": "UT Chropyně",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=08ead77f-ef0e-4a39-8f26-86461995f7b6&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 5,
+          "date": "2026-09-28T17:45:00+02:00",
+          "home": "Kroměříž A",
+          "away": "Chropyně",
+          "score": null,
+          "venue": "UMT Kroměříž",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=ad51d468-320e-475b-a32d-ee35b6b188cc&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 1,
+          "date": "2026-10-05T17:00:00+02:00",
+          "home": "Chropyně",
+          "away": "Holešov",
+          "score": null,
+          "venue": "UT Chropyně",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=4dcb3d22-203b-4bf7-9d9e-9695a0a98dc8&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 6,
+          "date": "2026-10-12T17:00:00+02:00",
+          "home": "Holešov",
+          "away": "Chropyně",
+          "score": null,
+          "venue": "Všetuly",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=15a38850-dfa1-416f-bee6-b69ca9ec5fb3&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 7,
+          "date": "2026-10-19T17:00:00+02:00",
+          "home": "Chropyně",
+          "away": "Bystřice pH",
+          "score": null,
+          "venue": "UT Chropyně",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=565178ca-eeac-442b-a391-c5083fbe2030&zapis=1&hidemenu=1",
+          "played": true
+        }
+      ],
+      "table": [],
+      "scorers": []
+    },
+    {
+      "id": "mladsi-pripravka-2",
+      "name": "Mladší přípravka (A-2)",
+      "category": "U9",
+      "competition": "1. liga mladší přípravky sk. A-2",
+      "competitionUrl": "https://is.fotbal.cz/public/souteze/detail-souteze.aspx?req=8d2f7dd2-6af4-4664-9460-a15deb3b8b79&sport=fotbal",
+      "season": "2026/2027",
+      "description": "",
+      "matches": [
+        {
+          "round": 2,
+          "date": "2026-09-07T17:00:00+02:00",
+          "home": "Bystřice pH",
+          "away": "Chropyně",
+          "score": null,
+          "venue": "Bystřice pH",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=6d55215c-0601-4807-a026-e83258d3bb90&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 3,
+          "date": "2026-09-14T17:00:00+02:00",
+          "home": "Chropyně",
+          "away": "Bezměrov",
+          "score": null,
+          "venue": "UT Chropyně",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=521ea1be-2f69-48f7-ab36-aa9674a473f5&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 4,
+          "date": "2026-09-21T17:00:00+02:00",
+          "home": "Chropyně",
+          "away": "Morkovice",
+          "score": null,
+          "venue": "UT Chropyně",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=776971e2-422a-42c7-acf5-bf572722c018&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 5,
+          "date": "2026-09-28T17:45:00+02:00",
+          "home": "Kroměříž A",
+          "away": "Chropyně",
+          "score": null,
+          "venue": "UMT Kroměříž",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=538eb309-425c-4ffe-8cf8-d0bec9e12042&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 1,
+          "date": "2026-10-05T17:00:00+02:00",
+          "home": "Chropyně",
+          "away": "Holešov",
+          "score": null,
+          "venue": "UT Chropyně",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=8d2eb15a-f93f-448d-b54e-5d94081718e3&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 6,
+          "date": "2026-10-12T17:00:00+02:00",
+          "home": "Holešov",
+          "away": "Chropyně",
+          "score": null,
+          "venue": "Všetuly",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=8b28840d-c2a4-4948-8eec-518531ca57a9&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 7,
+          "date": "2026-10-19T17:00:00+02:00",
+          "home": "Chropyně",
+          "away": "Bystřice pH",
+          "score": null,
+          "venue": "UT Chropyně",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=f9a8f2b5-9a58-4c09-8438-c84b8ad82037&zapis=1&hidemenu=1",
+          "played": true
+        }
+      ],
+      "table": [],
+      "scorers": []
+    }
+  ]
+}

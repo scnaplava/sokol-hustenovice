@@ -1,0 +1,1528 @@
+{
+  "source": "facr",
+  "updatedAt": "2026-11-10T21:06:31+01:00",
+  "club": {
+    "name": "TJ Šumice",
+    "official": "TJ Šumice z.s.",
+    "shortName": "Šumice",
+    "brand": "TJ Šumice",
+    "hero": [
+      "TJ",
+      "Šumice"
+    ],
+    "founded": null,
+    "logo": "",
+    "logoShape": "shield",
+    "colors": {},
+    "stadium": "",
+    "email": "",
+    "facebook": "",
+    "tagline": "Zápasy, výsledky a tabulky všech našich týmů na jednom místě.",
+    "facr": {
+      "number": "7220551",
+      "isId": "2207",
+      "match": [
+        "Šumice"
+      ]
+    }
+  },
+  "teams": [
+    {
+      "id": "muzi",
+      "name": "Muži A",
+      "category": "Dospělí",
+      "competition": "7. liga, sk. C",
+      "competitionUrl": "https://is.fotbal.cz/public/souteze/detail-souteze.aspx?req=d1e0f817-6286-4337-9d2c-b3f0a103a16d&sport=fotbal",
+      "season": "2026/2027",
+      "description": "",
+      "matches": [
+        {
+          "round": 2,
+          "date": "2026-08-09T17:00:00+02:00",
+          "home": "Šumice",
+          "away": "Polešovice",
+          "score": [
+            3,
+            0
+          ],
+          "venue": "Šumice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=abc7d399-3b78-4c69-82dd-7d8b8815e012&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 3,
+          "date": "2026-08-16T16:30:00+02:00",
+          "home": "Koryčany",
+          "away": "Šumice",
+          "score": [
+            4,
+            1
+          ],
+          "venue": "Koryčany",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=b964934f-6bb6-492b-bd13-3614827bdd49&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 4,
+          "date": "2026-08-23T16:30:00+02:00",
+          "home": "Šumice",
+          "away": "Huštěnovice",
+          "score": [
+            3,
+            4
+          ],
+          "venue": "Šumice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=2bfea32b-05b6-4342-aa78-9d816662226c&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 5,
+          "date": "2026-08-29T16:30:00+02:00",
+          "home": "Javořina",
+          "away": "Šumice",
+          "score": [
+            4,
+            1
+          ],
+          "venue": "Slavkov",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=425e3c61-8f65-4ee2-a0e0-07a0a7d5a162&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 6,
+          "date": "2026-09-06T16:00:00+02:00",
+          "home": "Šumice",
+          "away": "Chropyně",
+          "score": [
+            2,
+            5
+          ],
+          "venue": "Šumice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=6e4d79a6-f1ec-4899-b50c-e9620967c783&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 7,
+          "date": "2026-09-13T16:00:00+02:00",
+          "home": "Vlčnov",
+          "away": "Šumice",
+          "score": [
+            4,
+            1
+          ],
+          "venue": "Vlčnov",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=5a4c751b-2e38-4610-8176-c150b552d76a&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 8,
+          "date": "2026-09-20T15:30:00+02:00",
+          "home": "Šumice",
+          "away": "Uh. Ostroh",
+          "score": [
+            0,
+            7
+          ],
+          "venue": "Šumice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=038de5a7-c1ed-418a-a629-d57950bea598&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 9,
+          "date": "2026-09-27T15:30:00+02:00",
+          "home": "Hluk B",
+          "away": "Šumice",
+          "score": [
+            3,
+            3
+          ],
+          "venue": "Hluk-tráva",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=f9ca91cc-0759-42a9-bb0b-dcfa28a48d64&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 10,
+          "date": "2026-10-04T15:00:00+02:00",
+          "home": "Šumice",
+          "away": "Strání B",
+          "score": [
+            0,
+            2
+          ],
+          "venue": "Šumice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=c8f3f488-2ee9-48f5-9796-8591aba5326e&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 11,
+          "date": "2026-10-10T15:00:00+02:00",
+          "home": "O. N. Ves",
+          "away": "Šumice",
+          "score": [
+            1,
+            0
+          ],
+          "venue": "O. N. Ves",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=6aa11909-1b98-4160-83c0-3dfb138103ee&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 12,
+          "date": "2026-10-18T14:30:00+02:00",
+          "home": "Šumice",
+          "away": "FC Slovácko C",
+          "score": [
+            1,
+            6
+          ],
+          "venue": "Šumice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=dd2da11f-0fcf-4e0e-8503-350e742f413f&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 13,
+          "date": "2026-10-25T14:30:00+01:00",
+          "home": "Morkovice B",
+          "away": "Šumice",
+          "score": [
+            1,
+            4
+          ],
+          "venue": "Morkovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=8cc5a967-7311-4cbb-9af4-667da00c0976&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 1,
+          "date": "2026-11-01T14:00:00+01:00",
+          "home": "Prakšice",
+          "away": "Šumice",
+          "score": [
+            5,
+            2
+          ],
+          "venue": "Prakšice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=8dad7b0d-3370-4df0-a2da-cdee7bcb32d6&zapis=1&hidemenu=1"
+        }
+      ],
+      "table": [
+        {
+          "position": 1,
+          "team": "Koryčany",
+          "played": 13,
+          "won": 12,
+          "drawn": 0,
+          "lost": 1,
+          "gf": 44,
+          "ga": 18,
+          "points": 36
+        },
+        {
+          "position": 2,
+          "team": "Strání B",
+          "played": 13,
+          "won": 8,
+          "drawn": 2,
+          "lost": 3,
+          "gf": 35,
+          "ga": 12,
+          "points": 26
+        },
+        {
+          "position": 3,
+          "team": "Uh. Ostroh",
+          "played": 13,
+          "won": 8,
+          "drawn": 1,
+          "lost": 4,
+          "gf": 31,
+          "ga": 20,
+          "points": 25
+        },
+        {
+          "position": 4,
+          "team": "Prakšice",
+          "played": 13,
+          "won": 7,
+          "drawn": 2,
+          "lost": 4,
+          "gf": 24,
+          "ga": 22,
+          "points": 23
+        },
+        {
+          "position": 5,
+          "team": "FC Slovácko C",
+          "played": 13,
+          "won": 6,
+          "drawn": 3,
+          "lost": 4,
+          "gf": 28,
+          "ga": 25,
+          "points": 21
+        },
+        {
+          "position": 6,
+          "team": "Vlčnov",
+          "played": 13,
+          "won": 6,
+          "drawn": 2,
+          "lost": 5,
+          "gf": 30,
+          "ga": 22,
+          "points": 20
+        },
+        {
+          "position": 7,
+          "team": "Polešovice",
+          "played": 13,
+          "won": 6,
+          "drawn": 2,
+          "lost": 5,
+          "gf": 26,
+          "ga": 24,
+          "points": 20
+        },
+        {
+          "position": 8,
+          "team": "Javořina",
+          "played": 13,
+          "won": 5,
+          "drawn": 4,
+          "lost": 4,
+          "gf": 23,
+          "ga": 21,
+          "points": 19
+        },
+        {
+          "position": 9,
+          "team": "Huštěnovice",
+          "played": 13,
+          "won": 5,
+          "drawn": 2,
+          "lost": 6,
+          "gf": 25,
+          "ga": 27,
+          "points": 17
+        },
+        {
+          "position": 10,
+          "team": "Chropyně",
+          "played": 13,
+          "won": 5,
+          "drawn": 0,
+          "lost": 8,
+          "gf": 30,
+          "ga": 36,
+          "points": 15
+        },
+        {
+          "position": 11,
+          "team": "O. N. Ves",
+          "played": 13,
+          "won": 3,
+          "drawn": 2,
+          "lost": 8,
+          "gf": 18,
+          "ga": 28,
+          "points": 11
+        },
+        {
+          "position": 12,
+          "team": "Hluk B",
+          "played": 13,
+          "won": 2,
+          "drawn": 4,
+          "lost": 7,
+          "gf": 23,
+          "ga": 35,
+          "points": 10
+        },
+        {
+          "position": 13,
+          "team": "Morkovice B",
+          "played": 13,
+          "won": 2,
+          "drawn": 3,
+          "lost": 8,
+          "gf": 28,
+          "ga": 50,
+          "points": 9
+        },
+        {
+          "position": 14,
+          "team": "Šumice",
+          "played": 13,
+          "won": 2,
+          "drawn": 1,
+          "lost": 10,
+          "gf": 21,
+          "ga": 46,
+          "points": 7
+        }
+      ],
+      "scorers": []
+    },
+    {
+      "id": "dorost",
+      "name": "Starší dorost",
+      "category": "U19",
+      "competition": "OP dorostu sk. B",
+      "competitionUrl": "https://is.fotbal.cz/public/souteze/detail-souteze.aspx?req=a93dfc86-ba5a-4bfe-9409-253b94c46e05&sport=fotbal",
+      "season": "2026/2027",
+      "description": "",
+      "matches": [
+        {
+          "round": 1,
+          "date": "2026-08-15T13:30:00+02:00",
+          "home": "Bílovice",
+          "away": "Šumice/Záhorovice",
+          "score": [
+            1,
+            3
+          ],
+          "venue": "Bílovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=0f72139a-fcfb-4db9-afbb-3e145d4cf61c&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 2,
+          "date": "2026-08-22T16:30:00+02:00",
+          "home": "Šumice/Záhorovice",
+          "away": "Jarošov/Kněžpole",
+          "score": [
+            0,
+            1
+          ],
+          "venue": "Záhorovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=01d8070b-2347-444e-a062-024f35fca32b&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 3,
+          "date": "2026-08-29T16:30:00+02:00",
+          "home": "Hradčovice",
+          "away": "Šumice/Záhorovice",
+          "score": [
+            1,
+            4
+          ],
+          "venue": "Hradčovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=8dcde5d0-8010-46ef-8817-0213fa5c6cef&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 4,
+          "date": "2026-09-05T16:00:00+02:00",
+          "home": "Šumice/Záhorovice",
+          "away": "Ostr. Lhota",
+          "score": [
+            1,
+            2
+          ],
+          "venue": "Šumice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=22e7abef-6248-446c-a8ed-416103b9c7b5&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 5,
+          "date": "2026-09-13T13:00:00+02:00",
+          "home": "Javořina/Strání B",
+          "away": "Šumice/Záhorovice",
+          "score": [
+            2,
+            2
+          ],
+          "venue": "Horní Němčí",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=57c747d7-43c8-44fd-b23a-a33924f475c4&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 6,
+          "date": "2026-09-19T15:30:00+02:00",
+          "home": "Šumice/Záhorovice",
+          "away": "Březolupy/Nedachlebice",
+          "score": [
+            8,
+            4
+          ],
+          "venue": "Šumice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=78faad8d-537e-4402-8392-508ca4eccf22&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 7,
+          "date": "2026-09-26T13:00:00+02:00",
+          "home": "Prakšice/Orel",
+          "away": "Šumice/Záhorovice",
+          "score": [
+            8,
+            2
+          ],
+          "venue": "Prakšice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=13153da9-e467-494b-a103-917f16d69719&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 8,
+          "date": "2026-10-03T15:00:00+02:00",
+          "home": "Šumice/Záhorovice",
+          "away": "Bílovice",
+          "score": [
+            2,
+            2
+          ],
+          "venue": "Šumice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=d15791b7-3db8-453c-9682-9f6a4b44cb27&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 9,
+          "date": "2026-10-10T12:00:00+02:00",
+          "home": "Jarošov/Kněžpole",
+          "away": "Šumice/Záhorovice",
+          "score": [
+            1,
+            1
+          ],
+          "venue": "Jarošov",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=831d3932-2829-4c64-b587-7ee054d193c8&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 10,
+          "date": "2026-10-17T14:30:00+02:00",
+          "home": "Šumice/Záhorovice",
+          "away": "Hradčovice",
+          "score": [
+            5,
+            1
+          ],
+          "venue": "Šumice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=88f0c280-3124-424c-97b8-31f90d0e6e14&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 11,
+          "date": "2027-03-21T12:30:00+01:00",
+          "home": "Ostr. Lhota",
+          "away": "Šumice/Záhorovice",
+          "score": null,
+          "venue": "Ostrožská Lhota",
+          "report": null
+        },
+        {
+          "round": 12,
+          "date": "2027-03-27T15:00:00+01:00",
+          "home": "Šumice/Záhorovice",
+          "away": "Javořina/Strání B",
+          "score": null,
+          "venue": "Šumice",
+          "report": null
+        },
+        {
+          "round": 13,
+          "date": "2027-04-03T15:30:00+02:00",
+          "home": "Březolupy/Nedachlebice",
+          "away": "Šumice/Záhorovice",
+          "score": null,
+          "venue": "Březolupy",
+          "report": null
+        },
+        {
+          "round": 14,
+          "date": "2027-04-10T15:30:00+02:00",
+          "home": "Šumice/Záhorovice",
+          "away": "Prakšice/Orel",
+          "score": null,
+          "venue": "Šumice",
+          "report": null
+        },
+        {
+          "round": 15,
+          "date": "2027-04-17T13:00:00+02:00",
+          "home": "Bílovice",
+          "away": "Šumice/Záhorovice",
+          "score": null,
+          "venue": "Bílovice",
+          "report": null
+        },
+        {
+          "round": 16,
+          "date": "2027-04-24T16:00:00+02:00",
+          "home": "Šumice/Záhorovice",
+          "away": "Jarošov/Kněžpole",
+          "score": null,
+          "venue": "Šumice",
+          "report": null
+        },
+        {
+          "round": 17,
+          "date": "2027-05-01T16:30:00+02:00",
+          "home": "Hradčovice",
+          "away": "Šumice/Záhorovice",
+          "score": null,
+          "venue": "Hradčovice",
+          "report": null
+        },
+        {
+          "round": 18,
+          "date": "2027-05-08T16:30:00+02:00",
+          "home": "Šumice/Záhorovice",
+          "away": "Ostr. Lhota",
+          "score": null,
+          "venue": "Šumice",
+          "report": null
+        },
+        {
+          "round": 19,
+          "date": "2027-05-16T14:00:00+02:00",
+          "home": "Javořina/Strání B",
+          "away": "Šumice/Záhorovice",
+          "score": null,
+          "venue": "Horní Němčí",
+          "report": null
+        },
+        {
+          "round": 20,
+          "date": "2027-05-22T17:00:00+02:00",
+          "home": "Šumice/Záhorovice",
+          "away": "Březolupy/Nedachlebice",
+          "score": null,
+          "venue": "Šumice",
+          "report": null
+        },
+        {
+          "round": 21,
+          "date": "2027-05-29T14:30:00+02:00",
+          "home": "Prakšice/Orel",
+          "away": "Šumice/Záhorovice",
+          "score": null,
+          "venue": "Prakšice",
+          "report": null
+        }
+      ],
+      "table": [
+        {
+          "position": 1,
+          "team": "Prakšice/Orel",
+          "played": 10,
+          "won": 8,
+          "drawn": 1,
+          "lost": 1,
+          "gf": 50,
+          "ga": 9,
+          "points": 25
+        },
+        {
+          "position": 2,
+          "team": "Ostr. Lhota",
+          "played": 10,
+          "won": 7,
+          "drawn": 1,
+          "lost": 2,
+          "gf": 39,
+          "ga": 12,
+          "points": 22
+        },
+        {
+          "position": 3,
+          "team": "Javořina/Strání B",
+          "played": 10,
+          "won": 5,
+          "drawn": 4,
+          "lost": 1,
+          "gf": 36,
+          "ga": 15,
+          "points": 19
+        },
+        {
+          "position": 4,
+          "team": "Šumice/Záhorovice",
+          "played": 10,
+          "won": 4,
+          "drawn": 3,
+          "lost": 3,
+          "gf": 28,
+          "ga": 23,
+          "points": 15
+        },
+        {
+          "position": 5,
+          "team": "Bílovice",
+          "played": 10,
+          "won": 4,
+          "drawn": 2,
+          "lost": 4,
+          "gf": 20,
+          "ga": 18,
+          "points": 14
+        },
+        {
+          "position": 6,
+          "team": "Jarošov/Kněžpole",
+          "played": 10,
+          "won": 3,
+          "drawn": 2,
+          "lost": 5,
+          "gf": 10,
+          "ga": 29,
+          "points": 11
+        },
+        {
+          "position": 7,
+          "team": "Hradčovice",
+          "played": 10,
+          "won": 2,
+          "drawn": 1,
+          "lost": 7,
+          "gf": 16,
+          "ga": 30,
+          "points": 7
+        },
+        {
+          "position": 8,
+          "team": "Březolupy/Nedachlebice",
+          "played": 10,
+          "won": 0,
+          "drawn": 0,
+          "lost": 10,
+          "gf": 7,
+          "ga": 70,
+          "points": 0
+        }
+      ],
+      "scorers": []
+    },
+    {
+      "id": "starsi-zaci",
+      "name": "Starší žáci",
+      "category": "U15",
+      "competition": "4. liga starší žáci sk.C",
+      "competitionUrl": "https://is.fotbal.cz/public/souteze/detail-souteze.aspx?req=1f239034-302a-4702-a38f-27da46de8271&sport=fotbal",
+      "season": "2026/2027",
+      "description": "",
+      "matches": [
+        {
+          "round": 3,
+          "date": "2026-08-29T09:30:00+02:00",
+          "home": "Bojkovice",
+          "away": "Šumice",
+          "score": [
+            3,
+            2
+          ],
+          "venue": "Bojkovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=efed0442-6a07-4863-b4cd-609a03bdca84&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 2,
+          "date": "2026-09-03T16:30:00+02:00",
+          "home": "Šumice",
+          "away": "Buchlovice-Tupesy",
+          "score": [
+            5,
+            1
+          ],
+          "venue": "Šumice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=82de5369-f894-4d26-9740-315f039f1096&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 4,
+          "date": "2026-09-06T09:30:00+02:00",
+          "home": "Šumice",
+          "away": "Kněžpole-Jarošov",
+          "score": [
+            11,
+            2
+          ],
+          "venue": "Šumice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=4c5efc3c-18cf-474d-b532-16abe286f7a6&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 5,
+          "date": "2026-09-13T09:30:00+02:00",
+          "home": "Uh. Ostroh",
+          "away": "Šumice",
+          "score": [
+            2,
+            1
+          ],
+          "venue": "Uh. Ostroh",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=cc2c0af1-594e-4769-ae1c-d319904d40f0&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 6,
+          "date": "2026-09-20T09:30:00+02:00",
+          "home": "Šumice",
+          "away": "Nivnice-Dolní Němčí",
+          "score": [
+            5,
+            1
+          ],
+          "venue": "Šumice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=9b6f40df-722f-4c2e-8058-46e8b174f11a&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 7,
+          "date": "2026-09-26T09:30:00+02:00",
+          "home": "Strání",
+          "away": "Šumice",
+          "score": [
+            6,
+            2
+          ],
+          "venue": "Strání 2",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=2ceaefe6-402b-4917-9910-9a695888fe81&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 8,
+          "date": "2026-10-04T09:30:00+02:00",
+          "home": "Šumice",
+          "away": "FA Zlechov-Osvětimany",
+          "score": [
+            8,
+            2
+          ],
+          "venue": "Šumice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=5cb34ee5-6b23-4683-b75d-bb2afeb044f7&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 9,
+          "date": "2026-10-10T09:30:00+02:00",
+          "home": "O.N.Ves",
+          "away": "Šumice",
+          "score": [
+            5,
+            3
+          ],
+          "venue": "O. N. Ves",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=17fdbb8f-bb4a-440c-9758-5a3984fbfe88&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 10,
+          "date": "2026-10-18T09:30:00+02:00",
+          "home": "Šumice",
+          "away": "Mařatice",
+          "score": [
+            5,
+            2
+          ],
+          "venue": "Šumice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=99bb685b-8e45-44d1-ad7c-84502dccd2ed&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 11,
+          "date": "2026-10-24T09:30:00+02:00",
+          "home": "Újezdec-Uh. Brod B",
+          "away": "Šumice",
+          "score": [
+            2,
+            1
+          ],
+          "venue": "Újezdec",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=8a686675-f0ad-4988-a33f-4b44913d81ba&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 1,
+          "date": "2026-10-31T09:30:00+01:00",
+          "home": "Boršice-Nedakonice",
+          "away": "Šumice",
+          "score": [
+            0,
+            6
+          ],
+          "venue": "Boršice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=3f7eb6f9-c0e8-48ce-9542-239714562a9a&zapis=1&hidemenu=1"
+        }
+      ],
+      "table": [
+        {
+          "position": 1,
+          "team": "Uh. Ostroh",
+          "played": 11,
+          "won": 8,
+          "drawn": 3,
+          "lost": 0,
+          "gf": 52,
+          "ga": 20,
+          "points": 27
+        },
+        {
+          "position": 2,
+          "team": "Strání",
+          "played": 11,
+          "won": 8,
+          "drawn": 2,
+          "lost": 1,
+          "gf": 54,
+          "ga": 18,
+          "points": 26
+        },
+        {
+          "position": 3,
+          "team": "Nivnice-Dolní Němčí",
+          "played": 11,
+          "won": 8,
+          "drawn": 0,
+          "lost": 3,
+          "gf": 55,
+          "ga": 22,
+          "points": 24
+        },
+        {
+          "position": 4,
+          "team": "Buchlovice-Tupesy",
+          "played": 11,
+          "won": 6,
+          "drawn": 2,
+          "lost": 3,
+          "gf": 38,
+          "ga": 30,
+          "points": 20
+        },
+        {
+          "position": 5,
+          "team": "Újezdec-Uh. Brod B",
+          "played": 11,
+          "won": 6,
+          "drawn": 1,
+          "lost": 4,
+          "gf": 48,
+          "ga": 34,
+          "points": 19
+        },
+        {
+          "position": 6,
+          "team": "FA Zlechov-Osvětimany",
+          "played": 11,
+          "won": 6,
+          "drawn": 1,
+          "lost": 4,
+          "gf": 47,
+          "ga": 46,
+          "points": 19
+        },
+        {
+          "position": 7,
+          "team": "Šumice",
+          "played": 11,
+          "won": 6,
+          "drawn": 0,
+          "lost": 5,
+          "gf": 49,
+          "ga": 26,
+          "points": 18
+        },
+        {
+          "position": 8,
+          "team": "Mařatice",
+          "played": 11,
+          "won": 4,
+          "drawn": 0,
+          "lost": 7,
+          "gf": 33,
+          "ga": 41,
+          "points": 12
+        },
+        {
+          "position": 9,
+          "team": "O.N.Ves",
+          "played": 11,
+          "won": 3,
+          "drawn": 2,
+          "lost": 6,
+          "gf": 28,
+          "ga": 47,
+          "points": 11
+        },
+        {
+          "position": 10,
+          "team": "Boršice-Nedakonice",
+          "played": 11,
+          "won": 2,
+          "drawn": 2,
+          "lost": 7,
+          "gf": 42,
+          "ga": 48,
+          "points": 8
+        },
+        {
+          "position": 11,
+          "team": "Bojkovice",
+          "played": 11,
+          "won": 2,
+          "drawn": 1,
+          "lost": 8,
+          "gf": 26,
+          "ga": 77,
+          "points": 7
+        },
+        {
+          "position": 12,
+          "team": "Kněžpole-Jarošov",
+          "played": 11,
+          "won": 0,
+          "drawn": 0,
+          "lost": 11,
+          "gf": 19,
+          "ga": 82,
+          "points": 0
+        }
+      ],
+      "scorers": []
+    },
+    {
+      "id": "mladsi-zaci",
+      "name": "Mladší žáci",
+      "category": "U13",
+      "competition": "4. liga mladší žáci sk.C",
+      "competitionUrl": "https://is.fotbal.cz/public/souteze/detail-souteze.aspx?req=30f62989-c046-40e3-95b8-6ce7255e921a&sport=fotbal",
+      "season": "2026/2027",
+      "description": "",
+      "matches": [
+        {
+          "round": 3,
+          "date": "2026-08-29T11:15:00+02:00",
+          "home": "Bojkovice",
+          "away": "Šumice",
+          "score": [
+            13,
+            0
+          ],
+          "venue": "Bojkovice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=5d8faab9-55f6-48c3-bb54-0de0622b6163&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 2,
+          "date": "2026-09-03T18:15:00+02:00",
+          "home": "Šumice",
+          "away": "Buchlovice-Tupesy",
+          "score": [
+            4,
+            2
+          ],
+          "venue": "Šumice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=9ccebd0a-31d2-4583-995d-fb8c6864f93b&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 4,
+          "date": "2026-09-06T11:15:00+02:00",
+          "home": "Šumice",
+          "away": "Kněžpole-Jarošov",
+          "score": [
+            5,
+            5
+          ],
+          "venue": "Šumice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=132aee65-35d5-4821-943b-21b42f772cfd&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 5,
+          "date": "2026-09-13T11:15:00+02:00",
+          "home": "Uh. Ostroh",
+          "away": "Šumice",
+          "score": [
+            4,
+            2
+          ],
+          "venue": "Uh. Ostroh",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=f56e4ba5-9be1-4772-94b1-7e215974deb1&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 6,
+          "date": "2026-09-20T11:15:00+02:00",
+          "home": "Šumice",
+          "away": "Nivnice-Dolní Němčí",
+          "score": [
+            0,
+            4
+          ],
+          "venue": "Šumice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=e9f1910e-8458-443d-a097-a8b06a13516c&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 7,
+          "date": "2026-09-26T11:15:00+02:00",
+          "home": "Strání",
+          "away": "Šumice",
+          "score": [
+            11,
+            1
+          ],
+          "venue": "Strání 2",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=31b9a8a4-4b5a-4a16-800e-eeace0c1b890&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 8,
+          "date": "2026-10-04T11:15:00+02:00",
+          "home": "Šumice",
+          "away": "FA Zlechov-Osvětimany",
+          "score": [
+            1,
+            1
+          ],
+          "venue": "Šumice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=d21778f7-ec64-4f51-aaaa-fa215bd77236&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 9,
+          "date": "2026-10-10T11:15:00+02:00",
+          "home": "O.N.Ves",
+          "away": "Šumice",
+          "score": [
+            3,
+            0
+          ],
+          "venue": "O. N. Ves",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=55246d3a-7942-4cdc-9944-95705da35391&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 10,
+          "date": "2026-10-18T11:15:00+02:00",
+          "home": "Šumice",
+          "away": "Mařatice",
+          "score": [
+            6,
+            2
+          ],
+          "venue": "Šumice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=073909d3-69f7-4798-824e-8e2c413e5f14&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 11,
+          "date": "2026-10-24T11:15:00+02:00",
+          "home": "Újezdec-Uh. Brod B",
+          "away": "Šumice",
+          "score": [
+            2,
+            2
+          ],
+          "venue": "Újezdec",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=37d77be6-65a7-4ae6-8d3e-850d5b0972d0&zapis=1&hidemenu=1"
+        },
+        {
+          "round": 1,
+          "date": "2026-10-31T11:15:00+01:00",
+          "home": "Boršice-Nedakonice",
+          "away": "Šumice",
+          "score": [
+            0,
+            8
+          ],
+          "venue": "Boršice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=5907f22e-dd70-4efe-8d59-4954eb1d1af2&zapis=1&hidemenu=1"
+        }
+      ],
+      "table": [
+        {
+          "position": 1,
+          "team": "Strání",
+          "played": 11,
+          "won": 9,
+          "drawn": 2,
+          "lost": 0,
+          "gf": 65,
+          "ga": 14,
+          "points": 29
+        },
+        {
+          "position": 2,
+          "team": "Bojkovice",
+          "played": 11,
+          "won": 9,
+          "drawn": 0,
+          "lost": 2,
+          "gf": 67,
+          "ga": 9,
+          "points": 27
+        },
+        {
+          "position": 3,
+          "team": "Kněžpole-Jarošov",
+          "played": 11,
+          "won": 8,
+          "drawn": 3,
+          "lost": 0,
+          "gf": 64,
+          "ga": 17,
+          "points": 27
+        },
+        {
+          "position": 4,
+          "team": "O.N.Ves",
+          "played": 11,
+          "won": 8,
+          "drawn": 1,
+          "lost": 2,
+          "gf": 49,
+          "ga": 13,
+          "points": 25
+        },
+        {
+          "position": 5,
+          "team": "Nivnice-Dolní Němčí",
+          "played": 11,
+          "won": 6,
+          "drawn": 0,
+          "lost": 5,
+          "gf": 46,
+          "ga": 44,
+          "points": 18
+        },
+        {
+          "position": 6,
+          "team": "Mařatice",
+          "played": 11,
+          "won": 5,
+          "drawn": 1,
+          "lost": 5,
+          "gf": 49,
+          "ga": 32,
+          "points": 16
+        },
+        {
+          "position": 7,
+          "team": "Újezdec-Uh. Brod B",
+          "played": 11,
+          "won": 3,
+          "drawn": 3,
+          "lost": 5,
+          "gf": 35,
+          "ga": 46,
+          "points": 12
+        },
+        {
+          "position": 8,
+          "team": "Šumice",
+          "played": 11,
+          "won": 3,
+          "drawn": 3,
+          "lost": 5,
+          "gf": 29,
+          "ga": 47,
+          "points": 12
+        },
+        {
+          "position": 9,
+          "team": "Uh. Ostroh",
+          "played": 11,
+          "won": 3,
+          "drawn": 0,
+          "lost": 8,
+          "gf": 19,
+          "ga": 44,
+          "points": 9
+        },
+        {
+          "position": 10,
+          "team": "FA Zlechov-Osvětimany",
+          "played": 11,
+          "won": 2,
+          "drawn": 1,
+          "lost": 8,
+          "gf": 13,
+          "ga": 45,
+          "points": 7
+        },
+        {
+          "position": 11,
+          "team": "Buchlovice-Tupesy",
+          "played": 11,
+          "won": 2,
+          "drawn": 0,
+          "lost": 9,
+          "gf": 16,
+          "ga": 58,
+          "points": 6
+        },
+        {
+          "position": 12,
+          "team": "Boršice-Nedakonice",
+          "played": 11,
+          "won": 1,
+          "drawn": 0,
+          "lost": 10,
+          "gf": 17,
+          "ga": 100,
+          "points": 3
+        }
+      ],
+      "scorers": []
+    },
+    {
+      "id": "starsi-pripravka",
+      "name": "Starší přípravka",
+      "category": "U11",
+      "competition": "OP - PSB",
+      "competitionUrl": "https://is.fotbal.cz/public/souteze/detail-souteze.aspx?req=7a0f6eb1-b75c-427a-80ee-1164f3e0a539&sport=fotbal",
+      "season": "2026/2027",
+      "description": "",
+      "matches": [
+        {
+          "round": 1,
+          "date": "2026-08-29T10:00:00+02:00",
+          "home": "Nivnice",
+          "away": "Šumice",
+          "score": null,
+          "venue": "Nivnice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=ef51c3f8-9b83-4f82-a870-04fa6289d001&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 2,
+          "date": "2026-09-05T13:30:00+02:00",
+          "home": "Šumice",
+          "away": "Prakšice",
+          "score": null,
+          "venue": "Šumice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=e01a3e80-9ed3-4aa3-aeb8-4625b39c6240&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 3,
+          "date": "2026-09-12T14:00:00+02:00",
+          "home": "Bánov",
+          "away": "Šumice",
+          "score": null,
+          "venue": "Bánov",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=4e48c36c-3e13-4dcf-aa9d-cb2f0c70fe91&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 4,
+          "date": "2026-09-19T10:00:00+02:00",
+          "home": "Šumice",
+          "away": "OREL UB",
+          "score": null,
+          "venue": "Šumice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=624a08e3-9741-47c5-8dde-241a680a9fac&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 5,
+          "date": "2026-09-26T10:00:00+02:00",
+          "home": "Javořina",
+          "away": "Šumice",
+          "score": null,
+          "venue": "Slavkov",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=685918fb-28b3-48aa-8261-7e5972e3acb7&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 6,
+          "date": "2026-10-03T10:00:00+02:00",
+          "home": "Šumice",
+          "away": "Dolní Němčí",
+          "score": null,
+          "venue": "Šumice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=548e29a9-2948-4d45-966f-5077bee59091&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 7,
+          "date": "2026-10-12T17:00:00+02:00",
+          "home": "Vlčnov",
+          "away": "Šumice",
+          "score": null,
+          "venue": "Vlčnov",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=ac7203d0-10f1-4bd5-a849-9d8648177536&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 8,
+          "date": "2026-10-17T10:00:00+02:00",
+          "home": "Šumice",
+          "away": "Hradčovice",
+          "score": null,
+          "venue": "Šumice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=f6fed2e5-9856-48b3-be70-2c1c43c5d08d&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 9,
+          "date": "2026-10-25T10:00:00+01:00",
+          "home": "Újezdec",
+          "away": "Šumice",
+          "score": null,
+          "venue": "Újezdec",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=5d81c214-b84e-486d-b6af-69df02d2ddc7&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 12,
+          "date": "2027-04-17T14:00:00+02:00",
+          "home": "Šumice",
+          "away": "Bánov",
+          "score": null,
+          "venue": "Šumice",
+          "report": null,
+          "played": false
+        },
+        {
+          "round": 13,
+          "date": "2027-04-25T13:30:00+02:00",
+          "home": "OREL UB",
+          "away": "Šumice",
+          "score": null,
+          "venue": "Uherský Brod",
+          "report": null,
+          "played": false
+        },
+        {
+          "round": 14,
+          "date": "2027-05-01T14:00:00+02:00",
+          "home": "Šumice",
+          "away": "Javořina",
+          "score": null,
+          "venue": "Šumice",
+          "report": null,
+          "played": false
+        },
+        {
+          "round": 15,
+          "date": "2027-05-08T10:00:00+02:00",
+          "home": "Dolní Němčí",
+          "away": "Šumice",
+          "score": null,
+          "venue": "Dolní Němčí",
+          "report": null,
+          "played": false
+        },
+        {
+          "round": 16,
+          "date": "2027-05-15T14:00:00+02:00",
+          "home": "Šumice",
+          "away": "Vlčnov",
+          "score": null,
+          "venue": "Šumice",
+          "report": null,
+          "played": false
+        },
+        {
+          "round": 17,
+          "date": "2027-05-24T16:30:00+02:00",
+          "home": "Hradčovice",
+          "away": "Šumice",
+          "score": null,
+          "venue": "Hradčovice",
+          "report": null,
+          "played": false
+        },
+        {
+          "round": 18,
+          "date": "2027-05-29T14:00:00+02:00",
+          "home": "Šumice",
+          "away": "Újezdec",
+          "score": null,
+          "venue": "Šumice",
+          "report": null,
+          "played": false
+        },
+        {
+          "round": 10,
+          "date": "2027-06-05T14:00:00+02:00",
+          "home": "Šumice",
+          "away": "Nivnice",
+          "score": null,
+          "venue": "Šumice",
+          "report": null,
+          "played": false
+        },
+        {
+          "round": 11,
+          "date": "2027-06-12T14:00:00+02:00",
+          "home": "Prakšice",
+          "away": "Šumice",
+          "score": null,
+          "venue": "Prakšice",
+          "report": null,
+          "played": false
+        }
+      ],
+      "table": [],
+      "scorers": []
+    },
+    {
+      "id": "mladsi-pripravka",
+      "name": "Mladší přípravka",
+      "category": "U9",
+      "competition": "OP - PMB",
+      "competitionUrl": "https://is.fotbal.cz/public/souteze/detail-souteze.aspx?req=ef19b991-b3ac-46f5-8159-00d0d7b6dcad&sport=fotbal",
+      "season": "2026/2027",
+      "description": "",
+      "matches": [
+        {
+          "round": 1,
+          "date": "2026-08-29T10:00:00+02:00",
+          "home": "Nivnice",
+          "away": "Šumice",
+          "score": null,
+          "venue": "Nivnice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=676db27e-30ed-409b-b760-36146e2338db&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 2,
+          "date": "2026-09-05T14:00:00+02:00",
+          "home": "Šumice",
+          "away": "Prakšice",
+          "score": null,
+          "venue": "Šumice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=e25e0558-0090-492e-8ad8-00e89773d085&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 3,
+          "date": "2026-09-12T15:00:00+02:00",
+          "home": "Bánov",
+          "away": "Šumice",
+          "score": null,
+          "venue": "Bánov",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=b3db960b-29c8-4788-a8f8-97368e56df2f&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 4,
+          "date": "2026-09-19T10:00:00+02:00",
+          "home": "Šumice",
+          "away": "OREL UB",
+          "score": null,
+          "venue": "Šumice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=1b06982d-a745-48f0-89b2-fd20cb532293&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 5,
+          "date": "2026-09-26T10:00:00+02:00",
+          "home": "Javořina",
+          "away": "Šumice",
+          "score": null,
+          "venue": "Slavkov",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=03da3e16-95a4-4404-90ec-bed6791dd916&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 6,
+          "date": "2026-10-03T10:00:00+02:00",
+          "home": "Šumice",
+          "away": "Dolní Němčí",
+          "score": null,
+          "venue": "Šumice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=6dd66669-44a9-41a6-85d6-85a8a3e3c344&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 7,
+          "date": "2026-10-12T17:00:00+02:00",
+          "home": "Vlčnov",
+          "away": "Šumice",
+          "score": null,
+          "venue": "Vlčnov",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=719ff041-2aa6-4c10-b9f8-5dd94414c0df&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 8,
+          "date": "2026-10-17T10:00:00+02:00",
+          "home": "Šumice",
+          "away": "Hradčovice",
+          "score": null,
+          "venue": "Šumice",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=6b11bc0d-cd68-44cc-bbc3-98fbebdd5625&zapis=1&hidemenu=1",
+          "played": true
+        },
+        {
+          "round": 9,
+          "date": "2026-10-25T10:00:00+01:00",
+          "home": "Újezdec",
+          "away": "Šumice",
+          "score": null,
+          "venue": "Újezdec",
+          "report": "https://is.fotbal.cz/public/zapasy/zapas-delegace-report.aspx?zapas=f01cb2ed-b889-4c58-8c1b-a8261dc95e84&zapis=1&hidemenu=1",
+          "played": true
+        }
+      ],
+      "table": [],
+      "scorers": []
+    }
+  ]
+}
