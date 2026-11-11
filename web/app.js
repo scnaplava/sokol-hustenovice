@@ -206,9 +206,9 @@ function renderRecruit(r) {
     r.email && `<p><small>E-mail</small><a href="mailto:${esc(r.email)}">${esc(r.email)}</a></p>`,
   ].filter(Boolean);
   const cta = r.phone
-    ? `<a class="btn btn-primary" href="tel:${esc(r.phone.replace(/\s/g, ""))}">Zavolat trenérovi</a>`
+    ? `<a class="btn btn-primary" href="tel:${esc(r.phone.replace(/\s/g, ""))}">Zavolat</a>`
     : r.email
-      ? `<a class="btn btn-primary" href="mailto:${esc(r.email)}?subject=${encodeURIComponent("Nábor – fotbal " + data.club.shortName)}">Napsat trenérovi</a>`
+      ? `<a class="btn btn-primary" href="mailto:${esc(r.email)}?subject=${encodeURIComponent("Nábor – fotbal " + data.club.shortName)}">Napsat e-mail</a>`
       : "";
   $("#recruit-contact").innerHTML = `<h3>Ozvěte se nám</h3>${
     lines.join("") || `<p class="muted">Kontakt na trenéra a časy tréninků brzy doplníme.</p>`
@@ -261,6 +261,11 @@ function render() {
   $("#club-contact").innerHTML = [
     c.stadium && esc(c.stadium),
     c.email && `<a href="mailto:${esc(c.email)}">${esc(c.email)}</a>`,
+    c.contact && [
+      `Kontaktní osoba: ${esc(c.contact.name)}${c.contact.role ? ` (${esc(c.contact.role)})` : ""}`,
+      c.contact.phone && `<a href="tel:${esc(c.contact.phone.replace(/\s/g, ""))}">${esc(c.contact.phone)}</a>`,
+      c.contact.email && `<a href="mailto:${esc(c.contact.email)}">${esc(c.contact.email)}</a>`,
+    ].filter(Boolean).join(" · "),
     c.facebook && `<a href="${esc(c.facebook)}" rel="noopener">Facebook</a>`,
   ].filter(Boolean).join(" · ");
 

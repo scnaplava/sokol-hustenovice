@@ -70,6 +70,12 @@ def write_info(folder: Path) -> None:
     L.append(f"- **Počet týmů v soutěžích:** {len(data['teams'])}")
     if c.get("founded"):
         L.append(f"- **Založen:** {c['founded']}")
+    if c.get("email"):
+        L.append(f"- **E-mail klubu:** {c['email']}")
+    k = c.get("contact")
+    if k:
+        L.append(f"- **Kontaktní osoba:** {k.get('name', '')}" + (f" ({k['role']})" if k.get("role") else "")
+                 + "".join(f", {k[x]}" for x in ("phone", "email") if k.get(x)))
     L.append(f"- **Data aktualizována:** {fmt(data['updatedAt']) if data.get('updatedAt') else '–'}")
     L.append("")
     L += ["## Týmy", ""]

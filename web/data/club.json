@@ -7,7 +7,7 @@
     "founded": 1932,
     "stadium": "Fotbalové hřiště Huštěnovice",
     "address": "Huštěnovice",
-    "email": "tjsokolhustenovice@gmail.com",
+    "email": "fotbal.hustenovice@gmail.com",
     "facebook": "",
     "tagline": "Fotbal v Huštěnovicích od roku 1932. Od nejmenších až po muže, jedno hřiště, jedny barvy.",
     "recruit": {
@@ -19,9 +19,9 @@
         "Hrajeme na hřišti v Huštěnovicích"
       ],
       "trainings": "",
-      "contactName": "",
-      "phone": "",
-      "email": ""
+      "contactName": "Mgr. Petr Malenovský",
+      "phone": "603 734 883",
+      "email": "malenovsky.petr@seznam.cz"
     },
     "history": {
       "intro": "Fotbal se v Huštěnovicích hraje už přes devadesát let. Klub přežil válku, povodeň i nedostatek dětí a pořád hraje díky obětavosti hráčů, funkcionářů a fanoušků.",
@@ -118,6 +118,12 @@
         "text": "Zpracováno podle článku Historie kopané v Huštěnovicích (Mgr. Jakub Veselý) na webu obce.",
         "url": "https://www.hustenovice.cz/sdruzeni-a-spolky/tj-sokol/"
       }
+    },
+    "contact": {
+      "name": "Mgr. Petr Malenovský",
+      "role": "jednatel klubu",
+      "phone": "603 734 883",
+      "email": "malenovsky.petr@seznam.cz"
     }
   },
   "teams": [
